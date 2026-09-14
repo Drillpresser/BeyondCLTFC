@@ -1,0 +1,2682 @@
+{
+  "Adam Armour": {
+    "bio": {
+      "birth_date": "2002-09-27",
+      "nationality": "United States",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "North Carolina FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q97482668"
+  },
+  "Adilson Malanda": {
+    "bio": {
+      "birth_date": "2001-10-29",
+      "height_m": "185",
+      "nationality": "France",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adilson%20Malanda%20NYCFC%20v%20Charlotte%2020%20Sep%202025-133%20%28cropped%29.jpg",
+      "position": "defender"
+    },
+    "memberships": [],
+    "qid": "Q104443739"
+  },
+  "Alan Steven Franco": {
+    "bio": {
+      "birth_date": "1998-08-21",
+      "height_m": "174",
+      "nationality": "Ecuador",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Franco%20Cote%20D%27Ivoire%20v%20Ecuador%2014%20June%202026-41.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Ecuador men's national football team",
+        "end": null,
+        "goals": 1,
+        "matches": 62,
+        "start": 2018
+      },
+      {
+        "club": "Independiente del Valle",
+        "end": 2020,
+        "goals": 5,
+        "matches": 62,
+        "start": 2018
+      },
+      {
+        "club": "Clube Atlético Mineiro",
+        "end": null,
+        "goals": 3,
+        "matches": 42,
+        "start": 2020
+      },
+      {
+        "club": "Charlotte FC",
+        "end": 2022,
+        "goals": 0,
+        "matches": 10,
+        "start": 2022
+      },
+      {
+        "club": "Talleres de Córdoba",
+        "end": 2023,
+        "goals": 0,
+        "matches": 34,
+        "start": 2022
+      }
+    ],
+    "qid": "Q56164119"
+  },
+  "Allan Saint-Maximin": {
+    "bio": {
+      "birth_date": "1997-03-12",
+      "height_m": "173",
+      "nationality": "France",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Allan%20Saint-Maximin.jpg",
+      "position": "winger"
+    },
+    "memberships": [
+      {
+        "club": "AS Saint-Étienne",
+        "end": 2015,
+        "goals": 0,
+        "matches": 17,
+        "start": 2013
+      },
+      {
+        "club": "France national under-16 association football team",
+        "end": 2013,
+        "goals": 3,
+        "matches": 11,
+        "start": 2013
+      },
+      {
+        "club": "France national under-17 association football team",
+        "end": 2014,
+        "goals": 4,
+        "matches": 7,
+        "start": 2013
+      },
+      {
+        "club": "AS Monaco FC",
+        "end": 2017,
+        "goals": 0,
+        "matches": 2,
+        "start": 2015
+      },
+      {
+        "club": "Hannover 96",
+        "end": 2016,
+        "goals": 1,
+        "matches": 18,
+        "start": 2015
+      },
+      {
+        "club": "France national under-20 association football team",
+        "end": 2017,
+        "goals": 2,
+        "matches": 7,
+        "start": 2016
+      },
+      {
+        "club": "SC Bastia",
+        "end": 2017,
+        "goals": 3,
+        "matches": 36,
+        "start": 2016
+      },
+      {
+        "club": "France national under-21 association football team",
+        "end": 2019,
+        "goals": 0,
+        "matches": 7,
+        "start": 2017
+      },
+      {
+        "club": "OGC Nice",
+        "end": 2019,
+        "goals": 11,
+        "matches": 74,
+        "start": 2017
+      },
+      {
+        "club": "Newcastle United F.C.",
+        "end": 2023,
+        "goals": 12,
+        "matches": 111,
+        "start": 2019
+      },
+      {
+        "club": "Al Ahli FC",
+        "end": 2025,
+        "goals": 4,
+        "matches": 30,
+        "start": 2023
+      },
+      {
+        "club": "Fenerbahçe Istanbul",
+        "end": 2025,
+        "goals": 4,
+        "matches": 20,
+        "start": 2024
+      },
+      {
+        "club": "Club América",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2025
+      }
+    ],
+    "qid": "Q15044053"
+  },
+  "Andre Shinyashiki": {
+    "bio": {
+      "birth_date": "1997-06-11",
+      "height_m": "175",
+      "nationality": "Brazil",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Colorado Springs Switchbacks FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Denver Pioneers men's soccer",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Colorado Rapids",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2019
+      },
+      {
+        "club": "Colorado Springs Switchbacks FC",
+        "end": 2019,
+        "goals": 0,
+        "matches": 2,
+        "start": 2019
+      },
+      {
+        "club": "Neftchi Baku PFC",
+        "end": 2024,
+        "goals": null,
+        "matches": null,
+        "start": 2023
+      }
+    ],
+    "qid": "Q60736667"
+  },
+  "Andrew Privett": {
+    "bio": {
+      "birth_date": "2000-08-02",
+      "height_m": "183",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Privett%20NYCFC%20v%20Charlotte%2020%20Sep%202025-172%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [],
+    "qid": "Q118083259"
+  },
+  "Anton Walkes": {
+    "bio": {
+      "birth_date": "1997-02-08",
+      "height_m": "187",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anton%20Walkes%20-%202017-09-10.jpg",
+      "position": "full-back"
+    },
+    "memberships": [
+      {
+        "club": "Atlanta United FC",
+        "end": 2017,
+        "goals": 2,
+        "matches": 20,
+        "start": null
+      },
+      {
+        "club": "Charlotte FC",
+        "end": 2022,
+        "goals": 0,
+        "matches": 23,
+        "start": null
+      },
+      {
+        "club": "Portsmouth F.C.",
+        "end": 2018,
+        "goals": 2,
+        "matches": 12,
+        "start": null
+      },
+      {
+        "club": "Tottenham Hotspur F.C.",
+        "end": 2018,
+        "goals": 0,
+        "matches": 4,
+        "start": 2016
+      },
+      {
+        "club": "Portsmouth F.C.",
+        "end": 2020,
+        "goals": 1,
+        "matches": 35,
+        "start": 2018
+      },
+      {
+        "club": "Atlanta United FC",
+        "end": 2021,
+        "goals": 2,
+        "matches": 50,
+        "start": 2020
+      }
+    ],
+    "qid": "Q26973027"
+  },
+  "Archie Goodwin": {
+    "bio": {
+      "birth_date": "2004-11-07",
+      "nationality": "Australia",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Archie%20Goodwin%20NYCFC%20v%20Charlotte%2020%20Sep%202025-152.jpg",
+      "position": "forward"
+    },
+    "memberships": [],
+    "qid": "Q105656187"
+  },
+  "Aron John": {
+    "bio": {},
+    "memberships": [],
+    "qid": "Q905085"
+  },
+  "Ashley Westwood": {
+    "bio": {
+      "birth_date": "1990-04-01",
+      "height_m": "170",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashley%20Westwood%20NYCFC%20v%20Charlotte%2020%20Sep%202025-030%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Crewe Alexandra F.C.",
+        "end": 2012,
+        "goals": 14,
+        "matches": 123,
+        "start": 2008
+      },
+      {
+        "club": "Nantwich Town F.C.",
+        "end": 2008,
+        "goals": 0,
+        "matches": 5,
+        "start": 2008
+      },
+      {
+        "club": "Aston Villa F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2012
+      }
+    ],
+    "qid": "Q59428"
+  },
+  "Ben Bender": {
+    "bio": {
+      "birth_date": "2001-10-03",
+      "height_m": "182",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Bender%20Philadelphia%20Union%20New%20York%20City%20FC%20Nov%2023%202025-023%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [],
+    "qid": "Q110537408"
+  },
+  "Bill Tuiloma": {
+    "bio": {
+      "birth_date": "1995-03-27",
+      "height_m": "182",
+      "nationality": "New Zealand",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CINvPOR%202019-03-17%20-%20Bill%20Tuiloma%20%2833625128858%29%20%28cropped%29.jpg",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "Birkenhead United",
+        "end": 2011,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "New Zealand national under-17 football team",
+        "end": 2011,
+        "goals": 1,
+        "matches": 6,
+        "start": 2011
+      },
+      {
+        "club": "Waitakere United",
+        "end": 2011,
+        "goals": 0,
+        "matches": 1,
+        "start": 2011
+      },
+      {
+        "club": "Birkenhead United",
+        "end": 2013,
+        "goals": null,
+        "matches": null,
+        "start": 2012
+      },
+      {
+        "club": "New Zealand men's national football team",
+        "end": null,
+        "goals": 4,
+        "matches": 36,
+        "start": 2013
+      },
+      {
+        "club": "New Zealand national under-20 football team",
+        "end": 2015,
+        "goals": 1,
+        "matches": 9,
+        "start": 2013
+      },
+      {
+        "club": "New Zealand Olympic football team",
+        "end": 2015,
+        "goals": 1,
+        "matches": 3,
+        "start": 2015
+      },
+      {
+        "club": "Olympique de Marseille",
+        "end": 2017,
+        "goals": 0,
+        "matches": 2,
+        "start": 2015
+      },
+      {
+        "club": "RC Strasbourg Alsace",
+        "end": 2016,
+        "goals": 0,
+        "matches": 9,
+        "start": 2015
+      },
+      {
+        "club": "Olympique de Marseille II",
+        "end": 2017,
+        "goals": 2,
+        "matches": 22,
+        "start": 2016
+      },
+      {
+        "club": "Portland Timbers",
+        "end": 2023,
+        "goals": 10,
+        "matches": 114,
+        "start": 2017
+      },
+      {
+        "club": "Portland Timbers 2",
+        "end": 2023,
+        "goals": 4,
+        "matches": 20,
+        "start": 2017
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": 0,
+        "matches": 0,
+        "start": 2023
+      }
+    ],
+    "qid": "Q5728588"
+  },
+  "Brandon Cambridge": {
+    "bio": {
+      "birth_date": "2002-02-09",
+      "nationality": "United States",
+      "position": "midfielder"
+    },
+    "memberships": [],
+    "qid": "Q117357737"
+  },
+  "Brandt Bronico": {
+    "bio": {
+      "birth_date": "1995-06-20",
+      "height_m": "173",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Brandt%20Bronico%20NYCFC%20v%20Charlotte%2020%20Sep%202025-054%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Charlotte 49ers men's soccer",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Chicago Fire FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q28935441"
+  },
+  "Brecht Dejaegere": {
+    "bio": {
+      "birth_date": "1991-05-29",
+      "height_m": "174",
+      "nationality": "Belgium",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gent-Schahter16%20%285%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "K.V. Kortrijk",
+        "end": 2013,
+        "goals": 4,
+        "matches": 46,
+        "start": 2010
+      },
+      {
+        "club": "KAA Gent",
+        "end": 2021,
+        "goals": 19,
+        "matches": 196,
+        "start": 2013
+      },
+      {
+        "club": "Toulouse FC",
+        "end": 2021,
+        "goals": 3,
+        "matches": 32,
+        "start": 2020
+      },
+      {
+        "club": "Toulouse FC",
+        "end": 2023,
+        "goals": 6,
+        "matches": 57,
+        "start": 2021
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2023
+      }
+    ],
+    "qid": "Q1858098"
+  },
+  "Christian Fuchs": {
+    "bio": {
+      "birth_date": "1986-04-07",
+      "height_m": "186",
+      "nationality": "Austria",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/FIFA%20WC-qualification%202014%20-%20Austria%20vs.%20Germany%202012-09-11%20-%20Christian%20Fuchs%2007.JPG",
+      "position": "full-back"
+    },
+    "memberships": [
+      {
+        "club": "1. Wiener Neustädter SC",
+        "end": 2003,
+        "goals": 0,
+        "matches": 12,
+        "start": 2002
+      },
+      {
+        "club": "Austria national under-17 association football team",
+        "end": 2003,
+        "goals": 6,
+        "matches": 24,
+        "start": 2002
+      },
+      {
+        "club": "Austria national under-19 football team",
+        "end": 2005,
+        "goals": 1,
+        "matches": 7,
+        "start": 2003
+      },
+      {
+        "club": "SV Mattersburg",
+        "end": 2008,
+        "goals": 11,
+        "matches": 141,
+        "start": 2003
+      },
+      {
+        "club": "Austria national under-21 football team",
+        "end": 2006,
+        "goals": 3,
+        "matches": 10,
+        "start": 2005
+      },
+      {
+        "club": "Austria men's national football team",
+        "end": 2016,
+        "goals": 1,
+        "matches": 78,
+        "start": 2006
+      },
+      {
+        "club": "VfL Bochum",
+        "end": 2011,
+        "goals": 6,
+        "matches": 53,
+        "start": 2008
+      },
+      {
+        "club": "1. FSV Mainz 05",
+        "end": 2011,
+        "goals": 0,
+        "matches": 31,
+        "start": 2010
+      },
+      {
+        "club": "Schalke 04",
+        "end": 2015,
+        "goals": 4,
+        "matches": 99,
+        "start": 2011
+      },
+      {
+        "club": "Leicester City F.C.",
+        "end": 2021,
+        "goals": 2,
+        "matches": 116,
+        "start": 2015
+      },
+      {
+        "club": "Charlotte FC",
+        "end": 2022,
+        "goals": 3,
+        "matches": 26,
+        "start": 2021
+      },
+      {
+        "club": "Charlotte Independence",
+        "end": 2021,
+        "goals": 1,
+        "matches": 15,
+        "start": 2021
+      }
+    ],
+    "qid": "Q355837"
+  },
+  "Christian Makoun": {
+    "bio": {
+      "birth_date": "2000-03-05",
+      "height_m": "181",
+      "nationality": "Venezuela",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Juventus FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q30126492"
+  },
+  "Christian Ortíz": {
+    "bio": {
+      "birth_date": "1992-08-20",
+      "height_m": "169",
+      "nationality": "Argentina",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Club Atlético Huracán",
+        "end": 2010,
+        "goals": 0,
+        "matches": 2,
+        "start": 2009
+      },
+      {
+        "club": "Racing Club de Montevideo",
+        "end": 2012,
+        "goals": 6,
+        "matches": 37,
+        "start": 2010
+      },
+      {
+        "club": "Club Atlético Independiente",
+        "end": 2015,
+        "goals": 0,
+        "matches": 2,
+        "start": 2012
+      },
+      {
+        "club": "CD Universidad San Martín",
+        "end": null,
+        "goals": 3,
+        "matches": 6,
+        "start": 2016
+      },
+      {
+        "club": "Club Sporting Cristal",
+        "end": 2018,
+        "goals": null,
+        "matches": null,
+        "start": 2017
+      }
+    ],
+    "qid": "Q16301412"
+  },
+  "Christopher Hegardt": {
+    "bio": {
+      "birth_date": "2002-01-06",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BMW8766.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Seattle Sounders FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Tacoma Defiance",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q66604859"
+  },
+  "Daniel Ríos": {
+    "bio": {
+      "birth_date": "1995-02-22",
+      "height_m": "184",
+      "nationality": "Mexico",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Mexico national under-20 football team",
+        "end": 2014,
+        "goals": null,
+        "matches": null,
+        "start": 2014
+      },
+      {
+        "club": "C.D. Guadalajara",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      },
+      {
+        "club": "Coras de Tepic",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2016
+      }
+    ],
+    "qid": "Q22162748"
+  },
+  "David Bingham": {
+    "bio": {
+      "birth_date": "1989-10-19",
+      "height_m": "188",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Bingham.jpg",
+      "position": "goalkeeper"
+    },
+    "memberships": [
+      {
+        "club": "California Golden Bears men's soccer",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "San Jose Earthquakes",
+        "end": 2017,
+        "goals": 0,
+        "matches": 96,
+        "start": 2011
+      },
+      {
+        "club": "San Antonio Scorpions",
+        "end": 2014,
+        "goals": 0,
+        "matches": 10,
+        "start": 2014
+      },
+      {
+        "club": "Strømmen IF",
+        "end": 2014,
+        "goals": 0,
+        "matches": 9,
+        "start": 2014
+      },
+      {
+        "club": "United States men's national soccer team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2016
+      },
+      {
+        "club": "LA Galaxy",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2018
+      }
+    ],
+    "qid": "Q902570"
+  },
+  "David Schnegg": {
+    "bio": {
+      "birth_date": "1998-09-29",
+      "height_m": "185",
+      "nationality": "Austria",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Schnegg%20NYCFC%20vs%20DC%20United%20on%20Aug%2030%202025-020%20%28cropped%29.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "FC Liefering",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q50381450"
+  },
+  "Derrick Jones": {
+    "bio": {
+      "birth_date": "1997-03-03",
+      "height_m": "191",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CINvBST%202018-06-13%20-%20Derrick%20Jones%20%2831507296808%29%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Columbus Crew",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Houston Dynamo FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Nashville SC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Philadelphia Union",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Philadelphia Union II",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q24007463"
+  },
+  "Djibril Diani": {
+    "bio": {
+      "birth_date": "1998-02-11",
+      "height_m": "195",
+      "nationality": "France",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20079.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Grasshopper Club Zürich",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q64009826"
+  },
+  "Enzo Copetti": {
+    "bio": {
+      "birth_date": "1996-01-16",
+      "height_m": "180",
+      "nationality": "Argentina",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Enzo%20Copetti%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Atlético de Rafaela",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q28203311"
+  },
+  "Eryk Williamson": {
+    "bio": {
+      "birth_date": "1997-06-11",
+      "height_m": "175",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eryk%20Williamson%20Heritage%20Rose%20jersey%202022-05-14%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "C.D. Santa Clara",
+        "end": 2018,
+        "goals": 0,
+        "matches": 0,
+        "start": 2018
+      },
+      {
+        "club": "Portland Timbers",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2018
+      },
+      {
+        "club": "Portland Timbers 2",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2018
+      },
+      {
+        "club": "United States men's national soccer team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2021
+      }
+    ],
+    "qid": "Q38777095"
+  },
+  "George Marks": {
+    "bio": {},
+    "memberships": [],
+    "qid": "Q5542145"
+  },
+  "Guzmán Corujo": {
+    "bio": {
+      "birth_date": "1996-08-02",
+      "height_m": "189",
+      "nationality": "Uruguay",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "Club Nacional de Football",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q50811863"
+  },
+  "Hamady Diop": {
+    "bio": {
+      "birth_date": "2002-06-06",
+      "nationality": "Senegal",
+      "position": "defender"
+    },
+    "memberships": [],
+    "qid": "Q115791843"
+  },
+  "Harrison Afful": {
+    "bio": {
+      "birth_date": "1986-07-24",
+      "height_m": "168",
+      "nationality": "Ghana",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/20150331%20Mali%20vs%20Ghana%20126.jpg",
+      "position": "full-back"
+    },
+    "memberships": [
+      {
+        "club": "Feyenoord Academy Ghana",
+        "end": 2009,
+        "goals": 7,
+        "matches": 148,
+        "start": 2005
+      },
+      {
+        "club": "Ghana national under-20 football team",
+        "end": 2006,
+        "goals": 1,
+        "matches": 6,
+        "start": 2006
+      },
+      {
+        "club": "Asante Kotoko F.C.",
+        "end": 2009,
+        "goals": 3,
+        "matches": 68,
+        "start": 2007
+      },
+      {
+        "club": "Ghana men's national football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2008
+      },
+      {
+        "club": "Espérance Sportive de Tunis",
+        "end": 2015,
+        "goals": 17,
+        "matches": 183,
+        "start": 2009
+      },
+      {
+        "club": "Columbus Crew",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      }
+    ],
+    "qid": "Q577537"
+  },
+  "Harry Toffolo": {
+    "bio": {
+      "birth_date": "1995-08-19",
+      "height_m": "183",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Toffolo%20England%20U20s%20%28cropped%29.JPG",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "England national under-18 association football team",
+        "end": 2013,
+        "goals": 0,
+        "matches": 1,
+        "start": 2013
+      },
+      {
+        "club": "England national under-19 association football team",
+        "end": 2014,
+        "goals": 0,
+        "matches": 3,
+        "start": 2013
+      },
+      {
+        "club": "Norwich City F.C.",
+        "end": 2018,
+        "goals": null,
+        "matches": null,
+        "start": 2014
+      },
+      {
+        "club": "Swindon Town F.C.",
+        "end": 2015,
+        "goals": 1,
+        "matches": 28,
+        "start": 2014
+      },
+      {
+        "club": "England national under-20 association football team",
+        "end": 2015,
+        "goals": 0,
+        "matches": 6,
+        "start": 2015
+      },
+      {
+        "club": "Rotherham United F.C.",
+        "end": 2016,
+        "goals": 0,
+        "matches": 7,
+        "start": 2015
+      },
+      {
+        "club": "Peterborough United F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2016
+      },
+      {
+        "club": "Lincoln City F.C.",
+        "end": 2020,
+        "goals": null,
+        "matches": null,
+        "start": 2018
+      },
+      {
+        "club": "Huddersfield Town A.F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2020
+      }
+    ],
+    "qid": "Q18638102"
+  },
+  "Henry Kessler": {
+    "bio": {
+      "birth_date": "1998-06-25",
+      "height_m": "193",
+      "nationality": "United States",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "New England Revolution",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2020
+      }
+    ],
+    "qid": "Q86344281"
+  },
+  "Idan Toklomati": {
+    "bio": {
+      "birth_date": "2004-08-09",
+      "height_m": "1.83",
+      "nationality": "Benin",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20044%20%28cropped%29.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Israel national under-18 association football team",
+        "end": 2021,
+        "goals": 0,
+        "matches": 2,
+        "start": 2021
+      },
+      {
+        "club": "Israel national under-19 association football team",
+        "end": 2023,
+        "goals": 0,
+        "matches": 15,
+        "start": 2021
+      },
+      {
+        "club": "Israel national under-21 football team",
+        "end": null,
+        "goals": 1,
+        "matches": 11,
+        "start": 2022
+      },
+      {
+        "club": "Maccabi Petah Tikva F.C.",
+        "end": null,
+        "goals": 16,
+        "matches": 58,
+        "start": 2022
+      },
+      {
+        "club": "Israel men's national football team",
+        "end": null,
+        "goals": 0,
+        "matches": 4,
+        "start": 2023
+      }
+    ],
+    "qid": "Q112943999"
+  },
+  "Iuri Tavares": {
+    "bio": {
+      "birth_date": "2001-03-08",
+      "height_m": "188",
+      "nationality": "Portugal",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20056%20%28cropped%29.jpg",
+      "position": "forward"
+    },
+    "memberships": [],
+    "qid": "Q111365608"
+  },
+  "Jack Neeley": {
+    "bio": {},
+    "memberships": [],
+    "qid": "Q78944434"
+  },
+  "Jahkeele Marshall-Rutty": {
+    "bio": {
+      "birth_date": "2004-06-16",
+      "height_m": "171",
+      "nationality": "Canada",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jahkeele%20Marshall-Rutty%20Red%20Bulls%20Revolution-12.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "CF Montréal",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Red Bull New York",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Toronto FC II",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q65951205"
+  },
+  "Jamie Paterson": {
+    "bio": {
+      "birth_date": "1991-12-20",
+      "height_m": "175",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jamie%20Paterson.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Walsall F.C.",
+        "end": 2013,
+        "goals": 15,
+        "matches": 94,
+        "start": 2010
+      },
+      {
+        "club": "Nottingham Forest F.C.",
+        "end": 2015,
+        "goals": 9,
+        "matches": 54,
+        "start": 2013
+      },
+      {
+        "club": "Huddersfield Town A.F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      }
+    ],
+    "qid": "Q6147336"
+  },
+  "Jan Sobociński": {
+    "bio": {
+      "birth_date": "1999-03-20",
+      "height_m": "186",
+      "nationality": "Poland",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Poland national under-20 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "ŁKS Łódź",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q64031825"
+  },
+  "Jaylin Lindsey": {
+    "bio": {
+      "birth_date": "2000-03-27",
+      "height_m": "175",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaylin%20Lindsey.jpg",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "Sporting Kansas City II",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Sporting Kansas City",
+        "end": 2021,
+        "goals": 2,
+        "matches": 34,
+        "start": 2018
+      }
+    ],
+    "qid": "Q24084640"
+  },
+  "Jere Uronen": {
+    "bio": {
+      "birth_date": "1994-07-13",
+      "height_m": "177",
+      "nationality": "Finland",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jere%20Uronen%202021.jpg",
+      "position": "full-back"
+    },
+    "memberships": [
+      {
+        "club": "AIK Fotboll",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Åbo IFK",
+        "end": 2001,
+        "goals": 1,
+        "matches": 3,
+        "start": 2001
+      },
+      {
+        "club": "Finland national under-21 football team",
+        "end": 2012,
+        "goals": 0,
+        "matches": 5,
+        "start": 2011
+      },
+      {
+        "club": "TPS Turku",
+        "end": 2012,
+        "goals": 1,
+        "matches": 18,
+        "start": 2011
+      },
+      {
+        "club": "Åbo IFK",
+        "end": 2011,
+        "goals": 1,
+        "matches": 3,
+        "start": 2011
+      },
+      {
+        "club": "Finland men's national football team",
+        "end": 2012,
+        "goals": 0,
+        "matches": 16,
+        "start": 2012
+      },
+      {
+        "club": "Helsingborgs IF",
+        "end": 2016,
+        "goals": 5,
+        "matches": 71,
+        "start": 2012
+      },
+      {
+        "club": "K.R.C. Genk",
+        "end": 2021,
+        "goals": null,
+        "matches": null,
+        "start": 2016
+      },
+      {
+        "club": "Stade Brestois 29",
+        "end": 2023,
+        "goals": null,
+        "matches": null,
+        "start": 2021
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2023
+      },
+      {
+        "club": "Schalke 04",
+        "end": 2023,
+        "goals": null,
+        "matches": null,
+        "start": 2023
+      }
+    ],
+    "qid": "Q378667"
+  },
+  "Jordy Alcívar": {
+    "bio": {
+      "birth_date": "1999-08-05",
+      "height_m": "173",
+      "nationality": "Ecuador",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jordy%20Alcivar%20Cote%20D%27Ivoire%20v%20Ecuador%2014%20June%202026-10%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Liga Deportiva Universitaria de Quito",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q60842122"
+  },
+  "Joseph Mora": {
+    "bio": {
+      "birth_date": "1993-01-15",
+      "height_m": "175",
+      "nationality": "Costa Rica",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mora%202017.jpg",
+      "position": "full-back"
+    },
+    "memberships": [
+      {
+        "club": "Costa Rica national under-17 football team",
+        "end": 2009,
+        "goals": 0,
+        "matches": 3,
+        "start": 2009
+      },
+      {
+        "club": "Costa Rica national under-20 football team",
+        "end": 2013,
+        "goals": 1,
+        "matches": 20,
+        "start": 2010
+      },
+      {
+        "club": "A.D. Belén",
+        "end": 2012,
+        "goals": 1,
+        "matches": 15,
+        "start": 2011
+      },
+      {
+        "club": "Costa Rica Olympic football team",
+        "end": 2015,
+        "goals": 0,
+        "matches": 15,
+        "start": 2011
+      },
+      {
+        "club": "Club Sport Uruguay de Coronado",
+        "end": 2013,
+        "goals": 0,
+        "matches": 11,
+        "start": 2012
+      },
+      {
+        "club": "A.D. Belén",
+        "end": 2015,
+        "goals": 0,
+        "matches": 42,
+        "start": 2013
+      },
+      {
+        "club": "Deportivo Saprissa",
+        "end": 2018,
+        "goals": 1,
+        "matches": 83,
+        "start": 2015
+      },
+      {
+        "club": "D.C. United",
+        "end": 2021,
+        "goals": 0,
+        "matches": 97,
+        "start": 2018
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2022
+      }
+    ],
+    "qid": "Q20744389"
+  },
+  "João Pedro": {
+    "bio": {
+      "birth_date": "1993-04-03",
+      "height_m": "176",
+      "nationality": "Portugal",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jo%C3%A3o%20Pedro%202017-05-21%20%2834779600136%29%20%28cropped%29.jpg",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "Vitória S.C.",
+        "end": 2017,
+        "goals": 1,
+        "matches": 21,
+        "start": 2011
+      },
+      {
+        "club": "Vitória S.C. B",
+        "end": 2016,
+        "goals": 5,
+        "matches": 118,
+        "start": 2012
+      },
+      {
+        "club": "LA Galaxy",
+        "end": 2020,
+        "goals": 1,
+        "matches": 31,
+        "start": 2017
+      },
+      {
+        "club": "CD Tondela",
+        "end": 2019,
+        "goals": 2,
+        "matches": 28,
+        "start": 2019
+      },
+      {
+        "club": "CD Tondela",
+        "end": 2022,
+        "goals": 16,
+        "matches": 78,
+        "start": 2020
+      },
+      {
+        "club": "G.D. Chaves",
+        "end": 2024,
+        "goals": 0,
+        "matches": 27,
+        "start": 2023
+      },
+      {
+        "club": "FC UTA Arad",
+        "end": null,
+        "goals": 5,
+        "matches": 20,
+        "start": 2024
+      }
+    ],
+    "qid": "Q6298327"
+  },
+  "Justin Meram": {
+    "bio": {
+      "birth_date": "1988-12-04",
+      "height_m": "185",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Justin%20Meram%2C%20Asian%20Cup%202015%20%28cropped%29.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Michigan Wolverines men's soccer",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Yavapai Roughriders men's soccer",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Sporting Arizona",
+        "end": 2008,
+        "goals": null,
+        "matches": null,
+        "start": 2007
+      },
+      {
+        "club": "Columbus Crew",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2011
+      },
+      {
+        "club": "Iraq men's national football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2014
+      }
+    ],
+    "qid": "Q10514049"
+  },
+  "Júnior Urso": {
+    "bio": {
+      "birth_date": "1989-03-10",
+      "height_m": "181",
+      "nationality": "Brazil",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Houston%20Dynamo%20training%202025%2C%20042.jpg",
+      "position": "stopper"
+    },
+    "memberships": [
+      {
+        "club": "Esporte Clube Santo André",
+        "end": 2009,
+        "goals": null,
+        "matches": null,
+        "start": 2007
+      },
+      {
+        "club": "Ituano Futebol Clube",
+        "end": 2011,
+        "goals": null,
+        "matches": null,
+        "start": 2010
+      },
+      {
+        "club": "Avaí Futebol Clube",
+        "end": 2012,
+        "goals": 0,
+        "matches": 11,
+        "start": 2011
+      },
+      {
+        "club": "Paraná Clube",
+        "end": 2011,
+        "goals": 0,
+        "matches": 16,
+        "start": 2011
+      },
+      {
+        "club": "Coritiba F.C.",
+        "end": 2012,
+        "goals": 1,
+        "matches": 24,
+        "start": 2012
+      },
+      {
+        "club": "Coritiba F.C.",
+        "end": 2013,
+        "goals": 1,
+        "matches": 23,
+        "start": 2013
+      },
+      {
+        "club": "Shandong Taishan F.C.",
+        "end": 2016,
+        "goals": 13,
+        "matches": 58,
+        "start": 2014
+      },
+      {
+        "club": "Clube Atlético Mineiro",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2016
+      }
+    ],
+    "qid": "Q3184106"
+  },
+  "Kamil Jozwiak": {
+    "bio": {
+      "birth_date": "1998-04-22",
+      "height_m": "176",
+      "nationality": "Poland",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamil%20J%C3%B3%C5%BAwiak%20Lech%20Pozna%C5%84%202017.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "GKS Katowice",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Poland national under-21 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Poland national under-17 football team",
+        "end": 2015,
+        "goals": 1,
+        "matches": 13,
+        "start": 2014
+      },
+      {
+        "club": "Poland national under-18 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      },
+      {
+        "club": "Poland national under-19 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      },
+      {
+        "club": "Lech Poznań",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2016
+      }
+    ],
+    "qid": "Q23772487"
+  },
+  "Karol Swiderski": {
+    "bio": {
+      "birth_date": "1997-01-23",
+      "height_m": "1.84",
+      "nationality": "Poland",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karol%20Swiderski%202019.png",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Poland national under-21 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Jagiellonia Białystok",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2014
+      },
+      {
+        "club": "Poland national under-18 football team",
+        "end": 2015,
+        "goals": 5,
+        "matches": 5,
+        "start": 2014
+      },
+      {
+        "club": "Poland national under-19 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      }
+    ],
+    "qid": "Q19662767"
+  },
+  "Kerwin Vargas": {
+    "bio": {
+      "birth_date": "2002-01-02",
+      "height_m": "180",
+      "nationality": "Colombia",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kerwin%20Vargas%20NYCFC%20v%20Charlotte%2020%20Sep%202025-055%20%28cropped%29.jpg",
+      "position": "forward"
+    },
+    "memberships": [],
+    "qid": "Q109349059"
+  },
+  "Koa Santos": {
+    "bio": {
+      "birth_date": "1999-09-21",
+      "nationality": "United States",
+      "position": "defender"
+    },
+    "memberships": [],
+    "qid": "Q111633646"
+  },
+  "Kristijan Kahlina": {
+    "bio": {
+      "birth_date": "1992-07-24",
+      "height_m": "188",
+      "nationality": "Croatia",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristijan%20Kahlina%20NYCFC%20v%20Charlotte%2020%20Sep%202025-023%20%28cropped%29.jpg",
+      "position": "goalkeeper"
+    },
+    "memberships": [
+      {
+        "club": "FC Koper",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q58973274"
+  },
+  "Liel Abada": {
+    "bio": {
+      "birth_date": "2001-10-03",
+      "height_m": "168",
+      "nationality": "Israel",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20009.jpg",
+      "position": "winger"
+    },
+    "memberships": [
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Israel national under-16 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Israel national under-17 football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Israel national under-18 association football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Israel national under-19 association football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Maccabi Petah Tikva F.C.",
+        "end": 2021,
+        "goals": 20,
+        "matches": 67,
+        "start": 2019
+      },
+      {
+        "club": "Israel national under-21 football team",
+        "end": null,
+        "goals": 1,
+        "matches": 8,
+        "start": 2020
+      },
+      {
+        "club": "Celtic F.C.",
+        "end": null,
+        "goals": 20,
+        "matches": 65,
+        "start": 2021
+      },
+      {
+        "club": "Israel men's national football team",
+        "end": null,
+        "goals": 1,
+        "matches": 9,
+        "start": 2021
+      }
+    ],
+    "qid": "Q106096041"
+  },
+  "Luca De La Torre": {
+    "bio": {
+      "birth_date": "1998-05-23",
+      "height_m": "175",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Luca%20de%20la%20Torre%2C%202025%20CONCACAF%20Gold%20Cup%2C%2001%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Fulham F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q26251807"
+  },
+  "McKinze Gaines": {
+    "bio": {
+      "birth_date": "1998-03-02",
+      "height_m": "181",
+      "nationality": "United States",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "FSV Zwickau",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q36180347"
+  },
+  "Morrison Agyemang": {
+    "bio": {
+      "birth_date": "2004-12-21",
+      "height_m": "192",
+      "nationality": "Ghana",
+      "position": "defender"
+    },
+    "memberships": [],
+    "qid": "Q135189834"
+  },
+  "Nathan Byrne": {
+    "bio": {
+      "birth_date": "1992-06-05",
+      "height_m": "180",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nathan%20Byrne%20NYCFC%20v%20Charlotte%2020%20Sep%202025-029%20%28cropped%29.jpg",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "St Albans City F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Wigan Athletic F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      },
+      {
+        "club": "Tottenham Hotspur F.C.",
+        "end": 2013,
+        "goals": 0,
+        "matches": 0,
+        "start": 2010
+      },
+      {
+        "club": "AFC Bournemouth",
+        "end": 2012,
+        "goals": 0,
+        "matches": 9,
+        "start": 2011
+      },
+      {
+        "club": "Brentford F.C.",
+        "end": 2011,
+        "goals": 0,
+        "matches": 11,
+        "start": 2011
+      },
+      {
+        "club": "Crawley Town F.C.",
+        "end": 2013,
+        "goals": 1,
+        "matches": 12,
+        "start": 2012
+      },
+      {
+        "club": "Swindon Town F.C.",
+        "end": 2015,
+        "goals": 10,
+        "matches": 83,
+        "start": 2013
+      },
+      {
+        "club": "Swindon Town F.C.",
+        "end": 2013,
+        "goals": 0,
+        "matches": 7,
+        "start": 2013
+      },
+      {
+        "club": "Wolverhampton Wanderers F.C.",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      }
+    ],
+    "qid": "Q6968947"
+  },
+  "Nick Scardina": {
+    "bio": {
+      "birth_date": "2001-06-22",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20001%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Portland Timbers 2",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q97656393"
+  },
+  "Nikola Petkovic": {
+    "bio": {
+      "birth_date": "2003-02-23",
+      "height_m": "181",
+      "nationality": "Serbia",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20078%20%28Petkovi%C4%87%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [],
+    "qid": "Q117039259"
+  },
+  "Nimfasha Berchimas": {
+    "bio": {
+      "birth_date": "2008-02-22",
+      "nationality": "United States",
+      "position": "forward"
+    },
+    "memberships": [],
+    "qid": "Q123422206"
+  },
+  "Nuno Santos": {
+    "bio": {
+      "birth_date": "1974-01-25",
+      "height_m": "188",
+      "nationality": "Portugal",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nuno%20Esp%C3%ADrito%20Santo%20%28cropped%29.jpg",
+      "position": "goalkeeper"
+    },
+    "memberships": [
+      {
+        "club": "Vitória S.C.",
+        "end": 1996,
+        "goals": 0,
+        "matches": 34,
+        "start": 1992
+      },
+      {
+        "club": "SC Vila Real",
+        "end": 1994,
+        "goals": 0,
+        "matches": 19,
+        "start": 1993
+      },
+      {
+        "club": "Portugal national under-21 football team",
+        "end": 1996,
+        "goals": 0,
+        "matches": 3,
+        "start": 1994
+      },
+      {
+        "club": "Deportivo de A Coruña",
+        "end": 2002,
+        "goals": 0,
+        "matches": 4,
+        "start": 1997
+      },
+      {
+        "club": "CP Mérida",
+        "end": 2000,
+        "goals": 0,
+        "matches": 69,
+        "start": 1998
+      },
+      {
+        "club": "Mérida UD",
+        "end": 2000,
+        "goals": 0,
+        "matches": 69,
+        "start": 1998
+      },
+      {
+        "club": "Club Atlético Osasuna",
+        "end": 2001,
+        "goals": 0,
+        "matches": 33,
+        "start": 2000
+      },
+      {
+        "club": "FC Porto",
+        "end": 2004,
+        "goals": 0,
+        "matches": 6,
+        "start": 2002
+      },
+      {
+        "club": "FC Dinamo Moscow",
+        "end": 2006,
+        "goals": 0,
+        "matches": 11,
+        "start": 2005
+      },
+      {
+        "club": "Clube Desportivo das Aves",
+        "end": 2007,
+        "goals": 0,
+        "matches": 15,
+        "start": 2006
+      },
+      {
+        "club": "Clube Desportivo das Aves",
+        "end": 2007,
+        "goals": 0,
+        "matches": 15,
+        "start": 2007
+      },
+      {
+        "club": "FC Porto",
+        "end": 2010,
+        "goals": 0,
+        "matches": 8,
+        "start": 2007
+      }
+    ],
+    "qid": "Q372372"
+  },
+  "Pablo Sisniega": {
+    "bio": {
+      "birth_date": "1995-07-07",
+      "height_m": "1.93",
+      "nationality": "Mexico",
+      "position": "goalkeeper"
+    },
+    "memberships": [
+      {
+        "club": "C.D. Guadalajara",
+        "end": 2009,
+        "goals": null,
+        "matches": null,
+        "start": 2004
+      },
+      {
+        "club": "Philadelphia Union",
+        "end": 2012,
+        "goals": null,
+        "matches": null,
+        "start": 2009
+      },
+      {
+        "club": "Real Sociedad",
+        "end": 2014,
+        "goals": null,
+        "matches": null,
+        "start": 2012
+      },
+      {
+        "club": "Real Sociedad B",
+        "end": 2019,
+        "goals": 0,
+        "matches": 38,
+        "start": 2014
+      },
+      {
+        "club": "SD Beasain",
+        "end": 2016,
+        "goals": 0,
+        "matches": 14,
+        "start": 2015
+      },
+      {
+        "club": "Los Angeles FC",
+        "end": 2021,
+        "goals": 0,
+        "matches": 44,
+        "start": 2019
+      },
+      {
+        "club": "Charlotte FC",
+        "end": 2023,
+        "goals": 0,
+        "matches": 5,
+        "start": 2022
+      },
+      {
+        "club": "Crown Legacy FC",
+        "end": 2023,
+        "goals": 0,
+        "matches": 1,
+        "start": 2023
+      },
+      {
+        "club": "San Antonio FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2024
+      }
+    ],
+    "qid": "Q64878618"
+  },
+  "Patrick Agyemang": {
+    "bio": {
+      "birth_date": "2000-11-07",
+      "height_m": "1.93",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Agyemang%20USMNT%20v%20Belgium%20Mar%2028%202026-42.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Charlotte FC",
+        "end": 2025,
+        "goals": 18,
+        "matches": 53,
+        "start": 2023
+      },
+      {
+        "club": "Crown Legacy FC",
+        "end": 2023,
+        "goals": 10,
+        "matches": 12,
+        "start": 2023
+      },
+      {
+        "club": "Derby County F.C.",
+        "end": null,
+        "goals": 1,
+        "matches": 5,
+        "start": 2025
+      },
+      {
+        "club": "United States men's national soccer team",
+        "end": null,
+        "goals": 5,
+        "matches": 12,
+        "start": 2025
+      }
+    ],
+    "qid": "Q118954382"
+  },
+  "Pep Biel": {
+    "bio": {
+      "birth_date": "1996-09-05",
+      "height_m": "167",
+      "nationality": "Spain",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pep%20Biel%20NYCFC%20v%20Charlotte%2020%20Sep%202025-153%20%28cropped%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "F.C. Copenhagen",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q47478674"
+  },
+  "Quinn McNeill": {
+    "bio": {
+      "birth_date": "1998-08-30",
+      "nationality": "Ireland",
+      "position": "midfielder"
+    },
+    "memberships": [],
+    "qid": "Q111588680"
+  },
+  "Rodolfo Aloko": {
+    "bio": {
+      "birth_date": "2006-12-26",
+      "nationality": "Benin",
+      "position": "right winger"
+    },
+    "memberships": [
+      {
+        "club": "Benin national under-20 football team",
+        "end": null,
+        "goals": 1,
+        "matches": 4,
+        "start": 2023
+      },
+      {
+        "club": "Benin men's national football team",
+        "end": null,
+        "goals": 0,
+        "matches": 3,
+        "start": 2025
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": 0,
+        "matches": 0,
+        "start": 2025
+      },
+      {
+        "club": "NK Kustošija Zagreb",
+        "end": 2025,
+        "goals": null,
+        "matches": null,
+        "start": 2025
+      }
+    ],
+    "qid": "Q136108709"
+  },
+  "Scott Arfield": {
+    "bio": {
+      "birth_date": "1988-11-01",
+      "height_m": "178",
+      "nationality": "Canada",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Arfield%20-%20Schottland%20U-21%20%282%29.jpg",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Falkirk F.C.",
+        "end": 2010,
+        "goals": 13,
+        "matches": 108,
+        "start": 2007
+      },
+      {
+        "club": "Scotland national under-19 football team",
+        "end": 2007,
+        "goals": 0,
+        "matches": 2,
+        "start": 2007
+      },
+      {
+        "club": "Scotland national under-21 football team",
+        "end": 2010,
+        "goals": 3,
+        "matches": 17,
+        "start": 2007
+      },
+      {
+        "club": "Scotland B national football team",
+        "end": 2009,
+        "goals": 0,
+        "matches": 1,
+        "start": 2009
+      },
+      {
+        "club": "Huddersfield Town A.F.C.",
+        "end": 2013,
+        "goals": 7,
+        "matches": 96,
+        "start": 2010
+      },
+      {
+        "club": "Burnley F.C.",
+        "end": 2018,
+        "goals": 21,
+        "matches": 177,
+        "start": 2013
+      },
+      {
+        "club": "Canadian men's national soccer team",
+        "end": null,
+        "goals": 2,
+        "matches": 17,
+        "start": 2016
+      },
+      {
+        "club": "Rangers F.C.",
+        "end": null,
+        "goals": 12,
+        "matches": 32,
+        "start": 2018
+      }
+    ],
+    "qid": "Q3952812"
+  },
+  "Sergio Ruiz": {
+    "bio": {
+      "birth_date": "1994-12-16",
+      "height_m": "171",
+      "nationality": "Spain",
+      "position": "midfielder"
+    },
+    "memberships": [
+      {
+        "club": "Racing de Santander",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": null
+      }
+    ],
+    "qid": "Q66528992"
+  },
+  "Souleyman Doumbia": {
+    "bio": {},
+    "memberships": [],
+    "qid": "Q131405193"
+  },
+  "Tim Ream": {
+    "bio": {
+      "birth_date": "1987-10-05",
+      "height_m": "186",
+      "nationality": "United States",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Ream%20USMNT%20v%20Belgium%20Mar%2028%202026-66.jpg",
+      "position": "defender"
+    },
+    "memberships": [
+      {
+        "club": "Saint Louis Billikens men's soccer",
+        "end": 2005,
+        "goals": null,
+        "matches": null,
+        "start": 2003
+      },
+      {
+        "club": "Chicago Fire U-23",
+        "end": 2009,
+        "goals": 0,
+        "matches": 19,
+        "start": 2008
+      },
+      {
+        "club": "Red Bull New York",
+        "end": 2011,
+        "goals": 1,
+        "matches": 58,
+        "start": 2010
+      },
+      {
+        "club": "United States men's national soccer team",
+        "end": null,
+        "goals": 1,
+        "matches": 50,
+        "start": 2010
+      },
+      {
+        "club": "Bolton Wanderers F.C.",
+        "end": 2015,
+        "goals": 0,
+        "matches": 114,
+        "start": 2012
+      },
+      {
+        "club": "Fulham F.C.",
+        "end": 2024,
+        "goals": 3,
+        "matches": 245,
+        "start": 2015
+      },
+      {
+        "club": "Charlotte FC",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2024
+      }
+    ],
+    "qid": "Q716113"
+  },
+  "Tyger Smalls": {
+    "bio": {
+      "birth_date": "2002-09-18",
+      "height_m": "185",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyger%20Smalls.jpg",
+      "position": "forward"
+    },
+    "memberships": [],
+    "qid": "Q124646163"
+  },
+  "Vinicius Mello": {
+    "bio": {
+      "birth_date": "2002-08-19",
+      "height_m": "180",
+      "nationality": "Brazil",
+      "position": "forward"
+    },
+    "memberships": [],
+    "qid": "Q107285833"
+  },
+  "Wilfried Zaha": {
+    "bio": {
+      "birth_date": "1992-11-10",
+      "height_m": "180",
+      "nationality": "United Kingdom",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilfried%20Zaha%20NYCFC%20v%20Charlotte%2020%20Sep%202025-022%20%28cropped%29.jpg",
+      "position": "wing half"
+    },
+    "memberships": [
+      {
+        "club": "Crystal Palace F.C.",
+        "end": 2013,
+        "goals": 12,
+        "matches": 110,
+        "start": 2010
+      },
+      {
+        "club": "England national under-19 association football team",
+        "end": 2011,
+        "goals": 0,
+        "matches": 2,
+        "start": 2011
+      },
+      {
+        "club": "England men's national association football team",
+        "end": 2012,
+        "goals": 0,
+        "matches": 2,
+        "start": 2012
+      },
+      {
+        "club": "England national under-21 association football team",
+        "end": 2013,
+        "goals": 1,
+        "matches": 13,
+        "start": 2012
+      },
+      {
+        "club": "Crystal Palace F.C.",
+        "end": 2013,
+        "goals": 1,
+        "matches": 16,
+        "start": 2013
+      },
+      {
+        "club": "Manchester United F.C.",
+        "end": 2015,
+        "goals": 0,
+        "matches": 2,
+        "start": 2013
+      },
+      {
+        "club": "Cardiff City F.C.",
+        "end": 2014,
+        "goals": 0,
+        "matches": 12,
+        "start": 2014
+      },
+      {
+        "club": "Crystal Palace F.C.",
+        "end": 2015,
+        "goals": 1,
+        "matches": 16,
+        "start": 2014
+      },
+      {
+        "club": "Crystal Palace F.C.",
+        "end": 2023,
+        "goals": 67,
+        "matches": 275,
+        "start": 2015
+      },
+      {
+        "club": "Ivory Coast men's national football team",
+        "end": null,
+        "goals": 5,
+        "matches": 33,
+        "start": 2017
+      },
+      {
+        "club": "Galatasaray S.K.",
+        "end": 2026,
+        "goals": 9,
+        "matches": 30,
+        "start": 2023
+      },
+      {
+        "club": "Olympique Lyonnais",
+        "end": 2025,
+        "goals": 0,
+        "matches": 4,
+        "start": 2024
+      },
+      {
+        "club": "Charlotte FC",
+        "end": 2026,
+        "goals": 13,
+        "matches": 44,
+        "start": 2025
+      }
+    ],
+    "qid": "Q713711"
+  },
+  "Will Cleary": {
+    "bio": {},
+    "memberships": [],
+    "qid": "Q8006876"
+  },
+  "Yordy Reyna": {
+    "bio": {
+      "birth_date": "1993-09-17",
+      "height_m": "169",
+      "nationality": "Peru",
+      "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Yordy%20Reyna%202023.jpg",
+      "position": "forward"
+    },
+    "memberships": [
+      {
+        "club": "Club Alianza Lima",
+        "end": 2013,
+        "goals": 12,
+        "matches": 48,
+        "start": 2011
+      },
+      {
+        "club": "Peru national under-20 football team",
+        "end": 2013,
+        "goals": 5,
+        "matches": 7,
+        "start": 2012
+      },
+      {
+        "club": "FC Liefering",
+        "end": 2014,
+        "goals": 1,
+        "matches": 18,
+        "start": 2013
+      },
+      {
+        "club": "FC Red Bull Salzburg",
+        "end": 2013,
+        "goals": 0,
+        "matches": 4,
+        "start": 2013
+      },
+      {
+        "club": "Peru men's national football team",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2013
+      },
+      {
+        "club": "SV Grödig",
+        "end": 2015,
+        "goals": 11,
+        "matches": 19,
+        "start": 2014
+      },
+      {
+        "club": "FC Red Bull Salzburg",
+        "end": null,
+        "goals": null,
+        "matches": null,
+        "start": 2015
+      },
+      {
+        "club": "RB Leipzig",
+        "end": 2015,
+        "goals": 1,
+        "matches": 13,
+        "start": 2015
+      }
+    ],
+    "qid": "Q1753185"
+  }
+}

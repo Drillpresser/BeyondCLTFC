@@ -15,38 +15,66 @@ scheduled commit is a snapshot, so **git history is the time series** — no dat
 | Source | Used for | Access |
 | --- | --- | --- |
 | [American Soccer Analysis (ASA)](https://app.americansocceranalysis.com) | MLS per-season stats (goals, shots, assists, minutes) during CLTFC tenure | Public API (`itscalledsoccer`) |
+| [Transfermarkt](https://www.transfermarkt.com) | **Primary** cross-league career stats (apps/goals/assists/minutes by competition & season) + bio | Self-hosted [`felipeall/transfermarkt-api`](https://github.com/felipeall/transfermarkt-api) over HTTP |
 | [Wikipedia](https://en.wikipedia.org) | Cross-league career season stats (before/after) | MediaWiki API + `pandas.read_html` |
+| [Wikidata](https://www.wikidata.org) | Bio + club-membership timelines (with match/goal counts) for tenure cross-check | SPARQL (ToS-clean, any IP) |
+| [TheSportsDB](https://www.thesportsdb.com) | Bio, photos, former teams, honours | Free JSON API |
+| [API-FOOTBALL](https://www.api-football.com) | Sanctioned MLS/Liga MX/Europe per-season backstop | REST API (free key, 100 req/day) |
+| [worldfootballR](https://github.com/JaseZiv/worldfootballR) | Independent FBref + Transfermarkt cross-read (R) | R package via `Rscript` |
 | [FBref](https://fbref.com) | Extra career context (apps, goals, minutes), best-effort | Scraped player pages (`curl_cffi`) |
 
-> **Note:** We collect only raw counting stats. ASA's and FBref's modeled/predictive
-> metrics — expected goals and the whole x-family (xG, xA, xG+xA, …) plus ASA's
-> goals-added (g+) and points-added value models — are intentionally **not** gathered.
+> **Aggregation, on purpose.** This project deliberately pulls the *same* facts
+> (per-season apps/goals/minutes, bio, club tenure) from several independent
+> sources. `build_players.py` keeps every source's rows **tagged and un-merged**,
+> and collapses bio only into a `bio` field while preserving each source's values
+> in `bio_sources` — so disagreements are *visible and checkable*, not silently
+> trusted. The goal is correctness through corroboration.
 
-**Coverage:** ASA gives MLS per-season stats; Wikipedia's "Career statistics" tables give the
-cross-league before/after seasons (Europe, Liga MX, etc.) that ASA can't see. As of the last
-run, **56 of 74** players have Wikipedia career data (the rest are academy/fringe players
-without detailed tables — ASA still covers their MLS minutes).
+> **Counting stats only.** ASA's and FBref's modeled/predictive metrics — expected
+> goals and the whole x-family (xG, xA, xG+xA, …) plus ASA's goals-added (g+) and
+> points-added value models — are intentionally **not** gathered.
+
+**Coverage:** ASA gives MLS per-season stats; Transfermarkt is the primary cross-league
+career source (Europe, Liga MX, lower divisions — far deeper than Wikipedia), with Wikipedia,
+Wikidata, TheSportsDB, API-FOOTBALL and worldfootballR layered in for corroboration and to
+fill gaps for academy/fringe players. Every source except ASA/Wikipedia/build is best-effort
+(`continue-on-error` in CI): a flaky source never blocks a refresh.
 
 > **Source notes / lessons learned:**
-> - **Wikipedia** is the primary career source: server-rendered, ToS-clean (CC BY-SA + public
->   API), no anti-bot layer, and reliable in CI. It covers apps/goals per club/season across
->   a full career.
+> - **Transfermarkt** is the deepest career source. The site is JS-rendered with an
+>   obfuscated internal API, so we don't scrape it directly — we run a self-hosted
+>   [`felipeall/transfermarkt-api`](https://github.com/felipeall/transfermarkt-api)
+>   container and query it over HTTP (`TRANSFERMARKT_API`, default `http://localhost:8000`).
+>   Running it in-process/in-job sidesteps shared-instance rate limits and datacenter-IP
+>   blocking. *(Note: scraping Transfermarkt is against their ToS — same category as FBref.)*
+> - **Wikidata** is ToS-clean (SPARQL) and reliable from any IP — ideal for bio and
+>   club-tenure timelines, though per-season goal splits are sparse.
+> - **Wikipedia** is server-rendered, ToS-clean, no anti-bot layer, reliable in CI; covers
+>   apps/goals per club/season across a full career.
+> - **API-FOOTBALL** is a sanctioned REST API (no scraping, any IP). Free tier is 100 req/day
+>   and restricts which seasons you can query — set `APIFOOTBALL_KEY` and `APIFOOTBALL_SEASONS`.
+> - **TheSportsDB** is free and crowd-sourced: quality varies (treat as a supplement), good
+>   for photos/bio/former-teams.
+> - **worldfootballR** (R) is an independent read of FBref + Transfermarkt for corroboration;
+>   skipped unless `Rscript` + the package are installed.
 > - **FBref** sits behind Cloudflare and is frequently **403-blocked** from datacenter IPs
->   (GitHub Actions) even with `curl_cffi` TLS impersonation. It's kept as a best-effort,
->   `continue-on-error` step for extra career context when the IP isn't flagged.
-> - **Transfermarkt** is *no longer used*: the site went fully JS-rendered and its stats now
->   load from an undocumented, obfuscated internal API — impractical for static scraping.
+>   even with `curl_cffi`. With xG removed it's demoted to a best-effort cross-check.
 
 ## Layout
 
 ```
 scripts/                 Python fetch + build pipeline
   requirements.txt
-  config.py              CLTFC identity, tenure boundaries, phase logic
-  fetch_asa.py           ASA API   -> data/raw/asa_*.json
-  fetch_wikipedia.py     Wikipedia -> data/raw/wikipedia_careers.json (cross-league careers)
-  fetch_fbref.py         FBref     -> data/raw/fbref_careers.json (best-effort)
-  build_players.py       merge raw -> data/players.json (site consumes this)
+  config.py              CLTFC identity, tenure boundaries, phase logic, source config
+  fetch_asa.py           ASA API        -> data/raw/asa_*.json
+  fetch_transfermarkt.py Transfermarkt  -> data/raw/transfermarkt.json (self-hosted API)
+  fetch_wikipedia.py     Wikipedia      -> data/raw/wikipedia_careers.json
+  fetch_wikidata.py      Wikidata SPARQL-> data/raw/wikidata.json (bio + club timelines)
+  fetch_thesportsdb.py   TheSportsDB    -> data/raw/thesportsdb.json (bio, former teams)
+  fetch_apifootball.py   API-FOOTBALL   -> data/raw/apifootball.json (needs APIFOOTBALL_KEY)
+  fetch_worldfootball.py → fetch_worldfootball.R -> data/raw/worldfootball.json (needs R)
+  fetch_fbref.py         FBref          -> data/raw/fbref_careers.json (best-effort)
+  build_players.py       merge raw      -> data/players.json (site consumes this)
 data/                    committed JSON output (the "database")
   raw/                   per-source raw pulls
   players.json           unified, site-facing dataset
@@ -63,10 +91,22 @@ web/                     React + Vite front-end (GitHub Pages)
 cd scripts
 python -m venv .venv && . .venv/Scripts/activate   # Windows; use .venv/bin/activate on *nix
 pip install -r requirements.txt
-python fetch_asa.py         # MLS advanced stats (required)
-python fetch_wikipedia.py   # cross-league career context (before/after)
-python fetch_fbref.py       # optional extra xG; may be Cloudflare-blocked
-python build_players.py
+
+python fetch_asa.py           # MLS per-season stats (required)
+python fetch_wikipedia.py     # cross-league career context (before/after)
+python fetch_wikidata.py      # bio + club timelines (ToS-clean SPARQL)
+python fetch_thesportsdb.py   # bio, photos, former teams, honours
+
+# Transfermarkt (primary career source): start the self-hosted API first, then fetch.
+docker run -d --name tmkt -p 8000:8000 felipeall/transfermarkt-api:latest
+python fetch_transfermarkt.py            # uses TRANSFERMARKT_API (default localhost:8000)
+
+# Optional cross-checks (skip cleanly if unavailable):
+APIFOOTBALL_KEY=xxx python fetch_apifootball.py   # sanctioned API; free key, 100 req/day
+python fetch_worldfootball.py            # needs R + install.packages(c("worldfootballR","jsonlite"))
+python fetch_fbref.py                    # best-effort; may be Cloudflare-blocked
+
+python build_players.py       # merges whatever raw files are present
 
 # 2. Run the site
 cd ../web
@@ -75,6 +115,10 @@ mkdir -p public/data && cp ../data/players.json public/data/   # dev reads from 
 npm run dev
 ```
 
+All fetches are independent and cache to `data/raw/`, so you can run any subset — the
+build merges whatever is present. Set the `APIFOOTBALL_KEY` repo secret to enable
+API-FOOTBALL in CI; leave it unset to skip that source.
+
 In production the `deploy-site.yml` workflow copies `data/` into the build, so the
 site fetches `./data/players.json` in both dev and prod.
 
@@ -82,8 +126,8 @@ site fetches `./data/players.json` in both dev and prod.
 
 The site is static (no backend to write to), so manual edits live in a committed
 **overrides layer**: `data/overrides.json`. `build_players.py` merges it *on top of* the
-fetched ASA/Wikipedia/FBref data, so your edits survive every re-fetch (they're re-applied,
-not overwritten) and are reviewable in git.
+fetched (and cross-checked) source data, so your edits survive every re-fetch (they're
+re-applied, not overwritten) and are reviewable in git.
 
 The wizard is a **standalone local tool**, deliberately kept separate from the site in
 `web/`: it has its own `package.json`, isn't part of the Vite build or the deploy

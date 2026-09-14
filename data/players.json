@@ -3,7 +3,12 @@
   "sources": [
     "asa",
     "wikipedia",
-    "fbref"
+    "fbref",
+    "transfermarkt",
+    "apifootball",
+    "worldfootball",
+    "wikidata",
+    "thesportsdb"
   ],
   "player_count": 74,
   "players": [
@@ -14,6 +19,36 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2002-09-27",
+        "nationality": "United States",
+        "position": "defender",
+        "height": "5.0'9.0\"",
+        "weight": "146.0 lb",
+        "current_team": "_Free Agent Soccer",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/pao46s1647079041.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-09-27",
+          "nationality": "USA",
+          "position": "W",
+          "height": "5.0'9.0\"",
+          "weight": "146.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2002-09-27",
+          "nationality": "United States",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "2002-09-27",
+          "current_team": "_Free Agent Soccer",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/pao46s1647079041.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -34,6 +69,32 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "North Carolina FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "Nurnberg"
+        },
+        {
+          "departed": "2023",
+          "joined": "2021",
+          "team": "Charlotte FC"
+        },
+        {
+          "departed": "2021",
+          "joined": "2021",
+          "team": "Charlotte Independence"
+        }
       ]
     },
     {
@@ -43,6 +104,35 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2001-10-29",
+        "height_m": "185",
+        "nationality": "France",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adilson%20Malanda%20NYCFC%20v%20Charlotte%2020%20Sep%202025-133%20%28cropped%29.jpg",
+        "position": "defender",
+        "current_team": "Middlesbrough"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2001-10-29",
+          "nationality": "France",
+          "position": "CB"
+        },
+        "wikidata": {
+          "birth_date": "2001-10-29",
+          "height_m": "185",
+          "nationality": "France",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adilson%20Malanda%20NYCFC%20v%20Charlotte%2020%20Sep%202025-133%20%28cropped%29.jpg",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "2001-10-29",
+          "current_team": "Middlesbrough",
+          "nationality": "France",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2qpd591788952161.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -215,6 +305,18 @@
             "total_goals": 0
           }
         }
+      ],
+      "former_teams": [
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "Nimes"
+        },
+        {
+          "departed": "2022",
+          "joined": "2021",
+          "team": "Rodez AF"
+        }
       ]
     },
     {
@@ -224,6 +326,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-08-21",
+        "height_m": "174",
+        "nationality": "Ecuador",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Franco%20Cote%20D%27Ivoire%20v%20Ecuador%2014%20June%202026-41.jpg",
+        "position": "midfielder",
+        "height": "5.0'9.0\"",
+        "weight": "163.0 lb",
+        "current_team": "Atlético Mineiro"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-08-21",
+          "nationality": "Ecuador",
+          "position": "W",
+          "height": "5.0'9.0\"",
+          "weight": "163.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-08-21",
+          "height_m": "174",
+          "nationality": "Ecuador",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Franco%20Cote%20D%27Ivoire%20v%20Ecuador%2014%20June%202026-41.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-08-21",
+          "current_team": "Atlético Mineiro",
+          "nationality": "Ecuador",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/d4dtcf1763755226.png",
+          "position": "Central Midfield"
+        }
       },
       "seasons": [
         {
@@ -426,6 +561,43 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Ecuador men's national football team",
+          "end": null,
+          "goals": 1,
+          "matches": 62,
+          "start": 2018
+        },
+        {
+          "club": "Independiente del Valle",
+          "end": 2020,
+          "goals": 5,
+          "matches": 62,
+          "start": 2018
+        },
+        {
+          "club": "Clube Atlético Mineiro",
+          "end": null,
+          "goals": 3,
+          "matches": 42,
+          "start": 2020
+        },
+        {
+          "club": "Charlotte FC",
+          "end": 2022,
+          "goals": 0,
+          "matches": 10,
+          "start": 2022
+        },
+        {
+          "club": "Talleres de Córdoba",
+          "end": 2023,
+          "goals": 0,
+          "matches": 34,
+          "start": 2022
+        }
       ]
     },
     {
@@ -435,6 +607,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1997-03-12",
+        "height_m": "173",
+        "nationality": "France",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Allan%20Saint-Maximin.jpg",
+        "position": "winger",
+        "height": "5.0'8.0\"",
+        "weight": "148.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1997-03-12",
+          "nationality": "France",
+          "position": "W",
+          "height": "5.0'8.0\"",
+          "weight": "148.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1997-03-12",
+          "height_m": "173",
+          "nationality": "France",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Allan%20Saint-Maximin.jpg",
+          "position": "winger"
+        },
+        "thesportsdb": {
+          "birth_date": "1997-03-12",
+          "current_team": "Charlotte FC",
+          "nationality": "France",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/s0ikbc1769179797.png",
+          "position": "Left Wing"
+        }
       },
       "seasons": [
         {
@@ -693,6 +898,126 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "AS Saint-Étienne",
+          "end": 2015,
+          "goals": 0,
+          "matches": 17,
+          "start": 2013
+        },
+        {
+          "club": "France national under-16 association football team",
+          "end": 2013,
+          "goals": 3,
+          "matches": 11,
+          "start": 2013
+        },
+        {
+          "club": "France national under-17 association football team",
+          "end": 2014,
+          "goals": 4,
+          "matches": 7,
+          "start": 2013
+        },
+        {
+          "club": "AS Monaco FC",
+          "end": 2017,
+          "goals": 0,
+          "matches": 2,
+          "start": 2015
+        },
+        {
+          "club": "Hannover 96",
+          "end": 2016,
+          "goals": 1,
+          "matches": 18,
+          "start": 2015
+        },
+        {
+          "club": "France national under-20 association football team",
+          "end": 2017,
+          "goals": 2,
+          "matches": 7,
+          "start": 2016
+        },
+        {
+          "club": "SC Bastia",
+          "end": 2017,
+          "goals": 3,
+          "matches": 36,
+          "start": 2016
+        },
+        {
+          "club": "France national under-21 association football team",
+          "end": 2019,
+          "goals": 0,
+          "matches": 7,
+          "start": 2017
+        },
+        {
+          "club": "OGC Nice",
+          "end": 2019,
+          "goals": 11,
+          "matches": 74,
+          "start": 2017
+        },
+        {
+          "club": "Newcastle United F.C.",
+          "end": 2023,
+          "goals": 12,
+          "matches": 111,
+          "start": 2019
+        },
+        {
+          "club": "Al Ahli FC",
+          "end": 2025,
+          "goals": 4,
+          "matches": 30,
+          "start": 2023
+        },
+        {
+          "club": "Fenerbahçe Istanbul",
+          "end": 2025,
+          "goals": 4,
+          "matches": 20,
+          "start": 2024
+        },
+        {
+          "club": "Club América",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2025
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2013",
+          "team": "St Etienne"
+        },
+        {
+          "departed": "2017",
+          "joined": "2015",
+          "team": "Monaco"
+        },
+        {
+          "departed": "2016",
+          "joined": "2015",
+          "team": "Hannover"
+        },
+        {
+          "departed": "2017",
+          "joined": "2016",
+          "team": "Bastia"
+        },
+        {
+          "departed": "2019",
+          "joined": "2017",
+          "team": "Nice"
+        }
       ]
     },
     {
@@ -702,6 +1027,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1997-06-11",
+        "height_m": "175",
+        "nationality": "Brazil",
+        "position": "forward",
+        "height": "5.0'9.0\"",
+        "weight": "152.0 lb",
+        "current_team": "Neftçi PFK",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/z3guz41683124949.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1997-06-11",
+          "nationality": "Brazil",
+          "position": "W",
+          "height": "5.0'9.0\"",
+          "weight": "152.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1997-06-11",
+          "height_m": "175",
+          "nationality": "Brazil",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1997-06-11",
+          "current_team": "Neftçi PFK",
+          "nationality": "Brazil",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/z3guz41683124949.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -882,6 +1239,50 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Colorado Springs Switchbacks FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Denver Pioneers men's soccer",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Colorado Rapids",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2019
+        },
+        {
+          "club": "Colorado Springs Switchbacks FC",
+          "end": 2019,
+          "goals": 0,
+          "matches": 2,
+          "start": 2019
+        },
+        {
+          "club": "Neftchi Baku PFC",
+          "end": 2024,
+          "goals": null,
+          "matches": null,
+          "start": 2023
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2022",
+          "joined": "2019",
+          "team": "Colorado Rapids"
+        }
       ]
     },
     {
@@ -891,6 +1292,35 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2000-08-02",
+        "height_m": "183",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Privett%20NYCFC%20v%20Charlotte%2020%20Sep%202025-172%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2000-08-02",
+          "nationality": "USA",
+          "position": "CB"
+        },
+        "wikidata": {
+          "birth_date": "2000-08-02",
+          "height_m": "183",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Privett%20NYCFC%20v%20Charlotte%2020%20Sep%202025-172%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "2000-08-02",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/l079dw1771753969.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -974,6 +1404,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1997-02-08",
+        "height_m": "187",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anton%20Walkes%20-%202017-09-10.jpg",
+        "position": "full-back",
+        "height": "6.0'2.0\"",
+        "weight": "181.0 lb",
+        "current_team": "_Deceased Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1997-02-08",
+          "nationality": "England",
+          "position": "CB",
+          "height": "6.0'2.0\"",
+          "weight": "181.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1997-02-08",
+          "height_m": "187",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anton%20Walkes%20-%202017-09-10.jpg",
+          "position": "full-back"
+        },
+        "thesportsdb": {
+          "birth_date": "1997-02-08",
+          "current_team": "_Deceased Soccer",
+          "nationality": "United Kingdom",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/r6wxnz1647079193.png",
+          "position": "Centre-Back"
+        }
       },
       "seasons": [
         {
@@ -1104,6 +1567,83 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Atlanta United FC",
+          "end": 2017,
+          "goals": 2,
+          "matches": 20,
+          "start": null
+        },
+        {
+          "club": "Charlotte FC",
+          "end": 2022,
+          "goals": 0,
+          "matches": 23,
+          "start": null
+        },
+        {
+          "club": "Portsmouth F.C.",
+          "end": 2018,
+          "goals": 2,
+          "matches": 12,
+          "start": null
+        },
+        {
+          "club": "Tottenham Hotspur F.C.",
+          "end": 2018,
+          "goals": 0,
+          "matches": 4,
+          "start": 2016
+        },
+        {
+          "club": "Portsmouth F.C.",
+          "end": 2020,
+          "goals": 1,
+          "matches": 35,
+          "start": 2018
+        },
+        {
+          "club": "Atlanta United FC",
+          "end": 2021,
+          "goals": 2,
+          "matches": 50,
+          "start": 2020
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2018",
+          "joined": "2016",
+          "team": "Tottenham"
+        },
+        {
+          "departed": "2017",
+          "joined": "2017",
+          "team": "Atlanta United"
+        },
+        {
+          "departed": "2018",
+          "joined": "2018",
+          "team": "Portsmouth"
+        },
+        {
+          "departed": "2020",
+          "joined": "2018",
+          "team": "Portsmouth"
+        },
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "Atlanta United"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English EFL Trophy",
+          "season": "2018-2019"
+        }
       ]
     },
     {
@@ -1113,6 +1653,33 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2004-11-07",
+        "nationality": "Australia",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Archie%20Goodwin%20NYCFC%20v%20Charlotte%2020%20Sep%202025-152.jpg",
+        "position": "forward",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2004-11-07",
+          "nationality": "Australia",
+          "position": "ST"
+        },
+        "wikidata": {
+          "birth_date": "2004-11-07",
+          "nationality": "Australia",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Archie%20Goodwin%20NYCFC%20v%20Charlotte%2020%20Sep%202025-152.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2004-11-07",
+          "current_team": "Charlotte FC",
+          "nationality": "Australia",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ho19z51766482131.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -1287,6 +1854,25 @@
         "start": 2022,
         "end": null
       },
+      "bio": {
+        "birth_date": "2006-04-03",
+        "nationality": "USA",
+        "position": "DM",
+        "current_team": "Crown Legacy"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2006-04-03",
+          "nationality": "USA",
+          "position": "DM"
+        },
+        "thesportsdb": {
+          "birth_date": "2006-04-03",
+          "current_team": "Crown Legacy",
+          "nationality": "United States",
+          "position": "Central Midfield"
+        }
+      },
       "seasons": [
         {
           "season": 2026,
@@ -1315,6 +1901,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1990-04-01",
+        "height_m": "170",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashley%20Westwood%20NYCFC%20v%20Charlotte%2020%20Sep%202025-030%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'9.0\"",
+        "weight": "176.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1990-04-01",
+          "nationality": "England",
+          "position": "DM",
+          "height": "5.0'9.0\"",
+          "weight": "176.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1990-04-01",
+          "height_m": "170",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashley%20Westwood%20NYCFC%20v%20Charlotte%2020%20Sep%202025-030%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1990-04-01",
+          "current_team": "Charlotte FC",
+          "nationality": "England",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/h8n7i01771755041.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -1627,6 +2246,46 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Crewe Alexandra F.C.",
+          "end": 2012,
+          "goals": 14,
+          "matches": 123,
+          "start": 2008
+        },
+        {
+          "club": "Nantwich Town F.C.",
+          "end": 2008,
+          "goals": 0,
+          "matches": 5,
+          "start": 2008
+        },
+        {
+          "club": "Aston Villa F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2012
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2017",
+          "joined": "2012",
+          "team": "Aston Villa"
+        },
+        {
+          "departed": "2012",
+          "joined": "2008",
+          "team": "Crewe"
+        },
+        {
+          "departed": "2023",
+          "joined": "2017",
+          "team": "Burnley"
+        }
       ]
     },
     {
@@ -1636,6 +2295,29 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2006-01-08",
+        "nationality": "Mali",
+        "position": "AM",
+        "height": "6.0'0\"",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/p2k6hy1777662609.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2006-01-08",
+          "nationality": "Mali",
+          "position": "AM",
+          "height": "6.0'0\""
+        },
+        "thesportsdb": {
+          "birth_date": "2006-01-08",
+          "current_team": "Charlotte FC",
+          "nationality": "Mali",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/p2k6hy1777662609.png",
+          "position": "Defensive Midfield"
+        }
       },
       "seasons": [
         {
@@ -1665,6 +2347,34 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2001-10-03",
+        "height_m": "182",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Bender%20Philadelphia%20Union%20New%20York%20City%20FC%20Nov%2023%202025-023%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "current_team": "_Retired Basketball"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2001-03-07",
+          "nationality": "USA",
+          "position": "CM"
+        },
+        "wikidata": {
+          "birth_date": "2001-10-03",
+          "height_m": "182",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Bender%20Philadelphia%20Union%20New%20York%20City%20FC%20Nov%2023%202025-023%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1981-01-30",
+          "current_team": "_Retired Basketball",
+          "nationality": "United States",
+          "position": "Power Forward"
+        }
       },
       "seasons": [
         {
@@ -1766,6 +2476,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1995-03-27",
+        "height_m": "182",
+        "nationality": "New Zealand",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CINvPOR%202019-03-17%20-%20Bill%20Tuiloma%20%2833625128858%29%20%28cropped%29.jpg",
+        "position": "defender",
+        "height": "6.0'0\"",
+        "weight": "172.0 lb",
+        "current_team": "Wellington Phoenix"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1995-03-27",
+          "nationality": "New Zealand",
+          "position": "CB",
+          "height": "6.0'0\"",
+          "weight": "172.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1995-03-27",
+          "height_m": "182",
+          "nationality": "New Zealand",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CINvPOR%202019-03-17%20-%20Bill%20Tuiloma%20%2833625128858%29%20%28cropped%29.jpg",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1995-03-27",
+          "current_team": "Wellington Phoenix",
+          "nationality": "New Zealand",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/jl6sfi1771582590.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -1996,6 +2739,111 @@
             "total_goals": null
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Birkenhead United",
+          "end": 2011,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "New Zealand national under-17 football team",
+          "end": 2011,
+          "goals": 1,
+          "matches": 6,
+          "start": 2011
+        },
+        {
+          "club": "Waitakere United",
+          "end": 2011,
+          "goals": 0,
+          "matches": 1,
+          "start": 2011
+        },
+        {
+          "club": "Birkenhead United",
+          "end": 2013,
+          "goals": null,
+          "matches": null,
+          "start": 2012
+        },
+        {
+          "club": "New Zealand men's national football team",
+          "end": null,
+          "goals": 4,
+          "matches": 36,
+          "start": 2013
+        },
+        {
+          "club": "New Zealand national under-20 football team",
+          "end": 2015,
+          "goals": 1,
+          "matches": 9,
+          "start": 2013
+        },
+        {
+          "club": "New Zealand Olympic football team",
+          "end": 2015,
+          "goals": 1,
+          "matches": 3,
+          "start": 2015
+        },
+        {
+          "club": "Olympique de Marseille",
+          "end": 2017,
+          "goals": 0,
+          "matches": 2,
+          "start": 2015
+        },
+        {
+          "club": "RC Strasbourg Alsace",
+          "end": 2016,
+          "goals": 0,
+          "matches": 9,
+          "start": 2015
+        },
+        {
+          "club": "Olympique de Marseille II",
+          "end": 2017,
+          "goals": 2,
+          "matches": 22,
+          "start": 2016
+        },
+        {
+          "club": "Portland Timbers",
+          "end": 2023,
+          "goals": 10,
+          "matches": 114,
+          "start": 2017
+        },
+        {
+          "club": "Portland Timbers 2",
+          "end": 2023,
+          "goals": 4,
+          "matches": 20,
+          "start": 2017
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": 0,
+          "matches": 0,
+          "start": 2023
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2017",
+          "joined": "2015",
+          "team": "Marseille"
+        },
+        {
+          "departed": "2016",
+          "joined": "2015",
+          "team": "Strasbourg"
+        }
       ]
     },
     {
@@ -2005,6 +2853,36 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2002-02-09",
+        "nationality": "United States",
+        "position": "midfielder",
+        "height": "6.0'0\"",
+        "weight": "174.0 lb",
+        "current_team": "Orange County SC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/or3ow81785240163.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-02-09",
+          "nationality": "Canada",
+          "position": "W",
+          "height": "6.0'0\"",
+          "weight": "174.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2002-02-09",
+          "nationality": "United States",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "2002-02-09",
+          "current_team": "Orange County SC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/or3ow81785240163.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -2168,6 +3046,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1995-06-20",
+        "height_m": "173",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Brandt%20Bronico%20NYCFC%20v%20Charlotte%2020%20Sep%202025-054%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'9.0\"",
+        "weight": "154.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1995-06-20",
+          "nationality": "USA",
+          "position": "DM",
+          "height": "5.0'9.0\"",
+          "weight": "154.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1995-06-20",
+          "height_m": "173",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Brandt%20Bronico%20NYCFC%20v%20Charlotte%2020%20Sep%202025-054%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1995-06-20",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/6uyhbo1766482252.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -2346,6 +3257,39 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Charlotte 49ers men's soccer",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Chicago Fire FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2020",
+          "joined": "2017",
+          "team": "Chicago Fire"
+        },
+        {
+          "departed": "2017",
+          "joined": "2017",
+          "team": "Tulsa Roughnecks"
+        },
+        {
+          "departed": "2021",
+          "joined": "2021",
+          "team": "Charlotte Independence"
+        }
       ]
     },
     {
@@ -2355,6 +3299,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1991-05-29",
+        "height_m": "174",
+        "nationality": "Belgium",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gent-Schahter16%20%285%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'8.0\"",
+        "weight": "157.0 lb",
+        "current_team": "Kortrijk"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1991-05-29",
+          "nationality": "Belgium",
+          "position": "AM",
+          "height": "5.0'8.0\"",
+          "weight": "157.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1991-05-29",
+          "height_m": "174",
+          "nationality": "Belgium",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gent-Schahter16%20%285%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1991-05-29",
+          "current_team": "Kortrijk",
+          "nationality": "Belgium",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/wxyzxv1695728521.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -2631,6 +3608,71 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "K.V. Kortrijk",
+          "end": 2013,
+          "goals": 4,
+          "matches": 46,
+          "start": 2010
+        },
+        {
+          "club": "KAA Gent",
+          "end": 2021,
+          "goals": 19,
+          "matches": 196,
+          "start": 2013
+        },
+        {
+          "club": "Toulouse FC",
+          "end": 2021,
+          "goals": 3,
+          "matches": 32,
+          "start": 2020
+        },
+        {
+          "club": "Toulouse FC",
+          "end": 2023,
+          "goals": 6,
+          "matches": 57,
+          "start": 2021
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2023
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2013",
+          "joined": "2010",
+          "team": "Kortrijk"
+        },
+        {
+          "departed": "2021",
+          "joined": "2013",
+          "team": "Gent"
+        },
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "Toulouse"
+        },
+        {
+          "departed": "2023",
+          "joined": "2021",
+          "team": "Toulouse"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "French Coupe de France",
+          "season": "2022-2023"
+        }
       ]
     },
     {
@@ -2640,6 +3682,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1986-04-07",
+        "height_m": "186",
+        "nationality": "Austria",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/FIFA%20WC-qualification%202014%20-%20Austria%20vs.%20Germany%202012-09-11%20-%20Christian%20Fuchs%2007.JPG",
+        "position": "full-back",
+        "height": "6.0'2.0\"",
+        "weight": "196.0 lb",
+        "current_team": "Newport County"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1986-04-07",
+          "nationality": "Austria",
+          "position": "FB",
+          "height": "6.0'2.0\"",
+          "weight": "196.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1986-04-07",
+          "height_m": "186",
+          "nationality": "Austria",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/FIFA%20WC-qualification%202014%20-%20Austria%20vs.%20Germany%202012-09-11%20-%20Christian%20Fuchs%2007.JPG",
+          "position": "full-back"
+        },
+        "thesportsdb": {
+          "birth_date": "1986-04-07",
+          "current_team": "Newport County",
+          "nationality": "Austria",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/wyeusb1647030243.png",
+          "position": "Manager"
+        }
       },
       "seasons": [
         {
@@ -2926,6 +4001,129 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "1. Wiener Neustädter SC",
+          "end": 2003,
+          "goals": 0,
+          "matches": 12,
+          "start": 2002
+        },
+        {
+          "club": "Austria national under-17 association football team",
+          "end": 2003,
+          "goals": 6,
+          "matches": 24,
+          "start": 2002
+        },
+        {
+          "club": "Austria national under-19 football team",
+          "end": 2005,
+          "goals": 1,
+          "matches": 7,
+          "start": 2003
+        },
+        {
+          "club": "SV Mattersburg",
+          "end": 2008,
+          "goals": 11,
+          "matches": 141,
+          "start": 2003
+        },
+        {
+          "club": "Austria national under-21 football team",
+          "end": 2006,
+          "goals": 3,
+          "matches": 10,
+          "start": 2005
+        },
+        {
+          "club": "Austria men's national football team",
+          "end": 2016,
+          "goals": 1,
+          "matches": 78,
+          "start": 2006
+        },
+        {
+          "club": "VfL Bochum",
+          "end": 2011,
+          "goals": 6,
+          "matches": 53,
+          "start": 2008
+        },
+        {
+          "club": "1. FSV Mainz 05",
+          "end": 2011,
+          "goals": 0,
+          "matches": 31,
+          "start": 2010
+        },
+        {
+          "club": "Schalke 04",
+          "end": 2015,
+          "goals": 4,
+          "matches": 99,
+          "start": 2011
+        },
+        {
+          "club": "Leicester City F.C.",
+          "end": 2021,
+          "goals": 2,
+          "matches": 116,
+          "start": 2015
+        },
+        {
+          "club": "Charlotte FC",
+          "end": 2022,
+          "goals": 3,
+          "matches": 26,
+          "start": 2021
+        },
+        {
+          "club": "Charlotte Independence",
+          "end": 2021,
+          "goals": 1,
+          "matches": 15,
+          "start": 2021
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2010",
+          "team": "Schalke 04"
+        },
+        {
+          "departed": "2003",
+          "joined": "2002",
+          "team": "Wiener Neustadt"
+        },
+        {
+          "departed": "2008",
+          "joined": "2003",
+          "team": "SV Mattersburg"
+        },
+        {
+          "departed": "2011",
+          "joined": "2008",
+          "team": "Bochum"
+        },
+        {
+          "departed": "2011",
+          "joined": "2010",
+          "team": "Mainz"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English Premier League",
+          "season": "2015-2016"
+        },
+        {
+          "honour": "German DFL-Supercup",
+          "season": "2011"
+        }
       ]
     },
     {
@@ -2935,6 +4133,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2000-03-05",
+        "height_m": "181",
+        "nationality": "Venezuela",
+        "position": "midfielder",
+        "height": "5.0'7.0\"",
+        "weight": "163.0 lb",
+        "current_team": "Anorthosis Famagusta",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/akh2ro1683193182.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2000-03-05",
+          "nationality": "Venezuela",
+          "position": "CB",
+          "height": "5.0'7.0\"",
+          "weight": "163.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2000-03-05",
+          "height_m": "181",
+          "nationality": "Venezuela",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "2000-03-05",
+          "current_team": "Anorthosis Famagusta",
+          "nationality": "Venezuela",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/akh2ro1683193182.png",
+          "position": "Centre-Back"
+        }
       },
       "seasons": [
         {
@@ -3209,6 +4439,42 @@
             "total_goals": 1
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Juventus FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2018",
+          "joined": "2010",
+          "team": "Zamora"
+        },
+        {
+          "departed": "2019",
+          "joined": "2016",
+          "team": "Zamora"
+        },
+        {
+          "departed": "2019",
+          "joined": "2018",
+          "team": "Juventus U23"
+        },
+        {
+          "departed": "2022",
+          "joined": "2020",
+          "team": "Inter Miami"
+        },
+        {
+          "departed": "2020",
+          "joined": "2020",
+          "team": "Fort Lauderdale CF"
+        }
       ]
     },
     {
@@ -3218,6 +4484,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1992-08-20",
+        "height_m": "169",
+        "nationality": "Argentina",
+        "position": "midfielder",
+        "height": "5.0'7.0\"",
+        "weight": "154.0 lb",
+        "current_team": "Sport Club do Recife",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/gqgfmc1647029000.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1992-08-20",
+          "nationality": "Argentina",
+          "position": "CM",
+          "height": "5.0'7.0\"",
+          "weight": "154.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1992-08-20",
+          "height_m": "169",
+          "nationality": "Argentina",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1992-08-20",
+          "current_team": "Sport Club do Recife",
+          "nationality": "Argentina",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/gqgfmc1647029000.png",
+          "position": "Winger"
+        }
       },
       "seasons": [
         {
@@ -3462,6 +4760,43 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Club Atlético Huracán",
+          "end": 2010,
+          "goals": 0,
+          "matches": 2,
+          "start": 2009
+        },
+        {
+          "club": "Racing Club de Montevideo",
+          "end": 2012,
+          "goals": 6,
+          "matches": 37,
+          "start": 2010
+        },
+        {
+          "club": "Club Atlético Independiente",
+          "end": 2015,
+          "goals": 0,
+          "matches": 2,
+          "start": 2012
+        },
+        {
+          "club": "CD Universidad San Martín",
+          "end": null,
+          "goals": 3,
+          "matches": 6,
+          "start": 2016
+        },
+        {
+          "club": "Club Sporting Cristal",
+          "end": 2018,
+          "goals": null,
+          "matches": null,
+          "start": 2017
+        }
       ]
     },
     {
@@ -3471,6 +4806,37 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2002-01-06",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BMW8766.jpg",
+        "position": "midfielder",
+        "height": "5.0'9.0\"",
+        "weight": "141.0 lb",
+        "current_team": "Orange County SC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-01-06",
+          "nationality": "USA",
+          "position": "CM",
+          "height": "5.0'9.0\"",
+          "weight": "141.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2002-01-06",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/BMW8766.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "2002-01-06",
+          "current_team": "Orange County SC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/nqm0681785185960.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -3593,6 +4959,29 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Seattle Sounders FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Tacoma Defiance",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2020",
+          "joined": "2019",
+          "team": "Tacoma Defiance"
+        }
       ]
     },
     {
@@ -3602,6 +4991,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1995-02-22",
+        "height_m": "184",
+        "nationality": "Mexico",
+        "position": "forward",
+        "height": "6.0'1.0\"",
+        "weight": "185.0 lb",
+        "current_team": "CF Montréal",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/f3rs6k1777652115.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1995-02-22",
+          "nationality": "Mexico",
+          "position": "ST",
+          "height": "6.0'1.0\"",
+          "weight": "185.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1995-02-22",
+          "height_m": "184",
+          "nationality": "Mexico",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1995-02-22",
+          "current_team": "CF Montréal",
+          "nationality": "Mexico",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/f3rs6k1777652115.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -3880,6 +5301,66 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Mexico national under-20 football team",
+          "end": 2014,
+          "goals": null,
+          "matches": null,
+          "start": 2014
+        },
+        {
+          "club": "C.D. Guadalajara",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        },
+        {
+          "club": "Coras de Tepic",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2016
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2018",
+          "joined": "2015",
+          "team": "CD Guadalajara"
+        },
+        {
+          "departed": "2017",
+          "joined": "2017",
+          "team": "Zacatepec"
+        },
+        {
+          "departed": "2018",
+          "joined": "2018",
+          "team": "North Carolina FC"
+        },
+        {
+          "departed": "2022",
+          "joined": "2019",
+          "team": "Nashville SC"
+        },
+        {
+          "departed": "2022",
+          "joined": "2022",
+          "team": "Charlotte FC"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Mexican Copa MX",
+          "season": "2015"
+        },
+        {
+          "honour": "Mexican Supercopa MX",
+          "season": "2016"
+        }
       ]
     },
     {
@@ -3889,6 +5370,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1989-10-19",
+        "height_m": "188",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Bingham.jpg",
+        "position": "goalkeeper",
+        "height": "6.0'2.0\"",
+        "weight": "185.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1989-10-19",
+          "nationality": "USA",
+          "position": "GK",
+          "height": "6.0'2.0\"",
+          "weight": "185.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1989-10-19",
+          "height_m": "188",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Bingham.jpg",
+          "position": "goalkeeper"
+        },
+        "thesportsdb": {
+          "birth_date": "1989-10-19",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2j80jx1766482096.png",
+          "position": "Goalkeeper"
+        }
       },
       "seasons": [
         {
@@ -4267,6 +5781,50 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "California Golden Bears men's soccer",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "San Jose Earthquakes",
+          "end": 2017,
+          "goals": 0,
+          "matches": 96,
+          "start": 2011
+        },
+        {
+          "club": "San Antonio Scorpions",
+          "end": 2014,
+          "goals": 0,
+          "matches": 10,
+          "start": 2014
+        },
+        {
+          "club": "Strømmen IF",
+          "end": 2014,
+          "goals": 0,
+          "matches": 9,
+          "start": 2014
+        },
+        {
+          "club": "United States men's national soccer team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2016
+        },
+        {
+          "club": "LA Galaxy",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2018
+        }
       ]
     },
     {
@@ -4276,6 +5834,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-09-29",
+        "height_m": "185",
+        "nationality": "Austria",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Schnegg%20NYCFC%20vs%20DC%20United%20on%20Aug%2030%202025-020%20%28cropped%29.jpg",
+        "position": "forward",
+        "height": "6.0'1.0\"",
+        "weight": "176.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-09-29",
+          "nationality": "Austria",
+          "position": "FB",
+          "height": "6.0'1.0\"",
+          "weight": "176.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-09-29",
+          "height_m": "185",
+          "nationality": "Austria",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Schnegg%20NYCFC%20vs%20DC%20United%20on%20Aug%2030%202025-020%20%28cropped%29.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-09-29",
+          "current_team": "Charlotte FC",
+          "nationality": "Austria",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/7bgh4z1771755440.png",
+          "position": "Left-Back"
+        }
       },
       "seasons": [
         {
@@ -4472,6 +6063,42 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "FC Liefering",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2019",
+          "joined": "2018",
+          "team": "FC Liefering"
+        },
+        {
+          "departed": "2020",
+          "joined": "2020",
+          "team": "Lask Juniors Linz"
+        },
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "WSG Swarovski Tirol"
+        },
+        {
+          "departed": "2022",
+          "joined": "2021",
+          "team": "Venezia"
+        },
+        {
+          "departed": "2018",
+          "joined": "2017",
+          "team": "Imst"
+        }
       ]
     },
     {
@@ -4481,6 +6108,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1997-03-03",
+        "height_m": "191",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CINvBST%202018-06-13%20-%20Derrick%20Jones%20%2831507296808%29%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "6.0'4.0\"",
+        "weight": "176.0 lb",
+        "current_team": "Los Angeles Clippers"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1997-03-03",
+          "nationality": "USA",
+          "position": "DM",
+          "height": "6.0'4.0\"",
+          "weight": "176.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1997-03-03",
+          "height_m": "191",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/CINvBST%202018-06-13%20-%20Derrick%20Jones%20%2831507296808%29%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1997-02-15",
+          "current_team": "Los Angeles Clippers",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/c2ziz91728203654.png",
+          "position": "Small Forward"
+        }
       },
       "seasons": [
         {
@@ -4715,6 +6375,56 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Columbus Crew",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Houston Dynamo FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Nashville SC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Philadelphia Union",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Philadelphia Union II",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "honours": [
+        {
+          "honour": "NBA Slam Dunk Contest",
+          "season": "2020"
+        }
       ]
     },
     {
@@ -4724,6 +6434,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-02-11",
+        "height_m": "195",
+        "nationality": "France",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20079.jpg",
+        "position": "midfielder",
+        "height": "6.0'5.0\"",
+        "weight": "165.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-02-11",
+          "nationality": "France",
+          "position": "DM",
+          "height": "6.0'5.0\"",
+          "weight": "165.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-02-11",
+          "height_m": "195",
+          "nationality": "France",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20079.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-02-11",
+          "current_team": "Charlotte FC",
+          "nationality": "France",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/zcuvmf1766425564.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -4780,6 +6523,15 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Grasshopper Club Zürich",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
       ]
     },
     {
@@ -4789,6 +6541,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1996-01-16",
+        "height_m": "180",
+        "nationality": "Argentina",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Enzo%20Copetti%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'10.0\"",
+        "weight": "163.0 lb",
+        "current_team": "Rosario Central"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1996-01-16",
+          "nationality": "Argentina",
+          "position": "ST",
+          "height": "5.0'10.0\"",
+          "weight": "163.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1996-01-16",
+          "height_m": "180",
+          "nationality": "Argentina",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Enzo%20Copetti%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1996-01-16",
+          "current_team": "Rosario Central",
+          "nationality": "Argentina",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/7rgdk61765296194.png",
+          "position": "Winger"
+        }
       },
       "seasons": [
         {
@@ -4911,6 +6696,27 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Atlético de Rafaela",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2021",
+          "joined": "2021",
+          "team": "Racing Club"
+        },
+        {
+          "departed": "2022",
+          "joined": "2022",
+          "team": "Racing Club"
+        }
       ]
     },
     {
@@ -4920,6 +6726,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1997-06-11",
+        "height_m": "175",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eryk%20Williamson%20Heritage%20Rose%20jersey%202022-05-14%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'9.0\"",
+        "weight": "154.0 lb",
+        "current_team": "_Free Agent Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1997-06-11",
+          "nationality": "USA",
+          "position": "DM",
+          "height": "5.0'9.0\"",
+          "weight": "154.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1997-06-11",
+          "height_m": "175",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Eryk%20Williamson%20Heritage%20Rose%20jersey%202022-05-14%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1997-06-11",
+          "current_team": "_Free Agent Soccer",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/wirian1766432138.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -5174,6 +7013,42 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "C.D. Santa Clara",
+          "end": 2018,
+          "goals": 0,
+          "matches": 0,
+          "start": 2018
+        },
+        {
+          "club": "Portland Timbers",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2018
+        },
+        {
+          "club": "Portland Timbers 2",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2018
+        },
+        {
+          "club": "United States men's national soccer team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2021
+        }
+      ],
+      "honours": [
+        {
+          "honour": "CONCACAF Gold Cup",
+          "season": "2021"
+        }
       ]
     },
     {
@@ -5183,6 +7058,31 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1999-11-10",
+        "nationality": "USA",
+        "position": "GK",
+        "height": "6.0'1.0\"",
+        "weight": "165.0 lb",
+        "current_team": "Philadelphia Union",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/uw028x1778675665.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1999-11-10",
+          "nationality": "USA",
+          "position": "GK",
+          "height": "6.0'1.0\"",
+          "weight": "165.0 lb"
+        },
+        "thesportsdb": {
+          "birth_date": "1999-11-10",
+          "current_team": "Philadelphia Union",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/uw028x1778675665.png",
+          "position": "Goalkeeper"
+        }
       },
       "seasons": [
         {
@@ -5221,6 +7121,33 @@
           },
           "phase": "during"
         }
+      ],
+      "former_teams": [
+        {
+          "departed": "2018",
+          "joined": "2017",
+          "team": "North Carolina"
+        },
+        {
+          "departed": "2018",
+          "joined": "2017",
+          "team": "North Carolina FC"
+        },
+        {
+          "departed": "2018",
+          "joined": "2018",
+          "team": "North Carolina FC U23"
+        },
+        {
+          "departed": "2021",
+          "joined": "2021",
+          "team": "North Carolina FC U23"
+        },
+        {
+          "departed": "2025",
+          "joined": "2022",
+          "team": "Charlotte FC"
+        }
       ]
     },
     {
@@ -5230,6 +7157,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1996-08-02",
+        "height_m": "189",
+        "nationality": "Uruguay",
+        "position": "defender",
+        "height": "6.0'2.0\"",
+        "weight": "187.0 lb",
+        "current_team": "San Lorenzo",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ir3v2c1647029484.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1996-08-02",
+          "nationality": "Uruguay",
+          "position": "CB",
+          "height": "6.0'2.0\"",
+          "weight": "187.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1996-08-02",
+          "height_m": "189",
+          "nationality": "Uruguay",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1996-08-02",
+          "current_team": "San Lorenzo",
+          "nationality": "Uruguay",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ir3v2c1647029484.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -5338,6 +7297,22 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Club Nacional de Football",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2021",
+          "joined": "2017",
+          "team": "Nacional Montevideo"
+        }
       ]
     },
     {
@@ -5347,6 +7322,34 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2002-06-06",
+        "nationality": "Senegal",
+        "position": "defender",
+        "height": "6.0'0\"",
+        "current_team": "Rhode Island FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/9yxkr01785405969.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-06-06",
+          "nationality": "Senegal",
+          "position": "FB",
+          "height": "6.0'0\""
+        },
+        "wikidata": {
+          "birth_date": "2002-06-06",
+          "nationality": "Senegal",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "2001-12-26",
+          "current_team": "Rhode Island FC",
+          "nationality": "Senegal",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/9yxkr01785405969.png",
+          "position": "Left-Back"
+        }
       },
       "seasons": [
         {
@@ -5385,6 +7388,18 @@
           },
           "phase": "during"
         }
+      ],
+      "former_teams": [
+        {
+          "departed": "2024",
+          "joined": "2023",
+          "team": "Charlotte FC"
+        },
+        {
+          "departed": "2024",
+          "joined": "2024",
+          "team": "Cukaricki"
+        }
       ]
     },
     {
@@ -5394,6 +7409,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1986-07-24",
+        "height_m": "168",
+        "nationality": "Ghana",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/20150331%20Mali%20vs%20Ghana%20126.jpg",
+        "position": "full-back",
+        "height": "5.0'7.0\"",
+        "weight": "148.0 lb",
+        "current_team": "_Retired Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1986-07-24",
+          "nationality": "Ghana",
+          "position": "FB",
+          "height": "5.0'7.0\"",
+          "weight": "148.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1986-07-24",
+          "height_m": "168",
+          "nationality": "Ghana",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/20150331%20Mali%20vs%20Ghana%20126.jpg",
+          "position": "full-back"
+        },
+        "thesportsdb": {
+          "birth_date": "1986-07-24",
+          "current_team": "_Retired Soccer",
+          "nationality": "Ghana",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/8n12rz1647079162.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -5726,6 +7774,68 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Feyenoord Academy Ghana",
+          "end": 2009,
+          "goals": 7,
+          "matches": 148,
+          "start": 2005
+        },
+        {
+          "club": "Ghana national under-20 football team",
+          "end": 2006,
+          "goals": 1,
+          "matches": 6,
+          "start": 2006
+        },
+        {
+          "club": "Asante Kotoko F.C.",
+          "end": 2009,
+          "goals": 3,
+          "matches": 68,
+          "start": 2007
+        },
+        {
+          "club": "Ghana men's national football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2008
+        },
+        {
+          "club": "Espérance Sportive de Tunis",
+          "end": 2015,
+          "goals": 17,
+          "matches": 183,
+          "start": 2009
+        },
+        {
+          "club": "Columbus Crew",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2009",
+          "team": "Espérance de Tunis"
+        },
+        {
+          "departed": "2021",
+          "joined": "2015",
+          "team": "Columbus Crew"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "American MLS Cup",
+          "season": "2020"
+        }
       ]
     },
     {
@@ -5735,6 +7845,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1995-08-19",
+        "height_m": "183",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Toffolo%20England%20U20s%20%28cropped%29.JPG",
+        "position": "defender",
+        "height": "6.0'0\"",
+        "weight": "157.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1995-08-19",
+          "nationality": "England",
+          "position": "FB",
+          "height": "6.0'0\"",
+          "weight": "157.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1995-08-19",
+          "height_m": "183",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Toffolo%20England%20U20s%20%28cropped%29.JPG",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1995-08-19",
+          "current_team": "Charlotte FC",
+          "nationality": "England",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/378rgf1771754736.png",
+          "position": "Left-Back"
+        }
       },
       "seasons": [
         {
@@ -6025,6 +8168,104 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "England national under-18 association football team",
+          "end": 2013,
+          "goals": 0,
+          "matches": 1,
+          "start": 2013
+        },
+        {
+          "club": "England national under-19 association football team",
+          "end": 2014,
+          "goals": 0,
+          "matches": 3,
+          "start": 2013
+        },
+        {
+          "club": "Norwich City F.C.",
+          "end": 2018,
+          "goals": null,
+          "matches": null,
+          "start": 2014
+        },
+        {
+          "club": "Swindon Town F.C.",
+          "end": 2015,
+          "goals": 1,
+          "matches": 28,
+          "start": 2014
+        },
+        {
+          "club": "England national under-20 association football team",
+          "end": 2015,
+          "goals": 0,
+          "matches": 6,
+          "start": 2015
+        },
+        {
+          "club": "Rotherham United F.C.",
+          "end": 2016,
+          "goals": 0,
+          "matches": 7,
+          "start": 2015
+        },
+        {
+          "club": "Peterborough United F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2016
+        },
+        {
+          "club": "Lincoln City F.C.",
+          "end": 2020,
+          "goals": null,
+          "matches": null,
+          "start": 2018
+        },
+        {
+          "club": "Huddersfield Town A.F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2020
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2014",
+          "joined": "2008",
+          "team": "Norwich"
+        },
+        {
+          "departed": "2018",
+          "joined": "2014",
+          "team": "Norwich"
+        },
+        {
+          "departed": "2015",
+          "joined": "2014",
+          "team": "Swindon"
+        },
+        {
+          "departed": "2016",
+          "joined": "2015",
+          "team": "Rotherham"
+        },
+        {
+          "departed": "2016",
+          "joined": "2016",
+          "team": "Peterboro"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English Football League 2",
+          "season": "2018-2019"
+        }
       ]
     },
     {
@@ -6034,6 +8275,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-06-25",
+        "height_m": "193",
+        "nationality": "United States",
+        "position": "defender",
+        "height": "6.0'4.0\"",
+        "weight": "185.0 lb",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/w29ca41778848431.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-06-25",
+          "nationality": "USA",
+          "position": "CB",
+          "height": "6.0'4.0\"",
+          "weight": "185.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-06-25",
+          "height_m": "193",
+          "nationality": "United States",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-06-25",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/w29ca41778848431.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -6306,6 +8579,21 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "New England Revolution",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2020
+        }
+      ],
+      "honours": [
+        {
+          "honour": "CONCACAF Gold Cup",
+          "season": "2021"
+        }
       ]
     },
     {
@@ -6315,6 +8603,37 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2004-08-09",
+        "height_m": "1.83",
+        "nationality": "Benin",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20044%20%28cropped%29.jpg",
+        "position": "forward",
+        "height": "6.0'0\"",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2004-08-09",
+          "nationality": "Israel",
+          "position": "ST",
+          "height": "6.0'0\""
+        },
+        "wikidata": {
+          "birth_date": "2004-08-09",
+          "height_m": "1.83",
+          "nationality": "Benin",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20044%20%28cropped%29.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2004-08-09",
+          "current_team": "Charlotte FC",
+          "nationality": "Israel",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/qshkv21771754299.png",
+          "position": "Attacker"
+        }
       },
       "seasons": [
         {
@@ -6413,6 +8732,43 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Israel national under-18 association football team",
+          "end": 2021,
+          "goals": 0,
+          "matches": 2,
+          "start": 2021
+        },
+        {
+          "club": "Israel national under-19 association football team",
+          "end": 2023,
+          "goals": 0,
+          "matches": 15,
+          "start": 2021
+        },
+        {
+          "club": "Israel national under-21 football team",
+          "end": null,
+          "goals": 1,
+          "matches": 11,
+          "start": 2022
+        },
+        {
+          "club": "Maccabi Petah Tikva F.C.",
+          "end": null,
+          "goals": 16,
+          "matches": 58,
+          "start": 2022
+        },
+        {
+          "club": "Israel men's national football team",
+          "end": null,
+          "goals": 0,
+          "matches": 4,
+          "start": 2023
+        }
       ]
     },
     {
@@ -6422,6 +8778,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2001-03-08",
+        "height_m": "188",
+        "nationality": "Portugal",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20056%20%28cropped%29.jpg",
+        "position": "forward",
+        "height": "6.0'1.0\"",
+        "weight": "163.0 lb",
+        "current_team": "NK Varaždin"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2001-03-08",
+          "nationality": "Portugal",
+          "position": "W",
+          "height": "6.0'1.0\"",
+          "weight": "163.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2001-03-08",
+          "height_m": "188",
+          "nationality": "Portugal",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20056%20%28cropped%29.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2001-03-08",
+          "current_team": "NK Varaždin",
+          "nationality": "Portugal",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2jc9x31709719063.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -6470,6 +8859,31 @@
         "start": 2022,
         "end": null
       },
+      "bio": {
+        "birth_date": "2005-03-11",
+        "nationality": "USA",
+        "position": "FB",
+        "height": "6.0'1.0\"",
+        "weight": "170.0 lb",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/rymu2t1766482318.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2005-03-11",
+          "nationality": "USA",
+          "position": "FB",
+          "height": "6.0'1.0\"",
+          "weight": "170.0 lb"
+        },
+        "thesportsdb": {
+          "birth_date": "2005-03-11",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/rymu2t1766482318.png",
+          "position": "Centre-Back"
+        }
+      },
       "seasons": [
         {
           "season": 2025,
@@ -6498,6 +8912,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2004-06-16",
+        "height_m": "171",
+        "nationality": "Canada",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jahkeele%20Marshall-Rutty%20Red%20Bulls%20Revolution-12.jpg",
+        "position": "forward",
+        "height": "5.0'7.0\"",
+        "weight": "135.0 lb",
+        "current_team": "New York Red Bulls"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2004-06-16",
+          "nationality": "Canada",
+          "position": "FB",
+          "height": "5.0'7.0\"",
+          "weight": "135.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2004-06-16",
+          "height_m": "171",
+          "nationality": "Canada",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jahkeele%20Marshall-Rutty%20Red%20Bulls%20Revolution-12.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2004-06-16",
+          "current_team": "New York Red Bulls",
+          "nationality": "Canada",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/b4531b1778532107.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -6704,6 +9151,63 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "CF Montréal",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Red Bull New York",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Toronto FC II",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2019",
+          "joined": "2019",
+          "team": "Toronto FC II"
+        },
+        {
+          "departed": "2024",
+          "joined": "2020",
+          "team": "Toronto FC"
+        },
+        {
+          "departed": "2023",
+          "joined": "2021",
+          "team": "Toronto FC II"
+        },
+        {
+          "departed": "2026",
+          "joined": "2024",
+          "team": "CF Montréal"
+        },
+        {
+          "departed": "2025",
+          "joined": "2025",
+          "team": "Charlotte FC"
+        }
       ]
     },
     {
@@ -6713,6 +9217,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1991-12-20",
+        "height_m": "175",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jamie%20Paterson.jpg",
+        "position": "forward",
+        "height": "5.0'9.0\"",
+        "weight": "146.0 lb",
+        "current_team": "Plymouth Argyle"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1991-12-20",
+          "nationality": "England",
+          "position": "W",
+          "height": "5.0'9.0\"",
+          "weight": "146.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1991-12-20",
+          "height_m": "175",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jamie%20Paterson.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1991-12-20",
+          "current_team": "Plymouth Argyle",
+          "nationality": "England",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/opx1bi1766146991.png",
+          "position": "Attacking Midfield"
+        }
       },
       "seasons": [
         {
@@ -7013,6 +9550,56 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Walsall F.C.",
+          "end": 2013,
+          "goals": 15,
+          "matches": 94,
+          "start": 2010
+        },
+        {
+          "club": "Nottingham Forest F.C.",
+          "end": 2015,
+          "goals": 9,
+          "matches": 54,
+          "start": 2013
+        },
+        {
+          "club": "Huddersfield Town A.F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2013",
+          "joined": "2010",
+          "team": "Walsall"
+        },
+        {
+          "departed": "2016",
+          "joined": "2013",
+          "team": "Nottingham F."
+        },
+        {
+          "departed": "2021",
+          "joined": "2016",
+          "team": "Bristol City"
+        },
+        {
+          "departed": "2024",
+          "joined": "2021",
+          "team": "Swansea"
+        },
+        {
+          "departed": "2024",
+          "joined": "2024",
+          "team": "Charlotte FC"
+        }
       ]
     },
     {
@@ -7022,6 +9609,36 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1999-03-20",
+        "height_m": "186",
+        "nationality": "Poland",
+        "position": "defender",
+        "height": "6.0'1.0\"",
+        "current_team": "Giannina",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/1l937d1683721807.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1999-03-20",
+          "nationality": "Poland",
+          "position": "CB",
+          "height": "6.0'1.0\""
+        },
+        "wikidata": {
+          "birth_date": "1999-03-20",
+          "height_m": "186",
+          "nationality": "Poland",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1999-03-20",
+          "current_team": "Giannina",
+          "nationality": "Poland",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/1l937d1683721807.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -7186,6 +9803,29 @@
             "total_goals": 1
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Poland national under-20 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "ŁKS Łódź",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
       ]
     },
     {
@@ -7195,6 +9835,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2000-03-27",
+        "height_m": "175",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaylin%20Lindsey.jpg",
+        "position": "defender",
+        "height": "5.0'9.0\"",
+        "weight": "157.0 lb",
+        "current_team": "_Free Agent Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2000-03-27",
+          "nationality": "USA",
+          "position": "FB",
+          "height": "5.0'9.0\"",
+          "weight": "157.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2000-03-27",
+          "height_m": "175",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jaylin%20Lindsey.jpg",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "2000-03-27",
+          "current_team": "_Free Agent Soccer",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/sjiomp1647030351.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -7449,6 +10122,29 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Sporting Kansas City II",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Sporting Kansas City",
+          "end": 2021,
+          "goals": 2,
+          "matches": 34,
+          "start": 2018
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2021",
+          "joined": "2017",
+          "team": "Sporting Kansas City"
+        }
       ]
     },
     {
@@ -7458,6 +10154,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1994-07-13",
+        "height_m": "177",
+        "nationality": "Finland",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jere%20Uronen%202021.jpg",
+        "position": "full-back",
+        "height": "5.0'10.0\"",
+        "weight": "152.0 lb",
+        "current_team": "Atromitos"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1994-07-13",
+          "nationality": "Finland",
+          "position": "FB",
+          "height": "5.0'10.0\"",
+          "weight": "152.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1994-07-13",
+          "height_m": "177",
+          "nationality": "Finland",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jere%20Uronen%202021.jpg",
+          "position": "full-back"
+        },
+        "thesportsdb": {
+          "birth_date": "1994-07-13",
+          "current_team": "Atromitos",
+          "nationality": "Finland",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/zeoc1x1727967586.png",
+          "position": "Left-Back"
+        }
       },
       "seasons": [
         {
@@ -7776,6 +10505,112 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "AIK Fotboll",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Åbo IFK",
+          "end": 2001,
+          "goals": 1,
+          "matches": 3,
+          "start": 2001
+        },
+        {
+          "club": "Finland national under-21 football team",
+          "end": 2012,
+          "goals": 0,
+          "matches": 5,
+          "start": 2011
+        },
+        {
+          "club": "TPS Turku",
+          "end": 2012,
+          "goals": 1,
+          "matches": 18,
+          "start": 2011
+        },
+        {
+          "club": "Åbo IFK",
+          "end": 2011,
+          "goals": 1,
+          "matches": 3,
+          "start": 2011
+        },
+        {
+          "club": "Finland men's national football team",
+          "end": 2012,
+          "goals": 0,
+          "matches": 16,
+          "start": 2012
+        },
+        {
+          "club": "Helsingborgs IF",
+          "end": 2016,
+          "goals": 5,
+          "matches": 71,
+          "start": 2012
+        },
+        {
+          "club": "K.R.C. Genk",
+          "end": 2021,
+          "goals": null,
+          "matches": null,
+          "start": 2016
+        },
+        {
+          "club": "Stade Brestois 29",
+          "end": 2023,
+          "goals": null,
+          "matches": null,
+          "start": 2021
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2023
+        },
+        {
+          "club": "Schalke 04",
+          "end": 2023,
+          "goals": null,
+          "matches": null,
+          "start": 2023
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2012",
+          "joined": "2011",
+          "team": "TPS"
+        },
+        {
+          "departed": "2016",
+          "joined": "2012",
+          "team": "Helsingborg"
+        },
+        {
+          "departed": "",
+          "joined": "",
+          "team": "TPS"
+        },
+        {
+          "departed": "2021",
+          "joined": "2016",
+          "team": "Genk"
+        },
+        {
+          "departed": "2023",
+          "joined": "2021",
+          "team": "Brest"
+        }
       ]
     },
     {
@@ -7785,6 +10620,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1999-08-05",
+        "height_m": "173",
+        "nationality": "Ecuador",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jordy%20Alcivar%20Cote%20D%27Ivoire%20v%20Ecuador%2014%20June%202026-10%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'8.0\"",
+        "weight": "157.0 lb",
+        "current_team": "Independiente del Valle"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1999-08-05",
+          "nationality": "Ecuador",
+          "position": "CM",
+          "height": "5.0'8.0\"",
+          "weight": "157.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1999-08-05",
+          "height_m": "173",
+          "nationality": "Ecuador",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jordy%20Alcivar%20Cote%20D%27Ivoire%20v%20Ecuador%2014%20June%202026-10%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1999-08-05",
+          "current_team": "Independiente del Valle",
+          "nationality": "Ecuador",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/fsndo51647078998.png",
+          "position": "Defensive Midfield"
+        }
       },
       "seasons": [
         {
@@ -7931,6 +10799,15 @@
             "total_goals": 1
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Liga Deportiva Universitaria de Quito",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
       ]
     },
     {
@@ -7940,6 +10817,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1993-01-15",
+        "height_m": "175",
+        "nationality": "Costa Rica",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mora%202017.jpg",
+        "position": "full-back",
+        "height": "5.0'7.0\"",
+        "weight": "132.0 lb",
+        "current_team": "Deportivo Saprissa"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1993-01-15",
+          "nationality": "Costa Rica",
+          "position": "FB",
+          "height": "5.0'7.0\"",
+          "weight": "132.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1993-01-15",
+          "height_m": "175",
+          "nationality": "Costa Rica",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Mora%202017.jpg",
+          "position": "full-back"
+        },
+        "thesportsdb": {
+          "birth_date": "1993-01-15",
+          "current_team": "Deportivo Saprissa",
+          "nationality": "Costa Rica",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/pwwpx41647030293.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -8246,6 +11156,88 @@
             "total_goals": 1
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Costa Rica national under-17 football team",
+          "end": 2009,
+          "goals": 0,
+          "matches": 3,
+          "start": 2009
+        },
+        {
+          "club": "Costa Rica national under-20 football team",
+          "end": 2013,
+          "goals": 1,
+          "matches": 20,
+          "start": 2010
+        },
+        {
+          "club": "A.D. Belén",
+          "end": 2012,
+          "goals": 1,
+          "matches": 15,
+          "start": 2011
+        },
+        {
+          "club": "Costa Rica Olympic football team",
+          "end": 2015,
+          "goals": 0,
+          "matches": 15,
+          "start": 2011
+        },
+        {
+          "club": "Club Sport Uruguay de Coronado",
+          "end": 2013,
+          "goals": 0,
+          "matches": 11,
+          "start": 2012
+        },
+        {
+          "club": "A.D. Belén",
+          "end": 2015,
+          "goals": 0,
+          "matches": 42,
+          "start": 2013
+        },
+        {
+          "club": "Deportivo Saprissa",
+          "end": 2018,
+          "goals": 1,
+          "matches": 83,
+          "start": 2015
+        },
+        {
+          "club": "D.C. United",
+          "end": 2021,
+          "goals": 0,
+          "matches": 97,
+          "start": 2018
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2022
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2018",
+          "joined": "2015",
+          "team": "Deportivo Saprissa"
+        },
+        {
+          "departed": "2021",
+          "joined": "2018",
+          "team": "DC United"
+        },
+        {
+          "departed": "2023",
+          "joined": "2022",
+          "team": "Charlotte FC"
+        }
       ]
     },
     {
@@ -8255,6 +11247,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1993-04-03",
+        "height_m": "176",
+        "nationality": "Portugal",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jo%C3%A3o%20Pedro%202017-05-21%20%2834779600136%29%20%28cropped%29.jpg",
+        "position": "defender",
+        "height": "6.0'0\"",
+        "weight": "161.0 lb",
+        "current_team": "Penafiel"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2003-03-14",
+          "nationality": "Brazil",
+          "position": "FB",
+          "height": "6.0'0\"",
+          "weight": "161.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1993-04-03",
+          "height_m": "176",
+          "nationality": "Portugal",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Jo%C3%A3o%20Pedro%202017-05-21%20%2834779600136%29%20%28cropped%29.jpg",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1987-12-29",
+          "current_team": "Penafiel",
+          "nationality": "Portugal",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -8513,6 +11537,57 @@
             "total_goals": 2
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Vitória S.C.",
+          "end": 2017,
+          "goals": 1,
+          "matches": 21,
+          "start": 2011
+        },
+        {
+          "club": "Vitória S.C. B",
+          "end": 2016,
+          "goals": 5,
+          "matches": 118,
+          "start": 2012
+        },
+        {
+          "club": "LA Galaxy",
+          "end": 2020,
+          "goals": 1,
+          "matches": 31,
+          "start": 2017
+        },
+        {
+          "club": "CD Tondela",
+          "end": 2019,
+          "goals": 2,
+          "matches": 28,
+          "start": 2019
+        },
+        {
+          "club": "CD Tondela",
+          "end": 2022,
+          "goals": 16,
+          "matches": 78,
+          "start": 2020
+        },
+        {
+          "club": "G.D. Chaves",
+          "end": 2024,
+          "goals": 0,
+          "matches": 27,
+          "start": 2023
+        },
+        {
+          "club": "FC UTA Arad",
+          "end": null,
+          "goals": 5,
+          "matches": 20,
+          "start": 2024
+        }
       ]
     },
     {
@@ -8522,6 +11597,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1988-12-04",
+        "height_m": "185",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Justin%20Meram%2C%20Asian%20Cup%202015%20%28cropped%29.jpg",
+        "position": "forward",
+        "height": "6.0'1.0\"",
+        "weight": "165.0 lb",
+        "current_team": "_Retired Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1988-12-04",
+          "nationality": "Iraq",
+          "position": "W",
+          "height": "6.0'1.0\"",
+          "weight": "165.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1988-12-04",
+          "height_m": "185",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Justin%20Meram%2C%20Asian%20Cup%202015%20%28cropped%29.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1988-12-04",
+          "current_team": "_Retired Soccer",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/xadn131683126480.png"
+        }
       },
       "seasons": [
         {
@@ -8972,6 +12079,70 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Michigan Wolverines men's soccer",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Yavapai Roughriders men's soccer",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Sporting Arizona",
+          "end": 2008,
+          "goals": null,
+          "matches": null,
+          "start": 2007
+        },
+        {
+          "club": "Columbus Crew",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2011
+        },
+        {
+          "club": "Iraq men's national football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2014
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2017",
+          "joined": "2011",
+          "team": "Columbus Crew"
+        },
+        {
+          "departed": "2018",
+          "joined": "2018",
+          "team": "Orlando City"
+        },
+        {
+          "departed": "2019",
+          "joined": "2018",
+          "team": "Columbus Crew"
+        },
+        {
+          "departed": "2019",
+          "joined": "2019",
+          "team": "Atlanta"
+        },
+        {
+          "departed": "2023",
+          "joined": "2020",
+          "team": "Real Salt Lake"
+        }
       ]
     },
     {
@@ -8981,6 +12152,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1989-03-10",
+        "height_m": "181",
+        "nationality": "Brazil",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Houston%20Dynamo%20training%202025%2C%20042.jpg",
+        "position": "stopper",
+        "height": "6.0'0\"",
+        "weight": "159.0 lb",
+        "current_team": "_Free Agent Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1989-03-10",
+          "nationality": "Brazil",
+          "position": "DM",
+          "height": "6.0'0\"",
+          "weight": "159.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1989-03-10",
+          "height_m": "181",
+          "nationality": "Brazil",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Houston%20Dynamo%20training%202025%2C%20042.jpg",
+          "position": "stopper"
+        },
+        "thesportsdb": {
+          "birth_date": "1989-03-10",
+          "current_team": "_Free Agent Soccer",
+          "nationality": "Brazil",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/bxhq941727967248.png",
+          "position": "Defensive Midfield"
+        }
       },
       "seasons": [
         {
@@ -9329,6 +12533,109 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Esporte Clube Santo André",
+          "end": 2009,
+          "goals": null,
+          "matches": null,
+          "start": 2007
+        },
+        {
+          "club": "Ituano Futebol Clube",
+          "end": 2011,
+          "goals": null,
+          "matches": null,
+          "start": 2010
+        },
+        {
+          "club": "Avaí Futebol Clube",
+          "end": 2012,
+          "goals": 0,
+          "matches": 11,
+          "start": 2011
+        },
+        {
+          "club": "Paraná Clube",
+          "end": 2011,
+          "goals": 0,
+          "matches": 16,
+          "start": 2011
+        },
+        {
+          "club": "Coritiba F.C.",
+          "end": 2012,
+          "goals": 1,
+          "matches": 24,
+          "start": 2012
+        },
+        {
+          "club": "Coritiba F.C.",
+          "end": 2013,
+          "goals": 1,
+          "matches": 23,
+          "start": 2013
+        },
+        {
+          "club": "Shandong Taishan F.C.",
+          "end": 2016,
+          "goals": 13,
+          "matches": 58,
+          "start": 2014
+        },
+        {
+          "club": "Clube Atlético Mineiro",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2016
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2010",
+          "joined": "2009",
+          "team": "Santo André"
+        },
+        {
+          "departed": "2011",
+          "joined": "2010",
+          "team": "Ituano"
+        },
+        {
+          "departed": "2012",
+          "joined": "2011",
+          "team": "Avai FC"
+        },
+        {
+          "departed": "2011",
+          "joined": "2011",
+          "team": "Parana Clube"
+        },
+        {
+          "departed": "2012",
+          "joined": "2012",
+          "team": "Coritiba"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Campeonato Paranaense",
+          "season": "2012"
+        },
+        {
+          "honour": "Campeonato Paranaense",
+          "season": "2013"
+        },
+        {
+          "honour": "Campeonato Paulista",
+          "season": "2019"
+        },
+        {
+          "honour": "Lamar Hunt US Open Cup",
+          "season": "2022"
+        }
       ]
     },
     {
@@ -9338,6 +12645,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-04-22",
+        "height_m": "176",
+        "nationality": "Poland",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamil%20J%C3%B3%C5%BAwiak%20Lech%20Pozna%C5%84%202017.jpg",
+        "position": "midfielder",
+        "height": "5.0'9.0\"",
+        "weight": "154.0 lb",
+        "current_team": "Jagiellonia Białystok"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-04-22",
+          "nationality": "Poland",
+          "position": "W",
+          "height": "5.0'9.0\"",
+          "weight": "154.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-04-22",
+          "height_m": "176",
+          "nationality": "Poland",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kamil%20J%C3%B3%C5%BAwiak%20Lech%20Pozna%C5%84%202017.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-04-22",
+          "current_team": "Jagiellonia Białystok",
+          "nationality": "Poland",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/7f9ed61682692896.png",
+          "position": "Left Wing"
+        }
       },
       "seasons": [
         {
@@ -9642,6 +12982,72 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "GKS Katowice",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Poland national under-21 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Poland national under-17 football team",
+          "end": 2015,
+          "goals": 1,
+          "matches": 13,
+          "start": 2014
+        },
+        {
+          "club": "Poland national under-18 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        },
+        {
+          "club": "Poland national under-19 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        },
+        {
+          "club": "Lech Poznań",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2016
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2011",
+          "team": "Lech Poznan"
+        },
+        {
+          "departed": "2020",
+          "joined": "2016",
+          "team": "Lech Poznan"
+        },
+        {
+          "departed": "2017",
+          "joined": "2017",
+          "team": "GKS Katowice"
+        },
+        {
+          "departed": "2022",
+          "joined": "2020",
+          "team": "Derby"
+        }
       ]
     },
     {
@@ -9651,6 +13057,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1997-01-23",
+        "height_m": "1.84",
+        "nationality": "Poland",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karol%20Swiderski%202019.png",
+        "position": "forward",
+        "height": "6.0'0\"",
+        "weight": "170.0 lb",
+        "current_team": "Panathinaikos"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1997-01-23",
+          "nationality": "Poland",
+          "position": "ST",
+          "height": "6.0'0\"",
+          "weight": "170.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1997-01-23",
+          "height_m": "1.84",
+          "nationality": "Poland",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Karol%20Swiderski%202019.png",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1997-01-23",
+          "current_team": "Panathinaikos",
+          "nationality": "Poland",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/49nz041727967369.png",
+          "position": "Centre-Forward"
+        }
       },
       "seasons": [
         {
@@ -9889,6 +13328,77 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Poland national under-21 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Jagiellonia Białystok",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2014
+        },
+        {
+          "club": "Poland national under-18 football team",
+          "end": 2015,
+          "goals": 5,
+          "matches": 5,
+          "start": 2014
+        },
+        {
+          "club": "Poland national under-19 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2019",
+          "joined": "2014",
+          "team": "Jagiellonia Bialystok"
+        },
+        {
+          "departed": "2022",
+          "joined": "2019",
+          "team": "PAOK"
+        },
+        {
+          "departed": "2019",
+          "joined": "2017",
+          "team": "Poland U21"
+        },
+        {
+          "departed": "2025",
+          "joined": "2022",
+          "team": "Charlotte FC"
+        },
+        {
+          "departed": "2024",
+          "joined": "2023",
+          "team": "Verona"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Greek Football Cup",
+          "season": "2018-2019"
+        },
+        {
+          "honour": "Greek Football Cup",
+          "season": "2020-2021"
+        },
+        {
+          "honour": "Greek Superleague",
+          "season": "2018-2019"
+        }
       ]
     },
     {
@@ -9898,6 +13408,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2002-01-02",
+        "height_m": "180",
+        "nationality": "Colombia",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kerwin%20Vargas%20NYCFC%20v%20Charlotte%2020%20Sep%202025-055%20%28cropped%29.jpg",
+        "position": "forward",
+        "height": "5.0'11.0\"",
+        "weight": "154.0 lb",
+        "current_team": "Athletico Paranaense"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-01-02",
+          "nationality": "Colombia",
+          "position": "W",
+          "height": "5.0'11.0\"",
+          "weight": "154.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2002-01-02",
+          "height_m": "180",
+          "nationality": "Colombia",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kerwin%20Vargas%20NYCFC%20v%20Charlotte%2020%20Sep%202025-055%20%28cropped%29.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2002-01-02",
+          "current_team": "Athletico Paranaense",
+          "nationality": "Colombia",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0weo6f1778870272.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -10014,6 +13557,34 @@
         "start": 2022,
         "end": null
       },
+      "bio": {
+        "birth_date": "1999-09-21",
+        "nationality": "United States",
+        "position": "defender",
+        "height": "5.0'10.0\"",
+        "weight": "159.0 lb",
+        "current_team": "_Retired-Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1999-09-21",
+          "nationality": "USA",
+          "position": "W",
+          "height": "5.0'10.0\"",
+          "weight": "159.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1999-09-21",
+          "nationality": "United States",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1999-09-21",
+          "current_team": "_Retired-Soccer",
+          "nationality": "USA",
+          "position": "Defender"
+        }
+      },
       "seasons": [
         {
           "season": 2022,
@@ -10042,6 +13613,35 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1992-07-24",
+        "height_m": "188",
+        "nationality": "Croatia",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristijan%20Kahlina%20NYCFC%20v%20Charlotte%2020%20Sep%202025-023%20%28cropped%29.jpg",
+        "position": "goalkeeper",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1992-07-24",
+          "nationality": "Croatia",
+          "position": "GK"
+        },
+        "wikidata": {
+          "birth_date": "1992-07-24",
+          "height_m": "188",
+          "nationality": "Croatia",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristijan%20Kahlina%20NYCFC%20v%20Charlotte%2020%20Sep%202025-023%20%28cropped%29.jpg",
+          "position": "goalkeeper"
+        },
+        "thesportsdb": {
+          "birth_date": "1992-07-24",
+          "current_team": "Charlotte FC",
+          "nationality": "Croatia",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/73hiu31766425627.png",
+          "position": "Goalkeeper"
+        }
       },
       "seasons": [
         {
@@ -10302,6 +13902,37 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "FC Koper",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2013",
+          "team": "NK Lučko"
+        },
+        {
+          "departed": "2016",
+          "joined": "2015",
+          "team": "Koper"
+        },
+        {
+          "departed": "2021",
+          "joined": "2016",
+          "team": "Gorica"
+        },
+        {
+          "departed": "2021",
+          "joined": "2021",
+          "team": "Ludogorets Razgrad"
+        }
       ]
     },
     {
@@ -10311,6 +13942,37 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2001-10-03",
+        "height_m": "168",
+        "nationality": "Israel",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20009.jpg",
+        "position": "winger",
+        "height": "5.0'5.0\"",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2001-10-03",
+          "nationality": "Israel",
+          "position": "W",
+          "height": "5.0'5.0\""
+        },
+        "wikidata": {
+          "birth_date": "2001-10-03",
+          "height_m": "168",
+          "nationality": "Israel",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20009.jpg",
+          "position": "winger"
+        },
+        "thesportsdb": {
+          "birth_date": "2001-10-03",
+          "current_team": "Charlotte FC",
+          "nationality": "Israel",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/6141w71771755150.png",
+          "position": "Right Winger"
+        }
       },
       "seasons": [
         {
@@ -10451,6 +14113,116 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Israel national under-16 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Israel national under-17 football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Israel national under-18 association football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Israel national under-19 association football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Maccabi Petah Tikva F.C.",
+          "end": 2021,
+          "goals": 20,
+          "matches": 67,
+          "start": 2019
+        },
+        {
+          "club": "Israel national under-21 football team",
+          "end": null,
+          "goals": 1,
+          "matches": 8,
+          "start": 2020
+        },
+        {
+          "club": "Celtic F.C.",
+          "end": null,
+          "goals": 20,
+          "matches": 65,
+          "start": 2021
+        },
+        {
+          "club": "Israel men's national football team",
+          "end": null,
+          "goals": 1,
+          "matches": 9,
+          "start": 2021
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2014",
+          "joined": "2006",
+          "team": "Hapoel Petah Tikva"
+        },
+        {
+          "departed": "2019",
+          "joined": "2014",
+          "team": "Maccabi Petach Tikva"
+        },
+        {
+          "departed": "2021",
+          "joined": "2019",
+          "team": "Maccabi Petach Tikva"
+        },
+        {
+          "departed": "2024",
+          "joined": "2021",
+          "team": "Celtic"
+        },
+        {
+          "departed": "2024",
+          "joined": "2021",
+          "team": "Israel"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Scottish Cup",
+          "season": "2022-2023"
+        },
+        {
+          "honour": "Scottish League Cup",
+          "season": "2022-2023"
+        },
+        {
+          "honour": "Scottish Premier League",
+          "season": "2021-2022"
+        },
+        {
+          "honour": "Scottish Premier League",
+          "season": "2022-2023"
+        }
       ]
     },
     {
@@ -10460,6 +14232,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-05-23",
+        "height_m": "175",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Luca%20de%20la%20Torre%2C%202025%20CONCACAF%20Gold%20Cup%2C%2001%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'10.0\"",
+        "weight": "148.0 lb",
+        "current_team": "Galatasaray"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-05-23",
+          "nationality": "USA",
+          "position": "CM",
+          "height": "5.0'10.0\"",
+          "weight": "148.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-05-23",
+          "height_m": "175",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Luca%20de%20la%20Torre%2C%202025%20CONCACAF%20Gold%20Cup%2C%2001%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1996-02-11",
+          "current_team": "Galatasaray",
+          "nationality": "Uruguay",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/123f851769178178.png",
+          "position": "Defensive Midfield"
+        }
       },
       "seasons": [
         {
@@ -10638,6 +14443,64 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Fulham F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2018",
+          "joined": "2015",
+          "team": "Sampdoria"
+        },
+        {
+          "departed": "2013",
+          "joined": "2013",
+          "team": "Wanderers"
+        },
+        {
+          "departed": "2014",
+          "joined": "2013",
+          "team": "Pescara"
+        },
+        {
+          "departed": "2016",
+          "joined": "2015",
+          "team": "Pescara"
+        },
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "Ath Madrid"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English FA Cup",
+          "season": "2019-2020"
+        },
+        {
+          "honour": "Spanish La Liga",
+          "season": "2020-2021"
+        },
+        {
+          "honour": "Turkish Super Lig",
+          "season": "2023-2024"
+        },
+        {
+          "honour": "Turkish Super Lig",
+          "season": "2024-2025"
+        },
+        {
+          "honour": "Turkish Super Lig",
+          "season": "2025-2026"
+        }
       ]
     },
     {
@@ -10647,6 +14510,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-03-02",
+        "height_m": "181",
+        "nationality": "United States",
+        "position": "midfielder",
+        "height": "5.0'11.0\"",
+        "weight": "163.0 lb",
+        "current_team": "_Free Agent Soccer",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/t4fh261647079128.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-03-02",
+          "nationality": "USA",
+          "position": "W",
+          "height": "5.0'11.0\"",
+          "weight": "163.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-03-02",
+          "height_m": "181",
+          "nationality": "United States",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-03-02",
+          "current_team": "_Free Agent Soccer",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/t4fh261647079128.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -10823,6 +14718,42 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "FSV Zwickau",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2019",
+          "joined": "2017",
+          "team": "Darmstadt"
+        },
+        {
+          "departed": "2019",
+          "joined": "2019",
+          "team": "Zwickau"
+        },
+        {
+          "departed": "2020",
+          "joined": "2019",
+          "team": "Sonnenhof Großaspach"
+        },
+        {
+          "departed": "2021",
+          "joined": "2020",
+          "team": "Hannover II"
+        },
+        {
+          "departed": "2021",
+          "joined": "2021",
+          "team": "Austin FC"
+        }
       ]
     },
     {
@@ -10832,6 +14763,34 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2004-12-21",
+        "height_m": "192",
+        "nationality": "Ghana",
+        "position": "defender",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0tvcdh1778869940.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2004-12-21",
+          "nationality": "Ghana",
+          "position": "CB"
+        },
+        "wikidata": {
+          "birth_date": "2004-12-21",
+          "height_m": "192",
+          "nationality": "Ghana",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "2004-12-21",
+          "current_team": "Charlotte FC",
+          "nationality": "Ghana",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0tvcdh1778869940.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -10861,6 +14820,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1992-06-05",
+        "height_m": "180",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nathan%20Byrne%20NYCFC%20v%20Charlotte%2020%20Sep%202025-029%20%28cropped%29.jpg",
+        "position": "defender",
+        "height": "5.0'11.0\"",
+        "weight": "185.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1992-06-05",
+          "nationality": "England",
+          "position": "FB",
+          "height": "5.0'11.0\"",
+          "weight": "185.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1992-06-05",
+          "height_m": "180",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nathan%20Byrne%20NYCFC%20v%20Charlotte%2020%20Sep%202025-029%20%28cropped%29.jpg",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1992-06-05",
+          "current_team": "Charlotte FC",
+          "nationality": "England",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/sni4yv1771754643.png",
+          "position": "Defender"
+        }
       },
       "seasons": [
         {
@@ -11219,6 +15211,98 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "St Albans City F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Wigan Athletic F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        },
+        {
+          "club": "Tottenham Hotspur F.C.",
+          "end": 2013,
+          "goals": 0,
+          "matches": 0,
+          "start": 2010
+        },
+        {
+          "club": "AFC Bournemouth",
+          "end": 2012,
+          "goals": 0,
+          "matches": 9,
+          "start": 2011
+        },
+        {
+          "club": "Brentford F.C.",
+          "end": 2011,
+          "goals": 0,
+          "matches": 11,
+          "start": 2011
+        },
+        {
+          "club": "Crawley Town F.C.",
+          "end": 2013,
+          "goals": 1,
+          "matches": 12,
+          "start": 2012
+        },
+        {
+          "club": "Swindon Town F.C.",
+          "end": 2015,
+          "goals": 10,
+          "matches": 83,
+          "start": 2013
+        },
+        {
+          "club": "Swindon Town F.C.",
+          "end": 2013,
+          "goals": 0,
+          "matches": 7,
+          "start": 2013
+        },
+        {
+          "club": "Wolverhampton Wanderers F.C.",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "",
+          "joined": "",
+          "team": "St Albans City"
+        },
+        {
+          "departed": "2010",
+          "joined": "2008",
+          "team": "Tottenham"
+        },
+        {
+          "departed": "2013",
+          "joined": "2010",
+          "team": "Tottenham"
+        },
+        {
+          "departed": "2011",
+          "joined": "2011",
+          "team": "Brentford"
+        },
+        {
+          "departed": "2012",
+          "joined": "2011",
+          "team": "Bournemouth"
+        }
       ]
     },
     {
@@ -11228,6 +15312,29 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2001-06-22",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20001%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'11.0\"",
+        "weight": "163.0 lb"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2001-06-22",
+          "nationality": "USA",
+          "position": "FB",
+          "height": "5.0'11.0\"",
+          "weight": "163.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2001-06-22",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20001%20%28cropped%29.jpg",
+          "position": "midfielder"
+        }
       },
       "seasons": [
         {
@@ -11266,6 +15373,15 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Portland Timbers 2",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
       ]
     },
     {
@@ -11275,6 +15391,35 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2003-02-23",
+        "height_m": "181",
+        "nationality": "Serbia",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20078%20%28Petkovi%C4%87%29.jpg",
+        "position": "midfielder",
+        "current_team": "Seattle Sounders"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2003-02-23",
+          "nationality": "Serbia",
+          "position": "AM"
+        },
+        "wikidata": {
+          "birth_date": "2003-02-23",
+          "height_m": "181",
+          "nationality": "Serbia",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/NCFC%20vs%20Charlotte%20%282025%20US%20Open%20Cup%29%20078%20%28Petkovi%C4%87%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "2003-02-23",
+          "current_team": "Seattle Sounders",
+          "nationality": "Serbia",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2xdryy1778764450.png",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -11331,6 +15476,13 @@
           },
           "phase": "during"
         }
+      ],
+      "former_teams": [
+        {
+          "departed": "2024",
+          "joined": "2022",
+          "team": "Mura"
+        }
       ]
     },
     {
@@ -11340,6 +15492,31 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2008-02-22",
+        "nationality": "United States",
+        "position": "forward",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/fx6aqc1736782869.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2008-02-22",
+          "nationality": "USA",
+          "position": "W"
+        },
+        "wikidata": {
+          "birth_date": "2008-02-22",
+          "nationality": "United States",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2008-02-22",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/fx6aqc1736782869.png"
+        }
       },
       "seasons": [
         {
@@ -11384,6 +15561,39 @@
         "start": 2022,
         "end": null
       },
+      "bio": {
+        "birth_date": "1974-01-25",
+        "height_m": "188",
+        "nationality": "Portugal",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nuno%20Esp%C3%ADrito%20Santo%20%28cropped%29.jpg",
+        "position": "goalkeeper",
+        "height": "5.0'5.0\"",
+        "weight": "126.0 lb",
+        "current_team": "Sporting CP"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1999-03-02",
+          "nationality": "Portugal",
+          "position": "CM",
+          "height": "5.0'5.0\"",
+          "weight": "126.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1974-01-25",
+          "height_m": "188",
+          "nationality": "Portugal",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Nuno%20Esp%C3%ADrito%20Santo%20%28cropped%29.jpg",
+          "position": "goalkeeper"
+        },
+        "thesportsdb": {
+          "birth_date": "1995-02-13",
+          "current_team": "Sporting CP",
+          "nationality": "Portugal",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/thumb/z2wua31527595157.jpg",
+          "position": "Winger"
+        }
+      },
       "seasons": [
         {
           "season": 2022,
@@ -11421,6 +15631,124 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Vitória S.C.",
+          "end": 1996,
+          "goals": 0,
+          "matches": 34,
+          "start": 1992
+        },
+        {
+          "club": "SC Vila Real",
+          "end": 1994,
+          "goals": 0,
+          "matches": 19,
+          "start": 1993
+        },
+        {
+          "club": "Portugal national under-21 football team",
+          "end": 1996,
+          "goals": 0,
+          "matches": 3,
+          "start": 1994
+        },
+        {
+          "club": "Deportivo de A Coruña",
+          "end": 2002,
+          "goals": 0,
+          "matches": 4,
+          "start": 1997
+        },
+        {
+          "club": "CP Mérida",
+          "end": 2000,
+          "goals": 0,
+          "matches": 69,
+          "start": 1998
+        },
+        {
+          "club": "Mérida UD",
+          "end": 2000,
+          "goals": 0,
+          "matches": 69,
+          "start": 1998
+        },
+        {
+          "club": "Club Atlético Osasuna",
+          "end": 2001,
+          "goals": 0,
+          "matches": 33,
+          "start": 2000
+        },
+        {
+          "club": "FC Porto",
+          "end": 2004,
+          "goals": 0,
+          "matches": 6,
+          "start": 2002
+        },
+        {
+          "club": "FC Dinamo Moscow",
+          "end": 2006,
+          "goals": 0,
+          "matches": 11,
+          "start": 2005
+        },
+        {
+          "club": "Clube Desportivo das Aves",
+          "end": 2007,
+          "goals": 0,
+          "matches": 15,
+          "start": 2006
+        },
+        {
+          "club": "Clube Desportivo das Aves",
+          "end": 2007,
+          "goals": 0,
+          "matches": 15,
+          "start": 2007
+        },
+        {
+          "club": "FC Porto",
+          "end": 2010,
+          "goals": 0,
+          "matches": 8,
+          "start": 2007
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2014",
+          "team": "Benfica B"
+        },
+        {
+          "departed": "2017",
+          "joined": "2015",
+          "team": "Benfica"
+        },
+        {
+          "departed": "2017",
+          "joined": "2016",
+          "team": "Vitoria Setubal"
+        },
+        {
+          "departed": "2020",
+          "joined": "2017",
+          "team": "Rio Ave"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Portuguese Primeira Liga",
+          "season": "2023-2024"
+        },
+        {
+          "honour": "Portuguese Taca de Portugal",
+          "season": "2024-2025"
+        }
       ]
     },
     {
@@ -11430,6 +15758,38 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1995-07-07",
+        "height_m": "1.93",
+        "nationality": "Mexico",
+        "position": "goalkeeper",
+        "height": "6.0'3.0\"",
+        "weight": "176.0 lb",
+        "current_team": "San Diego FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/o6wqly1762901311.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1995-07-07",
+          "nationality": "Mexico",
+          "position": "GK",
+          "height": "6.0'3.0\"",
+          "weight": "176.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1995-07-07",
+          "height_m": "1.93",
+          "nationality": "Mexico",
+          "position": "goalkeeper"
+        },
+        "thesportsdb": {
+          "birth_date": "1995-07-07",
+          "current_team": "San Diego FC",
+          "nationality": "Mexico",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/o6wqly1762901311.png",
+          "position": "Goalkeeper"
+        }
       },
       "seasons": [
         {
@@ -11684,6 +16044,98 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "C.D. Guadalajara",
+          "end": 2009,
+          "goals": null,
+          "matches": null,
+          "start": 2004
+        },
+        {
+          "club": "Philadelphia Union",
+          "end": 2012,
+          "goals": null,
+          "matches": null,
+          "start": 2009
+        },
+        {
+          "club": "Real Sociedad",
+          "end": 2014,
+          "goals": null,
+          "matches": null,
+          "start": 2012
+        },
+        {
+          "club": "Real Sociedad B",
+          "end": 2019,
+          "goals": 0,
+          "matches": 38,
+          "start": 2014
+        },
+        {
+          "club": "SD Beasain",
+          "end": 2016,
+          "goals": 0,
+          "matches": 14,
+          "start": 2015
+        },
+        {
+          "club": "Los Angeles FC",
+          "end": 2021,
+          "goals": 0,
+          "matches": 44,
+          "start": 2019
+        },
+        {
+          "club": "Charlotte FC",
+          "end": 2023,
+          "goals": 0,
+          "matches": 5,
+          "start": 2022
+        },
+        {
+          "club": "Crown Legacy FC",
+          "end": 2023,
+          "goals": 0,
+          "matches": 1,
+          "start": 2023
+        },
+        {
+          "club": "San Antonio FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2024
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2019",
+          "joined": "2014",
+          "team": "Real Sociedad B"
+        },
+        {
+          "departed": "2021",
+          "joined": "2019",
+          "team": "Los Angeles FC"
+        },
+        {
+          "departed": "2023",
+          "joined": "2022",
+          "team": "Charlotte FC"
+        },
+        {
+          "departed": "2023",
+          "joined": "2023",
+          "team": "Crown Legacy"
+        },
+        {
+          "departed": "2024",
+          "joined": "2024",
+          "team": "San Antonio FC"
+        }
       ]
     },
     {
@@ -11693,6 +16145,37 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2000-11-07",
+        "height_m": "1.93",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Agyemang%20USMNT%20v%20Belgium%20Mar%2028%202026-42.jpg",
+        "position": "forward",
+        "height": "6.0'4.0\"",
+        "current_team": "_Retired Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2000-11-07",
+          "nationality": "Ghana",
+          "position": "ST",
+          "height": "6.0'4.0\""
+        },
+        "wikidata": {
+          "birth_date": "2000-11-07",
+          "height_m": "1.93",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Agyemang%20USMNT%20v%20Belgium%20Mar%2028%202026-42.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1980-09-29",
+          "current_team": "_Retired Soccer",
+          "nationality": "Ghana",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/4000552.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -11805,6 +16288,69 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Charlotte FC",
+          "end": 2025,
+          "goals": 18,
+          "matches": 53,
+          "start": 2023
+        },
+        {
+          "club": "Crown Legacy FC",
+          "end": 2023,
+          "goals": 10,
+          "matches": 12,
+          "start": 2023
+        },
+        {
+          "club": "Derby County F.C.",
+          "end": null,
+          "goals": 1,
+          "matches": 5,
+          "start": 2025
+        },
+        {
+          "club": "United States men's national soccer team",
+          "end": null,
+          "goals": 5,
+          "matches": 12,
+          "start": 2025
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2004",
+          "joined": "1998",
+          "team": "Wimbledon FC"
+        },
+        {
+          "departed": "2004",
+          "joined": "2004",
+          "team": "Gillingham"
+        },
+        {
+          "departed": "2008",
+          "joined": "2004",
+          "team": "Preston"
+        },
+        {
+          "departed": "2012",
+          "joined": "2008",
+          "team": "QPR"
+        },
+        {
+          "departed": "2013",
+          "joined": "2012",
+          "team": "Stevenage"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English Championship",
+          "season": "2010-2011"
+        }
       ]
     },
     {
@@ -11814,6 +16360,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1996-09-05",
+        "height_m": "167",
+        "nationality": "Spain",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pep%20Biel%20NYCFC%20v%20Charlotte%2020%20Sep%202025-153%20%28cropped%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'6.0\"",
+        "weight": "137.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1996-09-05",
+          "nationality": "Spain",
+          "position": "AM",
+          "height": "5.0'6.0\"",
+          "weight": "137.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1996-09-05",
+          "height_m": "167",
+          "nationality": "Spain",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pep%20Biel%20NYCFC%20v%20Charlotte%2020%20Sep%202025-153%20%28cropped%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1996-09-05",
+          "current_team": "Charlotte FC",
+          "nationality": "Spain",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/axv2ha1771754185.png",
+          "position": "Attacking Midfield"
+        }
       },
       "seasons": [
         {
@@ -11996,6 +16575,38 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "F.C. Copenhagen",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2017",
+          "joined": "2016",
+          "team": "Mallorca B"
+        },
+        {
+          "departed": "2019",
+          "joined": "2018",
+          "team": "Zaragoza"
+        },
+        {
+          "departed": "2022",
+          "joined": "2019",
+          "team": "FC Copenhagen"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Danish Superliga",
+          "season": "2021-2022"
+        }
       ]
     },
     {
@@ -12005,6 +16616,36 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1998-08-30",
+        "nationality": "Ireland",
+        "position": "midfielder",
+        "height": "5.0'11.0\"",
+        "weight": "161.0 lb",
+        "current_team": "_Retired Soccer",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/thumb/9hxnah1663335011.jpg"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1998-08-30",
+          "nationality": "USA",
+          "position": "CM",
+          "height": "5.0'11.0\"",
+          "weight": "161.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1998-08-30",
+          "nationality": "Ireland",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1998-08-30",
+          "current_team": "_Retired Soccer",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/thumb/9hxnah1663335011.jpg",
+          "position": "Midfielder"
+        }
       },
       "seasons": [
         {
@@ -12035,6 +16676,34 @@
         "start": 2022,
         "end": null
       },
+      "bio": {
+        "birth_date": "2006-12-26",
+        "nationality": "Benin",
+        "position": "right winger",
+        "height": "5.0'8.0\"",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/tyokm41778870520.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2006-12-26",
+          "nationality": "Benin",
+          "position": "W",
+          "height": "5.0'8.0\""
+        },
+        "wikidata": {
+          "birth_date": "2006-12-26",
+          "nationality": "Benin",
+          "position": "right winger"
+        },
+        "thesportsdb": {
+          "birth_date": "2006-12-26",
+          "current_team": "Charlotte FC",
+          "nationality": "Benin",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/tyokm41778870520.png",
+          "position": "Winger"
+        }
+      },
       "seasons": [
         {
           "season": 2026,
@@ -12054,6 +16723,36 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Benin national under-20 football team",
+          "end": null,
+          "goals": 1,
+          "matches": 4,
+          "start": 2023
+        },
+        {
+          "club": "Benin men's national football team",
+          "end": null,
+          "goals": 0,
+          "matches": 3,
+          "start": 2025
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": 0,
+          "matches": 0,
+          "start": 2025
+        },
+        {
+          "club": "NK Kustošija Zagreb",
+          "end": 2025,
+          "goals": null,
+          "matches": null,
+          "start": 2025
+        }
       ]
     },
     {
@@ -12063,6 +16762,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1988-11-01",
+        "height_m": "178",
+        "nationality": "Canada",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Arfield%20-%20Schottland%20U-21%20%282%29.jpg",
+        "position": "midfielder",
+        "height": "5.0'10.0\"",
+        "weight": "154.0 lb",
+        "current_team": "_Free Agent Soccer"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1988-11-01",
+          "nationality": "Canada",
+          "position": "CM",
+          "height": "5.0'10.0\"",
+          "weight": "154.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1988-11-01",
+          "height_m": "178",
+          "nationality": "Canada",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Arfield%20-%20Schottland%20U-21%20%282%29.jpg",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1988-11-01",
+          "current_team": "_Free Agent Soccer",
+          "nationality": "Canada",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/50r7ni1695728634.png",
+          "position": "Central Midfield"
+        }
       },
       "seasons": [
         {
@@ -12381,6 +17113,101 @@
             "total_goals": 1
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Falkirk F.C.",
+          "end": 2010,
+          "goals": 13,
+          "matches": 108,
+          "start": 2007
+        },
+        {
+          "club": "Scotland national under-19 football team",
+          "end": 2007,
+          "goals": 0,
+          "matches": 2,
+          "start": 2007
+        },
+        {
+          "club": "Scotland national under-21 football team",
+          "end": 2010,
+          "goals": 3,
+          "matches": 17,
+          "start": 2007
+        },
+        {
+          "club": "Scotland B national football team",
+          "end": 2009,
+          "goals": 0,
+          "matches": 1,
+          "start": 2009
+        },
+        {
+          "club": "Huddersfield Town A.F.C.",
+          "end": 2013,
+          "goals": 7,
+          "matches": 96,
+          "start": 2010
+        },
+        {
+          "club": "Burnley F.C.",
+          "end": 2018,
+          "goals": 21,
+          "matches": 177,
+          "start": 2013
+        },
+        {
+          "club": "Canadian men's national soccer team",
+          "end": null,
+          "goals": 2,
+          "matches": 17,
+          "start": 2016
+        },
+        {
+          "club": "Rangers F.C.",
+          "end": null,
+          "goals": 12,
+          "matches": 32,
+          "start": 2018
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2010",
+          "joined": "2007",
+          "team": "Falkirk"
+        },
+        {
+          "departed": "2013",
+          "joined": "2010",
+          "team": "Huddersfield Town"
+        },
+        {
+          "departed": "2018",
+          "joined": "2013",
+          "team": "Burnley"
+        },
+        {
+          "departed": "",
+          "joined": "",
+          "team": "Falkirk"
+        },
+        {
+          "departed": "2023",
+          "joined": "2018",
+          "team": "Rangers"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English Championship",
+          "season": "2015-2016"
+        },
+        {
+          "honour": "Scottish Premier League",
+          "season": "2020-2021"
+        }
       ]
     },
     {
@@ -12390,6 +17217,36 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1994-12-16",
+        "height_m": "171",
+        "nationality": "Spain",
+        "position": "midfielder",
+        "height": "5.0'7.0\"",
+        "current_team": "Las Palmas",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ein8jw1701179707.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1994-12-16",
+          "nationality": "Spain",
+          "position": "CM",
+          "height": "5.0'7.0\""
+        },
+        "wikidata": {
+          "birth_date": "1994-12-16",
+          "height_m": "171",
+          "nationality": "Spain",
+          "position": "midfielder"
+        },
+        "thesportsdb": {
+          "birth_date": "1994-12-16",
+          "current_team": "Las Palmas",
+          "nationality": "Spain",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ein8jw1701179707.png",
+          "position": "Central Midfield"
+        }
       },
       "seasons": [
         {
@@ -12578,6 +17435,15 @@
             "total_goals": 0
           }
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Racing de Santander",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": null
+        }
       ]
     },
     {
@@ -12587,6 +17453,31 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1996-09-24",
+        "nationality": "Ivory Coast",
+        "position": "FB",
+        "height": "5.0'10.0\"",
+        "weight": "161.0 lb",
+        "current_team": "Charlotte FC",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0ptiqs1766482286.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1996-09-24",
+          "nationality": "Ivory Coast",
+          "position": "FB",
+          "height": "5.0'10.0\"",
+          "weight": "161.0 lb"
+        },
+        "thesportsdb": {
+          "birth_date": "1996-09-24",
+          "current_team": "Charlotte FC",
+          "nationality": "Ivory Coast",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0ptiqs1766482286.png",
+          "position": "Left-Back"
+        }
       },
       "seasons": [
         {
@@ -12607,6 +17498,33 @@
           },
           "phase": "during"
         }
+      ],
+      "former_teams": [
+        {
+          "departed": "2016",
+          "joined": "2009",
+          "team": "Paris SG"
+        },
+        {
+          "departed": "2016",
+          "joined": "2014",
+          "team": "Paris SG"
+        },
+        {
+          "departed": "2018",
+          "joined": "2016",
+          "team": "Bari"
+        },
+        {
+          "departed": "2017",
+          "joined": "2017",
+          "team": "L.R. Vicenza Virtus"
+        },
+        {
+          "departed": "2018",
+          "joined": "2017",
+          "team": "Grasshoppers"
+        }
       ]
     },
     {
@@ -12616,6 +17534,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1987-10-05",
+        "height_m": "186",
+        "nationality": "United States",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Ream%20USMNT%20v%20Belgium%20Mar%2028%202026-66.jpg",
+        "position": "defender",
+        "height": "6.0'1.0\"",
+        "weight": "176.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1987-10-05",
+          "nationality": "USA",
+          "position": "CB",
+          "height": "6.0'1.0\"",
+          "weight": "176.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1987-10-05",
+          "height_m": "186",
+          "nationality": "United States",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Ream%20USMNT%20v%20Belgium%20Mar%2028%202026-66.jpg",
+          "position": "defender"
+        },
+        "thesportsdb": {
+          "birth_date": "1987-10-05",
+          "current_team": "Charlotte FC",
+          "nationality": "United States",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/lbav9r1771754456.png",
+          "position": "Centre-Back"
+        }
       },
       "seasons": [
         {
@@ -12854,6 +17805,80 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Saint Louis Billikens men's soccer",
+          "end": 2005,
+          "goals": null,
+          "matches": null,
+          "start": 2003
+        },
+        {
+          "club": "Chicago Fire U-23",
+          "end": 2009,
+          "goals": 0,
+          "matches": 19,
+          "start": 2008
+        },
+        {
+          "club": "Red Bull New York",
+          "end": 2011,
+          "goals": 1,
+          "matches": 58,
+          "start": 2010
+        },
+        {
+          "club": "United States men's national soccer team",
+          "end": null,
+          "goals": 1,
+          "matches": 50,
+          "start": 2010
+        },
+        {
+          "club": "Bolton Wanderers F.C.",
+          "end": 2015,
+          "goals": 0,
+          "matches": 114,
+          "start": 2012
+        },
+        {
+          "club": "Fulham F.C.",
+          "end": 2024,
+          "goals": 3,
+          "matches": 245,
+          "start": 2015
+        },
+        {
+          "club": "Charlotte FC",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2024
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2015",
+          "joined": "2012",
+          "team": "Bolton"
+        },
+        {
+          "departed": "2012",
+          "joined": "2010",
+          "team": "New York Red Bulls"
+        },
+        {
+          "departed": "2024",
+          "joined": "2015",
+          "team": "Fulham"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English Championship",
+          "season": "2021-2022"
+        }
       ]
     },
     {
@@ -12863,6 +17888,35 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2002-09-18",
+        "height_m": "185",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyger%20Smalls.jpg",
+        "position": "forward",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-09-18",
+          "nationality": "England",
+          "position": "W"
+        },
+        "wikidata": {
+          "birth_date": "2002-09-18",
+          "height_m": "185",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyger%20Smalls.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2002-09-18",
+          "current_team": "Charlotte FC",
+          "nationality": "England",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/4tolr61771755308.png",
+          "position": "Attacker"
+        }
       },
       "seasons": [
         {
@@ -12999,6 +18053,38 @@
         "start": 2022,
         "end": null
       },
+      "bio": {
+        "birth_date": "2002-08-19",
+        "height_m": "180",
+        "nationality": "Brazil",
+        "position": "forward",
+        "height": "5.0'11.0\"",
+        "weight": "185.0 lb",
+        "current_team": "Al Jazira",
+        "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/m13zwh1647079081.png"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2002-08-19",
+          "nationality": "Brazil",
+          "position": "W",
+          "height": "5.0'11.0\"",
+          "weight": "185.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "2002-08-19",
+          "height_m": "180",
+          "nationality": "Brazil",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "2002-08-19",
+          "current_team": "Al Jazira",
+          "nationality": "Brazil",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/m13zwh1647079081.png",
+          "position": "Forward"
+        }
+      },
       "seasons": [
         {
           "season": 2021,
@@ -13111,6 +18197,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1992-11-10",
+        "height_m": "180",
+        "nationality": "United Kingdom",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilfried%20Zaha%20NYCFC%20v%20Charlotte%2020%20Sep%202025-022%20%28cropped%29.jpg",
+        "position": "wing half",
+        "height": "5.0'11.0\"",
+        "weight": "146.0 lb",
+        "current_team": "Charlotte FC"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1992-11-10",
+          "nationality": "Ivory Coast",
+          "position": "W",
+          "height": "5.0'11.0\"",
+          "weight": "146.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1992-11-10",
+          "height_m": "180",
+          "nationality": "United Kingdom",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Wilfried%20Zaha%20NYCFC%20v%20Charlotte%2020%20Sep%202025-022%20%28cropped%29.jpg",
+          "position": "wing half"
+        },
+        "thesportsdb": {
+          "birth_date": "1992-11-10",
+          "current_team": "Charlotte FC",
+          "nationality": "Ivory Coast",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ax55cj1771754901.png",
+          "position": "Left Wing"
+        }
       },
       "seasons": [
         {
@@ -13415,6 +18534,136 @@
           },
           "phase": "during"
         }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Crystal Palace F.C.",
+          "end": 2013,
+          "goals": 12,
+          "matches": 110,
+          "start": 2010
+        },
+        {
+          "club": "England national under-19 association football team",
+          "end": 2011,
+          "goals": 0,
+          "matches": 2,
+          "start": 2011
+        },
+        {
+          "club": "England men's national association football team",
+          "end": 2012,
+          "goals": 0,
+          "matches": 2,
+          "start": 2012
+        },
+        {
+          "club": "England national under-21 association football team",
+          "end": 2013,
+          "goals": 1,
+          "matches": 13,
+          "start": 2012
+        },
+        {
+          "club": "Crystal Palace F.C.",
+          "end": 2013,
+          "goals": 1,
+          "matches": 16,
+          "start": 2013
+        },
+        {
+          "club": "Manchester United F.C.",
+          "end": 2015,
+          "goals": 0,
+          "matches": 2,
+          "start": 2013
+        },
+        {
+          "club": "Cardiff City F.C.",
+          "end": 2014,
+          "goals": 0,
+          "matches": 12,
+          "start": 2014
+        },
+        {
+          "club": "Crystal Palace F.C.",
+          "end": 2015,
+          "goals": 1,
+          "matches": 16,
+          "start": 2014
+        },
+        {
+          "club": "Crystal Palace F.C.",
+          "end": 2023,
+          "goals": 67,
+          "matches": 275,
+          "start": 2015
+        },
+        {
+          "club": "Ivory Coast men's national football team",
+          "end": null,
+          "goals": 5,
+          "matches": 33,
+          "start": 2017
+        },
+        {
+          "club": "Galatasaray S.K.",
+          "end": 2026,
+          "goals": 9,
+          "matches": 30,
+          "start": 2023
+        },
+        {
+          "club": "Olympique Lyonnais",
+          "end": 2025,
+          "goals": 0,
+          "matches": 4,
+          "start": 2024
+        },
+        {
+          "club": "Charlotte FC",
+          "end": 2026,
+          "goals": 13,
+          "matches": 44,
+          "start": 2025
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2013",
+          "joined": "2010",
+          "team": "Crystal Palace"
+        },
+        {
+          "departed": "2015",
+          "joined": "2013",
+          "team": "Manchester United"
+        },
+        {
+          "departed": "2010",
+          "joined": "2004",
+          "team": "Crystal Palace"
+        },
+        {
+          "departed": "2014",
+          "joined": "2014",
+          "team": "Cardiff"
+        },
+        {
+          "departed": "2015",
+          "joined": "2014",
+          "team": "Crystal Palace"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "English FA Community Shield",
+          "season": "2013"
+        },
+        {
+          "honour": "Football League Young Player of the Year",
+          "season": "2011-2012"
+        }
       ]
     },
     {
@@ -13424,6 +18673,20 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "2003-02-17",
+        "nationality": "USA",
+        "position": "FB",
+        "height": "6.0'2.0\""
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2003-02-17",
+          "nationality": "USA",
+          "position": "FB",
+          "height": "6.0'2.0\""
+        }
       },
       "seasons": [
         {
@@ -13453,6 +18716,39 @@
       "tenure": {
         "start": 2022,
         "end": null
+      },
+      "bio": {
+        "birth_date": "1993-09-17",
+        "height_m": "169",
+        "nationality": "Peru",
+        "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Yordy%20Reyna%202023.jpg",
+        "position": "forward",
+        "height": "5.0'7.0\"",
+        "weight": "150.0 lb",
+        "current_team": "Torpedo Moscow"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "1993-09-17",
+          "nationality": "Peru",
+          "position": "ST",
+          "height": "5.0'7.0\"",
+          "weight": "150.0 lb"
+        },
+        "wikidata": {
+          "birth_date": "1993-09-17",
+          "height_m": "169",
+          "nationality": "Peru",
+          "photo_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Yordy%20Reyna%202023.jpg",
+          "position": "forward"
+        },
+        "thesportsdb": {
+          "birth_date": "1993-09-17",
+          "current_team": "Torpedo Moscow",
+          "nationality": "Peru",
+          "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/5ga80l1647029736.png",
+          "position": "Forward"
+        }
       },
       "seasons": [
         {
@@ -13874,6 +19170,101 @@
             "total_apps": 10,
             "total_goals": 0
           }
+        }
+      ],
+      "wikidata_clubs": [
+        {
+          "club": "Club Alianza Lima",
+          "end": 2013,
+          "goals": 12,
+          "matches": 48,
+          "start": 2011
+        },
+        {
+          "club": "Peru national under-20 football team",
+          "end": 2013,
+          "goals": 5,
+          "matches": 7,
+          "start": 2012
+        },
+        {
+          "club": "FC Liefering",
+          "end": 2014,
+          "goals": 1,
+          "matches": 18,
+          "start": 2013
+        },
+        {
+          "club": "FC Red Bull Salzburg",
+          "end": 2013,
+          "goals": 0,
+          "matches": 4,
+          "start": 2013
+        },
+        {
+          "club": "Peru men's national football team",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2013
+        },
+        {
+          "club": "SV Grödig",
+          "end": 2015,
+          "goals": 11,
+          "matches": 19,
+          "start": 2014
+        },
+        {
+          "club": "FC Red Bull Salzburg",
+          "end": null,
+          "goals": null,
+          "matches": null,
+          "start": 2015
+        },
+        {
+          "club": "RB Leipzig",
+          "end": 2015,
+          "goals": 1,
+          "matches": 13,
+          "start": 2015
+        }
+      ],
+      "former_teams": [
+        {
+          "departed": "2011",
+          "joined": "2009",
+          "team": "Alianza Lima"
+        },
+        {
+          "departed": "2013",
+          "joined": "2011",
+          "team": "Alianza Lima"
+        },
+        {
+          "departed": "2017",
+          "joined": "2013",
+          "team": "SV Salzburg"
+        },
+        {
+          "departed": "2014",
+          "joined": "2013",
+          "team": "FC Liefering"
+        },
+        {
+          "departed": "2015",
+          "joined": "2015",
+          "team": "RasenBallsport Leipzig"
+        }
+      ],
+      "honours": [
+        {
+          "honour": "Austrian Bundesliga",
+          "season": "2013-2014"
+        },
+        {
+          "honour": "Austrian Bundesliga",
+          "season": "2015-2016"
         }
       ]
     }
