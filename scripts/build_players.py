@@ -202,19 +202,135 @@ def wiki_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
     return rows
 
 
+def tm_season_rows(name: str, tm: dict, tenure: dict) -> list[dict]:
+    """Transfermarkt per-competition/season rows (kept for all leagues, incl. MLS,
+    so its numbers can be cross-checked against ASA's during-tenure figures)."""
+    rows = []
+    for r in (tm.get(name, {}) or {}).get("seasons", []) or []:
+        year = r.get("season")
+        if year is None:
+            continue
+        rows.append(
+            {
+                "season": year,
+                "season_label": r.get("season_label"),
+                "team": r.get("club"),
+                "league": r.get("competition"),
+                "source": "transfermarkt",
+                "phase": config.phase_for(year, tenure["start"], tenure["end"]),
+                "transfermarkt": {
+                    "apps": r.get("apps"),
+                    "goals": r.get("goals"),
+                    "assists": r.get("assists"),
+                    "minutes": r.get("minutes"),
+                },
+            }
+        )
+    return rows
+
+
+def apifootball_season_rows(name: str, af: dict, tenure: dict) -> list[dict]:
+    rows = []
+    for r in (af.get(name, {}) or {}).get("seasons", []) or []:
+        year = r.get("season")
+        if year is None:
+            continue
+        rows.append(
+            {
+                "season": year,
+                "team": r.get("team"),
+                "league": r.get("league"),
+                "source": "apifootball",
+                "phase": config.phase_for(year, tenure["start"], tenure["end"]),
+                "apifootball": {
+                    "apps": r.get("apps"),
+                    "goals": r.get("goals"),
+                    "assists": r.get("assists"),
+                    "minutes": r.get("minutes"),
+                },
+            }
+        )
+    return rows
+
+
+def worldfootball_season_rows(name: str, wf: dict, tenure: dict) -> list[dict]:
+    rows = []
+    for r in (wf.get(name, {}) or {}).get("seasons", []) or []:
+        year = r.get("season")
+        if year is None:
+            continue
+        rows.append(
+            {
+                "season": year,
+                "season_label": r.get("season_label"),
+                "team": r.get("club"),
+                "league": r.get("comp"),
+                "source": "worldfootball",
+                "phase": config.phase_for(year, tenure["start"], tenure["end"]),
+                "worldfootball": {
+                    "apps": r.get("apps"),
+                    "goals": r.get("goals"),
+                    "assists": r.get("assists"),
+                    "minutes": r.get("minutes"),
+                },
+            }
+        )
+    return rows
+
+
+def merge_bios(per_source: dict[str, dict]) -> dict:
+    """Collapse per-source bios into one, highest-trust-source-first per field."""
+    merged: dict = {}
+    for src in config.BIO_SOURCE_PRECEDENCE:
+        for k, v in (per_source.get(src) or {}).items():
+            if v not in (None, "") and k not in merged:
+                merged[k] = v
+    return merged
+
+
+def asa_bios(asa_players: list[dict]) -> dict[str, dict]:
+    """player_id -> bio from asa_players.json (first non-empty values win)."""
+    out: dict[str, dict] = {}
+    for r in asa_players:
+        pid = str(r.get("player_id"))
+        bio = out.setdefault(pid, {})
+        if r.get("birth_date") and not bio.get("birth_date"):
+            bio["birth_date"] = r["birth_date"]
+        if r.get("nationality") and not bio.get("nationality"):
+            bio["nationality"] = r["nationality"]
+        pos = r.get("primary_general_position")
+        if pos and not bio.get("position"):
+            bio["position"] = pos
+        ft, inch = r.get("height_ft"), r.get("height_in")
+        if ft and not bio.get("height"):
+            bio["height"] = f"{ft}'{inch or 0}\""
+        if r.get("weight_lb") and not bio.get("weight"):
+            bio["weight"] = f"{r['weight_lb']} lb"
+    return out
+
+
+def load_map(fname: str) -> dict:
+    """Load a name-keyed raw file (Transfermarkt/Wikidata/etc.); {} if absent."""
+    path = config.RAW_DIR / fname
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
 def main() -> None:
     print("Building data/players.json ...")
+    asa_players_raw = load("asa_players.json")
     team_names = index_by_id(load("asa_teams.json"), "team_id", "team_name")
-    player_names = index_by_id(load("asa_players.json"), "player_id", "player_name")
+    player_names = index_by_id(asa_players_raw, "player_id", "player_name")
     xgoals = load("asa_player_xgoals.json")
-    fbref_careers = {}
-    fbref_path = config.RAW_DIR / "fbref_careers.json"
-    if fbref_path.exists():
-        fbref_careers = json.loads(fbref_path.read_text(encoding="utf-8"))
-    wiki_careers = {}
-    wiki_path = config.RAW_DIR / "wikipedia_careers.json"
-    if wiki_path.exists():
-        wiki_careers = json.loads(wiki_path.read_text(encoding="utf-8"))
+    bios_asa = asa_bios(asa_players_raw)
+
+    # Name-keyed cross-league / cross-check sources (each absent file -> no-op).
+    fbref_careers = load_map("fbref_careers.json")
+    wiki_careers = load_map("wikipedia_careers.json")
+    transfermarkt = load_map("transfermarkt.json")
+    apifootball = load_map("apifootball.json")
+    worldfootball = load_map("worldfootball.json")
+    wikidata = load_map("wikidata.json")
+    thesportsdb = load_map("thesportsdb.json")
 
     # (player_id, season, team_id) -> merged season row
     merged: dict[tuple, dict] = {}
@@ -258,18 +374,44 @@ def main() -> None:
             season_row = dict(season_row)
             season_row["phase"] = config.phase_for(season, tenure["start"], tenure["end"])
             seasons.append(season_row)
-        # Layer in non-MLS career context (when available).
+        # Layer in career context / cross-checks from every source (when available).
+        # Rows stay tagged by source (never merged) so disagreements are visible.
         seasons.extend(fbref_season_rows(name, fbref_careers, tenure))
         seasons.extend(wiki_season_rows(name, wiki_careers, tenure))
-        players.append(
-            {
-                "player_id": f"asa:{pid}",
-                "asa_id": pid,
-                "name": name,
-                "tenure": tenure,
-                "seasons": seasons,
-            }
-        )
+        seasons.extend(tm_season_rows(name, transfermarkt, tenure))
+        seasons.extend(apifootball_season_rows(name, apifootball, tenure))
+        seasons.extend(worldfootball_season_rows(name, worldfootball, tenure))
+
+        # Aggregate bio from every source (precedence in config); keep the raw
+        # per-source bios alongside so mismatches can be inspected.
+        bio_sources = {
+            "asa": bios_asa.get(pid, {}),
+            "transfermarkt": (transfermarkt.get(name, {}) or {}).get("bio", {}),
+            "wikidata": (wikidata.get(name, {}) or {}).get("bio", {}),
+            "thesportsdb": (thesportsdb.get(name, {}) or {}).get("bio", {}),
+            "worldfootball": (worldfootball.get(name, {}) or {}).get("bio", {}),
+        }
+        bio_sources = {k: v for k, v in bio_sources.items() if v}
+
+        player = {
+            "player_id": f"asa:{pid}",
+            "asa_id": pid,
+            "name": name,
+            "tenure": tenure,
+            "bio": merge_bios(bio_sources),
+            "bio_sources": bio_sources,
+            "seasons": seasons,
+        }
+        # Player-level cross-check context that isn't per-season.
+        wd = wikidata.get(name)
+        if wd and wd.get("memberships"):
+            player["wikidata_clubs"] = wd["memberships"]
+        tsd = thesportsdb.get(name)
+        if tsd and tsd.get("former_teams"):
+            player["former_teams"] = tsd["former_teams"]
+        if tsd and tsd.get("honours"):
+            player["honours"] = tsd["honours"]
+        players.append(player)
 
     # Layer manual wizard edits on top of the fetched data.
     players = apply_overrides(players, load_overrides())
@@ -280,7 +422,10 @@ def main() -> None:
     players.sort(key=lambda p: (p["name"] or "", p["player_id"]))
     out = {
         "club": config.CLUB_NAME,
-        "sources": ["asa", "wikipedia", "fbref"],
+        "sources": [
+            "asa", "wikipedia", "fbref", "transfermarkt",
+            "apifootball", "worldfootball", "wikidata", "thesportsdb",
+        ],
         "player_count": len(players),
         "players": players,
     }

@@ -33,6 +33,37 @@ WIKI_PAGE = "https://en.wikipedia.org/wiki/"
 WIKI_USER_AGENT = "BeyondCLTFC/0.1 (personal, non-commercial soccer stats project)"
 WIKI_DELAY_SECONDS = 0.5  # Wikipedia is scrape-friendly; just be reasonable
 
+# --- Additional cross-league sources (aggregated for cross-validation) ---------
+# The project deliberately pulls the *same* facts (per-season apps/goals/minutes,
+# bio, club tenure) from several independent sources so build_players.py can keep
+# them side by side and disagreements are visible rather than silently trusted.
+
+# Wikidata — structured, ToS-clean SPARQL endpoint. Great for bio + club
+# membership timelines (P54) with match counts (P1350). Reliable from any IP.
+WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
+
+# TheSportsDB — free, crowd-sourced JSON API. Good for bio, photos, former teams
+# and honours. "3" is the shared public test key; set THESPORTSDB_KEY for your own.
+import os  # noqa: E402 - kept local to the config section that uses it
+
+THESPORTSDB_KEY = os.environ.get("THESPORTSDB_KEY", "3")
+THESPORTSDB_API = f"https://www.thesportsdb.com/api/v1/json/{THESPORTSDB_KEY}"
+
+# Transfermarkt — revived via a self-hosted felipeall/transfermarkt-api container
+# (see README). We query it over HTTP so nothing here scrapes Transfermarkt
+# directly. Point TRANSFERMARKT_API at your running instance.
+TRANSFERMARKT_API = os.environ.get("TRANSFERMARKT_API", "http://localhost:8000").rstrip("/")
+
+# API-FOOTBALL (api-sports.io) — sanctioned REST API, covers MLS + Liga MX +
+# Europe. Needs a free key in APIFOOTBALL_KEY; skipped entirely when unset.
+APIFOOTBALL_KEY = os.environ.get("APIFOOTBALL_KEY", "")
+APIFOOTBALL_API = "https://v3.football.api-sports.io"
+
+# Order used when collapsing bio fields from multiple sources into one value.
+# Earlier = higher trust. (Season stat rows are never collapsed — every source's
+# rows are kept and tagged so the app can compare them.)
+BIO_SOURCE_PRECEDENCE = ("transfermarkt", "wikidata", "asa", "thesportsdb", "apifootball")
+
 # Seasons to pull. Extend the upper bound each year (or compute from date).
 SEASONS = [str(y) for y in range(CLUB_FIRST_SEASON, 2027)]
 

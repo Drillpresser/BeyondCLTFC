@@ -1,0 +1,1933 @@
+{
+  "Adam Armour": {
+    "bio": {
+      "birth_date": "2002-09-27",
+      "current_team": "_Free Agent Soccer",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/pao46s1647079041.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "Nurnberg"
+      },
+      {
+        "departed": "2023",
+        "joined": "2021",
+        "team": "Charlotte FC"
+      },
+      {
+        "departed": "2021",
+        "joined": "2021",
+        "team": "Charlotte Independence"
+      }
+    ],
+    "honours": [],
+    "id": "34195782"
+  },
+  "Adilson Malanda": {
+    "bio": {
+      "birth_date": "2001-10-29",
+      "current_team": "Middlesbrough",
+      "nationality": "France",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2qpd591788952161.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "Nimes"
+      },
+      {
+        "departed": "2022",
+        "joined": "2021",
+        "team": "Rodez AF"
+      }
+    ],
+    "honours": [],
+    "id": "34216551"
+  },
+  "Alan Steven Franco": {
+    "bio": {
+      "birth_date": "1998-08-21",
+      "current_team": "Atlético Mineiro",
+      "nationality": "Ecuador",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/d4dtcf1763755226.png",
+      "position": "Central Midfield"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34182531"
+  },
+  "Allan Saint-Maximin": {
+    "bio": {
+      "birth_date": "1997-03-12",
+      "current_team": "Charlotte FC",
+      "nationality": "France",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/s0ikbc1769179797.png",
+      "position": "Left Wing"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2013",
+        "team": "St Etienne"
+      },
+      {
+        "departed": "2017",
+        "joined": "2015",
+        "team": "Monaco"
+      },
+      {
+        "departed": "2016",
+        "joined": "2015",
+        "team": "Hannover"
+      },
+      {
+        "departed": "2017",
+        "joined": "2016",
+        "team": "Bastia"
+      },
+      {
+        "departed": "2019",
+        "joined": "2017",
+        "team": "Nice"
+      }
+    ],
+    "honours": [],
+    "id": "34152487"
+  },
+  "Andre Shinyashiki": {
+    "bio": {
+      "birth_date": "1997-06-11",
+      "current_team": "Neftçi PFK",
+      "nationality": "Brazil",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/z3guz41683124949.png",
+      "position": "Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2022",
+        "joined": "2019",
+        "team": "Colorado Rapids"
+      }
+    ],
+    "honours": [],
+    "id": "34172698"
+  },
+  "Andrew Privett": {
+    "bio": {
+      "birth_date": "2000-08-02",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/l079dw1771753969.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34221335"
+  },
+  "Anton Walkes": {
+    "bio": {
+      "birth_date": "1997-02-08",
+      "current_team": "_Deceased Soccer",
+      "nationality": "United Kingdom",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/r6wxnz1647079193.png",
+      "position": "Centre-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2018",
+        "joined": "2016",
+        "team": "Tottenham"
+      },
+      {
+        "departed": "2017",
+        "joined": "2017",
+        "team": "Atlanta United"
+      },
+      {
+        "departed": "2018",
+        "joined": "2018",
+        "team": "Portsmouth"
+      },
+      {
+        "departed": "2020",
+        "joined": "2018",
+        "team": "Portsmouth"
+      },
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "Atlanta United"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English EFL Trophy",
+        "season": "2018-2019"
+      }
+    ],
+    "id": "34163916"
+  },
+  "Archie Goodwin": {
+    "bio": {
+      "birth_date": "2004-11-07",
+      "current_team": "Charlotte FC",
+      "nationality": "Australia",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ho19z51766482131.png",
+      "position": "Forward"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34182321"
+  },
+  "Aron John": {
+    "bio": {
+      "birth_date": "2006-04-03",
+      "current_team": "Crown Legacy",
+      "nationality": "United States",
+      "position": "Central Midfield"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34299127"
+  },
+  "Ashley Westwood": {
+    "bio": {
+      "birth_date": "1990-04-01",
+      "current_team": "Charlotte FC",
+      "nationality": "England",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/h8n7i01771755041.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [
+      {
+        "departed": "2017",
+        "joined": "2012",
+        "team": "Aston Villa"
+      },
+      {
+        "departed": "2012",
+        "joined": "2008",
+        "team": "Crewe"
+      },
+      {
+        "departed": "2023",
+        "joined": "2017",
+        "team": "Burnley"
+      }
+    ],
+    "honours": [],
+    "id": "34145460"
+  },
+  "Baye Coulibaly": {
+    "bio": {
+      "birth_date": "2006-01-08",
+      "current_team": "Charlotte FC",
+      "nationality": "Mali",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/p2k6hy1777662609.png",
+      "position": "Defensive Midfield"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34347936"
+  },
+  "Ben Bender": {
+    "bio": {
+      "birth_date": "1981-01-30",
+      "current_team": "_Retired Basketball",
+      "nationality": "United States",
+      "position": "Power Forward"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34154157"
+  },
+  "Bill Tuiloma": {
+    "bio": {
+      "birth_date": "1995-03-27",
+      "current_team": "Wellington Phoenix",
+      "nationality": "New Zealand",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/jl6sfi1771582590.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [
+      {
+        "departed": "2017",
+        "joined": "2015",
+        "team": "Marseille"
+      },
+      {
+        "departed": "2016",
+        "joined": "2015",
+        "team": "Strasbourg"
+      }
+    ],
+    "honours": [],
+    "id": "34148001"
+  },
+  "Brandon Cambridge": {
+    "bio": {
+      "birth_date": "2002-02-09",
+      "current_team": "Orange County SC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/or3ow81785240163.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34218461"
+  },
+  "Brandt Bronico": {
+    "bio": {
+      "birth_date": "1995-06-20",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/6uyhbo1766482252.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [
+      {
+        "departed": "2020",
+        "joined": "2017",
+        "team": "Chicago Fire"
+      },
+      {
+        "departed": "2017",
+        "joined": "2017",
+        "team": "Tulsa Roughnecks"
+      },
+      {
+        "departed": "2021",
+        "joined": "2021",
+        "team": "Charlotte Independence"
+      }
+    ],
+    "honours": [],
+    "id": "34164637"
+  },
+  "Brecht Dejaegere": {
+    "bio": {
+      "birth_date": "1991-05-29",
+      "current_team": "Kortrijk",
+      "nationality": "Belgium",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/wxyzxv1695728521.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [
+      {
+        "departed": "2013",
+        "joined": "2010",
+        "team": "Kortrijk"
+      },
+      {
+        "departed": "2021",
+        "joined": "2013",
+        "team": "Gent"
+      },
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "Toulouse"
+      },
+      {
+        "departed": "2023",
+        "joined": "2021",
+        "team": "Toulouse"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "French Coupe de France",
+        "season": "2022-2023"
+      }
+    ],
+    "id": "34174991"
+  },
+  "Christian Fuchs": {
+    "bio": {
+      "birth_date": "1986-04-07",
+      "current_team": "Newport County",
+      "nationality": "Austria",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/wyeusb1647030243.png",
+      "position": "Manager"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2010",
+        "team": "Schalke 04"
+      },
+      {
+        "departed": "2003",
+        "joined": "2002",
+        "team": "Wiener Neustadt"
+      },
+      {
+        "departed": "2008",
+        "joined": "2003",
+        "team": "SV Mattersburg"
+      },
+      {
+        "departed": "2011",
+        "joined": "2008",
+        "team": "Bochum"
+      },
+      {
+        "departed": "2011",
+        "joined": "2010",
+        "team": "Mainz"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English Premier League",
+        "season": "2015-2016"
+      },
+      {
+        "honour": "German DFL-Supercup",
+        "season": "2011"
+      }
+    ],
+    "id": "34155254"
+  },
+  "Christian Makoun": {
+    "bio": {
+      "birth_date": "2000-03-05",
+      "current_team": "Anorthosis Famagusta",
+      "nationality": "Venezuela",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/akh2ro1683193182.png",
+      "position": "Centre-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2018",
+        "joined": "2010",
+        "team": "Zamora"
+      },
+      {
+        "departed": "2019",
+        "joined": "2016",
+        "team": "Zamora"
+      },
+      {
+        "departed": "2019",
+        "joined": "2018",
+        "team": "Juventus U23"
+      },
+      {
+        "departed": "2022",
+        "joined": "2020",
+        "team": "Inter Miami"
+      },
+      {
+        "departed": "2020",
+        "joined": "2020",
+        "team": "Fort Lauderdale CF"
+      }
+    ],
+    "honours": [],
+    "id": "34169843"
+  },
+  "Christian Ortíz": {
+    "bio": {
+      "birth_date": "1992-08-20",
+      "current_team": "Sport Club do Recife",
+      "nationality": "Argentina",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/gqgfmc1647029000.png",
+      "position": "Winger"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34196751"
+  },
+  "Christopher Hegardt": {
+    "bio": {
+      "birth_date": "2002-01-06",
+      "current_team": "Orange County SC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/nqm0681785185960.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [
+      {
+        "departed": "2020",
+        "joined": "2019",
+        "team": "Tacoma Defiance"
+      }
+    ],
+    "honours": [],
+    "id": "34218462"
+  },
+  "Daniel Ríos": {
+    "bio": {
+      "birth_date": "1995-02-22",
+      "current_team": "CF Montréal",
+      "nationality": "Mexico",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/f3rs6k1777652115.png",
+      "position": "Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2018",
+        "joined": "2015",
+        "team": "CD Guadalajara"
+      },
+      {
+        "departed": "2017",
+        "joined": "2017",
+        "team": "Zacatepec"
+      },
+      {
+        "departed": "2018",
+        "joined": "2018",
+        "team": "North Carolina FC"
+      },
+      {
+        "departed": "2022",
+        "joined": "2019",
+        "team": "Nashville SC"
+      },
+      {
+        "departed": "2022",
+        "joined": "2022",
+        "team": "Charlotte FC"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Mexican Copa MX",
+        "season": "2015"
+      },
+      {
+        "honour": "Mexican Supercopa MX",
+        "season": "2016"
+      }
+    ],
+    "id": "34199149"
+  },
+  "David Bingham": {
+    "bio": {
+      "birth_date": "1989-10-19",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2j80jx1766482096.png",
+      "position": "Goalkeeper"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34163837"
+  },
+  "David Schnegg": {
+    "bio": {
+      "birth_date": "1998-09-29",
+      "current_team": "Charlotte FC",
+      "nationality": "Austria",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/7bgh4z1771755440.png",
+      "position": "Left-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2019",
+        "joined": "2018",
+        "team": "FC Liefering"
+      },
+      {
+        "departed": "2020",
+        "joined": "2020",
+        "team": "Lask Juniors Linz"
+      },
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "WSG Swarovski Tirol"
+      },
+      {
+        "departed": "2022",
+        "joined": "2021",
+        "team": "Venezia"
+      },
+      {
+        "departed": "2018",
+        "joined": "2017",
+        "team": "Imst"
+      }
+    ],
+    "honours": [],
+    "id": "34175474"
+  },
+  "Derrick Jones": {
+    "bio": {
+      "birth_date": "1997-02-15",
+      "current_team": "Los Angeles Clippers",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/c2ziz91728203654.png",
+      "position": "Small Forward"
+    },
+    "former_teams": [],
+    "honours": [
+      {
+        "honour": "NBA Slam Dunk Contest",
+        "season": "2020"
+      }
+    ],
+    "id": "34165661"
+  },
+  "Djibril Diani": {
+    "bio": {
+      "birth_date": "1998-02-11",
+      "current_team": "Charlotte FC",
+      "nationality": "France",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/zcuvmf1766425564.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34230615"
+  },
+  "Enzo Copetti": {
+    "bio": {
+      "birth_date": "1996-01-16",
+      "current_team": "Rosario Central",
+      "nationality": "Argentina",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/7rgdk61765296194.png",
+      "position": "Winger"
+    },
+    "former_teams": [
+      {
+        "departed": "2021",
+        "joined": "2021",
+        "team": "Racing Club"
+      },
+      {
+        "departed": "2022",
+        "joined": "2022",
+        "team": "Racing Club"
+      }
+    ],
+    "honours": [],
+    "id": "34216552"
+  },
+  "Eryk Williamson": {
+    "bio": {
+      "birth_date": "1997-06-11",
+      "current_team": "_Free Agent Soccer",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/wirian1766432138.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [],
+    "honours": [
+      {
+        "honour": "CONCACAF Gold Cup",
+        "season": "2021"
+      }
+    ],
+    "id": "34180949"
+  },
+  "George Marks": {
+    "bio": {
+      "birth_date": "1999-11-10",
+      "current_team": "Philadelphia Union",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/uw028x1778675665.png",
+      "position": "Goalkeeper"
+    },
+    "former_teams": [
+      {
+        "departed": "2018",
+        "joined": "2017",
+        "team": "North Carolina"
+      },
+      {
+        "departed": "2018",
+        "joined": "2017",
+        "team": "North Carolina FC"
+      },
+      {
+        "departed": "2018",
+        "joined": "2018",
+        "team": "North Carolina FC U23"
+      },
+      {
+        "departed": "2021",
+        "joined": "2021",
+        "team": "North Carolina FC U23"
+      },
+      {
+        "departed": "2025",
+        "joined": "2022",
+        "team": "Charlotte FC"
+      }
+    ],
+    "honours": [],
+    "id": "34216762"
+  },
+  "Guzmán Corujo": {
+    "bio": {
+      "birth_date": "1996-08-02",
+      "current_team": "San Lorenzo",
+      "nationality": "Uruguay",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ir3v2c1647029484.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "2021",
+        "joined": "2017",
+        "team": "Nacional Montevideo"
+      }
+    ],
+    "honours": [],
+    "id": "34195783"
+  },
+  "Hamady Diop": {
+    "bio": {
+      "birth_date": "2001-12-26",
+      "current_team": "Rhode Island FC",
+      "nationality": "Senegal",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/9yxkr01785405969.png",
+      "position": "Left-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2024",
+        "joined": "2023",
+        "team": "Charlotte FC"
+      },
+      {
+        "departed": "2024",
+        "joined": "2024",
+        "team": "Cukaricki"
+      }
+    ],
+    "honours": [],
+    "id": "34218411"
+  },
+  "Harrison Afful": {
+    "bio": {
+      "birth_date": "1986-07-24",
+      "current_team": "_Retired Soccer",
+      "nationality": "Ghana",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/8n12rz1647079162.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2009",
+        "team": "Espérance de Tunis"
+      },
+      {
+        "departed": "2021",
+        "joined": "2015",
+        "team": "Columbus Crew"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "American MLS Cup",
+        "season": "2020"
+      }
+    ],
+    "id": "34164715"
+  },
+  "Harry Toffolo": {
+    "bio": {
+      "birth_date": "1995-08-19",
+      "current_team": "Charlotte FC",
+      "nationality": "England",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/378rgf1771754736.png",
+      "position": "Left-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2014",
+        "joined": "2008",
+        "team": "Norwich"
+      },
+      {
+        "departed": "2018",
+        "joined": "2014",
+        "team": "Norwich"
+      },
+      {
+        "departed": "2015",
+        "joined": "2014",
+        "team": "Swindon"
+      },
+      {
+        "departed": "2016",
+        "joined": "2015",
+        "team": "Rotherham"
+      },
+      {
+        "departed": "2016",
+        "joined": "2016",
+        "team": "Peterboro"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English Football League 2",
+        "season": "2018-2019"
+      }
+    ],
+    "id": "34147833"
+  },
+  "Henry Kessler": {
+    "bio": {
+      "birth_date": "1998-06-25",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/w29ca41778848431.png",
+      "position": "Defender"
+    },
+    "former_teams": [],
+    "honours": [
+      {
+        "honour": "CONCACAF Gold Cup",
+        "season": "2021"
+      }
+    ],
+    "id": "34173211"
+  },
+  "Idan Toklomati": {
+    "bio": {
+      "birth_date": "2004-08-09",
+      "current_team": "Charlotte FC",
+      "nationality": "Israel",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/qshkv21771754299.png",
+      "position": "Attacker"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34228700"
+  },
+  "Iuri Tavares": {
+    "bio": {
+      "birth_date": "2001-03-08",
+      "current_team": "NK Varaždin",
+      "nationality": "Portugal",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2jc9x31709719063.png",
+      "position": "Forward"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34229522"
+  },
+  "Jack Neeley": {
+    "bio": {
+      "birth_date": "2005-03-11",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/rymu2t1766482318.png",
+      "position": "Centre-Back"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34295508"
+  },
+  "Jahkeele Marshall-Rutty": {
+    "bio": {
+      "birth_date": "2004-06-16",
+      "current_team": "New York Red Bulls",
+      "nationality": "Canada",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/b4531b1778532107.png",
+      "position": "Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2019",
+        "joined": "2019",
+        "team": "Toronto FC II"
+      },
+      {
+        "departed": "2024",
+        "joined": "2020",
+        "team": "Toronto FC"
+      },
+      {
+        "departed": "2023",
+        "joined": "2021",
+        "team": "Toronto FC II"
+      },
+      {
+        "departed": "2026",
+        "joined": "2024",
+        "team": "CF Montréal"
+      },
+      {
+        "departed": "2025",
+        "joined": "2025",
+        "team": "Charlotte FC"
+      }
+    ],
+    "honours": [],
+    "id": "34195881"
+  },
+  "Jamie Paterson": {
+    "bio": {
+      "birth_date": "1991-12-20",
+      "current_team": "Plymouth Argyle",
+      "nationality": "England",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/opx1bi1766146991.png",
+      "position": "Attacking Midfield"
+    },
+    "former_teams": [
+      {
+        "departed": "2013",
+        "joined": "2010",
+        "team": "Walsall"
+      },
+      {
+        "departed": "2016",
+        "joined": "2013",
+        "team": "Nottingham F."
+      },
+      {
+        "departed": "2021",
+        "joined": "2016",
+        "team": "Bristol City"
+      },
+      {
+        "departed": "2024",
+        "joined": "2021",
+        "team": "Swansea"
+      },
+      {
+        "departed": "2024",
+        "joined": "2024",
+        "team": "Charlotte FC"
+      }
+    ],
+    "honours": [],
+    "id": "34148793"
+  },
+  "Jan Sobociński": {
+    "bio": {
+      "birth_date": "1999-03-20",
+      "current_team": "Giannina",
+      "nationality": "Poland",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/1l937d1683721807.png",
+      "position": "Defender"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34217981"
+  },
+  "Jaylin Lindsey": {
+    "bio": {
+      "birth_date": "2000-03-27",
+      "current_team": "_Free Agent Soccer",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/sjiomp1647030351.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "2021",
+        "joined": "2017",
+        "team": "Sporting Kansas City"
+      }
+    ],
+    "honours": [],
+    "id": "34180857"
+  },
+  "Jere Uronen": {
+    "bio": {
+      "birth_date": "1994-07-13",
+      "current_team": "Atromitos",
+      "nationality": "Finland",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/zeoc1x1727967586.png",
+      "position": "Left-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2012",
+        "joined": "2011",
+        "team": "TPS"
+      },
+      {
+        "departed": "2016",
+        "joined": "2012",
+        "team": "Helsingborg"
+      },
+      {
+        "departed": "",
+        "joined": "",
+        "team": "TPS"
+      },
+      {
+        "departed": "2021",
+        "joined": "2016",
+        "team": "Genk"
+      },
+      {
+        "departed": "2023",
+        "joined": "2021",
+        "team": "Brest"
+      }
+    ],
+    "honours": [],
+    "id": "34175624"
+  },
+  "Jordy Alcívar": {
+    "bio": {
+      "birth_date": "1999-08-05",
+      "current_team": "Independiente del Valle",
+      "nationality": "Ecuador",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/fsndo51647078998.png",
+      "position": "Defensive Midfield"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34195781"
+  },
+  "Joseph Mora": {
+    "bio": {
+      "birth_date": "1993-01-15",
+      "current_team": "Deportivo Saprissa",
+      "nationality": "Costa Rica",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/pwwpx41647030293.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "2018",
+        "joined": "2015",
+        "team": "Deportivo Saprissa"
+      },
+      {
+        "departed": "2021",
+        "joined": "2018",
+        "team": "DC United"
+      },
+      {
+        "departed": "2023",
+        "joined": "2022",
+        "team": "Charlotte FC"
+      }
+    ],
+    "honours": [],
+    "id": "34164757"
+  },
+  "João Pedro": {
+    "bio": {
+      "birth_date": "1987-12-29",
+      "current_team": "Penafiel",
+      "nationality": "Portugal",
+      "position": "Defender"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34146950"
+  },
+  "Justin Meram": {
+    "bio": {
+      "birth_date": "1988-12-04",
+      "current_team": "_Retired Soccer",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/xadn131683126480.png"
+    },
+    "former_teams": [
+      {
+        "departed": "2017",
+        "joined": "2011",
+        "team": "Columbus Crew"
+      },
+      {
+        "departed": "2018",
+        "joined": "2018",
+        "team": "Orlando City"
+      },
+      {
+        "departed": "2019",
+        "joined": "2018",
+        "team": "Columbus Crew"
+      },
+      {
+        "departed": "2019",
+        "joined": "2019",
+        "team": "Atlanta"
+      },
+      {
+        "departed": "2023",
+        "joined": "2020",
+        "team": "Real Salt Lake"
+      }
+    ],
+    "honours": [],
+    "id": "34181020"
+  },
+  "Júnior Urso": {
+    "bio": {
+      "birth_date": "1989-03-10",
+      "current_team": "_Free Agent Soccer",
+      "nationality": "Brazil",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/bxhq941727967248.png",
+      "position": "Defensive Midfield"
+    },
+    "former_teams": [
+      {
+        "departed": "2010",
+        "joined": "2009",
+        "team": "Santo André"
+      },
+      {
+        "departed": "2011",
+        "joined": "2010",
+        "team": "Ituano"
+      },
+      {
+        "departed": "2012",
+        "joined": "2011",
+        "team": "Avai FC"
+      },
+      {
+        "departed": "2011",
+        "joined": "2011",
+        "team": "Parana Clube"
+      },
+      {
+        "departed": "2012",
+        "joined": "2012",
+        "team": "Coritiba"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Campeonato Paranaense",
+        "season": "2012"
+      },
+      {
+        "honour": "Campeonato Paranaense",
+        "season": "2013"
+      },
+      {
+        "honour": "Campeonato Paulista",
+        "season": "2019"
+      },
+      {
+        "honour": "Lamar Hunt US Open Cup",
+        "season": "2022"
+      }
+    ],
+    "id": "34180829"
+  },
+  "Kamil Jozwiak": {
+    "bio": {
+      "birth_date": "1998-04-22",
+      "current_team": "Jagiellonia Białystok",
+      "nationality": "Poland",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/7f9ed61682692896.png",
+      "position": "Left Wing"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2011",
+        "team": "Lech Poznan"
+      },
+      {
+        "departed": "2020",
+        "joined": "2016",
+        "team": "Lech Poznan"
+      },
+      {
+        "departed": "2017",
+        "joined": "2017",
+        "team": "GKS Katowice"
+      },
+      {
+        "departed": "2022",
+        "joined": "2020",
+        "team": "Derby"
+      }
+    ],
+    "honours": [],
+    "id": "34172358"
+  },
+  "Karol Swiderski": {
+    "bio": {
+      "birth_date": "1997-01-23",
+      "current_team": "Panathinaikos",
+      "nationality": "Poland",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/49nz041727967369.png",
+      "position": "Centre-Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2019",
+        "joined": "2014",
+        "team": "Jagiellonia Bialystok"
+      },
+      {
+        "departed": "2022",
+        "joined": "2019",
+        "team": "PAOK"
+      },
+      {
+        "departed": "2019",
+        "joined": "2017",
+        "team": "Poland U21"
+      },
+      {
+        "departed": "2025",
+        "joined": "2022",
+        "team": "Charlotte FC"
+      },
+      {
+        "departed": "2024",
+        "joined": "2023",
+        "team": "Verona"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Greek Football Cup",
+        "season": "2018-2019"
+      },
+      {
+        "honour": "Greek Football Cup",
+        "season": "2020-2021"
+      },
+      {
+        "honour": "Greek Superleague",
+        "season": "2018-2019"
+      }
+    ],
+    "id": "34178560"
+  },
+  "Kerwin Vargas": {
+    "bio": {
+      "birth_date": "2002-01-02",
+      "current_team": "Athletico Paranaense",
+      "nationality": "Colombia",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0weo6f1778870272.png",
+      "position": "Forward"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34200563"
+  },
+  "Koa Santos": {
+    "bio": {
+      "birth_date": "1999-09-21",
+      "current_team": "_Retired-Soccer",
+      "nationality": "USA",
+      "position": "Defender"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34292625"
+  },
+  "Kristijan Kahlina": {
+    "bio": {
+      "birth_date": "1992-07-24",
+      "current_team": "Charlotte FC",
+      "nationality": "Croatia",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/73hiu31766425627.png",
+      "position": "Goalkeeper"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2013",
+        "team": "NK Lučko"
+      },
+      {
+        "departed": "2016",
+        "joined": "2015",
+        "team": "Koper"
+      },
+      {
+        "departed": "2021",
+        "joined": "2016",
+        "team": "Gorica"
+      },
+      {
+        "departed": "2021",
+        "joined": "2021",
+        "team": "Ludogorets Razgrad"
+      }
+    ],
+    "honours": [],
+    "id": "34195788"
+  },
+  "Liel Abada": {
+    "bio": {
+      "birth_date": "2001-10-03",
+      "current_team": "Charlotte FC",
+      "nationality": "Israel",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/6141w71771755150.png",
+      "position": "Right Winger"
+    },
+    "former_teams": [
+      {
+        "departed": "2014",
+        "joined": "2006",
+        "team": "Hapoel Petah Tikva"
+      },
+      {
+        "departed": "2019",
+        "joined": "2014",
+        "team": "Maccabi Petach Tikva"
+      },
+      {
+        "departed": "2021",
+        "joined": "2019",
+        "team": "Maccabi Petach Tikva"
+      },
+      {
+        "departed": "2024",
+        "joined": "2021",
+        "team": "Celtic"
+      },
+      {
+        "departed": "2024",
+        "joined": "2021",
+        "team": "Israel"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Scottish Cup",
+        "season": "2022-2023"
+      },
+      {
+        "honour": "Scottish League Cup",
+        "season": "2022-2023"
+      },
+      {
+        "honour": "Scottish Premier League",
+        "season": "2021-2022"
+      },
+      {
+        "honour": "Scottish Premier League",
+        "season": "2022-2023"
+      }
+    ],
+    "id": "34192370"
+  },
+  "Luca De La Torre": {
+    "bio": {
+      "birth_date": "1996-02-11",
+      "current_team": "Galatasaray",
+      "nationality": "Uruguay",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/123f851769178178.png",
+      "position": "Defensive Midfield"
+    },
+    "former_teams": [
+      {
+        "departed": "2018",
+        "joined": "2015",
+        "team": "Sampdoria"
+      },
+      {
+        "departed": "2013",
+        "joined": "2013",
+        "team": "Wanderers"
+      },
+      {
+        "departed": "2014",
+        "joined": "2013",
+        "team": "Pescara"
+      },
+      {
+        "departed": "2016",
+        "joined": "2015",
+        "team": "Pescara"
+      },
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "Ath Madrid"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English FA Cup",
+        "season": "2019-2020"
+      },
+      {
+        "honour": "Spanish La Liga",
+        "season": "2020-2021"
+      },
+      {
+        "honour": "Turkish Super Lig",
+        "season": "2023-2024"
+      },
+      {
+        "honour": "Turkish Super Lig",
+        "season": "2024-2025"
+      },
+      {
+        "honour": "Turkish Super Lig",
+        "season": "2025-2026"
+      }
+    ],
+    "id": "34163579"
+  },
+  "McKinze Gaines": {
+    "bio": {
+      "birth_date": "1998-03-02",
+      "current_team": "_Free Agent Soccer",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/t4fh261647079128.png",
+      "position": "Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2019",
+        "joined": "2017",
+        "team": "Darmstadt"
+      },
+      {
+        "departed": "2019",
+        "joined": "2019",
+        "team": "Zwickau"
+      },
+      {
+        "departed": "2020",
+        "joined": "2019",
+        "team": "Sonnenhof Großaspach"
+      },
+      {
+        "departed": "2021",
+        "joined": "2020",
+        "team": "Hannover II"
+      },
+      {
+        "departed": "2021",
+        "joined": "2021",
+        "team": "Austin FC"
+      }
+    ],
+    "honours": [],
+    "id": "34195784"
+  },
+  "Morrison Agyemang": {
+    "bio": {
+      "birth_date": "2004-12-21",
+      "current_team": "Charlotte FC",
+      "nationality": "Ghana",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0tvcdh1778869940.png",
+      "position": "Defender"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34347479"
+  },
+  "Nathan Byrne": {
+    "bio": {
+      "birth_date": "1992-06-05",
+      "current_team": "Charlotte FC",
+      "nationality": "England",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/sni4yv1771754643.png",
+      "position": "Defender"
+    },
+    "former_teams": [
+      {
+        "departed": "",
+        "joined": "",
+        "team": "St Albans City"
+      },
+      {
+        "departed": "2010",
+        "joined": "2008",
+        "team": "Tottenham"
+      },
+      {
+        "departed": "2013",
+        "joined": "2010",
+        "team": "Tottenham"
+      },
+      {
+        "departed": "2011",
+        "joined": "2011",
+        "team": "Brentford"
+      },
+      {
+        "departed": "2012",
+        "joined": "2011",
+        "team": "Bournemouth"
+      }
+    ],
+    "honours": [],
+    "id": "34159034"
+  },
+  "Nick Scardina": {
+    "bio": {},
+    "former_teams": [],
+    "honours": [],
+    "id": null
+  },
+  "Nikola Petkovic": {
+    "bio": {
+      "birth_date": "2003-02-23",
+      "current_team": "Seattle Sounders",
+      "nationality": "Serbia",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/2xdryy1778764450.png",
+      "position": "Midfielder"
+    },
+    "former_teams": [
+      {
+        "departed": "2024",
+        "joined": "2022",
+        "team": "Mura"
+      }
+    ],
+    "honours": [],
+    "id": "34231029"
+  },
+  "Nimfasha Berchimas": {
+    "bio": {
+      "birth_date": "2008-02-22",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/fx6aqc1736782869.png"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34229120"
+  },
+  "Nuno Santos": {
+    "bio": {
+      "birth_date": "1995-02-13",
+      "current_team": "Sporting CP",
+      "nationality": "Portugal",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/thumb/z2wua31527595157.jpg",
+      "position": "Winger"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2014",
+        "team": "Benfica B"
+      },
+      {
+        "departed": "2017",
+        "joined": "2015",
+        "team": "Benfica"
+      },
+      {
+        "departed": "2017",
+        "joined": "2016",
+        "team": "Vitoria Setubal"
+      },
+      {
+        "departed": "2020",
+        "joined": "2017",
+        "team": "Rio Ave"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Portuguese Primeira Liga",
+        "season": "2023-2024"
+      },
+      {
+        "honour": "Portuguese Taca de Portugal",
+        "season": "2024-2025"
+      }
+    ],
+    "id": "34163322"
+  },
+  "Pablo Sisniega": {
+    "bio": {
+      "birth_date": "1995-07-07",
+      "current_team": "San Diego FC",
+      "nationality": "Mexico",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/o6wqly1762901311.png",
+      "position": "Goalkeeper"
+    },
+    "former_teams": [
+      {
+        "departed": "2019",
+        "joined": "2014",
+        "team": "Real Sociedad B"
+      },
+      {
+        "departed": "2021",
+        "joined": "2019",
+        "team": "Los Angeles FC"
+      },
+      {
+        "departed": "2023",
+        "joined": "2022",
+        "team": "Charlotte FC"
+      },
+      {
+        "departed": "2023",
+        "joined": "2023",
+        "team": "Crown Legacy"
+      },
+      {
+        "departed": "2024",
+        "joined": "2024",
+        "team": "San Antonio FC"
+      }
+    ],
+    "honours": [],
+    "id": "34180864"
+  },
+  "Patrick Agyemang": {
+    "bio": {
+      "birth_date": "1980-09-29",
+      "current_team": "_Retired Soccer",
+      "nationality": "Ghana",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/4000552.png",
+      "position": "Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2004",
+        "joined": "1998",
+        "team": "Wimbledon FC"
+      },
+      {
+        "departed": "2004",
+        "joined": "2004",
+        "team": "Gillingham"
+      },
+      {
+        "departed": "2008",
+        "joined": "2004",
+        "team": "Preston"
+      },
+      {
+        "departed": "2012",
+        "joined": "2008",
+        "team": "QPR"
+      },
+      {
+        "departed": "2013",
+        "joined": "2012",
+        "team": "Stevenage"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English Championship",
+        "season": "2010-2011"
+      }
+    ],
+    "id": "34157640"
+  },
+  "Pep Biel": {
+    "bio": {
+      "birth_date": "1996-09-05",
+      "current_team": "Charlotte FC",
+      "nationality": "Spain",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/axv2ha1771754185.png",
+      "position": "Attacking Midfield"
+    },
+    "former_teams": [
+      {
+        "departed": "2017",
+        "joined": "2016",
+        "team": "Mallorca B"
+      },
+      {
+        "departed": "2019",
+        "joined": "2018",
+        "team": "Zaragoza"
+      },
+      {
+        "departed": "2022",
+        "joined": "2019",
+        "team": "FC Copenhagen"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Danish Superliga",
+        "season": "2021-2022"
+      }
+    ],
+    "id": "34175875"
+  },
+  "Quinn McNeill": {
+    "bio": {
+      "birth_date": "1998-08-30",
+      "current_team": "_Retired Soccer",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/thumb/9hxnah1663335011.jpg",
+      "position": "Midfielder"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34200562"
+  },
+  "Rodolfo Aloko": {
+    "bio": {
+      "birth_date": "2006-12-26",
+      "current_team": "Charlotte FC",
+      "nationality": "Benin",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/tyokm41778870520.png",
+      "position": "Winger"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34433400"
+  },
+  "Scott Arfield": {
+    "bio": {
+      "birth_date": "1988-11-01",
+      "current_team": "_Free Agent Soccer",
+      "nationality": "Canada",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/50r7ni1695728634.png",
+      "position": "Central Midfield"
+    },
+    "former_teams": [
+      {
+        "departed": "2010",
+        "joined": "2007",
+        "team": "Falkirk"
+      },
+      {
+        "departed": "2013",
+        "joined": "2010",
+        "team": "Huddersfield Town"
+      },
+      {
+        "departed": "2018",
+        "joined": "2013",
+        "team": "Burnley"
+      },
+      {
+        "departed": "",
+        "joined": "",
+        "team": "Falkirk"
+      },
+      {
+        "departed": "2023",
+        "joined": "2018",
+        "team": "Rangers"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English Championship",
+        "season": "2015-2016"
+      },
+      {
+        "honour": "Scottish Premier League",
+        "season": "2020-2021"
+      }
+    ],
+    "id": "34146047"
+  },
+  "Sergio Ruiz": {
+    "bio": {
+      "birth_date": "1994-12-16",
+      "current_team": "Las Palmas",
+      "nationality": "Spain",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ein8jw1701179707.png",
+      "position": "Central Midfield"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34175096"
+  },
+  "Souleyman Doumbia": {
+    "bio": {
+      "birth_date": "1996-09-24",
+      "current_team": "Charlotte FC",
+      "nationality": "Ivory Coast",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/0ptiqs1766482286.png",
+      "position": "Left-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2016",
+        "joined": "2009",
+        "team": "Paris SG"
+      },
+      {
+        "departed": "2016",
+        "joined": "2014",
+        "team": "Paris SG"
+      },
+      {
+        "departed": "2018",
+        "joined": "2016",
+        "team": "Bari"
+      },
+      {
+        "departed": "2017",
+        "joined": "2017",
+        "team": "L.R. Vicenza Virtus"
+      },
+      {
+        "departed": "2018",
+        "joined": "2017",
+        "team": "Grasshoppers"
+      }
+    ],
+    "honours": [],
+    "id": "34170715"
+  },
+  "Tim Ream": {
+    "bio": {
+      "birth_date": "1987-10-05",
+      "current_team": "Charlotte FC",
+      "nationality": "United States",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/lbav9r1771754456.png",
+      "position": "Centre-Back"
+    },
+    "former_teams": [
+      {
+        "departed": "2015",
+        "joined": "2012",
+        "team": "Bolton"
+      },
+      {
+        "departed": "2012",
+        "joined": "2010",
+        "team": "New York Red Bulls"
+      },
+      {
+        "departed": "2024",
+        "joined": "2015",
+        "team": "Fulham"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English Championship",
+        "season": "2021-2022"
+      }
+    ],
+    "id": "34148733"
+  },
+  "Tyger Smalls": {
+    "bio": {
+      "birth_date": "2002-09-18",
+      "current_team": "Charlotte FC",
+      "nationality": "England",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/4tolr61771755308.png",
+      "position": "Attacker"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34244051"
+  },
+  "Vinicius Mello": {
+    "bio": {
+      "birth_date": "2002-08-19",
+      "current_team": "Al Jazira",
+      "nationality": "Brazil",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/m13zwh1647079081.png",
+      "position": "Forward"
+    },
+    "former_teams": [],
+    "honours": [],
+    "id": "34195786"
+  },
+  "Wilfried Zaha": {
+    "bio": {
+      "birth_date": "1992-11-10",
+      "current_team": "Charlotte FC",
+      "nationality": "Ivory Coast",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/ax55cj1771754901.png",
+      "position": "Left Wing"
+    },
+    "former_teams": [
+      {
+        "departed": "2013",
+        "joined": "2010",
+        "team": "Crystal Palace"
+      },
+      {
+        "departed": "2015",
+        "joined": "2013",
+        "team": "Manchester United"
+      },
+      {
+        "departed": "2010",
+        "joined": "2004",
+        "team": "Crystal Palace"
+      },
+      {
+        "departed": "2014",
+        "joined": "2014",
+        "team": "Cardiff"
+      },
+      {
+        "departed": "2015",
+        "joined": "2014",
+        "team": "Crystal Palace"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "English FA Community Shield",
+        "season": "2013"
+      },
+      {
+        "honour": "Football League Young Player of the Year",
+        "season": "2011-2012"
+      }
+    ],
+    "id": "34145668"
+  },
+  "Will Cleary": {
+    "bio": {},
+    "former_teams": [],
+    "honours": [],
+    "id": null
+  },
+  "Yordy Reyna": {
+    "bio": {
+      "birth_date": "1993-09-17",
+      "current_team": "Torpedo Moscow",
+      "nationality": "Peru",
+      "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/5ga80l1647029736.png",
+      "position": "Forward"
+    },
+    "former_teams": [
+      {
+        "departed": "2011",
+        "joined": "2009",
+        "team": "Alianza Lima"
+      },
+      {
+        "departed": "2013",
+        "joined": "2011",
+        "team": "Alianza Lima"
+      },
+      {
+        "departed": "2017",
+        "joined": "2013",
+        "team": "SV Salzburg"
+      },
+      {
+        "departed": "2014",
+        "joined": "2013",
+        "team": "FC Liefering"
+      },
+      {
+        "departed": "2015",
+        "joined": "2015",
+        "team": "RasenBallsport Leipzig"
+      }
+    ],
+    "honours": [
+      {
+        "honour": "Austrian Bundesliga",
+        "season": "2013-2014"
+      },
+      {
+        "honour": "Austrian Bundesliga",
+        "season": "2015-2016"
+      }
+    ],
+    "id": "34164612"
+  }
+}
