@@ -40,12 +40,43 @@ def tenure_for(name: str | None) -> dict:
     return {"start": config.CLUB_FIRST_SEASON, "end": None}
 
 
+def fbref_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
+    """Turn a player's FBref career into non-MLS season rows for before/after
+    context. MLS is skipped — ASA already covers it with richer metrics."""
+    rows = []
+    for r in careers.get(name, []) or []:
+        comp = str(r.get("comp") or "")
+        if "Major League Soccer" in comp:
+            continue
+        try:
+            year = int(str(r.get("season"))[:4])
+        except (TypeError, ValueError):
+            continue
+        stats = {k: r.get(k) for k in ("mp", "starts", "minutes", "goals", "assists", "xg", "npxg", "xag") if k in r}
+        rows.append(
+            {
+                "season": year,
+                "season_label": r.get("season"),
+                "team": r.get("squad"),
+                "league": comp,
+                "source": "fbref",
+                "phase": config.phase_for(year, tenure["start"], tenure["end"]),
+                "fbref": stats,
+            }
+        )
+    return rows
+
+
 def main() -> None:
     print("Building data/players.json ...")
     team_names = index_by_id(load("asa_teams.json"), "team_id", "team_name")
     player_names = index_by_id(load("asa_players.json"), "player_id", "player_name")
     xgoals = load("asa_player_xgoals.json")
     goals_added = load("asa_player_goals_added.json")
+    fbref_careers = {}
+    fbref_path = config.RAW_DIR / "fbref_careers.json"
+    if fbref_path.exists():
+        fbref_careers = json.loads(fbref_path.read_text(encoding="utf-8"))
 
     # (player_id, season, team_id) -> merged season row
     merged: dict[tuple, dict] = {}
@@ -87,10 +118,13 @@ def main() -> None:
         name = player_names.get(pid, pid)
         tenure = tenure_for(name)
         seasons = []
-        for season, season_row in sorted(rows, key=lambda x: x[0]):
+        for season, season_row in rows:
             season_row = dict(season_row)
             season_row["phase"] = config.phase_for(season, tenure["start"], tenure["end"])
             seasons.append(season_row)
+        # Layer in non-MLS career context from FBref (when available).
+        seasons.extend(fbref_season_rows(name, fbref_careers, tenure))
+        seasons.sort(key=lambda s: (s["season"], s.get("source", "")))
         players.append(
             {
                 "player_id": f"asa:{pid}",

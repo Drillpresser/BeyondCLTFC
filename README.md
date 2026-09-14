@@ -15,12 +15,20 @@ scheduled commit is a snapshot, so **git history is the time series** — no dat
 | Source | Used for | Access |
 | --- | --- | --- |
 | [American Soccer Analysis (ASA)](https://app.americansocceranalysis.com) | MLS advanced stats (xG, g+) during CLTFC tenure | Public API (`itscalledsoccer`) |
-| [FBref](https://fbref.com) | Cross-league career season stats (before/after) | Scraped via `soccerdata` |
+| [FBref](https://fbref.com) | Cross-league career season stats (before/after) | Scraped player pages (`curl_cffi`) |
 | [Transfermarkt](https://www.transfermarkt.com) | Roster + arrival/departure timeline | Scraped (BeautifulSoup) |
 
 > ⚠️ FBref and Transfermarkt scraping is against their strict ToS but common for
 > personal, non-commercial use. Keep request rates low; all scrapers here cache and throttle.
 > ASA is an open, sanctioned API.
+>
+> ⚠️ **FBref sits behind Cloudflare.** `fetch_fbref.py` uses `curl_cffi` browser TLS
+> impersonation, which works from a clean residential IP but is frequently **403-blocked**
+> from datacenter IPs (including GitHub Actions runners) and after rapid requests. The
+> scraper caches resolved player IDs and career rows so partial progress persists across
+> runs. If FBref stays blocked in CI, Transfermarkt (reachable here) is the fallback source
+> for cross-league career stats — it lacks xG but covers appearances/goals/minutes per club.
+> Because of this, `fetch_fbref.py` is marked `continue-on-error` in the Action.
 
 ## Layout
 
