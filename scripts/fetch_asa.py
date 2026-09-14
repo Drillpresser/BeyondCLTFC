@@ -27,11 +27,29 @@ except ImportError:
     sys.exit("itscalledsoccer not installed. Run: pip install -r requirements.txt")
 
 
+# ASA's xG/g+ model returns last-decimal jitter between calls (e.g. 5.9361 vs
+# 5.936), and doesn't guarantee row order. Round floats and sort canonically so
+# the committed files are byte-stable and don't churn on every scheduled run.
+FLOAT_PRECISION = 3
+
+
+def _round_floats(obj):
+    if isinstance(obj, float):
+        return round(obj, FLOAT_PRECISION)
+    if isinstance(obj, dict):
+        return {k: _round_floats(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_round_floats(v) for v in obj]
+    return obj
+
+
 def df_to_records(df) -> list[dict]:
     if df is None or len(df) == 0:
         return []
     # normalise numpy/NaN into JSON-safe values
-    return json.loads(df.to_json(orient="records"))
+    records = [_round_floats(r) for r in json.loads(df.to_json(orient="records"))]
+    records.sort(key=lambda r: json.dumps(r, sort_keys=True, default=str))
+    return records
 
 
 def write(name: str, data) -> None:

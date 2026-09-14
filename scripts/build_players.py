@@ -160,7 +160,16 @@ def main() -> None:
         # Layer in non-MLS career context (when available).
         seasons.extend(fbref_season_rows(name, fbref_careers, tenure))
         seasons.extend(wiki_season_rows(name, wiki_careers, tenure))
-        seasons.sort(key=lambda s: (s["season"], s.get("source", "")))
+        # Total ordering so output is byte-stable across runs.
+        seasons.sort(
+            key=lambda s: (
+                s["season"],
+                s.get("source", ""),
+                str(s.get("team") or ""),
+                str(s.get("league") or ""),
+                str(s.get("season_label") or ""),
+            )
+        )
         players.append(
             {
                 "player_id": f"asa:{pid}",
@@ -171,7 +180,7 @@ def main() -> None:
             }
         )
 
-    players.sort(key=lambda p: p["name"] or "")
+    players.sort(key=lambda p: (p["name"] or "", p["asa_id"]))
     out = {
         "club": config.CLUB_NAME,
         "sources": ["asa", "wikipedia", "fbref"],
