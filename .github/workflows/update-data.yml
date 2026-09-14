@@ -1,6 +1,7 @@
 name: Update player data
 
 # Git-scraping: fetch on a schedule, commit the JSON back to the repo.
+# (Runs ASA + Wikipedia + FBref, rebuilds data/players.json, commits changes.)
 on:
   schedule:
     - cron: "17 9 * * 1"      # weekly, Mondays 09:17 UTC (MLS plays weekends)
