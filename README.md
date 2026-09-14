@@ -15,20 +15,23 @@ scheduled commit is a snapshot, so **git history is the time series** — no dat
 | Source | Used for | Access |
 | --- | --- | --- |
 | [American Soccer Analysis (ASA)](https://app.americansocceranalysis.com) | MLS advanced stats (xG, g+) during CLTFC tenure | Public API (`itscalledsoccer`) |
-| [FBref](https://fbref.com) | Cross-league career season stats (before/after) | Scraped player pages (`curl_cffi`) |
-| [Transfermarkt](https://www.transfermarkt.com) | Roster + arrival/departure timeline | Scraped (BeautifulSoup) |
+| [Wikipedia](https://en.wikipedia.org) | Cross-league career season stats (before/after) | MediaWiki API + `pandas.read_html` |
+| [FBref](https://fbref.com) | Extra career context (xG), best-effort | Scraped player pages (`curl_cffi`) |
 
-> ⚠️ FBref and Transfermarkt scraping is against their strict ToS but common for
-> personal, non-commercial use. Keep request rates low; all scrapers here cache and throttle.
-> ASA is an open, sanctioned API.
->
-> ⚠️ **FBref sits behind Cloudflare.** `fetch_fbref.py` uses `curl_cffi` browser TLS
-> impersonation, which works from a clean residential IP but is frequently **403-blocked**
-> from datacenter IPs (including GitHub Actions runners) and after rapid requests. The
-> scraper caches resolved player IDs and career rows so partial progress persists across
-> runs. If FBref stays blocked in CI, Transfermarkt (reachable here) is the fallback source
-> for cross-league career stats — it lacks xG but covers appearances/goals/minutes per club.
-> Because of this, `fetch_fbref.py` is marked `continue-on-error` in the Action.
+**Coverage:** ASA gives MLS advanced stats; Wikipedia's "Career statistics" tables give the
+cross-league before/after seasons (Europe, Liga MX, etc.) that ASA can't see. As of the last
+run, **56 of 74** players have Wikipedia career data (the rest are academy/fringe players
+without detailed tables — ASA still covers their MLS minutes).
+
+> **Source notes / lessons learned:**
+> - **Wikipedia** is the primary career source: server-rendered, ToS-clean (CC BY-SA + public
+>   API), no anti-bot layer, and reliable in CI. It lacks xG, but covers apps/goals per
+>   club/season across a full career.
+> - **FBref** sits behind Cloudflare and is frequently **403-blocked** from datacenter IPs
+>   (GitHub Actions) even with `curl_cffi` TLS impersonation. It's kept as a best-effort,
+>   `continue-on-error` step for its xG data when the IP isn't flagged.
+> - **Transfermarkt** is *no longer used*: the site went fully JS-rendered and its stats now
+>   load from an undocumented, obfuscated internal API — impractical for static scraping.
 
 ## Layout
 
@@ -36,9 +39,10 @@ scheduled commit is a snapshot, so **git history is the time series** — no dat
 scripts/                 Python fetch + build pipeline
   requirements.txt
   config.py              CLTFC identity, tenure boundaries, phase logic
-  fetch_asa.py           ASA API  -> data/raw/asa_*.json
-  fetch_fbref.py         FBref     -> data/raw/fbref_*.json
-  fetch_transfermarkt.py Transfermarkt roster -> data/raw/transfermarkt_squad.json
+  fetch_asa.py           ASA API   -> data/raw/asa_*.json
+  fetch_wikipedia.py     Wikipedia -> data/raw/wikipedia_careers.json (cross-league careers)
+  fetch_fbref.py         FBref     -> data/raw/fbref_careers.json (best-effort xG)
+  fetch_transfermarkt.py Transfermarkt roster (legacy; TM is JS-only now)
   build_players.py       merge raw -> data/players.json (site consumes this)
 data/                    committed JSON output (the "database")
   raw/                   per-source raw pulls
@@ -54,9 +58,9 @@ web/                     React + Vite front-end (GitHub Pages)
 cd scripts
 python -m venv .venv && . .venv/Scripts/activate   # Windows; use .venv/bin/activate on *nix
 pip install -r requirements.txt
-python fetch_asa.py
-python fetch_fbref.py
-python fetch_transfermarkt.py
+python fetch_asa.py         # MLS advanced stats (required)
+python fetch_wikipedia.py   # cross-league career context (before/after)
+python fetch_fbref.py       # optional extra xG; may be Cloudflare-blocked
 python build_players.py
 
 # 2. Run the site

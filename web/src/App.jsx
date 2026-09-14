@@ -13,13 +13,24 @@ import {
 
 const PHASE_COLORS = { before: "#9aa0a6", during: "#1e90ff", after: "#f5a623" };
 
-// Pull a numeric stat from an ASA xgoals blob, tolerant of key naming.
-function stat(season, keys) {
-  const x = season.xgoals || {};
-  for (const k of keys) {
-    if (x[k] != null && !Number.isNaN(Number(x[k]))) return Number(x[k]);
+const num = (v) => (v == null || Number.isNaN(Number(v)) ? null : Number(v));
+
+// Normalise a season row from any source (ASA / Wikipedia / FBref) into a
+// common shape so the before/during/after timeline can mix them.
+function seasonMetrics(s) {
+  if (s.source === "asa") {
+    const x = s.xgoals || {};
+    return { goals: num(x.goals), xg: num(x.xgoals), minutes: num(x.minutes ?? x.minutes_played), apps: null };
   }
-  return 0;
+  if (s.source === "wikipedia") {
+    const w = s.wikipedia || {};
+    return { goals: num(w.goals), xg: null, minutes: null, apps: num(w.apps) };
+  }
+  if (s.source === "fbref") {
+    const f = s.fbref || {};
+    return { goals: num(f.goals), xg: num(f.xg), minutes: num(f.minutes), apps: num(f.mp) };
+  }
+  return { goals: null, xg: null, minutes: null, apps: null };
 }
 
 function App() {
@@ -45,32 +56,48 @@ function App() {
     [data, selectedId]
   );
 
+  // One bar per calendar year, aggregating rows that share a year (e.g. a
+  // mid-season transfer, or overlapping ASA + Wikipedia rows).
   const chartData = useMemo(() => {
     if (!player) return [];
-    return player.seasons.map((s) => ({
-      season: s.season,
-      phase: s.phase,
-      team: s.team,
-      goals: stat(s, ["goals"]),
-      xgoals: stat(s, ["xgoals"]),
-      minutes: stat(s, ["minutes", "minutes_played"]),
-    }));
+    const byYear = new Map();
+    for (const s of player.seasons) {
+      const m = seasonMetrics(s);
+      const y = byYear.get(s.season) || {
+        season: s.season,
+        phase: s.phase,
+        goals: 0,
+        xgoals: 0,
+        apps: 0,
+        teams: new Set(),
+      };
+      // "during" wins the color if any row that year is a CLTFC season.
+      if (s.phase === "during") y.phase = "during";
+      y.goals += m.goals ?? 0;
+      y.xgoals += m.xg ?? 0;
+      y.apps += m.apps ?? 0;
+      if (s.team) y.teams.add(s.team);
+      byYear.set(s.season, y);
+    }
+    return [...byYear.values()]
+      .sort((a, b) => a.season - b.season)
+      .map((y) => ({ ...y, team: [...y.teams].join(", ") }));
   }, [player]);
 
   const phaseSummary = useMemo(() => {
     const acc = { before: [], during: [], after: [] };
     chartData.forEach((d) => acc[d.phase]?.push(d));
     return Object.entries(acc).map(([phase, rows]) => {
-      const mins = rows.reduce((t, r) => t + r.minutes, 0);
       const goals = rows.reduce((t, r) => t + r.goals, 0);
       const xg = rows.reduce((t, r) => t + r.xgoals, 0);
+      const apps = rows.reduce((t, r) => t + r.apps, 0);
       return {
         phase,
         seasons: rows.length,
         goals: +goals.toFixed(1),
         xgoals: +xg.toFixed(2),
-        minutes: mins,
-        per96: mins ? +((goals / mins) * 96).toFixed(2) : 0,
+        apps,
+        perApp: apps ? +(goals / apps).toFixed(2) : 0,
       };
     });
   }, [chartData]);
@@ -136,7 +163,8 @@ function App() {
                     </div>
                     <div className="big">{s.goals} G</div>
                     <div className="small">
-                      {s.xgoals} xG · {s.seasons} seasons · {s.per96}/96′
+                      {s.seasons} seasons · {s.apps} apps · {s.perApp} G/app
+                      {s.xgoals ? ` · ${s.xgoals} xG` : ""}
                     </div>
                   </div>
                 ))}

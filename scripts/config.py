@@ -27,10 +27,19 @@ ASA_TEAM_NAME_CONTAINS = "Charlotte"
 # FBref league string as used by the `soccerdata` package.
 FBREF_LEAGUE = "USA-Major League Soccer"
 
-# Transfermarkt squad page. The numeric id (30012) is Charlotte FC.
+# Transfermarkt squad page. Charlotte FC's club id is 78435.
+# NOTE: TM is now fully JS-rendered (stats come from an undocumented internal
+# API), so it's no longer used for career stats — Wikipedia fills that role.
+# This URL is kept only for optional roster/tenure lookups.
 TRANSFERMARKT_SQUAD_URL = (
-    "https://www.transfermarkt.com/charlotte-fc/kader/verein/30012"
+    "https://www.transfermarkt.com/charlotte-fc/startseite/verein/78435"
 )
+
+# Wikipedia — the cross-league career-stats source (server-rendered, ToS-clean).
+WIKI_API = "https://en.wikipedia.org/w/api.php"
+WIKI_PAGE = "https://en.wikipedia.org/wiki/"
+WIKI_USER_AGENT = "BeyondCLTFC/0.1 (personal, non-commercial soccer stats project)"
+WIKI_DELAY_SECONDS = 0.5  # Wikipedia is scrape-friendly; just be reasonable
 
 # Seasons to pull. Extend the upper bound each year (or compute from date).
 SEASONS = [str(y) for y in range(CLUB_FIRST_SEASON, 2027)]

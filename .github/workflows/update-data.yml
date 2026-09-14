@@ -32,14 +32,13 @@ jobs:
         working-directory: scripts
         run: python fetch_asa.py
 
-      - name: Fetch Transfermarkt (roster)
+      - name: Fetch Wikipedia (cross-league career context)
         working-directory: scripts
-        continue-on-error: true          # scrape may be blocked; don't fail the whole run
-        run: python fetch_transfermarkt.py
+        run: python fetch_wikipedia.py
 
-      - name: Fetch FBref (career context)
+      - name: Fetch FBref (extra career context, best-effort)
         working-directory: scripts
-        continue-on-error: true
+        continue-on-error: true          # Cloudflare frequently 403s CI runners
         run: python fetch_fbref.py
 
       - name: Build unified dataset

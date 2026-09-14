@@ -67,6 +67,37 @@ def fbref_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
     return rows
 
 
+def wiki_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
+    """Turn a player's Wikipedia career into non-MLS season rows. MLS/Charlotte
+    rows are skipped — ASA covers those with richer metrics."""
+    rows = []
+    for r in careers.get(name, []) or []:
+        club = str(r.get("club") or "")
+        division = str(r.get("division") or "")
+        if "Charlotte" in club or "Major League Soccer" in division:
+            continue
+        year = r.get("year")
+        if year is None:
+            continue
+        rows.append(
+            {
+                "season": year,
+                "season_label": r.get("season"),
+                "team": club,
+                "league": division,
+                "source": "wikipedia",
+                "phase": config.phase_for(year, tenure["start"], tenure["end"]),
+                "wikipedia": {
+                    "apps": r.get("league_apps"),
+                    "goals": r.get("league_goals"),
+                    "total_apps": r.get("total_apps"),
+                    "total_goals": r.get("total_goals"),
+                },
+            }
+        )
+    return rows
+
+
 def main() -> None:
     print("Building data/players.json ...")
     team_names = index_by_id(load("asa_teams.json"), "team_id", "team_name")
@@ -77,6 +108,10 @@ def main() -> None:
     fbref_path = config.RAW_DIR / "fbref_careers.json"
     if fbref_path.exists():
         fbref_careers = json.loads(fbref_path.read_text(encoding="utf-8"))
+    wiki_careers = {}
+    wiki_path = config.RAW_DIR / "wikipedia_careers.json"
+    if wiki_path.exists():
+        wiki_careers = json.loads(wiki_path.read_text(encoding="utf-8"))
 
     # (player_id, season, team_id) -> merged season row
     merged: dict[tuple, dict] = {}
@@ -122,8 +157,9 @@ def main() -> None:
             season_row = dict(season_row)
             season_row["phase"] = config.phase_for(season, tenure["start"], tenure["end"])
             seasons.append(season_row)
-        # Layer in non-MLS career context from FBref (when available).
+        # Layer in non-MLS career context (when available).
         seasons.extend(fbref_season_rows(name, fbref_careers, tenure))
+        seasons.extend(wiki_season_rows(name, wiki_careers, tenure))
         seasons.sort(key=lambda s: (s["season"], s.get("source", "")))
         players.append(
             {
