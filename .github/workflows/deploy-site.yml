@@ -7,6 +7,11 @@ on:
       - "web/**"
       - "data/**"
       - ".github/workflows/deploy-site.yml"
+  # The update-data job commits refreshed data with GITHUB_TOKEN, and such
+  # pushes do NOT trigger other workflows — so redeploy when it finishes.
+  workflow_run:
+    workflows: ["Update player data"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -20,6 +25,8 @@ concurrency:
 
 jobs:
   build:
+    # For workflow_run triggers, only deploy if the data refresh actually succeeded.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
