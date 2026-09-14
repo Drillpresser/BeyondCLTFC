@@ -1,0 +1,99 @@
+"""Fetch MLS advanced stats from American Soccer Analysis (ASA).
+
+Strategy:
+  1. Resolve the Charlotte FC team_id by name.
+  2. Find every player who logged CLTFC minutes in any tracked season.
+  3. Pull those players' full MLS career (all teams, all seasons) for both
+     expected-goals and goals-added, split by season *and* team. Splitting by
+     team is what lets us later see a player's MLS stats at *other* clubs
+     (i.e. their "before"/"after" MLS phases), not just at Charlotte.
+
+Writes:
+  data/raw/asa_teams.json
+  data/raw/asa_players.json         (id -> name lookup)
+  data/raw/asa_player_xgoals.json
+  data/raw/asa_player_goals_added.json
+"""
+from __future__ import annotations
+
+import json
+import sys
+
+import config
+
+try:
+    from itscalledsoccer.client import AmericanSoccerAnalysis
+except ImportError:
+    sys.exit("itscalledsoccer not installed. Run: pip install -r requirements.txt")
+
+
+def df_to_records(df) -> list[dict]:
+    if df is None or len(df) == 0:
+        return []
+    # normalise numpy/NaN into JSON-safe values
+    return json.loads(df.to_json(orient="records"))
+
+
+def write(name: str, data) -> None:
+    path = config.RAW_DIR / f"asa_{name}.json"
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"  wrote {path.relative_to(config.ROOT)} ({len(data)} rows)")
+
+
+def main() -> None:
+    asa = AmericanSoccerAnalysis()
+    league = config.ASA_LEAGUE
+
+    print("Resolving Charlotte FC team_id...")
+    teams = asa.get_teams(leagues=league)
+    write("teams", df_to_records(teams))
+
+    match = teams[
+        teams["team_name"].str.contains(config.ASA_TEAM_NAME_CONTAINS, case=False, na=False)
+    ]
+    if match.empty:
+        sys.exit(f"Could not find a team matching '{config.ASA_TEAM_NAME_CONTAINS}' in ASA.")
+    cltfc_id = str(match.iloc[0]["team_id"])
+    print(f"  Charlotte FC team_id = {cltfc_id} ({match.iloc[0]['team_name']})")
+
+    # Step 2: who played for CLTFC in any tracked season?
+    print("Finding CLTFC roster across seasons...")
+    cltfc_xg = asa.get_player_xgoals(
+        leagues=league,
+        team_id=[cltfc_id],
+        season_name=config.SEASONS,
+        split_by_seasons=True,
+    )
+    if cltfc_xg is None or len(cltfc_xg) == 0:
+        sys.exit("No CLTFC player rows returned from ASA; nothing to fetch.")
+    player_ids = sorted({str(p) for p in cltfc_xg["player_id"].tolist()})
+    print(f"  found {len(player_ids)} distinct CLTFC-associated players")
+
+    # Player id -> name lookup (only the relevant players).
+    players = asa.get_players(leagues=league, ids=player_ids)
+    write("players", df_to_records(players))
+
+    # Step 3: full MLS career for those players, split by season & team.
+    print("Fetching full MLS career (xgoals)...")
+    career_xg = asa.get_player_xgoals(
+        leagues=league,
+        player_id=player_ids,
+        split_by_seasons=True,
+        split_by_teams=True,
+    )
+    write("player_xgoals", df_to_records(career_xg))
+
+    print("Fetching full MLS career (goals added)...")
+    career_ga = asa.get_player_goals_added(
+        leagues=league,
+        player_id=player_ids,
+        split_by_seasons=True,
+        split_by_teams=True,
+    )
+    write("player_goals_added", df_to_records(career_ga))
+
+    print("ASA fetch complete.")
+
+
+if __name__ == "__main__":
+    main()

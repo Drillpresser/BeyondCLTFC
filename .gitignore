@@ -1,0 +1,19 @@
+# Python
+scripts/.venv/
+__pycache__/
+*.pyc
+.soccerdata/          # soccerdata local scrape cache
+
+# Node / Vite
+web/node_modules/
+web/dist/
+web/.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local dev copy of generated data (production bundles it via deploy-site.yml)
+web/public/data/
