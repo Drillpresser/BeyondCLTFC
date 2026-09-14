@@ -3,6 +3,6 @@ itscalledsoccer>=0.3.0     # official American Soccer Analysis API client
 soccerdata>=1.8.0          # FBref / Understat / etc. scraper with caching + throttling
 curl_cffi>=0.7.0           # browser TLS impersonation to get past FBref's Cloudflare
 requests>=2.31.0
-beautifulsoup4>=4.12.0     # Transfermarkt parsing
+beautifulsoup4>=4.12.0     # FBref search-result parsing
 lxml>=5.0.0                # fast parser backend for bs4 / pandas.read_html
 pandas>=2.2.0

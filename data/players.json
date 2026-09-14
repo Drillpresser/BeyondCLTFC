@@ -2,8 +2,8 @@
   "club": "Charlotte FC",
   "sources": [
     "asa",
-    "fbref",
-    "transfermarkt"
+    "wikipedia",
+    "fbref"
   ],
   "player_count": 74,
   "players": [

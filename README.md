@@ -42,7 +42,6 @@ scripts/                 Python fetch + build pipeline
   fetch_asa.py           ASA API   -> data/raw/asa_*.json
   fetch_wikipedia.py     Wikipedia -> data/raw/wikipedia_careers.json (cross-league careers)
   fetch_fbref.py         FBref     -> data/raw/fbref_careers.json (best-effort xG)
-  fetch_transfermarkt.py Transfermarkt roster (legacy; TM is JS-only now)
   build_players.py       merge raw -> data/players.json (site consumes this)
 data/                    committed JSON output (the "database")
   raw/                   per-source raw pulls

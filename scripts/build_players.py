@@ -174,7 +174,7 @@ def main() -> None:
     players.sort(key=lambda p: p["name"] or "")
     out = {
         "club": config.CLUB_NAME,
-        "sources": ["asa", "fbref", "transfermarkt"],
+        "sources": ["asa", "wikipedia", "fbref"],
         "player_count": len(players),
         "players": players,
     }
