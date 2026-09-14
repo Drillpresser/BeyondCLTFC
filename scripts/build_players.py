@@ -1,9 +1,10 @@
 """Merge raw source pulls into the single site-facing dataset: data/players.json.
 
-Joins ASA expected-goals and goals-added on (player_id, season, team_id), tags
-every season with its before/during/after phase relative to the player's CLTFC
-tenure, and attaches human-readable names. FBref career rows can be layered in
-later via the same player/season keys.
+Reads ASA per-season counting stats on (player_id, season, team_id), tags every
+season with its before/during/after phase relative to the player's CLTFC tenure,
+and attaches human-readable names. FBref career rows can be layered in later via
+the same player/season keys. Only raw counting stats are carried through — all
+modeled/predictive metrics (xG and the x-family, goals-added) are dropped upstream.
 """
 from __future__ import annotations
 
@@ -52,7 +53,7 @@ def fbref_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
             year = int(str(r.get("season"))[:4])
         except (TypeError, ValueError):
             continue
-        stats = {k: r.get(k) for k in ("mp", "starts", "minutes", "goals", "assists", "xg", "npxg", "xag") if k in r}
+        stats = {k: r.get(k) for k in ("mp", "starts", "minutes", "goals", "assists") if k in r}
         rows.append(
             {
                 "season": year,
@@ -76,7 +77,7 @@ SEASON_SORT_KEY = lambda s: (  # noqa: E731 - small stable-ordering helper
 )
 
 # Canonical, source-agnostic metric names the wizard edits / adds.
-METRIC_KEYS = ("goals", "assists", "apps", "minutes", "xg")
+METRIC_KEYS = ("goals", "assists", "apps", "minutes")
 
 
 def load_overrides() -> dict:
@@ -206,7 +207,6 @@ def main() -> None:
     team_names = index_by_id(load("asa_teams.json"), "team_id", "team_name")
     player_names = index_by_id(load("asa_players.json"), "player_id", "player_name")
     xgoals = load("asa_player_xgoals.json")
-    goals_added = load("asa_player_goals_added.json")
     fbref_careers = {}
     fbref_path = config.RAW_DIR / "fbref_careers.json"
     if fbref_path.exists():
@@ -236,15 +236,13 @@ def main() -> None:
             }
         return merged[key]
 
+    # ASA per-season counting stats. The bucket is still named "xgoals" because it
+    # comes from ASA's xgoals endpoint, but the modeled columns are dropped upstream
+    # (fetch_asa.py) so only raw counts land here.
     for row in xgoals:
         s = slot(row)
         if s is not None:
             s["xgoals"] = {k: v for k, v in row.items() if k not in ("player_id", "season_name", "team_id")}
-
-    for row in goals_added:
-        s = slot(row)
-        if s is not None:
-            s["goals_added"] = {k: v for k, v in row.items() if k not in ("player_id", "season_name", "team_id")}
 
     # Group season rows by player.
     by_player: dict[str, list] = defaultdict(list)

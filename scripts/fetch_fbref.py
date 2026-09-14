@@ -66,6 +66,8 @@ SEASON_RE = re.compile(r"^\d{4}(-\d{2,4})?$")
 
 # Columns we keep from the (flattened) FBref standard-stats table.
 # FBref uses a two-level header; after flattening we match on suffixes.
+# Only raw counting stats — FBref's modeled Expected_* columns (xG/npxG/xAG)
+# are intentionally not collected.
 KEEP = {
     "Season": "season",
     "Age": "age",
@@ -82,9 +84,6 @@ KEEP = {
     "Performance_PK": "pens",
     "Performance_CrdY": "yellow",
     "Performance_CrdR": "red",
-    "Expected_xG": "xg",
-    "Expected_npxG": "npxg",
-    "Expected_xAG": "xag",
 }
 
 session = _session()
