@@ -14,22 +14,26 @@ scheduled commit is a snapshot, so **git history is the time series** — no dat
 
 | Source | Used for | Access |
 | --- | --- | --- |
-| [American Soccer Analysis (ASA)](https://app.americansocceranalysis.com) | MLS advanced stats (xG, g+) during CLTFC tenure | Public API (`itscalledsoccer`) |
+| [American Soccer Analysis (ASA)](https://app.americansocceranalysis.com) | MLS per-season stats (goals, shots, assists, minutes) during CLTFC tenure | Public API (`itscalledsoccer`) |
 | [Wikipedia](https://en.wikipedia.org) | Cross-league career season stats (before/after) | MediaWiki API + `pandas.read_html` |
-| [FBref](https://fbref.com) | Extra career context (xG), best-effort | Scraped player pages (`curl_cffi`) |
+| [FBref](https://fbref.com) | Extra career context (apps, goals, minutes), best-effort | Scraped player pages (`curl_cffi`) |
 
-**Coverage:** ASA gives MLS advanced stats; Wikipedia's "Career statistics" tables give the
+> **Note:** We collect only raw counting stats. ASA's and FBref's modeled/predictive
+> metrics — expected goals and the whole x-family (xG, xA, xG+xA, …) plus ASA's
+> goals-added (g+) and points-added value models — are intentionally **not** gathered.
+
+**Coverage:** ASA gives MLS per-season stats; Wikipedia's "Career statistics" tables give the
 cross-league before/after seasons (Europe, Liga MX, etc.) that ASA can't see. As of the last
 run, **56 of 74** players have Wikipedia career data (the rest are academy/fringe players
 without detailed tables — ASA still covers their MLS minutes).
 
 > **Source notes / lessons learned:**
 > - **Wikipedia** is the primary career source: server-rendered, ToS-clean (CC BY-SA + public
->   API), no anti-bot layer, and reliable in CI. It lacks xG, but covers apps/goals per
->   club/season across a full career.
+>   API), no anti-bot layer, and reliable in CI. It covers apps/goals per club/season across
+>   a full career.
 > - **FBref** sits behind Cloudflare and is frequently **403-blocked** from datacenter IPs
 >   (GitHub Actions) even with `curl_cffi` TLS impersonation. It's kept as a best-effort,
->   `continue-on-error` step for its xG data when the IP isn't flagged.
+>   `continue-on-error` step for extra career context when the IP isn't flagged.
 > - **Transfermarkt** is *no longer used*: the site went fully JS-rendered and its stats now
 >   load from an undocumented, obfuscated internal API — impractical for static scraping.
 
@@ -41,13 +45,13 @@ scripts/                 Python fetch + build pipeline
   config.py              CLTFC identity, tenure boundaries, phase logic
   fetch_asa.py           ASA API   -> data/raw/asa_*.json
   fetch_wikipedia.py     Wikipedia -> data/raw/wikipedia_careers.json (cross-league careers)
-  fetch_fbref.py         FBref     -> data/raw/fbref_careers.json (best-effort xG)
+  fetch_fbref.py         FBref     -> data/raw/fbref_careers.json (best-effort)
   build_players.py       merge raw -> data/players.json (site consumes this)
 data/                    committed JSON output (the "database")
   raw/                   per-source raw pulls
   players.json           unified, site-facing dataset
   overrides.json         manual edits (from the wizard), merged by the build
-editor/                  local record-editing wizard (server.mjs + index.html)
+editor/                  standalone local record-editing wizard (own package.json; never deployed)
 web/                     React + Vite front-end (GitHub Pages)
 .github/workflows/       scheduled update Action
 ```
@@ -81,11 +85,15 @@ The site is static (no backend to write to), so manual edits live in a committed
 fetched ASA/Wikipedia/FBref data, so your edits survive every re-fetch (they're re-applied,
 not overwritten) and are reviewable in git.
 
-Run the local wizard:
+The wizard is a **standalone local tool**, deliberately kept separate from the site in
+`web/`: it has its own `package.json`, isn't part of the Vite build or the deploy
+workflow, and needs a writable checkout (it saves `overrides.json` and can rebuild
+`players.json`), so it only ever runs on your own machine. Run it:
 
 ```bash
-cd web
-npm run edit        # starts editor/server.mjs → http://localhost:4321
+cd editor
+npm start           # starts the local editor → http://localhost:4321
+                    # (no dependencies — uses only Node built-ins)
 ```
 
 The wizard walks through: pick a player (or add a new manual one) → **bio & tenure** →

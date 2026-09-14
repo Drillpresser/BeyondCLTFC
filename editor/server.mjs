@@ -1,9 +1,11 @@
 // Local editor server for BeyondCLTFC — zero dependencies (Node built-ins only).
 //
-// Serves the wizard UI and a tiny API to read the dataset and write manual
-// edits to data/overrides.json. Runs locally only; nothing here is deployed.
+// A standalone, local-only tool: it's intentionally separate from the site in
+// web/ (its own package.json, not in the deploy workflow) so it never ships to
+// GitHub Pages. Serves the wizard UI and a tiny API to read the dataset and
+// write manual edits to data/overrides.json.
 //
-//   node editor/server.mjs          (or: npm run edit  from web/)
+//   cd editor && npm start          (or: node editor/server.mjs  from repo root)
 //
 // Then open http://localhost:4321 . Saving writes data/overrides.json; the
 // optional "Rebuild" button runs scripts/build_players.py to regenerate
@@ -34,7 +36,9 @@ async function readJson(p, fallback) {
 
 function send(res, status, body, type = "application/json") {
   res.writeHead(status, { "Content-Type": type, "Cache-Control": "no-store" });
-  res.end(typeof body === "string" ? body : JSON.stringify(body));
+  // Strings and Buffers (e.g. the index.html file read) go out as-is; anything
+  // else (API objects) is JSON-encoded.
+  res.end(typeof body === "string" || Buffer.isBuffer(body) ? body : JSON.stringify(body));
 }
 
 function readBody(req) {

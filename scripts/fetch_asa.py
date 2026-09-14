@@ -1,18 +1,22 @@
-"""Fetch MLS advanced stats from American Soccer Analysis (ASA).
+"""Fetch MLS per-season stats from American Soccer Analysis (ASA).
 
 Strategy:
   1. Resolve the Charlotte FC team_id by name.
   2. Find every player who logged CLTFC minutes in any tracked season.
-  3. Pull those players' full MLS career (all teams, all seasons) for both
-     expected-goals and goals-added, split by season *and* team. Splitting by
-     team is what lets us later see a player's MLS stats at *other* clubs
-     (i.e. their "before"/"after" MLS phases), not just at Charlotte.
+  3. Pull those players' full MLS career (all teams, all seasons), split by
+     season *and* team. Splitting by team is what lets us later see a player's
+     MLS stats at *other* clubs (i.e. their "before"/"after" MLS phases), not
+     just at Charlotte.
+
+We keep only raw counting stats (goals, shots, assists, minutes, ...). ASA's
+modeled/predictive metrics (expected goals and the whole x-family, plus the
+goals-added / points-added value models) are intentionally dropped — see
+MODELED_COLUMNS below.
 
 Writes:
   data/raw/asa_teams.json
   data/raw/asa_players.json         (id -> name lookup)
   data/raw/asa_player_xgoals.json
-  data/raw/asa_player_goals_added.json
 """
 from __future__ import annotations
 
@@ -31,6 +35,28 @@ except ImportError:
 # 5.936), and doesn't guarantee row order. Round floats and sort canonically so
 # the committed files are byte-stable and don't churn on every scheduled run.
 FLOAT_PRECISION = 3
+
+# Modeled / predictive columns we deliberately do NOT keep: expected goals and
+# the rest of the x-family, the actual-minus-expected diffs, and the points-added
+# value metrics. Only raw counting stats survive. `errors="ignore"` on the drop
+# means this stays safe if ASA renames or omits any of these.
+MODELED_COLUMNS = [
+    "xgoals",
+    "xplace",
+    "goals_minus_xgoals",
+    "xassists",
+    "primary_assists_minus_xassists",
+    "xgoals_plus_xassists",
+    "points_added",
+    "xpoints_added",
+]
+
+
+def drop_modeled(df):
+    """Strip modeled/predictive columns so only raw counting stats are written."""
+    if df is None or len(df) == 0:
+        return df
+    return df.drop(columns=MODELED_COLUMNS, errors="ignore")
 
 
 def _round_floats(obj):
@@ -92,23 +118,16 @@ def main() -> None:
     write("players", df_to_records(players))
 
     # Step 3: full MLS career for those players, split by season & team.
-    print("Fetching full MLS career (xgoals)...")
-    career_xg = asa.get_player_xgoals(
+    # (The xgoals endpoint is also ASA's per-season counting-stats table; we keep
+    # the raw columns from it and drop the modeled ones.)
+    print("Fetching full MLS career...")
+    career = asa.get_player_xgoals(
         leagues=league,
         player_id=player_ids,
         split_by_seasons=True,
         split_by_teams=True,
     )
-    write("player_xgoals", df_to_records(career_xg))
-
-    print("Fetching full MLS career (goals added)...")
-    career_ga = asa.get_player_goals_added(
-        leagues=league,
-        player_id=player_ids,
-        split_by_seasons=True,
-        split_by_teams=True,
-    )
-    write("player_goals_added", df_to_records(career_ga))
+    write("player_xgoals", df_to_records(drop_modeled(career)))
 
     print("ASA fetch complete.")
 

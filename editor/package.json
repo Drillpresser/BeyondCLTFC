@@ -1,0 +1,10 @@
+{
+  "name": "beyondcltfc-editor",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local-only player record editor for BeyondCLTFC. Writes data/overrides.json and rebuilds players.json. Not part of the site build; never deployed.",
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
