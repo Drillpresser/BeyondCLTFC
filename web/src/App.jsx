@@ -15,22 +15,28 @@ const PHASE_COLORS = { before: "#9aa0a6", during: "#1e90ff", after: "#f5a623" };
 
 const num = (v) => (v == null || Number.isNaN(Number(v)) ? null : Number(v));
 
-// Normalise a season row from any source (ASA / Wikipedia / FBref) into a
-// common shape so the before/during/after timeline can mix them.
+// Normalise a season row from any source (ASA / Wikipedia / FBref / manual)
+// into a common shape so the before/during/after timeline can mix them.
+// A season's `override` bucket (from the wizard) wins per-field over the source.
 function seasonMetrics(s) {
+  let base;
   if (s.source === "asa") {
     const x = s.xgoals || {};
-    return { goals: num(x.goals), xg: num(x.xgoals), minutes: num(x.minutes ?? x.minutes_played), apps: null };
-  }
-  if (s.source === "wikipedia") {
+    base = { goals: num(x.goals), xg: num(x.xgoals), minutes: num(x.minutes ?? x.minutes_played), apps: null };
+  } else if (s.source === "wikipedia") {
     const w = s.wikipedia || {};
-    return { goals: num(w.goals), xg: null, minutes: null, apps: num(w.apps) };
-  }
-  if (s.source === "fbref") {
+    base = { goals: num(w.goals), xg: null, minutes: null, apps: num(w.apps) };
+  } else if (s.source === "fbref") {
     const f = s.fbref || {};
-    return { goals: num(f.goals), xg: num(f.xg), minutes: num(f.minutes), apps: num(f.mp) };
+    base = { goals: num(f.goals), xg: num(f.xg), minutes: num(f.minutes), apps: num(f.mp) };
+  } else {
+    base = { goals: null, xg: null, minutes: null, apps: null };
   }
-  return { goals: null, xg: null, minutes: null, apps: null };
+  const o = s.override || {};
+  for (const k of ["goals", "xg", "minutes", "apps"]) {
+    if (o[k] != null) base[k] = num(o[k]);
+  }
+  return base;
 }
 
 function App() {
@@ -150,10 +156,17 @@ function App() {
         <main>
           {player && (
             <>
-              <h2>{player.name}</h2>
+              <h2>
+                {player.name}
+                {player.manual && <span className="badge badge-manual">manual</span>}
+                {player.edited && <span className="badge badge-edited">edited</span>}
+              </h2>
               <p className="tenure">
                 CLTFC tenure: {player.tenure.start}–{player.tenure.end ?? "present"}
+                {player.bio?.position ? ` · ${player.bio.position}` : ""}
+                {player.bio?.nationality ? ` · ${player.bio.nationality}` : ""}
               </p>
+              {player.bio?.notes && <p className="notes">{player.bio.notes}</p>}
 
               <div className="summary">
                 {phaseSummary.map((s) => (

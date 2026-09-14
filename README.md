@@ -46,6 +46,8 @@ scripts/                 Python fetch + build pipeline
 data/                    committed JSON output (the "database")
   raw/                   per-source raw pulls
   players.json           unified, site-facing dataset
+  overrides.json         manual edits (from the wizard), merged by the build
+editor/                  local record-editing wizard (server.mjs + index.html)
 web/                     React + Vite front-end (GitHub Pages)
 .github/workflows/       scheduled update Action
 ```
@@ -71,6 +73,53 @@ npm run dev
 
 In production the `deploy-site.yml` workflow copies `data/` into the build, so the
 site fetches `./data/players.json` in both dev and prod.
+
+## Editing player records (the wizard)
+
+The site is static (no backend to write to), so manual edits live in a committed
+**overrides layer**: `data/overrides.json`. `build_players.py` merges it *on top of* the
+fetched ASA/Wikipedia/FBref data, so your edits survive every re-fetch (they're re-applied,
+not overwritten) and are reviewable in git.
+
+Run the local wizard:
+
+```bash
+cd web
+npm run edit        # starts editor/server.mjs → http://localhost:4321
+```
+
+The wizard walks through: pick a player (or add a new manual one) → **bio & tenure** →
+**correct fetched stats** → **add seasons the sources miss** → review → save. Saving writes
+`data/overrides.json`; the "Rebuild" button runs `build_players.py` so you can review the
+merged `data/players.json` before committing both files. The editor is local-only — it is
+never deployed.
+
+**Overrides never mutate source stats** — a corrected value goes in a season's `override`
+bucket that the UI prefers, so the original stays visible in git and the app. Overriding a
+player's `tenure` re-tags all their seasons' before/during/after phases. This layer also
+supersedes the (now-optional) hand-edited `TENURES` block in `config.py`.
+
+`data/overrides.json` schema:
+
+```jsonc
+{
+  "players": {                          // edits to players that exist in the sources
+    "asa:<id>": {
+      "bio":     { "position": "...", "nationality": "...", "photo_url": "...", "notes": "..." },
+      "tenure":  { "start": 2022, "end": 2024 },        // end: null = still at club
+      "season_overrides": [                              // correct a fetched value
+        { "season": 2019, "source": "wikipedia", "team": "Leicester City", "patch": { "goals": 3 } }
+      ],
+      "added_seasons": [                                 // a season the sources miss
+        { "season": 2016, "team": "UNC Charlotte", "league": "NCAA", "apps": 18, "goals": 4 }
+      ]
+    }
+  },
+  "added_players": [                     // players not in any source at all
+    { "player_id": "manual:...", "name": "...", "tenure": {...}, "bio": {...}, "seasons": [...] }
+  ]
+}
+```
 
 ## The before / during / after model
 

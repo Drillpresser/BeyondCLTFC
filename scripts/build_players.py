@@ -67,6 +67,109 @@ def fbref_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
     return rows
 
 
+SEASON_SORT_KEY = lambda s: (  # noqa: E731 - small stable-ordering helper
+    s["season"],
+    s.get("source", ""),
+    str(s.get("team") or ""),
+    str(s.get("league") or ""),
+    str(s.get("season_label") or ""),
+)
+
+# Canonical, source-agnostic metric names the wizard edits / adds.
+METRIC_KEYS = ("goals", "assists", "apps", "minutes", "xg")
+
+
+def load_overrides() -> dict:
+    """Manual edits from the wizard (data/overrides.json). Absent = no-op."""
+    path = config.DATA_DIR / "overrides.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _clean_metrics(d: dict) -> dict:
+    return {k: d[k] for k in METRIC_KEYS if k in d and d[k] not in (None, "")}
+
+
+def _tag_phases(player: dict) -> None:
+    t = player["tenure"]
+    for s in player["seasons"]:
+        s["phase"] = config.phase_for(s["season"], t["start"], t["end"])
+
+
+def apply_overrides(players: list[dict], overrides: dict) -> list[dict]:
+    """Layer manual edits on top of fetched data. Overrides never mutate source
+    stat buckets — corrected values go in a season's `override` bucket that the
+    UI prefers, so the original stays visible in git and the app."""
+    by_id = {p["player_id"]: p for p in players}
+
+    for pid, ov in (overrides.get("players") or {}).items():
+        p = by_id.get(pid)
+        if p is None:
+            continue
+        if ov.get("bio"):
+            p["bio"] = {**p.get("bio", {}), **{k: v for k, v in ov["bio"].items() if v not in (None, "")}}
+        if ov.get("tenure"):
+            t = ov["tenure"]
+            p["tenure"] = {
+                "start": t.get("start", p["tenure"]["start"]),
+                "end": t.get("end", p["tenure"]["end"]),
+            }
+            _tag_phases(p)  # tenure drives before/during/after
+        # Correct existing seasons: patch matches by season (+ optional source/team).
+        for so in ov.get("season_overrides") or []:
+            for s in p["seasons"]:
+                if (
+                    s["season"] == so.get("season")
+                    and so.get("source", s.get("source")) == s.get("source")
+                    and so.get("team", s.get("team")) == s.get("team")
+                ):
+                    s["override"] = {**s.get("override", {}), **_clean_metrics(so.get("patch") or {})}
+        # Manually added seasons the sources don't have.
+        for add in ov.get("added_seasons") or []:
+            if add.get("season") is None:
+                continue
+            row = {
+                "season": int(add["season"]),
+                "team": add.get("team"),
+                "league": add.get("league"),
+                "source": "manual",
+                "override": _clean_metrics(add),
+            }
+            row["phase"] = config.phase_for(row["season"], p["tenure"]["start"], p["tenure"]["end"])
+            p["seasons"].append(row)
+        p["edited"] = True
+
+    # Wholly manual players not present in any source.
+    for ap in overrides.get("added_players") or []:
+        tenure = ap.get("tenure") or {"start": config.CLUB_FIRST_SEASON, "end": None}
+        seasons = []
+        for add in ap.get("seasons") or []:
+            if add.get("season") is None:
+                continue
+            row = {
+                "season": int(add["season"]),
+                "team": add.get("team"),
+                "league": add.get("league"),
+                "source": "manual",
+                "override": _clean_metrics(add),
+            }
+            row["phase"] = config.phase_for(row["season"], tenure["start"], tenure["end"])
+            seasons.append(row)
+        players.append(
+            {
+                "player_id": ap["player_id"],
+                "asa_id": None,
+                "name": ap.get("name") or ap["player_id"],
+                "tenure": tenure,
+                "bio": ap.get("bio", {}),
+                "seasons": seasons,
+                "manual": True,
+            }
+        )
+    return players
+
+
 def wiki_season_rows(name: str, careers: dict, tenure: dict) -> list[dict]:
     """Turn a player's Wikipedia career into non-MLS season rows. MLS/Charlotte
     rows are skipped — ASA covers those with richer metrics."""
@@ -160,16 +263,6 @@ def main() -> None:
         # Layer in non-MLS career context (when available).
         seasons.extend(fbref_season_rows(name, fbref_careers, tenure))
         seasons.extend(wiki_season_rows(name, wiki_careers, tenure))
-        # Total ordering so output is byte-stable across runs.
-        seasons.sort(
-            key=lambda s: (
-                s["season"],
-                s.get("source", ""),
-                str(s.get("team") or ""),
-                str(s.get("league") or ""),
-                str(s.get("season_label") or ""),
-            )
-        )
         players.append(
             {
                 "player_id": f"asa:{pid}",
@@ -180,7 +273,13 @@ def main() -> None:
             }
         )
 
-    players.sort(key=lambda p: (p["name"] or "", p["asa_id"]))
+    # Layer manual wizard edits on top of the fetched data.
+    players = apply_overrides(players, load_overrides())
+
+    # Final stable ordering so output is byte-stable across runs.
+    for p in players:
+        p["seasons"].sort(key=SEASON_SORT_KEY)
+    players.sort(key=lambda p: (p["name"] or "", p["player_id"]))
     out = {
         "club": config.CLUB_NAME,
         "sources": ["asa", "wikipedia", "fbref"],

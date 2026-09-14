@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeyondCLTFC — Player Record Editor</title>
+  <style>
+    :root { --cltfc:#1e90ff; --ok:#1a9d54; --border:#dcdfe3; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:#1a1a1a; margin:0; background:#fafbfc; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 24px; }
+    h1 { color: var(--cltfc); margin: 0 0 4px; }
+    .sub { color:#666; margin-top:0; }
+    .steps { display:flex; gap:6px; margin: 18px 0; flex-wrap:wrap; }
+    .steps div { flex:1; min-width:90px; text-align:center; font-size:12px; padding:8px 4px; border-radius:6px; background:#eef1f4; color:#777; }
+    .steps div.active { background: var(--cltfc); color:#fff; font-weight:700; }
+    .steps div.done { background:#d6ebff; color:#0b62b6; }
+    .card { background:#fff; border:1px solid var(--border); border-radius:10px; padding:20px; }
+    label { display:block; font-size:13px; font-weight:600; margin:10px 0 4px; }
+    input, select, textarea { width:100%; padding:8px; border:1px solid var(--border); border-radius:6px; font-size:14px; font-family:inherit; }
+    textarea { min-height:64px; resize:vertical; }
+    .row { display:flex; gap:12px; flex-wrap:wrap; }
+    .row > div { flex:1; min-width:120px; }
+    .nav { display:flex; justify-content:space-between; margin-top:20px; }
+    button { padding:9px 16px; border:none; border-radius:7px; font-size:14px; cursor:pointer; font-weight:600; }
+    .primary { background: var(--cltfc); color:#fff; }
+    .ghost { background:#eef1f4; color:#333; }
+    .ok { background: var(--ok); color:#fff; }
+    button:disabled { opacity:.5; cursor:not-allowed; }
+    table { width:100%; border-collapse:collapse; margin-top:8px; }
+    th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #eee; font-size:13px; }
+    th { color:#666; font-weight:600; }
+    td input { padding:5px; }
+    .seasonlabel { font-weight:600; }
+    .muted { color:#888; font-size:12px; }
+    .pill { display:inline-block; font-size:11px; padding:1px 7px; border-radius:9px; background:#eef1f4; color:#555; margin-left:6px; }
+    .pill.before { background:#eceef0; color:#555; }
+    .pill.during { background:#d6ebff; color:#0b62b6; }
+    .pill.after { background:#ffedcc; color:#8a5a00; }
+    .addbtn { background:#eef1f4; color:#0b62b6; margin-top:8px; }
+    .removebtn { background:#fdecec; color:#c0392b; padding:5px 10px; }
+    pre { background:#0f1419; color:#d6e3f0; padding:12px; border-radius:8px; overflow:auto; font-size:12px; white-space:pre-wrap; }
+    .banner { padding:10px 14px; border-radius:8px; margin-bottom:14px; font-size:14px; }
+    .banner.ok { background:#e6f6ee; color:#0f6b39; }
+    .banner.err { background:#fdecec; color:#b02121; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Player Record Editor</h1>
+    <p class="sub">Local wizard — edits are written to <code>data/overrides.json</code> and merged by the build. Nothing here is deployed.</p>
+    <div id="banner"></div>
+    <div class="steps" id="stepbar"></div>
+    <div class="card" id="panel"></div>
+  </div>
+
+<script>
+const STEPS = ["Player", "Bio & tenure", "Correct stats", "Add seasons", "Review & save"];
+let DATA = { players: [], overridesRoot: { players: {}, added_players: [] } };
+let step = 0;
+let mode = null;          // "existing" | "new"
+let pid = null;           // selected player_id (existing)
+let sourcePlayer = null;  // the built player record (existing)
+let draft = null;         // working edits
+
+const $ = (id) => document.getElementById(id);
+const el = (html) => { const t = document.createElement("template"); t.innerHTML = html.trim(); return t.content.firstChild; };
+const num = (v) => (v === "" || v == null || isNaN(Number(v)) ? null : Number(v));
+const slug = (s) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+async function load() {
+  const r = await fetch("/api/data");
+  const d = await r.json();
+  DATA.players = (d.players.players || []).slice();
+  DATA.overridesRoot = d.overrides && d.overrides.players ? d.overrides : { players: {}, added_players: [] };
+  render();
+}
+
+// Read the current (pre-override) value of a metric for a built season row.
+function currentMetric(s, key) {
+  if (s.source === "asa") { const x = s.xgoals || {}; return key === "xg" ? x.xgoals : key === "apps" ? null : x[key === "minutes" ? "minutes" : key]; }
+  if (s.source === "wikipedia") { const w = s.wikipedia || {}; return key === "goals" ? w.goals : key === "apps" ? w.apps : null; }
+  if (s.source === "fbref") { const f = s.fbref || {}; return key === "apps" ? f.mp : f[key]; }
+  return (s.override || {})[key];
+}
+
+function startExisting(id) {
+  mode = "existing"; pid = id;
+  sourcePlayer = DATA.players.find((p) => p.player_id === id);
+  const ov = DATA.overridesRoot.players[id] || {};
+  draft = {
+    bio: { ...(sourcePlayer.bio || {}), ...(ov.bio || {}) },
+    tenure: { ...(sourcePlayer.tenure || { start: 2022, end: null }), ...(ov.tenure || {}) },
+    season_overrides: JSON.parse(JSON.stringify(ov.season_overrides || [])),
+    added_seasons: JSON.parse(JSON.stringify(ov.added_seasons || [])),
+  };
+  step = 1; render();
+}
+
+function startNew() {
+  mode = "new"; pid = null; sourcePlayer = null;
+  draft = { name: "", bio: {}, tenure: { start: 2022, end: null }, added_seasons: [] };
+  step = 1; render();
+}
+
+function findOverride(season, source, team) {
+  return draft.season_overrides.find((o) => o.season === season && o.source === source && o.team === team);
+}
+function setOverrideField(s, key, val) {
+  let o = findOverride(s.season, s.source, s.team);
+  if (!o) { o = { season: s.season, source: s.source, team: s.team, patch: {} }; draft.season_overrides.push(o); }
+  if (val === null) delete o.patch[key]; else o.patch[key] = val;
+  // drop empty override entries
+  draft.season_overrides = draft.season_overrides.filter((x) => Object.keys(x.patch).length > 0);
+}
+
+function banner(msg, kind) { $("banner").innerHTML = msg ? `<div class="banner ${kind}">${msg}</div>` : ""; }
+
+function renderStepbar() {
+  const bar = $("stepbar"); bar.innerHTML = "";
+  const total = mode === "new" ? [0, 1, 3, 4] : [0, 1, 2, 3, 4]; // new players skip "Correct stats"
+  STEPS.forEach((name, i) => {
+    if (mode === "new" && i === 2) return;
+    const cls = i === step ? "active" : i < step ? "done" : "";
+    bar.appendChild(el(`<div class="${cls}">${i + 1}. ${name}</div>`));
+  });
+}
+
+function render() {
+  renderStepbar();
+  const panel = $("panel"); panel.innerHTML = "";
+  if (step === 0) return renderPick(panel);
+  if (step === 1) return renderBio(panel);
+  if (step === 2) return renderCorrect(panel);
+  if (step === 3) return renderAdd(panel);
+  if (step === 4) return renderReview(panel);
+}
+
+function nav(backTo, nextTo, nextLabel = "Next →", onNext) {
+  const n = el(`<div class="nav"></div>`);
+  const back = el(`<button class="ghost">${backTo === null ? "Start over" : "← Back"}</button>`);
+  back.onclick = () => { if (backTo === null) { step = 0; mode = null; } else step = backTo; render(); };
+  n.appendChild(back);
+  if (nextTo !== null) {
+    const next = el(`<button class="primary">${nextLabel}</button>`);
+    next.onclick = () => { if (onNext) onNext(); step = nextTo; render(); };
+    n.appendChild(next);
+  } else { n.appendChild(el("<span></span>")); }
+  return n;
+}
+
+function renderPick(panel) {
+  panel.appendChild(el(`<label>Edit an existing player</label>`));
+  const sel = el(`<select><option value="">— choose a player —</option></select>`);
+  DATA.players.slice().sort((a, b) => (a.name || "").localeCompare(b.name || "")).forEach((p) => {
+    const tags = [p.manual ? "manual" : "", DATA.overridesRoot.players[p.player_id] ? "edited" : ""].filter(Boolean).join(", ");
+    sel.appendChild(el(`<option value="${p.player_id}">${p.name}${tags ? " (" + tags + ")" : ""}</option>`));
+  });
+  sel.onchange = () => sel.value && startExisting(sel.value);
+  panel.appendChild(sel);
+  panel.appendChild(el(`<p class="muted" style="margin-top:16px">— or —</p>`));
+  const add = el(`<button class="primary">+ Add a new manual player</button>`);
+  add.onclick = startNew;
+  panel.appendChild(add);
+}
+
+function renderBio(panel) {
+  if (mode === "new") {
+    panel.appendChild(el(`<label>Player name *</label>`));
+    const nm = el(`<input value="${draft.name || ""}" placeholder="e.g. Test Academy Kid">`);
+    nm.oninput = () => (draft.name = nm.value);
+    panel.appendChild(nm);
+  } else {
+    panel.appendChild(el(`<p class="seasonlabel">${sourcePlayer.name}</p>`));
+  }
+  const b = draft.bio;
+  const field = (key, label, ph = "") => {
+    panel.appendChild(el(`<label>${label}</label>`));
+    const inp = el(`<input value="${(b[key] ?? "").toString().replace(/"/g, "&quot;")}" placeholder="${ph}">`);
+    inp.oninput = () => (b[key] = inp.value);
+    panel.appendChild(inp);
+  };
+  const rowWrap = el(`<div class="row"></div>`);
+  const mk = (key, label, ph) => { const w = el(`<div></div>`); w.appendChild(el(`<label>${label}</label>`)); const i = el(`<input value="${(b[key] ?? "").toString().replace(/"/g,"&quot;")}" placeholder="${ph}">`); i.oninput = () => (b[key] = i.value); w.appendChild(i); return w; };
+  rowWrap.appendChild(mk("position", "Position", "Midfielder"));
+  rowWrap.appendChild(mk("nationality", "Nationality", "USA"));
+  panel.appendChild(rowWrap);
+  field("photo_url", "Photo URL", "https://…");
+  panel.appendChild(el(`<label>Notes</label>`));
+  const notes = el(`<textarea placeholder="Free-text notes…">${b.notes ?? ""}</textarea>`);
+  notes.oninput = () => (b.notes = notes.value);
+  panel.appendChild(notes);
+
+  panel.appendChild(el(`<label style="margin-top:16px">Charlotte FC tenure (drives before/during/after)</label>`));
+  const tr = el(`<div class="row"></div>`);
+  const st = el(`<div><label>Start year</label><input type="number" value="${draft.tenure.start ?? ""}" placeholder="2022"></div>`);
+  st.querySelector("input").oninput = (e) => (draft.tenure.start = num(e.target.value));
+  const en = el(`<div><label>End year (blank = present)</label><input type="number" value="${draft.tenure.end ?? ""}" placeholder="present"></div>`);
+  en.querySelector("input").oninput = (e) => (draft.tenure.end = num(e.target.value));
+  tr.appendChild(st); tr.appendChild(en);
+  panel.appendChild(tr);
+
+  panel.appendChild(nav(0, mode === "new" ? 3 : 2));
+}
+
+function renderCorrect(panel) {
+  panel.appendChild(el(`<p class="seasonlabel">Correct fetched stats for ${sourcePlayer.name}</p>`));
+  panel.appendChild(el(`<p class="muted">Leave a cell blank to keep the fetched value. Entered values override just that field (original stays in git).</p>`));
+  if (!sourcePlayer.seasons.length) panel.appendChild(el(`<p class="muted">No fetched seasons.</p>`));
+  const keys = ["goals", "assists", "apps", "xg", "minutes"];
+  const tbl = el(`<table><thead><tr><th>Season</th>${keys.map((k) => `<th>${k}</th>`).join("")}</tr></thead><tbody></tbody></table>`);
+  const tb = tbl.querySelector("tbody");
+  sourcePlayer.seasons.forEach((s) => {
+    const tr = el(`<tr><td><span class="seasonlabel">${s.season}</span> <span class="pill ${s.phase}">${s.phase}</span><div class="muted">${s.source} · ${s.team || ""}</div></td></tr>`);
+    keys.forEach((k) => {
+      const cur = currentMetric(s, k);
+      const ov = findOverride(s.season, s.source, s.team);
+      const val = ov && k in ov.patch ? ov.patch[k] : "";
+      const td = el(`<td></td>`);
+      const inp = el(`<input type="number" step="any" value="${val}" placeholder="${cur ?? "—"}">`);
+      inp.oninput = () => setOverrideField(s, k, num(inp.value));
+      td.appendChild(inp); tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  panel.appendChild(tbl);
+  panel.appendChild(nav(1, 3));
+}
+
+function renderAdd(panel) {
+  panel.appendChild(el(`<p class="seasonlabel">Add seasons the sources don't have</p>`));
+  panel.appendChild(el(`<p class="muted">For college, academy, or leagues Wikipedia/ASA miss. Marked as source "manual".</p>`));
+  const list = el(`<div></div>`);
+  const keys = ["season", "team", "league", "apps", "goals", "assists", "xg"];
+  function draw() {
+    list.innerHTML = "";
+    draft.added_seasons.forEach((row, i) => {
+      const wrap = el(`<div class="row" style="align-items:flex-end; border-bottom:1px solid #eee; padding-bottom:10px; margin-bottom:10px"></div>`);
+      keys.forEach((k) => {
+        const isNum = ["season", "apps", "goals", "assists", "xg"].includes(k);
+        const d = el(`<div style="min-width:${k === "team" || k === "league" ? 160 : 80}px"></div>`);
+        d.appendChild(el(`<label>${k}</label>`));
+        const inp = el(`<input ${isNum ? 'type="number" step="any"' : ""} value="${row[k] ?? ""}">`);
+        inp.oninput = () => (row[k] = isNum ? num(inp.value) : inp.value);
+        d.appendChild(inp); wrap.appendChild(d);
+      });
+      const rm = el(`<div style="flex:0"><button class="removebtn">Remove</button></div>`);
+      rm.querySelector("button").onclick = () => { draft.added_seasons.splice(i, 1); draw(); };
+      wrap.appendChild(rm);
+      list.appendChild(wrap);
+    });
+  }
+  draw();
+  panel.appendChild(list);
+  const add = el(`<button class="addbtn">+ Add season row</button>`);
+  add.onclick = () => { draft.added_seasons.push({ season: null, team: "", league: "" }); draw(); };
+  panel.appendChild(add);
+  panel.appendChild(nav(mode === "new" ? 1 : 2, 4, "Review →"));
+}
+
+// Build the override entry (existing) or manual-player entry (new) from the draft.
+function buildEntry() {
+  const bio = Object.fromEntries(Object.entries(draft.bio).filter(([, v]) => v !== "" && v != null));
+  if (mode === "existing") {
+    const entry = {};
+    if (Object.keys(bio).length) entry.bio = bio;
+    if (draft.tenure && (draft.tenure.start != null || draft.tenure.end != null)) entry.tenure = draft.tenure;
+    if (draft.season_overrides.length) entry.season_overrides = draft.season_overrides;
+    if (draft.added_seasons.length) entry.added_seasons = draft.added_seasons.filter((r) => r.season != null);
+    return entry;
+  }
+  return {
+    player_id: "manual:" + (slug(draft.name) || "player"),
+    name: draft.name,
+    bio,
+    tenure: draft.tenure,
+    seasons: draft.added_seasons.filter((r) => r.season != null),
+  };
+}
+
+function renderReview(panel) {
+  const entry = buildEntry();
+  const preview = mode === "existing" ? { [pid]: entry } : entry;
+  panel.appendChild(el(`<p class="seasonlabel">Review — ${mode === "new" ? draft.name || "(unnamed)" : sourcePlayer.name}</p>`));
+  panel.appendChild(el(`<p class="muted">This is what will be written into <code>data/overrides.json</code>.</p>`));
+  panel.appendChild(el(`<pre>${JSON.stringify(preview, null, 2)}</pre>`));
+
+  const n = el(`<div class="nav"></div>`);
+  const back = el(`<button class="ghost">← Back</button>`);
+  back.onclick = () => { step = 3; render(); };
+  const save = el(`<button class="ok">💾 Save to overrides.json</button>`);
+  save.onclick = () => doSave(entry);
+  n.appendChild(back); n.appendChild(save);
+  panel.appendChild(n);
+}
+
+async function doSave(entry) {
+  const root = DATA.overridesRoot;
+  if (!root.players) root.players = {};
+  if (!root.added_players) root.added_players = [];
+  if (mode === "existing") {
+    if (Object.keys(entry).length) root.players[pid] = entry; else delete root.players[pid];
+  } else {
+    if (!draft.name) { banner("Player name is required.", "err"); step = 1; render(); return; }
+    root.added_players = root.added_players.filter((p) => p.player_id !== entry.player_id);
+    root.added_players.push(entry);
+  }
+  const r = await fetch("/api/overrides", { method: "POST", body: JSON.stringify(root) });
+  const res = await r.json();
+  if (!r.ok) { banner("Save failed: " + (res.error || r.status), "err"); return; }
+  banner("Saved to data/overrides.json ✓", "ok");
+  showPostSave();
+}
+
+function showPostSave() {
+  const panel = $("panel"); panel.innerHTML = "";
+  panel.appendChild(el(`<p class="seasonlabel">Saved.</p>`));
+  panel.appendChild(el(`<p class="muted">Rebuild to merge into players.json and review, then commit <code>data/overrides.json</code> (and the rebuilt <code>data/players.json</code>).</p>`));
+  const out = el(`<pre style="display:none"></pre>`);
+  const rebuild = el(`<button class="primary">⚙ Rebuild data (runs build_players.py)</button>`);
+  rebuild.onclick = async () => {
+    rebuild.disabled = true; rebuild.textContent = "Rebuilding…";
+    const r = await fetch("/api/rebuild", { method: "POST" });
+    const res = await r.json();
+    out.style.display = "block"; out.textContent = res.output || res.error || "(no output)";
+    rebuild.disabled = false; rebuild.textContent = res.ok ? "✓ Rebuilt — rebuild again" : "⚠ Rebuild failed — retry";
+    banner(res.ok ? "Rebuilt data/players.json ✓" : "Rebuild failed — see output.", res.ok ? "ok" : "err");
+  };
+  const again = el(`<button class="ghost" style="margin-left:8px">Edit another player</button>`);
+  again.onclick = () => { step = 0; mode = null; banner("", ""); load(); };
+  const navdiv = el(`<div class="nav" style="justify-content:flex-start; gap:8px"></div>`);
+  navdiv.appendChild(rebuild); navdiv.appendChild(again);
+  panel.appendChild(navdiv);
+  panel.appendChild(out);
+}
+
+load();
+</script>
+</body>
+</html>
