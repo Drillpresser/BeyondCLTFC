@@ -549,10 +549,10 @@
       "year": 2026,
       "club": "Widzew Łódź",
       "division": "Ekstraklasa",
-      "league_apps": 0,
-      "league_goals": 0,
-      "total_apps": 0,
-      "total_goals": 0
+      "league_apps": 9,
+      "league_goals": 1,
+      "total_apps": 10,
+      "total_goals": 1
     }
   ],
   "Enzo Copetti": [
@@ -1078,10 +1078,10 @@
       "year": 2026,
       "club": "Charlotte FC",
       "division": "Major League Soccer",
-      "league_apps": 5,
-      "league_goals": 0,
-      "total_apps": 6,
-      "total_goals": 0
+      "league_apps": 8,
+      "league_goals": 1,
+      "total_apps": 9,
+      "total_goals": 1
     }
   ],
   "Andre Shinyashiki": [
@@ -5270,9 +5270,9 @@
       "year": 2026,
       "club": "Jagiellonia Białystok",
       "division": "Ekstraklasa",
-      "league_apps": 2,
+      "league_apps": 3,
       "league_goals": 0,
-      "total_apps": 2,
+      "total_apps": 3,
       "total_goals": 0
     },
     {
@@ -5669,9 +5669,9 @@
       "year": 2026,
       "club": "Charlotte FC",
       "division": "MLS",
-      "league_apps": 19,
+      "league_apps": 21,
       "league_goals": 0,
-      "total_apps": 24,
+      "total_apps": 26,
       "total_goals": 0
     }
   ],
@@ -6854,9 +6854,9 @@
       "year": 2026,
       "club": "Charlotte FC",
       "division": "Major League Soccer",
-      "league_apps": 16,
+      "league_apps": 18,
       "league_goals": 0,
-      "total_apps": 18,
+      "total_apps": 20,
       "total_goals": 0
     }
   ],
@@ -7433,9 +7433,9 @@
       "year": 2026,
       "club": "Rodina Moscow",
       "division": "Russian Premier League",
-      "league_apps": 8,
+      "league_apps": 9,
       "league_goals": 0,
-      "total_apps": 10,
+      "total_apps": 11,
       "total_goals": 0
     }
   ]

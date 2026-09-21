@@ -1,0 +1,216 @@
+{
+  "Adam Armour": {
+    "id": 68472,
+    "seasons": [
+      {
+        "apps": 32,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 9,
+        "league": "League Two",
+        "minutes": 1859,
+        "season": 2022,
+        "team": "Forfar Athletic"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "League Cup",
+        "minutes": 244,
+        "season": 2022,
+        "team": "Forfar Athletic"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "Challenge Cup",
+        "minutes": 19,
+        "season": 2022,
+        "team": "Forfar Athletic"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "FA Cup",
+        "minutes": 44,
+        "season": 2022,
+        "team": "Forfar Athletic"
+      },
+      {
+        "apps": null,
+        "assists": null,
+        "country": "Scotland",
+        "goals": null,
+        "league": "League Two",
+        "minutes": null,
+        "season": 2023,
+        "team": "Peterhead"
+      },
+      {
+        "apps": 25,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 3,
+        "league": "League Two",
+        "minutes": 1545,
+        "season": 2023,
+        "team": "Stranraer"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 1,
+        "league": "League Cup",
+        "minutes": 330,
+        "season": 2023,
+        "team": "Stranraer"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "Challenge Cup",
+        "minutes": 90,
+        "season": 2023,
+        "team": "Stranraer"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "FA Cup",
+        "minutes": 77,
+        "season": 2023,
+        "team": "Stranraer"
+      },
+      {
+        "apps": 13,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 1,
+        "league": "League Two",
+        "minutes": 232,
+        "season": 2024,
+        "team": "Peterhead"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "FA Cup",
+        "minutes": 76,
+        "season": 2024,
+        "team": "Peterhead"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 1,
+        "league": "League Cup",
+        "minutes": 156,
+        "season": 2024,
+        "team": "Peterhead"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "Scotland",
+        "goals": 0,
+        "league": "Challenge Cup",
+        "minutes": 71,
+        "season": 2024,
+        "team": "Peterhead"
+      }
+    ]
+  },
+  "Adilson Malanda": {
+    "id": 175037,
+    "seasons": [
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "France",
+        "goals": 0,
+        "league": "Ligue 2",
+        "minutes": 90,
+        "season": 2022,
+        "team": "Rodez"
+      },
+      {
+        "apps": 6,
+        "assists": 1,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 540,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 30,
+        "assists": 1,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 2659,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 141,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 360,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 35,
+        "assists": 0,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 3150,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 180,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Alan Steven Franco": {
+    "id": 5143,
+    "seasons": []
+  }
+}

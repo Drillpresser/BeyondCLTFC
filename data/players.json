@@ -53,6 +53,58 @@
       "seasons": [
         {
           "season": 2022,
+          "team": "Forfar Athletic",
+          "league": "Challenge Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 19
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Forfar Athletic",
+          "league": "FA Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 44
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Forfar Athletic",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": null,
+            "minutes": 244
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Forfar Athletic",
+          "league": "League Two",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 32,
+            "goals": 9,
+            "assists": null,
+            "minutes": 1859
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -68,6 +120,123 @@
             "goals_plus_primary_assists": 1
           },
           "phase": "during"
+        },
+        {
+          "season": 2023,
+          "team": "Peterhead",
+          "league": "League Two",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Stranraer",
+          "league": "Challenge Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Stranraer",
+          "league": "FA Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 77
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Stranraer",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 1,
+            "assists": null,
+            "minutes": 330
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Stranraer",
+          "league": "League Two",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 25,
+            "goals": 3,
+            "assists": null,
+            "minutes": 1545
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Peterhead",
+          "league": "Challenge Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 71
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Peterhead",
+          "league": "FA Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 76
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Peterhead",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 1,
+            "assists": null,
+            "minutes": 156
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Peterhead",
+          "league": "League Two",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 13,
+            "goals": 1,
+            "assists": null,
+            "minutes": 232
+          }
         }
       ],
       "wikidata_clubs": [
@@ -193,6 +362,32 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": 0,
+            "assists": 1,
+            "minutes": 540
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Rodez",
+          "league": "Ligue 2",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -225,6 +420,45 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 360
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 0,
+            "assists": 1,
+            "minutes": 2659
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 141
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -240,6 +474,32 @@
             "goals_plus_primary_assists": 1
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 35,
+            "goals": 1,
+            "assists": 0,
+            "minutes": 3150
+          }
         },
         {
           "season": 2024,
@@ -888,13 +1148,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 546,
-            "shots": 14,
-            "shots_on_target": 5,
-            "goals": 0,
-            "key_passes": 14,
+            "minutes_played": 637,
+            "shots": 17,
+            "shots_on_target": 7,
+            "goals": 1,
+            "key_passes": 15,
             "primary_assists": 2,
-            "goals_plus_primary_assists": 2
+            "goals_plus_primary_assists": 3
           },
           "phase": "during"
         }
@@ -1834,7 +2094,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 499,
+            "minutes_played": 522,
             "shots": 11,
             "shots_on_target": 8,
             "goals": 3,
@@ -2236,13 +2496,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 2099,
-            "shots": 11,
-            "shots_on_target": 5,
-            "goals": 2,
-            "key_passes": 34,
-            "primary_assists": 3,
-            "goals_plus_primary_assists": 5
+            "minutes_played": 2198,
+            "shots": 13,
+            "shots_on_target": 6,
+            "goals": 3,
+            "key_passes": 36,
+            "primary_assists": 4,
+            "goals_plus_primary_assists": 7
           },
           "phase": "during"
         }
@@ -3247,11 +3507,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 939,
-            "shots": 2,
-            "shots_on_target": 1,
+            "minutes_played": 1038,
+            "shots": 3,
+            "shots_on_target": 2,
             "goals": 1,
-            "key_passes": 4,
+            "key_passes": 7,
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
@@ -5291,7 +5551,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 905,
+            "minutes_played": 928,
             "shots": 23,
             "shots_on_target": 12,
             "goals": 4,
@@ -6053,8 +6313,8 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1231,
-            "shots": 9,
+            "minutes_played": 1302,
+            "shots": 10,
             "shots_on_target": 4,
             "goals": 2,
             "key_passes": 12,
@@ -8158,7 +8418,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1134,
+            "minutes_played": 1162,
             "shots": 7,
             "shots_on_target": 1,
             "goals": 0,
@@ -8569,7 +8829,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 925,
+            "minutes_played": 1024,
             "shots": 3,
             "shots_on_target": 2,
             "goals": 1,
@@ -8722,11 +8982,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 2008,
+            "minutes_played": 2084,
             "shots": 39,
             "shots_on_target": 18,
             "goals": 9,
-            "key_passes": 15,
+            "key_passes": 16,
             "primary_assists": 1,
             "goals_plus_primary_assists": 10
           },
@@ -12976,9 +13236,9 @@
           "source": "wikipedia",
           "phase": "during",
           "wikipedia": {
-            "apps": 2,
+            "apps": 3,
             "goals": 0,
-            "total_apps": 2,
+            "total_apps": 3,
             "total_goals": 0
           }
         }
@@ -13322,10 +13582,10 @@
           "source": "wikipedia",
           "phase": "during",
           "wikipedia": {
-            "apps": 0,
-            "goals": 0,
-            "total_apps": 0,
-            "total_goals": 0
+            "apps": 9,
+            "goals": 1,
+            "total_apps": 10,
+            "total_goals": 1
           }
         }
       ],
@@ -13892,7 +14152,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "GK",
-            "minutes_played": 2556,
+            "minutes_played": 2655,
             "shots": 0,
             "shots_on_target": 0,
             "goals": 0,
@@ -14103,9 +14363,9 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 1133,
-            "shots": 30,
-            "shots_on_target": 18,
+            "minutes_played": 1204,
+            "shots": 33,
+            "shots_on_target": 21,
             "goals": 5,
             "key_passes": 12,
             "primary_assists": 3,
@@ -14433,11 +14693,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 1046,
+            "minutes_played": 1054,
             "shots": 7,
             "shots_on_target": 0,
             "goals": 0,
-            "key_passes": 9,
+            "key_passes": 10,
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
@@ -14801,7 +15061,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 1808,
+            "minutes_played": 1816,
             "shots": 15,
             "shots_on_target": 5,
             "goals": 2,
@@ -15201,7 +15461,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1920,
+            "minutes_played": 2019,
             "shots": 3,
             "shots_on_target": 0,
             "goals": 0,
@@ -16565,11 +16825,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "AM",
-            "minutes_played": 2423,
+            "minutes_played": 2514,
             "shots": 56,
             "shots_on_target": 22,
             "goals": 12,
-            "key_passes": 43,
+            "key_passes": 44,
             "primary_assists": 7,
             "goals_plus_primary_assists": 19
           },
@@ -16713,7 +16973,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 643,
+            "minutes_played": 671,
             "shots": 14,
             "shots_on_target": 3,
             "goals": 1,
@@ -17795,7 +18055,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 1797,
+            "minutes_played": 1896,
             "shots": 1,
             "shots_on_target": 0,
             "goals": 0,
@@ -19165,9 +19425,9 @@
           "source": "wikipedia",
           "phase": "during",
           "wikipedia": {
-            "apps": 8,
+            "apps": 9,
             "goals": 0,
-            "total_apps": 10,
+            "total_apps": 11,
             "total_goals": 0
           }
         }
