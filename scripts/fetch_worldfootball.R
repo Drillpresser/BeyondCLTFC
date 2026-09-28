@@ -82,7 +82,7 @@ pick <- function(df, patterns) {
   }
   rep(NA, nrow(df))
 }
-&
+as_int <- function(x) suppressWarnings(as.integer(gsub("[^0-9]", "", as.character(x))))
 has_url <- function(u) length(u) == 1 && !is.na(u) && nzchar(u)
 
 # --- pull stats + bio -----------------------------------------------------
