@@ -4,10 +4,11 @@ name: Update player data
 # back to the repo. ASA + Wikipedia + build are required; every other source is a
 # best-effort cross-check (continue-on-error) so one flaky source never blocks a
 # refresh. build_players.py merges whatever raw files are present.
+#
+# The weekly schedule now runs on the home server (server/README.md), where FBref
+# and Transfermarkt aren't blocked. This workflow is kept as a manual fallback.
 on:
-  schedule:
-    - cron: "17 9 * * 1"      # weekly, Mondays 09:17 UTC (MLS plays weekends)
-  workflow_dispatch: {}         # allow manual runs from the Actions tab
+  workflow_dispatch: {}         # manual runs from the Actions tab
 
 permissions:
   contents: write               # needed to commit the refreshed data

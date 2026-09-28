@@ -5,7 +5,7 @@ each player's performance **before**, **during**, and **after** their stint with
 
 ## How it works
 
-This project uses the "git scraping" pattern: a scheduled GitHub Action runs the Python
+This project uses the "git scraping" pattern: a weekly cron job on a home server ([`server/`](server/)) runs the Python
 fetch scripts, writes the results as JSON into [`data/`](data/), and commits them back to
 the repo. GitHub Pages then serves both the static site (`web/`) and the JSON data. Every
 scheduled commit is a snapshot, so **git history is the time series** — no database needed.
@@ -81,7 +81,8 @@ data/                    committed JSON output (the "database")
   overrides.json         manual edits (from the wizard), merged by the build
 editor/                  standalone local record-editing wizard (own package.json; never deployed)
 web/                     React + Vite front-end (GitHub Pages)
-.github/workflows/       scheduled update Action
+server/                  home-server cron runner (Docker) for the weekly refresh
+.github/workflows/       Pages deploy + manual-fallback update Action
 ```
 
 ## Local development

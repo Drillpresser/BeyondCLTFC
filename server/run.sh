@@ -22,10 +22,11 @@ main() {
   git checkout --quiet -f -B "$branch" "origin/$branch"
   git clean -fdq data/
 
-  local compose=(docker compose -f server/docker-compose.yml)
-  "${compose[@]}" build --pull --quiet
+  # --profile run so the pipeline service is included in build/down too.
+  local compose=(docker compose -f server/docker-compose.yml --profile run --progress quiet)
+  "${compose[@]}" build --pull
   "${compose[@]}" run --rm --user "$(id -u):$(id -g)" pipeline || rc=$?
-  "${compose[@]}" --profile run down
+  "${compose[@]}" down
   if [ "$rc" -ne 0 ]; then
     echo "### pipeline failed (exit $rc); nothing committed"
     exit "$rc"
