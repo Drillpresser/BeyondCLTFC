@@ -26,6 +26,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 
 import config
 
@@ -61,9 +62,55 @@ def polite_get(url: str, **kwargs):
     return resp
 
 
+def _name_words(s: str) -> list[str]:
+    """Lowercase ASCII words, accents stripped, "(footballer, born 1998)" dropped."""
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    return re.findall(r"[a-z]+", re.sub(r"\(.*?\)", " ", s.lower()))
+
+
+def title_matches(name: str, title: str | None) -> bool:
+    """Is this article plausibly about this player?
+
+    The surname must appear in the title and the first names must be compatible
+    (either a prefix of the other: Chris/Christopher, Will/William). Without this
+    the top search hit was taken blindly and landed on "Charlotte FC",
+    "A.F.C. Richmond" or a different Nuno Santo.
+    """
+    n, t = _name_words(name), _name_words(title or "")
+    if not n or not t or n[-1] not in t:
+        return False
+    if len(n) == 1:  # mononym
+        return True
+    first = n[0]
+    return any(
+        len(w) >= 3 and (w.startswith(first) or first.startswith(w)) for w in t if w != n[-1]
+    )
+
+
+def is_disambiguation(title: str) -> bool:
+    resp = polite_get(
+        config.WIKI_API,
+        params={
+            "action": "query",
+            "prop": "pageprops",
+            "ppprop": "disambiguation",
+            "titles": title,
+            "redirects": 1,
+            "format": "json",
+            "formatversion": 2,
+        },
+    )
+    pages = resp.json().get("query", {}).get("pages", [])
+    return any("disambiguation" in (p.get("pageprops") or {}) for p in pages)
+
+
 def resolve_title(name: str, cache: dict) -> str | None:
-    """Find the Wikipedia article title for a player via the search API."""
-    if name in cache:
+    """Find the Wikipedia article title for a player via the search API.
+
+    Cached titles are reused only if they still pass title_matches(); unresolved
+    names (None) are retried each run, since young players gain articles.
+    """
+    if title_matches(name, cache.get(name)):
         return cache[name]
     print(f"  resolving '{name}'...")
     resp = polite_get(
@@ -72,16 +119,27 @@ def resolve_title(name: str, cache: dict) -> str | None:
             "action": "query",
             "list": "search",
             "srsearch": f"{name} footballer soccer",
-            "srlimit": 1,
+            "srlimit": 10,
             "format": "json",
             "formatversion": 2,
         },
     )
     hits = resp.json().get("query", {}).get("search", [])
-    title = hits[0]["title"] if hits else None
+    title = next(
+        (
+            h["title"]
+            for h in hits
+            if title_matches(name, h["title"]) and not is_disambiguation(h["title"])
+        ),
+        None,
+    )
     cache[name] = title
     print(f"    -> {title}")
     return title
+
+
+def is_disambiguation_html(html: str) -> bool:
+    return 'id="disambigbox"' in html or "dmbox-disambig" in html
 
 
 def flatten_columns(df: pd.DataFrame) -> list[str]:
@@ -202,6 +260,14 @@ def main() -> None:
                 careers[name] = []
                 continue
             resp = polite_get(config.WIKI_PAGE + title.replace(" ", "_"))
+            if is_disambiguation_html(resp.text):
+                # Cached before title checks existed (e.g. "William Cleary"): re-resolve.
+                titles.pop(name, None)
+                title = resolve_title(name, titles)
+                if not title:
+                    careers[name] = []
+                    continue
+                resp = polite_get(config.WIKI_PAGE + title.replace(" ", "_"))
             rows = parse_career(resp.text)
             careers[name] = rows
             print(f"    {len(rows)} season rows")
