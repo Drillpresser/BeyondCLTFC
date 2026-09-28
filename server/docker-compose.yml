@@ -1,0 +1,24 @@
+# Used by server/run.sh on the home server. `tmkt` is built from source because
+# felipeall/transfermarkt-api isn't published to Docker Hub.
+name: beyondcltfc
+
+services:
+  tmkt:
+    build: https://github.com/felipeall/transfermarkt-api.git
+    image: beyondcltfc-tmkt
+
+  pipeline:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: beyondcltfc-pipeline
+    depends_on: [tmkt]
+    volumes:
+      - ..:/repo
+    environment:
+      TRANSFERMARKT_API: http://tmkt:8000
+    # Secrets (APIFOOTBALL_KEY, optional APIFOOTBALL_SEASONS) live outside the repo.
+    env_file:
+      - path: ${HOME}/.config/beyondcltfc.env
+        required: false
+    profiles: [run]   # only started via `docker compose run pipeline`
