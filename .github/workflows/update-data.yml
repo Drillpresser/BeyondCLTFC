@@ -62,10 +62,8 @@ jobs:
         run: python fetch_transfermarkt.py
 
       # --- Best-effort cross-checks --------------------------------------------
-      - name: Fetch FBref (extra career context, best-effort)
-        working-directory: scripts
-        continue-on-error: true          # Cloudflare frequently 403s CI runners
-        run: python fetch_fbref.py
+      # fetch_fbref.py is off: Cloudflare 403'd every request from CI and from the
+      # home server. worldfootballR still reads FBref via its own URL dictionary.
 
       - name: Fetch Wikidata (bio + club timelines)
         working-directory: scripts

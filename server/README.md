@@ -5,10 +5,10 @@ The image uses `rocker/r-ver`, so worldfootballR installs from prebuilt binaries
 (on the GitHub runner it failed to compile).
 
 Findings from the first test run (2026-09-28), with the same blocks seen from the home IP:
-- **FBref** returns Cloudflare 403s here too.
+- **FBref** returns Cloudflare 403s here too, so `fetch_fbref.py` is turned off. worldfootballR now takes its roster from ASA and finds FBref URLs through its own player dictionary.
 - **Transfermarkt**: the API has to be built from source (it isn't on Docker Hub). Its
   stats endpoint returned no rows, and Transfermarkt 403'd the house IP after about 12
-  players. It's now **opt-in**: add `ENABLE_TRANSFERMARKT=1` to the env file below.
+  players. It is now **opt-in**, including worldfootballR bios: add `ENABLE_TRANSFERMARKT=1` to the env file below.
 
 ```
 cron (Mon 09:17 UTC) → server/run.sh
