@@ -53,54 +53,41 @@
       "seasons": [
         {
           "season": 2022,
-          "team": "Forfar Athletic",
-          "league": "Challenge Cup",
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 1,
+            "assists": null,
+            "minutes": 80
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
           "source": "apifootball",
           "phase": "during",
           "apifootball": {
             "apps": 1,
             "goals": 0,
             "assists": null,
-            "minutes": 19
-          }
-        },
-        {
-          "season": 2022,
-          "team": "Forfar Athletic",
-          "league": "FA Cup",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 1,
-            "goals": 0,
-            "assists": null,
-            "minutes": 44
-          }
-        },
-        {
-          "season": 2022,
-          "team": "Forfar Athletic",
-          "league": "League Cup",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 4,
-            "goals": 0,
-            "assists": null,
-            "minutes": 244
-          }
-        },
-        {
-          "season": 2022,
-          "team": "Forfar Athletic",
-          "league": "League Two",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 32,
-            "goals": 9,
-            "assists": null,
-            "minutes": 1859
+            "minutes": 120
           }
         },
         {
@@ -123,119 +110,54 @@
         },
         {
           "season": 2023,
-          "team": "Peterhead",
-          "league": "League Two",
+          "team": "Charlotte",
+          "league": "Major League Soccer",
           "source": "apifootball",
           "phase": "during",
           "apifootball": {
-            "apps": null,
-            "goals": null,
-            "assists": null,
-            "minutes": null
-          }
-        },
-        {
-          "season": 2023,
-          "team": "Stranraer",
-          "league": "Challenge Cup",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 1,
+            "apps": 0,
             "goals": 0,
             "assists": null,
-            "minutes": 90
+            "minutes": 0
           }
         },
         {
           "season": 2023,
-          "team": "Stranraer",
-          "league": "FA Cup",
+          "team": "Charlotte",
+          "league": "US Open Cup",
           "source": "apifootball",
           "phase": "during",
           "apifootball": {
-            "apps": 1,
+            "apps": 0,
             "goals": 0,
             "assists": null,
-            "minutes": 77
+            "minutes": 0
           }
         },
         {
           "season": 2023,
-          "team": "Stranraer",
-          "league": "League Cup",
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
           "source": "apifootball",
           "phase": "during",
           "apifootball": {
             "apps": 4,
-            "goals": 1,
+            "goals": 0,
             "assists": null,
-            "minutes": 330
+            "minutes": 251
           }
         },
         {
           "season": 2023,
-          "team": "Stranraer",
-          "league": "League Two",
+          "team": "FC Tulsa",
+          "league": "USL Championship",
           "source": "apifootball",
           "phase": "during",
           "apifootball": {
-            "apps": 25,
-            "goals": 3,
-            "assists": null,
-            "minutes": 1545
-          }
-        },
-        {
-          "season": 2024,
-          "team": "Peterhead",
-          "league": "Challenge Cup",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 2,
+            "apps": 12,
             "goals": 0,
             "assists": null,
-            "minutes": 71
-          }
-        },
-        {
-          "season": 2024,
-          "team": "Peterhead",
-          "league": "FA Cup",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 1,
-            "goals": 0,
-            "assists": null,
-            "minutes": 76
-          }
-        },
-        {
-          "season": 2024,
-          "team": "Peterhead",
-          "league": "League Cup",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 3,
-            "goals": 1,
-            "assists": null,
-            "minutes": 156
-          }
-        },
-        {
-          "season": 2024,
-          "team": "Peterhead",
-          "league": "League Two",
-          "source": "apifootball",
-          "phase": "during",
-          "apifootball": {
-            "apps": 13,
-            "goals": 1,
-            "assists": null,
-            "minutes": 232
+            "minutes": 662
           }
         }
       ],
@@ -721,6 +643,32 @@
         },
         {
           "season": 2022,
+          "team": "Atlanta United FC",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 31,
+            "goals": 1,
+            "assists": 2,
+            "minutes": 2716
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Atlanta United FC",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 120
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -753,6 +701,71 @@
         },
         {
           "season": 2023,
+          "team": "Atlanta United FC",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sao Paulo",
+          "league": "CONMEBOL Sudamericana",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 9,
+            "goals": null,
+            "assists": null,
+            "minutes": 315
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sao Paulo",
+          "league": "Copa Do Brasil",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": null,
+            "assists": null,
+            "minutes": 78
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sao Paulo",
+          "league": "Paulista - A1",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 9,
+            "goals": 1,
+            "assists": 2,
+            "minutes": 744
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sao Paulo",
+          "league": "Serie A",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 977
+          }
+        },
+        {
+          "season": 2023,
           "season_label": "2023",
           "team": "Atlético Mineiro",
           "league": "Série A",
@@ -777,6 +790,58 @@
             "goals": 0,
             "total_apps": 20,
             "total_goals": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Sao Paulo",
+          "league": "CONMEBOL Libertadores",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 8,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 699
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Sao Paulo",
+          "league": "Copa Do Brasil",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": null,
+            "assists": 0,
+            "minutes": 270
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Sao Paulo",
+          "league": "Paulista - A1",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 12,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 463
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Sao Paulo",
+          "league": "Serie A",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 32,
+            "goals": null,
+            "assists": 1,
+            "minutes": 2201
           }
         },
         {
@@ -1072,6 +1137,45 @@
         },
         {
           "season": 2022,
+          "team": "Newcastle",
+          "league": "FA Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Newcastle",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": null,
+            "assists": null,
+            "minutes": 264
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Newcastle",
+          "league": "Premier League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 25,
+            "goals": 1,
+            "assists": 5,
+            "minutes": 1131
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022–23",
           "team": "Newcastle United",
           "league": "Premier League",
@@ -1086,6 +1190,84 @@
         },
         {
           "season": 2023,
+          "team": "Al-Ahli Jeddah",
+          "league": "King's Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Al-Ahli Jeddah",
+          "league": "King's Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Al-Ahli Jeddah",
+          "league": "Pro League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 4,
+            "assists": 9,
+            "minutes": 2333
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Newcastle",
+          "league": "Premier League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Newcastle",
+          "league": "Premier League - Summer Series",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Newcastle",
+          "league": "UEFA Champions League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
           "season_label": "2023–24",
           "team": "Al-Ahli",
           "league": "Saudi Pro League",
@@ -1096,6 +1278,58 @@
             "goals": 4,
             "total_apps": 31,
             "total_goals": 4
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Fenerbahçe",
+          "league": "Süper Lig",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 20,
+            "goals": 4,
+            "assists": 3,
+            "minutes": 1210
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Fenerbahçe",
+          "league": "Türkiye Kupası",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Fenerbahçe",
+          "league": "UEFA Champions League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": null,
+            "assists": 0,
+            "minutes": 145
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Fenerbahçe",
+          "league": "UEFA Europa League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 7,
+            "goals": null,
+            "assists": 1,
+            "minutes": 383
           }
         },
         {
@@ -1433,6 +1667,71 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 44
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 21,
+            "goals": 6,
+            "assists": null,
+            "minutes": 836
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 1,
+            "assists": null,
+            "minutes": 98
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Colorado Rapids",
+          "league": "CONCACAF Champions League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 18
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Colorado Rapids",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 8,
+            "goals": 1,
+            "assists": null,
+            "minutes": 212
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -1483,6 +1782,84 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 0,
+            "assists": null,
+            "minutes": 191
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Neftchi Baku",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 1,
+            "assists": null,
+            "minutes": 291
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Neftchi Baku",
+          "league": "Premyer Liqa",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 26,
+            "goals": 4,
+            "assists": null,
+            "minutes": 1362
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Neftchi Baku",
+          "league": "UEFA Europa Conference League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 169
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -1498,6 +1875,32 @@
             "goals_plus_primary_assists": 0
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Arda Kardzhali",
+          "league": "First League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 157
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Neftchi Baku",
+          "league": "Premyer Liqa",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": 0,
+            "assists": null,
+            "minutes": 212
+          }
         }
       ],
       "wikidata_clubs": [
@@ -1585,6 +1988,58 @@
       "seasons": [
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 440
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 20,
+            "goals": null,
+            "assists": null,
+            "minutes": 1133
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 20,
+            "goals": null,
+            "assists": null,
+            "minutes": 1133
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 8,
+            "goals": 0,
+            "assists": null,
+            "minutes": 638
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -1600,6 +2055,32 @@
             "goals_plus_primary_assists": 0
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 33,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 2953
+          }
         },
         {
           "season": 2024,
@@ -1811,6 +2292,19 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Club Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 44
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -2000,6 +2494,32 @@
         },
         {
           "season": 2022,
+          "team": "Newcastle Jets",
+          "league": "A-League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 8,
+            "goals": 2,
+            "assists": null,
+            "minutes": 138
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Newcastle Jets",
+          "league": "Australia Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 1,
+            "assists": null,
+            "minutes": 13
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022–23",
           "team": "Newcastle Jets FC",
           "league": "A-League",
@@ -2028,6 +2548,58 @@
         },
         {
           "season": 2023,
+          "team": "Adelaide United",
+          "league": "A-League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": 1,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Australia U20",
+          "league": "AFC U20 Asian Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Newcastle Jets",
+          "league": "A-League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 20,
+            "goals": 2,
+            "assists": 1,
+            "minutes": 472
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Newcastle Jets",
+          "league": "Australia Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 1,
+            "assists": null,
+            "minutes": 74
+          }
+        },
+        {
+          "season": 2023,
           "season_label": "2023–24",
           "team": "Newcastle Jets FC",
           "league": "A-League",
@@ -2038,6 +2610,32 @@
             "goals": 2,
             "total_apps": 21,
             "total_goals": 3
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Adelaide United",
+          "league": "A-League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 26,
+            "goals": 13,
+            "assists": 0,
+            "minutes": 1570
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Adelaide United",
+          "league": "Australia Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
           }
         },
         {
@@ -2422,6 +3020,45 @@
         },
         {
           "season": 2022,
+          "team": "Burnley",
+          "league": "Championship",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Burnley",
+          "league": "FA Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Burnley",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022–23",
           "team": "Burnley",
           "league": "Championship",
@@ -2432,6 +3069,45 @@
             "goals": 0,
             "total_apps": 0,
             "total_goals": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 0,
+            "assists": 1,
+            "minutes": 421
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 3,
+            "assists": 2,
+            "minutes": 2621
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 3,
+            "assists": 2,
+            "minutes": 2621
           }
         },
         {
@@ -2451,6 +3127,32 @@
             "goals_plus_primary_assists": 5
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 36,
+            "goals": 2,
+            "assists": 5,
+            "minutes": 3240
+          }
         },
         {
           "season": 2024,
@@ -2581,6 +3283,58 @@
       },
       "seasons": [
         {
+          "season": 2023,
+          "team": "Kustosija",
+          "league": "Second NL",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Mali U17",
+          "league": "CAF Cup of Nations - U17",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 10
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Mali U17",
+          "league": "World Cup - U17",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 7,
+            "goals": 0,
+            "assists": null,
+            "minutes": 627
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Kustosija",
+          "league": "Second NL",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 9,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 658
+          }
+        },
+        {
           "season": 2025,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
@@ -2639,6 +3393,45 @@
       "seasons": [
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 46
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 28,
+            "goals": 3,
+            "assists": 6,
+            "minutes": 1650
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 151
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -2657,6 +3450,71 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 1,
+            "assists": 0,
+            "minutes": 113
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 17,
+            "goals": 3,
+            "assists": 2,
+            "minutes": 908
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 65
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Philadelphia Union",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 1,
+            "assists": 0,
+            "minutes": 21
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -2672,6 +3530,58 @@
             "goals_plus_primary_assists": 5
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 56
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": 1,
+            "assists": 0,
+            "minutes": 193
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 2,
+            "assists": null,
+            "minutes": 125
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Tampa Bay Rowdies",
+          "league": "USL Championship",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 9,
+            "goals": 0,
+            "assists": null,
+            "minutes": 478
+          }
         },
         {
           "season": 2024,
@@ -2915,6 +3825,71 @@
         },
         {
           "season": 2022,
+          "team": "New Zealand",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 0,
+            "assists": null,
+            "minutes": 297
+          }
+        },
+        {
+          "season": 2022,
+          "team": "New Zealand",
+          "league": "World Cup - Qualification Intercontinental Play-offs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2022,
+          "team": "New Zealand",
+          "league": "World Cup - Qualification Oceania",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 3,
+            "assists": null,
+            "minutes": 199
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Portland Timbers",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 6,
+            "assists": 2,
+            "minutes": 2251
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Portland Timbers",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "WBLMvYAQxe",
           "team": "Portland Timbers FC",
           "league": "MLS",
@@ -2933,6 +3908,71 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 24,
+            "goals": null,
+            "assists": null,
+            "minutes": 1357
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 24,
+            "goals": null,
+            "assists": null,
+            "minutes": 1357
+          }
+        },
+        {
+          "season": 2023,
+          "team": "New Zealand",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": null,
+            "minutes": 281
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Portland Timbers",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -2948,6 +3988,58 @@
             "goals_plus_primary_assists": 0
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 1
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 197
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 7,
+            "goals": 2,
+            "assists": null,
+            "minutes": 533
+          }
+        },
+        {
+          "season": 2024,
+          "team": "New Zealand",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 49
+          }
         },
         {
           "season": 2024,
@@ -3175,6 +4267,71 @@
         },
         {
           "season": 2023,
+          "team": "Canada",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 12
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 16,
+            "goals": 2,
+            "assists": null,
+            "minutes": 137
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 16,
+            "goals": 2,
+            "assists": null,
+            "minutes": 137
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 10,
+            "goals": 4,
+            "assists": null,
+            "minutes": 812
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -3203,6 +4360,45 @@
             "goals": 4,
             "total_apps": 10,
             "total_goals": 4
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 10
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 26
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 10,
+            "goals": 2,
+            "assists": null,
+            "minutes": 765
           }
         },
         {
@@ -3429,6 +4625,45 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 46
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 34,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 2817
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 154
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -3447,6 +4682,45 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 1,
+            "assists": 0,
+            "minutes": 450
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 33,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 2688
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 235
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -3462,6 +4736,32 @@
             "goals_plus_primary_assists": 2
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 28,
+            "goals": 1,
+            "assists": 5,
+            "minutes": 1996
+          }
         },
         {
           "season": 2024,
@@ -3792,6 +5092,45 @@
         },
         {
           "season": 2022,
+          "team": "Toulouse",
+          "league": "Coupe de France",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 0,
+            "assists": null,
+            "minutes": 338
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Toulouse",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 29
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Toulouse",
+          "league": "Ligue 1",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 30,
+            "goals": 4,
+            "assists": 1,
+            "minutes": 1826
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022–23",
           "team": "Toulouse",
           "league": "Ligue 1",
@@ -3802,6 +5141,45 @@
             "goals": 4,
             "total_apps": 35,
             "total_goals": 4
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 10,
+            "goals": 1,
+            "assists": null,
+            "minutes": 511
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Toulouse",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
           }
         },
         {
@@ -3821,6 +5199,58 @@
             "goals_plus_primary_assists": 1
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 17
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 20,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 916
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Kortrijk",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 140
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Kortrijk",
+          "league": "Jupiler Pro League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 25,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 1518
+          }
         },
         {
           "season": 2024,
@@ -4245,6 +5675,19 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Club Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 46
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -4577,6 +6020,97 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 44
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 13,
+            "goals": 0,
+            "assists": null,
+            "minutes": 853
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 172
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Inter Miami",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "New England Revolution",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 8,
+            "goals": 0,
+            "assists": null,
+            "minutes": 375
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Venezuela",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": null,
+            "minutes": 272
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Venezuela",
+          "league": "World Cup - Qualification South America",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -4627,6 +6161,97 @@
         },
         {
           "season": 2023,
+          "team": "Anorthosis",
+          "league": "1. Division",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 14,
+            "goals": 2,
+            "assists": 0,
+            "minutes": 960
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Anorthosis",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2023,
+          "team": "New England Revolution",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "New England Revolution",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "New England Revolution",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 25,
+            "goals": null,
+            "assists": 1,
+            "minutes": 508
+          }
+        },
+        {
+          "season": 2023,
+          "team": "New England Revolution",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 25,
+            "goals": null,
+            "assists": 1,
+            "minutes": 508
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Venezuela",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "19vQ2095K6",
           "team": "New England Revolution",
           "league": "MLS",
@@ -4669,6 +6294,71 @@
             "goals": 0,
             "total_apps": 12,
             "total_goals": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Anorthosis",
+          "league": "1. Division",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Levski Sofia",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 300
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Levski Sofia",
+          "league": "First League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 26,
+            "goals": 3,
+            "assists": 0,
+            "minutes": 2043
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Venezuela",
+          "league": "Copa America",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": null,
+            "assists": 0,
+            "minutes": 18
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Venezuela",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 12
           }
         },
         {
@@ -5129,6 +6819,45 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 7
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte Independence",
+          "league": "USL League One",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 14,
+            "goals": 3,
+            "assists": null,
+            "minutes": 1091
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -5144,6 +6873,71 @@
             "goals_plus_primary_assists": 0
           },
           "phase": "during"
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": null,
+            "minutes": 53
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 206
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 7,
+            "goals": 1,
+            "assists": null,
+            "minutes": 517
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Loudoun United",
+          "league": "USL Championship",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 6,
+            "goals": 1,
+            "assists": null,
+            "minutes": 540
+          }
         },
         {
           "season": 2023,
@@ -5189,6 +6983,45 @@
             "goals": 1,
             "total_apps": 6,
             "total_goals": 1
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Orange County SC",
+          "league": "USL Championship",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 16,
+            "goals": 1,
+            "assists": null,
+            "minutes": 1098
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Stabaek",
+          "league": "1. Division",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 9,
+            "goals": 0,
+            "assists": null,
+            "minutes": 169
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Stabaek",
+          "league": "NM Cupen",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
           }
         },
         {
@@ -5961,6 +7794,45 @@
         },
         {
           "season": 2022,
+          "team": "Portland Timbers",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Portland Timbers",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Portland Timbers II",
+          "league": "MLS Next Pro",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "WBLMvYAQxe",
           "team": "Portland Timbers FC",
           "league": "MLS",
@@ -5993,6 +7865,45 @@
         },
         {
           "season": 2023,
+          "team": "Portland Timbers",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Portland Timbers",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 19,
+            "goals": 0,
+            "assists": null,
+            "minutes": 1710
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Portland Timbers",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "WBLMvYAQxe",
           "team": "Portland Timbers FC",
           "league": "MLS",
@@ -6021,6 +7932,45 @@
             "goals": 0,
             "total_apps": 21,
             "total_goals": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Portland Timbers",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
           }
         },
         {
@@ -6243,6 +8193,71 @@
         },
         {
           "season": 2022,
+          "team": "Sturm Graz",
+          "league": "Bundesliga",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 31,
+            "goals": 3,
+            "assists": 3,
+            "minutes": 1759
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Sturm Graz",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 5,
+            "goals": 0,
+            "assists": null,
+            "minutes": 338
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Sturm Graz",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Sturm Graz",
+          "league": "UEFA Champions League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 40
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Sturm Graz",
+          "league": "UEFA Europa League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 44
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022–23",
           "team": "Sturm Graz",
           "league": "Austrian Bundesliga",
@@ -6257,6 +8272,110 @@
         },
         {
           "season": 2023,
+          "team": "Austria",
+          "league": "Euro Championship - Qualification",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Austria",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sturm Graz",
+          "league": "Bundesliga",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 28,
+            "goals": null,
+            "assists": 4,
+            "minutes": 1819
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sturm Graz",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 1,
+            "assists": null,
+            "minutes": 360
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sturm Graz",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 46
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sturm Graz",
+          "league": "UEFA Champions League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 46
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sturm Graz",
+          "league": "UEFA Europa Conference League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Sturm Graz",
+          "league": "UEFA Europa League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 266
+          }
+        },
+        {
+          "season": 2023,
           "season_label": "2023–24",
           "team": "Sturm Graz",
           "league": "Austrian Bundesliga",
@@ -6267,6 +8386,45 @@
             "goals": 0,
             "total_apps": 38,
             "total_goals": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "DC United",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 226
+          }
+        },
+        {
+          "season": 2024,
+          "team": "DC United",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 1,
+            "assists": 0,
+            "minutes": 120
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Sturm Graz",
+          "league": "Bundesliga",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
           }
         },
         {
@@ -6565,6 +8723,58 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 37
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 16,
+            "goals": 1,
+            "assists": null,
+            "minutes": 941
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": null,
+            "minutes": 154
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Houston Dynamo",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -6583,6 +8793,45 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 31
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 28,
+            "goals": 0,
+            "assists": null,
+            "minutes": 1843
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 1,
+            "assists": null,
+            "minutes": 270
+          }
+        },
+        {
+          "season": 2023,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -6598,6 +8847,58 @@
             "goals_plus_primary_assists": 0
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Columbus Crew",
+          "league": "CONCACAF Champions League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": null,
+            "minutes": 206
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Columbus Crew",
+          "league": "Campeones Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Columbus Crew",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Columbus Crew",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 20,
+            "goals": 0,
+            "assists": 1,
+            "minutes": 466
+          }
         },
         {
           "season": 2024,
@@ -6729,6 +9030,110 @@
         }
       },
       "seasons": [
+        {
+          "season": 2022,
+          "team": "Caen",
+          "league": "Coupe de France",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 180
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Caen",
+          "league": "Ligue 2",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 37,
+            "goals": 1,
+            "assists": null,
+            "minutes": 1757
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Caen II",
+          "league": "National 2 - Group D",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": null,
+            "goals": null,
+            "assists": null,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Caen",
+          "league": "Coupe de France",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 5
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Caen",
+          "league": "Ligue 2",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 72
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Caen II",
+          "league": "National 3 - Group G",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 3,
+            "goals": 1,
+            "assists": null,
+            "minutes": 270
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 31,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 1979
+          }
+        },
         {
           "season": 2024,
           "team_id": "NPqxKXZ59d",
@@ -6908,6 +9313,45 @@
         },
         {
           "season": 2022,
+          "team": "Racing Club",
+          "league": "CONMEBOL Sudamericana",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 311
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Racing Club",
+          "league": "Copa Argentina",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 1,
+            "assists": null,
+            "minutes": 114
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Racing Club",
+          "league": "Liga Profesional Argentina",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 40,
+            "goals": 19,
+            "assists": 4,
+            "minutes": 3077
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022",
           "team": "Racing",
           "league": "Argentine Primera División",
@@ -6918,6 +9362,45 @@
             "goals": 19,
             "total_apps": 47,
             "total_goals": 21
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Leagues Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 27,
+            "goals": 6,
+            "assists": 1,
+            "minutes": 2055
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 1,
+            "assists": null,
+            "minutes": 154
           }
         },
         {
@@ -6937,6 +9420,58 @@
             "goals_plus_primary_assists": 6
           },
           "phase": "during"
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 9,
+            "goals": 1,
+            "assists": 1,
+            "minutes": 496
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Rosario Central",
+          "league": "CONMEBOL Sudamericana",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": 0,
+            "minutes": 297
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Rosario Central",
+          "league": "Copa Argentina",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 24,
+            "goals": 1,
+            "assists": 2,
+            "minutes": 1429
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Rosario Central",
+          "league": "Liga Profesional Argentina",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 24,
+            "goals": 1,
+            "assists": 2,
+            "minutes": 1429
+          }
         },
         {
           "season": 2024,
@@ -15897,6 +18432,90 @@
       },
       "seasons": [
         {
+          "season": 2017,
+          "season_label": "2017–18",
+          "team": "Benfica B",
+          "league": "LigaPro",
+          "source": "wikipedia",
+          "phase": "before",
+          "wikipedia": {
+            "apps": 14,
+            "goals": 3,
+            "total_apps": 14,
+            "total_goals": 3
+          }
+        },
+        {
+          "season": 2018,
+          "season_label": "2018–19",
+          "team": "Benfica B",
+          "league": "LigaPro",
+          "source": "wikipedia",
+          "phase": "before",
+          "wikipedia": {
+            "apps": 30,
+            "goals": 7,
+            "total_apps": 30,
+            "total_goals": 7
+          }
+        },
+        {
+          "season": 2019,
+          "season_label": "2019–20",
+          "team": "Benfica B",
+          "league": "LigaPro",
+          "source": "wikipedia",
+          "phase": "before",
+          "wikipedia": {
+            "apps": 16,
+            "goals": 3,
+            "total_apps": 16,
+            "total_goals": 3
+          }
+        },
+        {
+          "season": 2019,
+          "season_label": "2019–20",
+          "team": "Moreirense (loan)",
+          "league": "Primeira Liga",
+          "source": "wikipedia",
+          "phase": "before",
+          "wikipedia": {
+            "apps": 14,
+            "goals": 1,
+            "total_apps": 14,
+            "total_goals": 1
+          }
+        },
+        {
+          "season": 2020,
+          "season_label": "2020–21",
+          "team": "Boavista (loan)",
+          "league": "Primeira Liga",
+          "source": "wikipedia",
+          "phase": "before",
+          "wikipedia": {
+            "apps": 29,
+            "goals": 1,
+            "total_apps": 30,
+            "total_goals": 1
+          }
+        },
+        {
+          "season": 2021,
+          "season_label": "2021–22",
+          "team": "Paços Ferreira (loan)",
+          "league": "Primeira Liga",
+          "source": "wikipedia",
+          "phase": "before",
+          "wikipedia": {
+            "apps": 31,
+            "goals": 5,
+            "total_apps": 38,
+            "total_goals": 5
+          }
+        },
+        {
           "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
@@ -15931,6 +18550,76 @@
             "goals_plus_primary_assists": 0
           },
           "phase": "during"
+        },
+        {
+          "season": 2023,
+          "season_label": "2023",
+          "team": "Crown Legacy",
+          "league": "MLS Next Pro",
+          "source": "wikipedia",
+          "phase": "during",
+          "wikipedia": {
+            "apps": 1,
+            "goals": 1,
+            "total_apps": 1,
+            "total_goals": 1
+          }
+        },
+        {
+          "season": 2023,
+          "season_label": "2023–24",
+          "team": "Vitória Guimarães",
+          "league": "Primeira Liga",
+          "source": "wikipedia",
+          "phase": "during",
+          "wikipedia": {
+            "apps": 27,
+            "goals": 2,
+            "total_apps": 34,
+            "total_goals": 2
+          }
+        },
+        {
+          "season": 2024,
+          "season_label": "2024–25",
+          "team": "Vitória Guimarães",
+          "league": "Primeira Liga",
+          "source": "wikipedia",
+          "phase": "during",
+          "wikipedia": {
+            "apps": 33,
+            "goals": 3,
+            "total_apps": 51,
+            "total_goals": 6
+          }
+        },
+        {
+          "season": 2025,
+          "season_label": "2025–26",
+          "team": "Mamelodi Sundowns",
+          "league": "South African Premiership",
+          "source": "wikipedia",
+          "phase": "during",
+          "wikipedia": {
+            "apps": 18,
+            "goals": 2,
+            "total_apps": 29,
+            "total_goals": 5
+          }
+        },
+        {
+          "season": 2025,
+          "season_label": "2025–26",
+          "team": "Vitória Guimarães",
+          "league": "Primeira Liga",
+          "source": "wikipedia",
+          "phase": "during",
+          "wikipedia": {
+            "apps": 5,
+            "goals": 0,
+            "total_apps": 5,
+            "total_goals": 0
+          }
         }
       ],
       "wikidata_clubs": [

@@ -6024,7 +6024,138 @@
       "total_goals": 0
     }
   ],
-  "Nuno Santos": [],
+  "Nuno Santos": [
+    {
+      "season": "2017–18",
+      "year": 2017,
+      "club": "Benfica B",
+      "division": "LigaPro",
+      "league_apps": 14,
+      "league_goals": 3,
+      "total_apps": 14,
+      "total_goals": 3
+    },
+    {
+      "season": "2018–19",
+      "year": 2018,
+      "club": "Benfica B",
+      "division": "LigaPro",
+      "league_apps": 30,
+      "league_goals": 7,
+      "total_apps": 30,
+      "total_goals": 7
+    },
+    {
+      "season": "2019–20",
+      "year": 2019,
+      "club": "Benfica B",
+      "division": "LigaPro",
+      "league_apps": 16,
+      "league_goals": 3,
+      "total_apps": 16,
+      "total_goals": 3
+    },
+    {
+      "season": "2019–20",
+      "year": 2019,
+      "club": "Moreirense (loan)",
+      "division": "Primeira Liga",
+      "league_apps": 14,
+      "league_goals": 1,
+      "total_apps": 14,
+      "total_goals": 1
+    },
+    {
+      "season": "2020–21",
+      "year": 2020,
+      "club": "Boavista (loan)",
+      "division": "Primeira Liga",
+      "league_apps": 29,
+      "league_goals": 1,
+      "total_apps": 30,
+      "total_goals": 1
+    },
+    {
+      "season": "2021–22",
+      "year": 2021,
+      "club": "Paços Ferreira (loan)",
+      "division": "Primeira Liga",
+      "league_apps": 31,
+      "league_goals": 5,
+      "total_apps": 38,
+      "total_goals": 5
+    },
+    {
+      "season": "2022",
+      "year": 2022,
+      "club": "Charlotte FC",
+      "division": "Major League Soccer",
+      "league_apps": 4,
+      "league_goals": 1,
+      "total_apps": 4,
+      "total_goals": 1
+    },
+    {
+      "season": "2023",
+      "year": 2023,
+      "club": "Charlotte FC",
+      "division": "Major League Soccer",
+      "league_apps": 5,
+      "league_goals": 0,
+      "total_apps": 5,
+      "total_goals": 0
+    },
+    {
+      "season": "2023",
+      "year": 2023,
+      "club": "Crown Legacy",
+      "division": "MLS Next Pro",
+      "league_apps": 1,
+      "league_goals": 1,
+      "total_apps": 1,
+      "total_goals": 1
+    },
+    {
+      "season": "2023–24",
+      "year": 2023,
+      "club": "Vitória Guimarães",
+      "division": "Primeira Liga",
+      "league_apps": 27,
+      "league_goals": 2,
+      "total_apps": 34,
+      "total_goals": 2
+    },
+    {
+      "season": "2024–25",
+      "year": 2024,
+      "club": "Vitória Guimarães",
+      "division": "Primeira Liga",
+      "league_apps": 33,
+      "league_goals": 3,
+      "total_apps": 51,
+      "total_goals": 6
+    },
+    {
+      "season": "2025–26",
+      "year": 2025,
+      "club": "Vitória Guimarães",
+      "division": "Primeira Liga",
+      "league_apps": 5,
+      "league_goals": 0,
+      "total_apps": 5,
+      "total_goals": 0
+    },
+    {
+      "season": "2025–26",
+      "year": 2025,
+      "club": "Mamelodi Sundowns",
+      "division": "South African Premiership",
+      "league_apps": 18,
+      "league_goals": 2,
+      "total_apps": 29,
+      "total_goals": 5
+    }
+  ],
   "Pablo Sisniega": [
     {
       "season": "2014–15",
