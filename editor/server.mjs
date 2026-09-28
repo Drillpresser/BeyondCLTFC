@@ -60,6 +60,69 @@ async function pythonExe() {
   return process.platform === "win32" ? "python" : "python3";
 }
 
+// --- Publish mode (EDITOR_PUBLISH=1, used on the home server) -----------------
+// Saving commits data/overrides.json + the rebuilt players.json to master and
+// pushes, so the site redeploys and the weekly refresh (which resets its own
+// clone to origin/master) keeps the edit. This clone belongs to the editor:
+// it is hard-reset to origin/master before every read and write.
+const PUBLISH = process.env.EDITOR_PUBLISH === "1";
+const BRANCH = process.env.EDITOR_BRANCH || "master";
+
+function run(cmd, args, cwd = ROOT) {
+  return new Promise((resolve) => {
+    const child = spawn(cmd, args, { cwd });
+    let out = "";
+    child.stdout.on("data", (d) => (out += d));
+    child.stderr.on("data", (d) => (out += d));
+    child.on("error", (e) => resolve({ code: -1, out: String(e) }));
+    child.on("close", (code) => resolve({ code, out: out.trim() }));
+  });
+}
+
+async function git(...args) {
+  const r = await run("git", args);
+  if (r.code !== 0) throw new Error(`git ${args[0]} failed:\n${r.out}`);
+  return r.out;
+}
+
+async function syncToRemote() {
+  await git("fetch", "--quiet", "origin", BRANCH);
+  await git("reset", "--quiet", "--hard", `origin/${BRANCH}`);
+}
+
+async function rebuild() {
+  const r = await run(await pythonExe(), ["build_players.py"], SCRIPTS);
+  return { ok: r.code === 0, output: r.out };
+}
+
+// One git operation at a time: two saves racing would clobber each other.
+let queue = Promise.resolve();
+function serialized(fn) {
+  const p = queue.then(fn);
+  queue = p.catch(() => {});
+  return p;
+}
+
+async function publish(overrides, message) {
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    await syncToRemote();
+    await writeFile(path.join(DATA, "overrides.json"), JSON.stringify(overrides, null, 2) + "\n", "utf8");
+    const b = await rebuild();
+    if (!b.ok) throw new Error("build_players.py failed:\n" + b.output);
+    await git("add", "data/overrides.json", "data/players.json");
+    if ((await run("git", ["diff", "--cached", "--quiet"])).code === 0) {
+      return { ok: true, commit: null, note: "No changes to publish." };
+    }
+    await git("-c", "user.name=beyondcltfc-editor", "-c", "user.email=beyondcltfc-bot@users.noreply.github.com",
+      "commit", "--quiet", "-m", message);
+    const push = await run("git", ["push", "--quiet", "origin", `HEAD:${BRANCH}`]);
+    if (push.code === 0) return { ok: true, commit: await git("rev-parse", "--short", "HEAD") };
+    // The weekly refresh pushed in between: start over from the new master.
+    if (!/rejected|fetch first|non-fast-forward/i.test(push.out)) throw new Error("git push failed:\n" + push.out);
+  }
+  throw new Error("git push was rejected 3 times; try again in a minute.");
+}
+
 const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url, `http://localhost:${PORT}`);
@@ -69,9 +132,13 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (req.method === "GET" && url.pathname === "/api/data") {
+      if (PUBLISH) {
+        // Show what's on GitHub now; if GitHub is unreachable, serve the last copy.
+        await serialized(syncToRemote).catch((e) => console.error(String(e)));
+      }
       const players = await readJson(path.join(DATA, "players.json"), { players: [] });
       const overrides = await readJson(path.join(DATA, "overrides.json"), { players: {}, added_players: [] });
-      return send(res, 200, { players, overrides });
+      return send(res, 200, { players, overrides, publish: PUBLISH });
     }
 
     if (req.method === "POST" && url.pathname === "/api/overrides") {
@@ -82,18 +149,26 @@ const server = http.createServer(async (req, res) => {
       } catch (e) {
         return send(res, 400, { error: "Invalid JSON: " + e.message });
       }
-      await writeFile(path.join(DATA, "overrides.json"), JSON.stringify(parsed, null, 2) + "\n", "utf8");
+      // Body is {overrides, message}; a bare overrides object is still accepted.
+      const overrides = parsed && parsed.overrides ? parsed.overrides : parsed;
+      if (!overrides || typeof overrides.players !== "object") {
+        return send(res, 400, { error: "Expected an overrides object with a `players` map." });
+      }
+      if (PUBLISH) {
+        const message = String(parsed.message || "data: manual edit").slice(0, 200);
+        try {
+          return send(res, 200, await serialized(() => publish(overrides, message)));
+        } catch (e) {
+          return send(res, 500, { error: String(e.message || e) });
+        }
+      }
+      await writeFile(path.join(DATA, "overrides.json"), JSON.stringify(overrides, null, 2) + "\n", "utf8");
       return send(res, 200, { ok: true });
     }
 
     if (req.method === "POST" && url.pathname === "/api/rebuild") {
-      const py = await pythonExe();
-      const child = spawn(py, ["build_players.py"], { cwd: SCRIPTS });
-      let out = "";
-      child.stdout.on("data", (d) => (out += d));
-      child.stderr.on("data", (d) => (out += d));
-      child.on("close", (code) => send(res, code === 0 ? 200 : 500, { ok: code === 0, output: out.trim() }));
-      return;
+      const r = await rebuild();
+      return send(res, r.ok ? 200 : 500, r);
     }
 
     send(res, 404, { error: "not found" });
@@ -103,5 +178,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`\n  BeyondCLTFC editor → http://localhost:${PORT}\n  Saves to ${path.join(DATA, "overrides.json")}\n  Ctrl+C to stop.\n`);
+  const mode = PUBLISH ? `Publish mode: saves are committed and pushed to ${BRANCH}` : `Saves to ${path.join(DATA, "overrides.json")}`;
+  console.log(`\n  BeyondCLTFC editor → http://localhost:${PORT}\n  ${mode}\n  Ctrl+C to stop.\n`);
 });
