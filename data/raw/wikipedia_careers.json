@@ -744,10 +744,10 @@
       "year": 2026,
       "club": "Middlesbrough",
       "division": "EFL Championship",
-      "league_apps": 0,
-      "league_goals": 0,
-      "total_apps": 1,
-      "total_goals": 0
+      "league_apps": 7,
+      "league_goals": 1,
+      "total_apps": 9,
+      "total_goals": 1
     },
     {
       "season": "2025",
@@ -7438,5 +7438,6 @@
       "total_apps": 11,
       "total_goals": 0
     }
-  ]
+  ],
+  "Nathan Richmond": []
 }

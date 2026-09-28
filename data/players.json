@@ -10,7 +10,7 @@
     "wikidata",
     "thesportsdb"
   ],
-  "player_count": 74,
+  "player_count": 75,
   "players": [
     {
       "player_id": "asa:7VqG00yjQv",
@@ -559,10 +559,10 @@
           "source": "wikipedia",
           "phase": "during",
           "wikipedia": {
-            "apps": 0,
-            "goals": 0,
-            "total_apps": 1,
-            "total_goals": 0
+            "apps": 7,
+            "goals": 1,
+            "total_apps": 9,
+            "total_goals": 1
           }
         }
       ],
@@ -1148,11 +1148,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 637,
-            "shots": 17,
-            "shots_on_target": 7,
+            "minutes_played": 737,
+            "shots": 21,
+            "shots_on_target": 8,
             "goals": 1,
-            "key_passes": 15,
+            "key_passes": 19,
             "primary_assists": 2,
             "goals_plus_primary_assists": 3
           },
@@ -2094,7 +2094,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 522,
+            "minutes_played": 572,
             "shots": 11,
             "shots_on_target": 8,
             "goals": 3,
@@ -2496,7 +2496,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 2198,
+            "minutes_played": 2298,
             "shots": 13,
             "shots_on_target": 6,
             "goals": 3,
@@ -2717,7 +2717,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 514,
+            "minutes_played": 612,
             "shots": 6,
             "shots_on_target": 2,
             "goals": 1,
@@ -3507,11 +3507,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 1038,
+            "minutes_played": 1067,
             "shots": 3,
             "shots_on_target": 2,
             "goals": 1,
-            "key_passes": 7,
+            "key_passes": 8,
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
@@ -5551,13 +5551,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 928,
-            "shots": 23,
-            "shots_on_target": 12,
-            "goals": 4,
-            "key_passes": 9,
-            "primary_assists": 0,
-            "goals_plus_primary_assists": 4
+            "minutes_played": 1032,
+            "shots": 26,
+            "shots_on_target": 13,
+            "goals": 5,
+            "key_passes": 10,
+            "primary_assists": 1,
+            "goals_plus_primary_assists": 6
           },
           "phase": "during"
         }
@@ -6313,7 +6313,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1302,
+            "minutes_played": 1331,
             "shots": 10,
             "shots_on_target": 4,
             "goals": 2,
@@ -6773,11 +6773,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 1317,
-            "shots": 10,
+            "minutes_played": 1388,
+            "shots": 12,
             "shots_on_target": 2,
             "goals": 0,
-            "key_passes": 6,
+            "key_passes": 8,
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
@@ -8418,8 +8418,8 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1162,
-            "shots": 7,
+            "minutes_played": 1244,
+            "shots": 8,
             "shots_on_target": 1,
             "goals": 0,
             "key_passes": 9,
@@ -8829,7 +8829,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 1024,
+            "minutes_played": 1124,
             "shots": 3,
             "shots_on_target": 2,
             "goals": 1,
@@ -14152,7 +14152,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "GK",
-            "minutes_played": 2655,
+            "minutes_played": 2755,
             "shots": 0,
             "shots_on_target": 0,
             "goals": 0,
@@ -14693,8 +14693,8 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 1054,
-            "shots": 7,
+            "minutes_played": 1125,
+            "shots": 8,
             "shots_on_target": 0,
             "goals": 0,
             "key_passes": 10,
@@ -15461,11 +15461,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 2019,
+            "minutes_played": 2037,
             "shots": 3,
             "shots_on_target": 0,
             "goals": 0,
-            "key_passes": 6,
+            "key_passes": 7,
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
@@ -15562,6 +15562,47 @@
           "departed": "2012",
           "joined": "2011",
           "team": "Bournemouth"
+        }
+      ]
+    },
+    {
+      "player_id": "asa:9YqdoLVo5v",
+      "asa_id": "9YqdoLVo5v",
+      "name": "Nathan Richmond",
+      "tenure": {
+        "start": 2022,
+        "end": null
+      },
+      "bio": {
+        "birth_date": "2004-01-26",
+        "nationality": "USA",
+        "position": "W"
+      },
+      "bio_sources": {
+        "asa": {
+          "birth_date": "2004-01-26",
+          "nationality": "USA",
+          "position": "W"
+        }
+      },
+      "seasons": [
+        {
+          "season": 2026,
+          "team_id": "NPqxKXZ59d",
+          "team": "Charlotte FC",
+          "league": "MLS",
+          "source": "asa",
+          "xgoals": {
+            "general_position": "W",
+            "minutes_played": 18,
+            "shots": 0,
+            "shots_on_target": 0,
+            "goals": 0,
+            "key_passes": 0,
+            "primary_assists": 0,
+            "goals_plus_primary_assists": 0
+          },
+          "phase": "during"
         }
       ]
     },
@@ -16825,11 +16866,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "AM",
-            "minutes_played": 2514,
-            "shots": 56,
+            "minutes_played": 2614,
+            "shots": 57,
             "shots_on_target": 22,
             "goals": 12,
-            "key_passes": 44,
+            "key_passes": 45,
             "primary_assists": 7,
             "goals_plus_primary_assists": 19
           },
@@ -18055,7 +18096,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 1896,
+            "minutes_played": 1995,
             "shots": 1,
             "shots_on_target": 0,
             "goals": 0,
@@ -18293,9 +18334,9 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 218,
-            "shots": 2,
-            "shots_on_target": 2,
+            "minutes_played": 268,
+            "shots": 4,
+            "shots_on_target": 3,
             "goals": 0,
             "key_passes": 1,
             "primary_assists": 0,
@@ -18957,7 +18998,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 770,
+            "minutes_played": 852,
             "shots": 2,
             "shots_on_target": 1,
             "goals": 1,
