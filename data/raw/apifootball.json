@@ -1,140 +1,86 @@
 {
   "Adam Armour": {
-    "id": 68472,
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 207033,
     "seasons": [
       {
-        "apps": 32,
+        "apps": 5,
         "assists": null,
-        "country": "Scotland",
-        "goals": 9,
-        "league": "League Two",
-        "minutes": 1859,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 80,
         "season": 2022,
-        "team": "Forfar Athletic"
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 120,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 12,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "USL Championship",
+        "minutes": 662,
+        "season": 2023,
+        "team": "FC Tulsa"
       },
       {
         "apps": 4,
         "assists": null,
-        "country": "Scotland",
+        "country": "USA",
         "goals": 0,
-        "league": "League Cup",
-        "minutes": 244,
-        "season": 2022,
-        "team": "Forfar Athletic"
-      },
-      {
-        "apps": 1,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 0,
-        "league": "Challenge Cup",
-        "minutes": 19,
-        "season": 2022,
-        "team": "Forfar Athletic"
-      },
-      {
-        "apps": 1,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 0,
-        "league": "FA Cup",
-        "minutes": 44,
-        "season": 2022,
-        "team": "Forfar Athletic"
-      },
-      {
-        "apps": null,
-        "assists": null,
-        "country": "Scotland",
-        "goals": null,
-        "league": "League Two",
-        "minutes": null,
+        "league": "MLS Next Pro",
+        "minutes": 251,
         "season": 2023,
-        "team": "Peterhead"
+        "team": "Crown Legacy"
       },
       {
-        "apps": 25,
+        "apps": 0,
         "assists": null,
-        "country": "Scotland",
-        "goals": 3,
-        "league": "League Two",
-        "minutes": 1545,
-        "season": 2023,
-        "team": "Stranraer"
-      },
-      {
-        "apps": 4,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 1,
-        "league": "League Cup",
-        "minutes": 330,
-        "season": 2023,
-        "team": "Stranraer"
-      },
-      {
-        "apps": 1,
-        "assists": null,
-        "country": "Scotland",
+        "country": "USA",
         "goals": 0,
-        "league": "Challenge Cup",
-        "minutes": 90,
+        "league": "Major League Soccer",
+        "minutes": 0,
         "season": 2023,
-        "team": "Stranraer"
+        "team": "Charlotte"
       },
       {
-        "apps": 1,
+        "apps": 0,
         "assists": null,
-        "country": "Scotland",
+        "country": "USA",
         "goals": 0,
-        "league": "FA Cup",
-        "minutes": 77,
+        "league": "US Open Cup",
+        "minutes": 0,
         "season": 2023,
-        "team": "Stranraer"
-      },
-      {
-        "apps": 13,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 1,
-        "league": "League Two",
-        "minutes": 232,
-        "season": 2024,
-        "team": "Peterhead"
-      },
-      {
-        "apps": 1,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 0,
-        "league": "FA Cup",
-        "minutes": 76,
-        "season": 2024,
-        "team": "Peterhead"
-      },
-      {
-        "apps": 3,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 1,
-        "league": "League Cup",
-        "minutes": 156,
-        "season": 2024,
-        "team": "Peterhead"
-      },
-      {
-        "apps": 2,
-        "assists": null,
-        "country": "Scotland",
-        "goals": 0,
-        "league": "Challenge Cup",
-        "minutes": 71,
-        "season": 2024,
-        "team": "Peterhead"
+        "team": "Charlotte"
       }
     ]
   },
   "Adilson Malanda": {
+    "checked": [],
     "id": 175037,
     "seasons": [
       {
@@ -210,7 +156,2250 @@
     ]
   },
   "Alan Steven Franco": {
-    "id": 5143,
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 6083,
+    "seasons": [
+      {
+        "apps": 31,
+        "assists": 2,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 2716,
+        "season": 2022,
+        "team": "Atlanta United FC"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 120,
+        "season": 2022,
+        "team": "Atlanta United FC"
+      },
+      {
+        "apps": 30,
+        "assists": 1,
+        "country": "Brazil",
+        "goals": 1,
+        "league": "Serie A",
+        "minutes": 977,
+        "season": 2023,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 9,
+        "assists": 2,
+        "country": "Brazil",
+        "goals": 1,
+        "league": "Paulista - A1",
+        "minutes": 744,
+        "season": 2023,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Atlanta United FC"
+      },
+      {
+        "apps": 6,
+        "assists": null,
+        "country": "Brazil",
+        "goals": null,
+        "league": "Copa Do Brasil",
+        "minutes": 78,
+        "season": 2023,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 9,
+        "assists": null,
+        "country": "World",
+        "goals": null,
+        "league": "CONMEBOL Sudamericana",
+        "minutes": 315,
+        "season": 2023,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 32,
+        "assists": 1,
+        "country": "Brazil",
+        "goals": null,
+        "league": "Serie A",
+        "minutes": 2201,
+        "season": 2024,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 12,
+        "assists": 1,
+        "country": "Brazil",
+        "goals": 1,
+        "league": "Paulista - A1",
+        "minutes": 463,
+        "season": 2024,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 5,
+        "assists": 0,
+        "country": "Brazil",
+        "goals": null,
+        "league": "Copa Do Brasil",
+        "minutes": 270,
+        "season": 2024,
+        "team": "Sao Paulo"
+      },
+      {
+        "apps": 8,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "CONMEBOL Libertadores",
+        "minutes": 699,
+        "season": 2024,
+        "team": "Sao Paulo"
+      }
+    ]
+  },
+  "Allan Saint-Maximin": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 22173,
+    "seasons": [
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "FA Cup",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Newcastle"
+      },
+      {
+        "apps": 25,
+        "assists": 5,
+        "country": "England",
+        "goals": 1,
+        "league": "Premier League",
+        "minutes": 1131,
+        "season": 2022,
+        "team": "Newcastle"
+      },
+      {
+        "apps": 6,
+        "assists": null,
+        "country": "England",
+        "goals": null,
+        "league": "League Cup",
+        "minutes": 264,
+        "season": 2022,
+        "team": "Newcastle"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "Premier League",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Newcastle"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": null,
+        "goals": 0,
+        "league": "King's Cup",
+        "minutes": 90,
+        "season": 2023,
+        "team": "Al-Ahli Jeddah"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Champions League",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Newcastle"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "Premier League - Summer Series",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Newcastle"
+      },
+      {
+        "apps": 30,
+        "assists": 9,
+        "country": "Saudi-Arabia",
+        "goals": 4,
+        "league": "Pro League",
+        "minutes": 2333,
+        "season": 2023,
+        "team": "Al-Ahli Jeddah"
+      },
+      {
+        "apps": 1,
+        "assists": 0,
+        "country": "Saudi-Arabia",
+        "goals": 0,
+        "league": "King's Cup",
+        "minutes": null,
+        "season": 2023,
+        "team": "Al-Ahli Jeddah"
+      },
+      {
+        "apps": 20,
+        "assists": 3,
+        "country": "Turkey",
+        "goals": 4,
+        "league": "Süper Lig",
+        "minutes": 1210,
+        "season": 2024,
+        "team": "Fenerbahçe"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": "Turkey",
+        "goals": 0,
+        "league": "Türkiye Kupası",
+        "minutes": null,
+        "season": 2024,
+        "team": "Fenerbahçe"
+      },
+      {
+        "apps": 7,
+        "assists": 1,
+        "country": "World",
+        "goals": null,
+        "league": "UEFA Europa League",
+        "minutes": 383,
+        "season": 2024,
+        "team": "Fenerbahçe"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": "World",
+        "goals": null,
+        "league": "UEFA Champions League",
+        "minutes": 145,
+        "season": 2024,
+        "team": "Fenerbahçe"
+      }
+    ]
+  },
+  "Andre Shinyashiki": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 51324,
+    "seasons": [
+      {
+        "apps": 21,
+        "assists": null,
+        "country": "USA",
+        "goals": 6,
+        "league": "Major League Soccer",
+        "minutes": 836,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 8,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 212,
+        "season": 2022,
+        "team": "Colorado Rapids"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "US Open Cup",
+        "minutes": 98,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 44,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "CONCACAF Champions League",
+        "minutes": 18,
+        "season": 2022,
+        "team": "Colorado Rapids"
+      },
+      {
+        "apps": 26,
+        "assists": null,
+        "country": "Azerbaijan",
+        "goals": 4,
+        "league": "Premyer Liqa",
+        "minutes": 1362,
+        "season": 2023,
+        "team": "Neftchi Baku"
+      },
+      {
+        "apps": 5,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 191,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "Azerbaijan",
+        "goals": 1,
+        "league": "Cup",
+        "minutes": 291,
+        "season": 2023,
+        "team": "Neftchi Baku"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Europa Conference League",
+        "minutes": 169,
+        "season": 2023,
+        "team": "Neftchi Baku"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 6,
+        "assists": 0,
+        "country": "Bulgaria",
+        "goals": 0,
+        "league": "First League",
+        "minutes": 157,
+        "season": 2024,
+        "team": "Arda Kardzhali"
+      },
+      {
+        "apps": 6,
+        "assists": null,
+        "country": "Azerbaijan",
+        "goals": 0,
+        "league": "Premyer Liqa",
+        "minutes": 212,
+        "season": 2024,
+        "team": "Neftchi Baku"
+      }
+    ]
+  },
+  "Andrew Privett": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 407651,
+    "seasons": [
+      {
+        "apps": 20,
+        "assists": null,
+        "country": "USA",
+        "goals": null,
+        "league": "Major League Soccer",
+        "minutes": 1133,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 8,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "MLS Next Pro",
+        "minutes": 638,
+        "season": 2023,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 20,
+        "assists": null,
+        "country": "USA",
+        "goals": null,
+        "league": "US Open Cup",
+        "minutes": 1133,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 5,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 440,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 33,
+        "assists": 0,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 2953,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 180,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Anton Walkes": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 19856,
+    "seasons": [
+      {
+        "apps": 1,
+        "assists": null,
+        "country": null,
+        "goals": 0,
+        "league": "Club Friendlies",
+        "minutes": 44,
+        "season": 2022,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Archie Goodwin": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 304119,
+    "seasons": [
+      {
+        "apps": 8,
+        "assists": null,
+        "country": "Australia",
+        "goals": 2,
+        "league": "A-League",
+        "minutes": 138,
+        "season": 2022,
+        "team": "Newcastle Jets"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "Australia",
+        "goals": 1,
+        "league": "Australia Cup",
+        "minutes": 13,
+        "season": 2022,
+        "team": "Newcastle Jets"
+      },
+      {
+        "apps": null,
+        "assists": 1,
+        "country": "Australia",
+        "goals": null,
+        "league": "A-League",
+        "minutes": null,
+        "season": 2023,
+        "team": "Adelaide United"
+      },
+      {
+        "apps": 20,
+        "assists": 1,
+        "country": "Australia",
+        "goals": 2,
+        "league": "A-League",
+        "minutes": 472,
+        "season": 2023,
+        "team": "Newcastle Jets"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Australia",
+        "goals": 1,
+        "league": "Australia Cup",
+        "minutes": 74,
+        "season": 2023,
+        "team": "Newcastle Jets"
+      },
+      {
+        "apps": null,
+        "assists": null,
+        "country": "World",
+        "goals": null,
+        "league": "AFC U20 Asian Cup",
+        "minutes": null,
+        "season": 2023,
+        "team": "Australia U20"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "Australia",
+        "goals": 0,
+        "league": "Australia Cup",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Adelaide United"
+      },
+      {
+        "apps": 26,
+        "assists": 0,
+        "country": "Australia",
+        "goals": 13,
+        "league": "A-League",
+        "minutes": 1570,
+        "season": 2024,
+        "team": "Adelaide United"
+      }
+    ]
+  },
+  "Aron John": {
+    "id": null,
+    "seasons": []
+  },
+  "Ashley Westwood": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 18926,
+    "seasons": [
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "Championship",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Burnley"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "League Cup",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Burnley"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "FA Cup",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Burnley"
+      },
+      {
+        "apps": 30,
+        "assists": 2,
+        "country": "USA",
+        "goals": 3,
+        "league": "Major League Soccer",
+        "minutes": 2621,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 30,
+        "assists": 2,
+        "country": "USA",
+        "goals": 3,
+        "league": "US Open Cup",
+        "minutes": 2621,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 5,
+        "assists": 1,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 421,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 36,
+        "assists": 5,
+        "country": "USA",
+        "goals": 2,
+        "league": "Major League Soccer",
+        "minutes": 3240,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 180,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Baye Coulibaly": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 418193,
+    "seasons": [
+      {
+        "apps": null,
+        "assists": null,
+        "country": "Croatia",
+        "goals": null,
+        "league": "Second NL",
+        "minutes": null,
+        "season": 2023,
+        "team": "Kustosija"
+      },
+      {
+        "apps": 7,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "World Cup - U17",
+        "minutes": 627,
+        "season": 2023,
+        "team": "Mali U17"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "CAF Cup of Nations - U17",
+        "minutes": 10,
+        "season": 2023,
+        "team": "Mali U17"
+      },
+      {
+        "apps": 9,
+        "assists": 0,
+        "country": "Croatia",
+        "goals": 0,
+        "league": "Second NL",
+        "minutes": 658,
+        "season": 2024,
+        "team": "Kustosija"
+      }
+    ]
+  },
+  "Ben Bender": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 351568,
+    "seasons": [
+      {
+        "apps": 28,
+        "assists": 6,
+        "country": "USA",
+        "goals": 3,
+        "league": "Major League Soccer",
+        "minutes": 1650,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 151,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 46,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 5,
+        "assists": 0,
+        "country": "World",
+        "goals": 1,
+        "league": "Leagues Cup",
+        "minutes": 113,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "MLS Next Pro",
+        "minutes": 65,
+        "season": 2023,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 17,
+        "assists": 2,
+        "country": "USA",
+        "goals": 3,
+        "league": "Major League Soccer",
+        "minutes": 908,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 90,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": 0,
+        "country": "World",
+        "goals": 1,
+        "league": "Leagues Cup",
+        "minutes": 21,
+        "season": 2023,
+        "team": "Philadelphia Union"
+      },
+      {
+        "apps": 9,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "USL Championship",
+        "minutes": 478,
+        "season": 2024,
+        "team": "Tampa Bay Rowdies"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 2,
+        "league": "MLS Next Pro",
+        "minutes": 125,
+        "season": 2024,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 6,
+        "assists": 0,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 193,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 56,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Bill Tuiloma": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 51236,
+    "seasons": [
+      {
+        "apps": 30,
+        "assists": 2,
+        "country": "USA",
+        "goals": 6,
+        "league": "Major League Soccer",
+        "minutes": 2251,
+        "season": 2022,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 90,
+        "season": 2022,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "World",
+        "goals": 3,
+        "league": "World Cup - Qualification Oceania",
+        "minutes": 199,
+        "season": 2022,
+        "team": "New Zealand"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "World Cup - Qualification Intercontinental Play-offs",
+        "minutes": 90,
+        "season": 2022,
+        "team": "New Zealand"
+      },
+      {
+        "apps": 5,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 297,
+        "season": 2022,
+        "team": "New Zealand"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 24,
+        "assists": null,
+        "country": "USA",
+        "goals": null,
+        "league": "Major League Soccer",
+        "minutes": 1357,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 24,
+        "assists": null,
+        "country": "USA",
+        "goals": null,
+        "league": "US Open Cup",
+        "minutes": 1357,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 281,
+        "season": 2023,
+        "team": "New Zealand"
+      },
+      {
+        "apps": 7,
+        "assists": null,
+        "country": "USA",
+        "goals": 2,
+        "league": "MLS Next Pro",
+        "minutes": 533,
+        "season": 2024,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 197,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 1,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 49,
+        "season": 2024,
+        "team": "New Zealand"
+      }
+    ]
+  },
+  "Brandon Cambridge": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 402684,
+    "seasons": [
+      {
+        "apps": 16,
+        "assists": null,
+        "country": "USA",
+        "goals": 2,
+        "league": "Major League Soccer",
+        "minutes": 137,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 10,
+        "assists": null,
+        "country": "USA",
+        "goals": 4,
+        "league": "MLS Next Pro",
+        "minutes": 812,
+        "season": 2023,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 16,
+        "assists": null,
+        "country": "USA",
+        "goals": 2,
+        "league": "US Open Cup",
+        "minutes": 137,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 12,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Canada"
+      },
+      {
+        "apps": 10,
+        "assists": null,
+        "country": "USA",
+        "goals": 2,
+        "league": "MLS Next Pro",
+        "minutes": 765,
+        "season": 2024,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 26,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 10,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Brandt Bronico": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 50905,
+    "seasons": [
+      {
+        "apps": 34,
+        "assists": 1,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 2817,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 154,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 46,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 33,
+        "assists": 1,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 2688,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 235,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 5,
+        "assists": 0,
+        "country": "World",
+        "goals": 1,
+        "league": "Leagues Cup",
+        "minutes": 450,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 28,
+        "assists": 5,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 1996,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 180,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Brecht Dejaegere": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 8482,
+    "seasons": [
+      {
+        "apps": 30,
+        "assists": 1,
+        "country": "France",
+        "goals": 4,
+        "league": "Ligue 1",
+        "minutes": 1826,
+        "season": 2022,
+        "team": "Toulouse"
+      },
+      {
+        "apps": 5,
+        "assists": null,
+        "country": "France",
+        "goals": 0,
+        "league": "Coupe de France",
+        "minutes": 338,
+        "season": 2022,
+        "team": "Toulouse"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 29,
+        "season": 2022,
+        "team": "Toulouse"
+      },
+      {
+        "apps": 10,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 511,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": null,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Toulouse"
+      },
+      {
+        "apps": 25,
+        "assists": 1,
+        "country": "Belgium",
+        "goals": 1,
+        "league": "Jupiler Pro League",
+        "minutes": 1518,
+        "season": 2024,
+        "team": "Kortrijk"
+      },
+      {
+        "apps": 20,
+        "assists": 1,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 916,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "Belgium",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 140,
+        "season": 2024,
+        "team": "Kortrijk"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 17,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Christian Fuchs": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 18773,
+    "seasons": [
+      {
+        "apps": 1,
+        "assists": null,
+        "country": null,
+        "goals": 0,
+        "league": "Club Friendlies",
+        "minutes": 46,
+        "season": 2022,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Christian Makoun": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 56290,
+    "seasons": [
+      {
+        "apps": 8,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 375,
+        "season": 2022,
+        "team": "New England Revolution"
+      },
+      {
+        "apps": 13,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 853,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 172,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 44,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Inter Miami"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "World Cup - Qualification South America",
+        "minutes": 180,
+        "season": 2022,
+        "team": "Venezuela"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 272,
+        "season": 2022,
+        "team": "Venezuela"
+      },
+      {
+        "apps": 25,
+        "assists": 1,
+        "country": "USA",
+        "goals": null,
+        "league": "Major League Soccer",
+        "minutes": 508,
+        "season": 2023,
+        "team": "New England Revolution"
+      },
+      {
+        "apps": 14,
+        "assists": 0,
+        "country": "Cyprus",
+        "goals": 2,
+        "league": "1. Division",
+        "minutes": 960,
+        "season": 2023,
+        "team": "Anorthosis"
+      },
+      {
+        "apps": 25,
+        "assists": 1,
+        "country": "USA",
+        "goals": null,
+        "league": "US Open Cup",
+        "minutes": 508,
+        "season": 2023,
+        "team": "New England Revolution"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "Cyprus",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 180,
+        "season": 2023,
+        "team": "Anorthosis"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 0,
+        "season": 2023,
+        "team": "New England Revolution"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2023,
+        "team": "New England Revolution"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Venezuela"
+      },
+      {
+        "apps": null,
+        "assists": null,
+        "country": "Cyprus",
+        "goals": null,
+        "league": "1. Division",
+        "minutes": null,
+        "season": 2024,
+        "team": "Anorthosis"
+      },
+      {
+        "apps": 26,
+        "assists": 0,
+        "country": "Bulgaria",
+        "goals": 3,
+        "league": "First League",
+        "minutes": 2043,
+        "season": 2024,
+        "team": "Levski Sofia"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "Bulgaria",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 300,
+        "season": 2024,
+        "team": "Levski Sofia"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "World",
+        "goals": null,
+        "league": "Copa America",
+        "minutes": 18,
+        "season": 2024,
+        "team": "Venezuela"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 12,
+        "season": 2024,
+        "team": "Venezuela"
+      }
+    ]
+  },
+  "Christian Ortíz": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 16303,
+    "seasons": []
+  },
+  "Christopher Hegardt": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 127793,
+    "seasons": [
+      {
+        "apps": 14,
+        "assists": null,
+        "country": "USA",
+        "goals": 3,
+        "league": "USL League One",
+        "minutes": 1091,
+        "season": 2022,
+        "team": "Charlotte Independence"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 7,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 6,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "USL Championship",
+        "minutes": 540,
+        "season": 2023,
+        "team": "Loudoun United"
+      },
+      {
+        "apps": 7,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "MLS Next Pro",
+        "minutes": 517,
+        "season": 2023,
+        "team": "Crown Legacy"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 53,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 206,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 16,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "USL Championship",
+        "minutes": 1098,
+        "season": 2024,
+        "team": "Orange County SC"
+      },
+      {
+        "apps": 9,
+        "assists": null,
+        "country": "Norway",
+        "goals": 0,
+        "league": "1. Division",
+        "minutes": 169,
+        "season": 2024,
+        "team": "Stabaek"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Norway",
+        "goals": 0,
+        "league": "NM Cupen",
+        "minutes": 90,
+        "season": 2024,
+        "team": "Stabaek"
+      }
+    ]
+  },
+  "Daniel Ríos": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 52935,
+    "seasons": []
+  },
+  "David Bingham": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 51048,
+    "seasons": [
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "MLS Next Pro",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Portland Timbers II"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 180,
+        "season": 2022,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 90,
+        "season": 2022,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 19,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 1710,
+        "season": 2023,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": null,
+        "assists": null,
+        "country": "USA",
+        "goals": null,
+        "league": "US Open Cup",
+        "minutes": null,
+        "season": 2023,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 90,
+        "season": 2023,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": null,
+        "assists": null,
+        "country": "USA",
+        "goals": null,
+        "league": "Major League Soccer",
+        "minutes": null,
+        "season": 2024,
+        "team": "Portland Timbers"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 90,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "David Schnegg": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 7343,
+    "seasons": [
+      {
+        "apps": 31,
+        "assists": 3,
+        "country": "Austria",
+        "goals": 3,
+        "league": "Bundesliga",
+        "minutes": 1759,
+        "season": 2022,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 5,
+        "assists": null,
+        "country": "Austria",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 338,
+        "season": 2022,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Champions League",
+        "minutes": 40,
+        "season": 2022,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Europa League",
+        "minutes": 44,
+        "season": 2022,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 90,
+        "season": 2022,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 28,
+        "assists": 4,
+        "country": "Austria",
+        "goals": null,
+        "league": "Bundesliga",
+        "minutes": 1819,
+        "season": 2023,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "Austria",
+        "goals": 1,
+        "league": "Cup",
+        "minutes": 360,
+        "season": 2023,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Europa League",
+        "minutes": 266,
+        "season": 2023,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Europa Conference League",
+        "minutes": 180,
+        "season": 2023,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Champions League",
+        "minutes": 46,
+        "season": 2023,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 46,
+        "season": 2023,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Euro Championship - Qualification",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Austria"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 90,
+        "season": 2023,
+        "team": "Austria"
+      },
+      {
+        "apps": null,
+        "assists": null,
+        "country": "Austria",
+        "goals": null,
+        "league": "Bundesliga",
+        "minutes": null,
+        "season": 2024,
+        "team": "Sturm Graz"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 120,
+        "season": 2024,
+        "team": "DC United"
+      },
+      {
+        "apps": 3,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 226,
+        "season": 2024,
+        "team": "DC United"
+      }
+    ]
+  },
+  "Derrick Jones": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 50743,
+    "seasons": [
+      {
+        "apps": 16,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 941,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Houston Dynamo"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "US Open Cup",
+        "minutes": 154,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 37,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 28,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 1843,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "US Open Cup",
+        "minutes": 270,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 3,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 31,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 20,
+        "assists": 1,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 466,
+        "season": 2024,
+        "team": "Columbus Crew"
+      },
+      {
+        "apps": 4,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "CONCACAF Champions League",
+        "minutes": 206,
+        "season": 2024,
+        "team": "Columbus Crew"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Columbus Crew"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Campeones Cup",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Columbus Crew"
+      }
+    ]
+  },
+  "Djibril Diani": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 48580,
+    "seasons": [
+      {
+        "apps": null,
+        "assists": null,
+        "country": "France",
+        "goals": null,
+        "league": "National 2 - Group D",
+        "minutes": null,
+        "season": 2022,
+        "team": "Caen II"
+      },
+      {
+        "apps": 37,
+        "assists": null,
+        "country": "France",
+        "goals": 1,
+        "league": "Ligue 2",
+        "minutes": 1757,
+        "season": 2022,
+        "team": "Caen"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "France",
+        "goals": 0,
+        "league": "Coupe de France",
+        "minutes": 180,
+        "season": 2022,
+        "team": "Caen"
+      },
+      {
+        "apps": 3,
+        "assists": null,
+        "country": "France",
+        "goals": 1,
+        "league": "National 3 - Group G",
+        "minutes": 270,
+        "season": 2023,
+        "team": "Caen II"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "France",
+        "goals": 0,
+        "league": "Ligue 2",
+        "minutes": 72,
+        "season": 2023,
+        "team": "Caen"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "France",
+        "goals": 0,
+        "league": "Coupe de France",
+        "minutes": 5,
+        "season": 2023,
+        "team": "Caen"
+      },
+      {
+        "apps": 31,
+        "assists": 1,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 1979,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Charlotte"
+      }
+    ]
+  },
+  "Enzo Copetti": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 5635,
+    "seasons": [
+      {
+        "apps": 40,
+        "assists": 4,
+        "country": "Argentina",
+        "goals": 19,
+        "league": "Liga Profesional Argentina",
+        "minutes": 3077,
+        "season": 2022,
+        "team": "Racing Club"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "Argentina",
+        "goals": 1,
+        "league": "Copa Argentina",
+        "minutes": 114,
+        "season": 2022,
+        "team": "Racing Club"
+      },
+      {
+        "apps": 4,
+        "assists": 1,
+        "country": "World",
+        "goals": 1,
+        "league": "CONMEBOL Sudamericana",
+        "minutes": 311,
+        "season": 2022,
+        "team": "Racing Club"
+      },
+      {
+        "apps": 27,
+        "assists": 1,
+        "country": "USA",
+        "goals": 6,
+        "league": "Major League Soccer",
+        "minutes": 2055,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "US Open Cup",
+        "minutes": 154,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Leagues Cup",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 24,
+        "assists": 2,
+        "country": "Argentina",
+        "goals": 1,
+        "league": "Liga Profesional Argentina",
+        "minutes": 1429,
+        "season": 2024,
+        "team": "Rosario Central"
+      },
+      {
+        "apps": 9,
+        "assists": 1,
+        "country": "USA",
+        "goals": 1,
+        "league": "Major League Soccer",
+        "minutes": 496,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 24,
+        "assists": 2,
+        "country": "Argentina",
+        "goals": 1,
+        "league": "Copa Argentina",
+        "minutes": 1429,
+        "season": 2024,
+        "team": "Rosario Central"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "CONMEBOL Sudamericana",
+        "minutes": 297,
+        "season": 2024,
+        "team": "Rosario Central"
+      }
+    ]
+  },
+  "Eryk Williamson": {
+    "checked": [],
+    "id": 51238,
     "seasons": []
   }
 }

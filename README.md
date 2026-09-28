@@ -176,14 +176,13 @@ supersedes the (now-optional) hand-edited `TENURES` block in `config.py`.
 
 ## The before / during / after model
 
-`config.py` defines each player's CLTFC tenure (arrival/departure season). Every season
-row is tagged with a `phase` of `before`, `during`, or `after` relative to that tenure,
-which is the axis the whole comparison UI is built around.
+Each player's CLTFC tenure (arrival/departure season) is **derived from ASA** by
+`build_players.py`: `start` is their first season at Charlotte, and `end` is their last,
+or `None` if they played for Charlotte in the latest season in the data (still at the
+club). Every season row is tagged with a `phase` of `before`, `during`, or `after`
+relative to that tenure, which is the axis the whole comparison UI is built around.
 
-**Important curation note:** `before` is detected automatically (any pre-2022 season is
-correctly `before`). But `after` requires an `end` year in `config.TENURES` — with the
-default `end: None`, a player who left CLTFC and reappears at another MLS club (e.g. Ben
-Bender → Philadelphia in 2025) is still tagged `during`. Run `fetch_transfermarkt.py` to
-get the roster, then set real `end` years in `TENURES` so departures classify as `after`.
-These windows are hand-editable on purpose: they live in git, are reviewable, and make the
-phase logic deterministic.
+Precedence: `data/overrides.json` (the editor) > `config.TENURES` (hand-set) > derived.
+Tenure is season-granular, so a mid-season move counts that whole season as `during`, and
+a current player who hasn't appeared yet this season looks departed. Fix those with an
+override.

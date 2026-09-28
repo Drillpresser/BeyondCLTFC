@@ -34,10 +34,35 @@ def season_int(row: dict) -> int | None:
         return None
 
 
-def tenure_for(name: str | None) -> dict:
+def derive_tenures(xgoals: list[dict], team_names: dict[str, str]) -> dict[str, dict]:
+    """player_id -> {start, end} from the seasons ASA has them at Charlotte.
+
+    start = first CLTFC season; end = last CLTFC season, or None if that's the
+    latest season in the data (still at the club). Season-granular: a mid-season
+    move counts that whole season as `during` — fix edge cases with overrides.
+    """
+    cltfc = {tid for tid, n in team_names.items() if config.ASA_TEAM_NAME_CONTAINS.lower() in str(n).lower()}
+    seasons: dict[str, set[int]] = defaultdict(set)
+    for row in xgoals:
+        s = season_int(row)
+        if s is not None and str(row.get("team_id")) in cltfc and row.get("player_id") is not None:
+            seasons[str(row["player_id"])].add(s)
+    if not seasons:
+        return {}
+    latest = max(max(v) for v in seasons.values())
+    return {
+        pid: {"start": min(v), "end": None if max(v) == latest else max(v)}
+        for pid, v in seasons.items()
+    }
+
+
+def tenure_for(name: str | None, derived: dict | None = None) -> dict:
+    """Hand-set config.TENURES wins, then the ASA-derived window, then the club's
+    first season. (data/overrides.json is applied on top of all of these.)"""
     if name and name in config.TENURES:
         return config.TENURES[name]
-    # Default: assume they've been at CLTFC since the club's first season.
+    if derived:
+        return derived
     return {"start": config.CLUB_FIRST_SEASON, "end": None}
 
 
@@ -370,10 +395,12 @@ def main() -> None:
     for (pid, season, team_id), season_row in merged.items():
         by_player[pid].append((season, season_row))
 
+    derived_tenures = derive_tenures(xgoals, team_names)
+
     players = []
     for pid, rows in by_player.items():
         name = player_names.get(pid, pid)
-        tenure = tenure_for(name)
+        tenure = tenure_for(name, derived_tenures.get(pid))
         seasons = []
         for season, season_row in rows:
             season_row = dict(season_row)
