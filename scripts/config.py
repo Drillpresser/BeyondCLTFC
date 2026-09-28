@@ -69,10 +69,9 @@ SEASONS = [str(y) for y in range(CLUB_FIRST_SEASON, 2027)]
 
 # --- Player tenure windows --------------------------------------------------
 # season is inclusive; `end=None` means still at the club.
-# This is intentionally editable by hand: the ASA roster tells us who played
-# for CLTFC, but the authoritative arrival/departure years live here so the
-# before/during/after logic is deterministic and reviewable in git.
-# Fill/adjust these as the roster is confirmed.
+# build_players.py derives each window from the seasons ASA has the player at
+# Charlotte. Entries here override that derivation (and data/overrides.json
+# overrides both) for edge cases like mid-season moves.
 TENURES: dict[str, dict[str, int | None]] = {
     # "Player Name": {"start": 2022, "end": None},
 }

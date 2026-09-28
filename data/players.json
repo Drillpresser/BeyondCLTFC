@@ -18,7 +18,7 @@
       "name": "Adam Armour",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "2002-09-27",
@@ -113,7 +113,7 @@
           "team": "Charlotte",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -126,7 +126,7 @@
           "team": "Charlotte",
           "league": "US Open Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -139,7 +139,7 @@
           "team": "Crown Legacy",
           "league": "MLS Next Pro",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 4,
             "goals": 0,
@@ -152,7 +152,7 @@
           "team": "FC Tulsa",
           "league": "USL Championship",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 12,
             "goals": 0,
@@ -194,7 +194,7 @@
       "name": "Adilson Malanda",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2025
       },
       "bio": {
         "birth_date": "2001-10-29",
@@ -479,7 +479,7 @@
           "team": "Middlesbrough",
           "league": "EFL Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 7,
             "goals": 1,
@@ -507,7 +507,7 @@
       "name": "Alan Steven Franco",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1998-08-21",
@@ -704,7 +704,7 @@
           "team": "Atlanta United FC",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -717,7 +717,7 @@
           "team": "Sao Paulo",
           "league": "CONMEBOL Sudamericana",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 9,
             "goals": null,
@@ -730,7 +730,7 @@
           "team": "Sao Paulo",
           "league": "Copa Do Brasil",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 6,
             "goals": null,
@@ -743,7 +743,7 @@
           "team": "Sao Paulo",
           "league": "Paulista - A1",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 9,
             "goals": 1,
@@ -756,7 +756,7 @@
           "team": "Sao Paulo",
           "league": "Serie A",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 30,
             "goals": 1,
@@ -770,7 +770,7 @@
           "team": "Atlético Mineiro",
           "league": "Série A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 18,
             "goals": 0,
@@ -784,7 +784,7 @@
           "team": "Talleres (loan)",
           "league": "Argentine Primera División",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 19,
             "goals": 0,
@@ -797,7 +797,7 @@
           "team": "Sao Paulo",
           "league": "CONMEBOL Libertadores",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 8,
             "goals": 0,
@@ -810,7 +810,7 @@
           "team": "Sao Paulo",
           "league": "Copa Do Brasil",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 5,
             "goals": null,
@@ -823,7 +823,7 @@
           "team": "Sao Paulo",
           "league": "Paulista - A1",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 12,
             "goals": 1,
@@ -836,7 +836,7 @@
           "team": "Sao Paulo",
           "league": "Serie A",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 32,
             "goals": null,
@@ -850,7 +850,7 @@
           "team": "Atlético Mineiro",
           "league": "Série A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 22,
             "goals": 0,
@@ -864,7 +864,7 @@
           "team": "Atlético Mineiro",
           "league": "Série A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 30,
             "goals": 1,
@@ -878,7 +878,7 @@
           "team": "Atlético Mineiro",
           "league": "Série A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 13,
             "goals": 0,
@@ -930,7 +930,7 @@
       "asa_id": "BLMvl1JWqx",
       "name": "Allan Saint-Maximin",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -1140,7 +1140,7 @@
           "team": "Newcastle",
           "league": "FA Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -1153,7 +1153,7 @@
           "team": "Newcastle",
           "league": "League Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 6,
             "goals": null,
@@ -1166,7 +1166,7 @@
           "team": "Newcastle",
           "league": "Premier League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 25,
             "goals": 1,
@@ -1180,7 +1180,7 @@
           "team": "Newcastle United",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 25,
             "goals": 1,
@@ -1193,7 +1193,7 @@
           "team": "Al-Ahli Jeddah",
           "league": "King's Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -1206,7 +1206,7 @@
           "team": "Al-Ahli Jeddah",
           "league": "King's Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -1219,7 +1219,7 @@
           "team": "Al-Ahli Jeddah",
           "league": "Pro League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 30,
             "goals": 4,
@@ -1232,7 +1232,7 @@
           "team": "Newcastle",
           "league": "Premier League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -1245,7 +1245,7 @@
           "team": "Newcastle",
           "league": "Premier League - Summer Series",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -1258,7 +1258,7 @@
           "team": "Newcastle",
           "league": "UEFA Champions League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -1272,7 +1272,7 @@
           "team": "Al-Ahli",
           "league": "Saudi Pro League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 4,
@@ -1285,7 +1285,7 @@
           "team": "Fenerbahçe",
           "league": "Süper Lig",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 20,
             "goals": 4,
@@ -1298,7 +1298,7 @@
           "team": "Fenerbahçe",
           "league": "Türkiye Kupası",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -1311,7 +1311,7 @@
           "team": "Fenerbahçe",
           "league": "UEFA Champions League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": null,
@@ -1324,7 +1324,7 @@
           "team": "Fenerbahçe",
           "league": "UEFA Europa League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 7,
             "goals": null,
@@ -1338,7 +1338,7 @@
           "team": "Fenerbahçe (loan)",
           "league": "Süper Lig",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 20,
             "goals": 4,
@@ -1352,7 +1352,7 @@
           "team": "América",
           "league": "Liga MX",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 16,
             "goals": 3,
@@ -1366,7 +1366,7 @@
           "team": "Lens",
           "league": "Ligue 1",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 10,
             "goals": 3,
@@ -1520,7 +1520,7 @@
       "name": "Andre Shinyashiki",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1997-06-11",
@@ -1881,7 +1881,7 @@
           "team": "Arda Kardzhali",
           "league": "First League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 6,
             "goals": 0,
@@ -1894,7 +1894,7 @@
           "team": "Neftchi Baku",
           "league": "Premyer Liqa",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 6,
             "goals": 0,
@@ -1953,7 +1953,7 @@
       "asa_id": "NPqxxLDkq9",
       "name": "Andrew Privett",
       "tenure": {
-        "start": 2022,
+        "start": 2023,
         "end": null
       },
       "bio": {
@@ -2144,7 +2144,7 @@
       "name": "Anton Walkes",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1997-02-08",
@@ -2405,7 +2405,7 @@
       "asa_id": "NPqxAP6gQ9",
       "name": "Archie Goodwin",
       "tenure": {
-        "start": 2022,
+        "start": 2025,
         "end": null
       },
       "bio": {
@@ -2497,7 +2497,7 @@
           "team": "Newcastle Jets",
           "league": "A-League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 8,
             "goals": 2,
@@ -2510,7 +2510,7 @@
           "team": "Newcastle Jets",
           "league": "Australia Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 1,
@@ -2524,7 +2524,7 @@
           "team": "Newcastle Jets FC",
           "league": "A-League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 8,
             "goals": 2,
@@ -2538,7 +2538,7 @@
           "team": "Newcastle Jets FC Youth",
           "league": "NSW League Three",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 4,
             "goals": 9,
@@ -2551,7 +2551,7 @@
           "team": "Adelaide United",
           "league": "A-League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -2564,7 +2564,7 @@
           "team": "Australia U20",
           "league": "AFC U20 Asian Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -2577,7 +2577,7 @@
           "team": "Newcastle Jets",
           "league": "A-League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 20,
             "goals": 2,
@@ -2590,7 +2590,7 @@
           "team": "Newcastle Jets",
           "league": "Australia Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 1,
@@ -2604,7 +2604,7 @@
           "team": "Newcastle Jets FC",
           "league": "A-League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 20,
             "goals": 2,
@@ -2617,7 +2617,7 @@
           "team": "Adelaide United",
           "league": "A-League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 26,
             "goals": 13,
@@ -2630,7 +2630,7 @@
           "team": "Adelaide United",
           "league": "Australia Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -2644,7 +2644,7 @@
           "team": "Adelaide United",
           "league": "A-League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 26,
             "goals": 13,
@@ -2709,7 +2709,7 @@
       "asa_id": "Oa5wdglAq1",
       "name": "Aron John",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -2757,7 +2757,7 @@
       "asa_id": "0Oq6712Q6D",
       "name": "Ashley Westwood",
       "tenure": {
-        "start": 2022,
+        "start": 2023,
         "end": null
       },
       "bio": {
@@ -3023,7 +3023,7 @@
           "team": "Burnley",
           "league": "Championship",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -3036,7 +3036,7 @@
           "team": "Burnley",
           "league": "FA Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -3049,7 +3049,7 @@
           "team": "Burnley",
           "league": "League Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -3063,7 +3063,7 @@
           "team": "Burnley",
           "league": "Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 0,
             "goals": 0,
@@ -3255,8 +3255,8 @@
       "asa_id": "7VqGL7PeQv",
       "name": "Baye Coulibaly",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2025,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2006-01-08",
@@ -3287,7 +3287,7 @@
           "team": "Kustosija",
           "league": "Second NL",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -3300,7 +3300,7 @@
           "team": "Mali U17",
           "league": "CAF Cup of Nations - U17",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -3313,7 +3313,7 @@
           "team": "Mali U17",
           "league": "World Cup - U17",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 7,
             "goals": 0,
@@ -3326,7 +3326,7 @@
           "team": "Kustosija",
           "league": "Second NL",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 9,
             "goals": 0,
@@ -3360,7 +3360,7 @@
       "name": "Ben Bender",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2024
       },
       "bio": {
         "birth_date": "2001-10-03",
@@ -3617,7 +3617,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2026,
@@ -3635,7 +3635,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "after"
         }
       ]
     },
@@ -3644,8 +3644,8 @@
       "asa_id": "kRQa22abMK",
       "name": "Bill Tuiloma",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2025
       },
       "bio": {
         "birth_date": "1995-03-27",
@@ -3828,7 +3828,7 @@
           "team": "New Zealand",
           "league": "Friendlies",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 5,
             "goals": 0,
@@ -3841,7 +3841,7 @@
           "team": "New Zealand",
           "league": "World Cup - Qualification Intercontinental Play-offs",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -3854,7 +3854,7 @@
           "team": "New Zealand",
           "league": "World Cup - Qualification Oceania",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 3,
             "goals": 3,
@@ -3867,7 +3867,7 @@
           "team": "Portland Timbers",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 30,
             "goals": 6,
@@ -3880,7 +3880,7 @@
           "team": "Portland Timbers",
           "league": "US Open Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -3904,7 +3904,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 7
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -4203,8 +4203,8 @@
       "asa_id": "NPqxxgBXq9",
       "name": "Brandon Cambridge",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2002-02-09",
@@ -4257,7 +4257,7 @@
           "team": "PDX FC",
           "league": "USL League Two",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 5,
             "goals": 0,
@@ -4471,7 +4471,7 @@
           "team": "Orange County SC",
           "league": "USL Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": null,
             "goals": null,
@@ -4485,7 +4485,7 @@
           "team": "Sacramento Republic FC",
           "league": "USL Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 3,
             "goals": 0,
@@ -4857,8 +4857,8 @@
       "asa_id": "p6qbeLpB50",
       "name": "Brecht Dejaegere",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1991-05-29",
@@ -5095,7 +5095,7 @@
           "team": "Toulouse",
           "league": "Coupe de France",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 5,
             "goals": 0,
@@ -5108,7 +5108,7 @@
           "team": "Toulouse",
           "league": "Friendlies Clubs",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -5121,7 +5121,7 @@
           "team": "Toulouse",
           "league": "Ligue 1",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 30,
             "goals": 4,
@@ -5135,7 +5135,7 @@
           "team": "Toulouse",
           "league": "Ligue 1",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 4,
@@ -5290,7 +5290,7 @@
           "team": "Kortrijk",
           "league": "Challenger Pro League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 15,
             "goals": 0,
@@ -5371,7 +5371,7 @@
       "name": "Christian Fuchs",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1986-04-07",
@@ -5835,7 +5835,7 @@
       "name": "Christian Makoun",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "2000-03-05",
@@ -6164,7 +6164,7 @@
           "team": "Anorthosis",
           "league": "1. Division",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 14,
             "goals": 2,
@@ -6177,7 +6177,7 @@
           "team": "Anorthosis",
           "league": "Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -6190,7 +6190,7 @@
           "team": "New England Revolution",
           "league": "Friendlies Clubs",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -6203,7 +6203,7 @@
           "team": "New England Revolution",
           "league": "Leagues Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -6216,7 +6216,7 @@
           "team": "New England Revolution",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 25,
             "goals": null,
@@ -6229,7 +6229,7 @@
           "team": "New England Revolution",
           "league": "US Open Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 25,
             "goals": null,
@@ -6242,7 +6242,7 @@
           "team": "Venezuela",
           "league": "Friendlies",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -6266,7 +6266,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2023,
@@ -6274,7 +6274,7 @@
           "team": "Anorthosis Famagusta",
           "league": "Cypriot First Division",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 13,
             "goals": 2,
@@ -6288,7 +6288,7 @@
           "team": "New England Revolution",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 9,
             "goals": 0,
@@ -6301,7 +6301,7 @@
           "team": "Anorthosis",
           "league": "1. Division",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -6314,7 +6314,7 @@
           "team": "Levski Sofia",
           "league": "Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 3,
             "goals": 0,
@@ -6327,7 +6327,7 @@
           "team": "Levski Sofia",
           "league": "First League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 26,
             "goals": 3,
@@ -6340,7 +6340,7 @@
           "team": "Venezuela",
           "league": "Copa America",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 4,
             "goals": null,
@@ -6353,7 +6353,7 @@
           "team": "Venezuela",
           "league": "Friendlies",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -6367,7 +6367,7 @@
           "team": "Levski Sofia",
           "league": "First League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 26,
             "goals": 3,
@@ -6381,7 +6381,7 @@
           "team": "Levski Sofia",
           "league": "First League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 16,
             "goals": 1,
@@ -6433,7 +6433,7 @@
       "name": "Christian Ortíz",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1992-08-20",
@@ -6755,7 +6755,7 @@
       "name": "Christopher Hegardt",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "2002-01-06",
@@ -6990,7 +6990,7 @@
           "team": "Orange County SC",
           "league": "USL Championship",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 16,
             "goals": 1,
@@ -7003,7 +7003,7 @@
           "team": "Stabaek",
           "league": "1. Division",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 9,
             "goals": 0,
@@ -7016,7 +7016,7 @@
           "team": "Stabaek",
           "league": "NM Cupen",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -7030,7 +7030,7 @@
           "team": "Orange County (loan)",
           "league": "USL Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 4,
             "goals": 0,
@@ -7044,7 +7044,7 @@
           "team": "Stabæk",
           "league": "1. divisjon",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 9,
             "goals": 0,
@@ -7083,7 +7083,7 @@
       "name": "Daniel Ríos",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1995-02-22",
@@ -7304,7 +7304,7 @@
           "team": "Guadalajara",
           "league": "Liga MX",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 5,
             "goals": 0,
@@ -7328,7 +7328,7 @@
             "primary_assists": 3,
             "goals_plus_primary_assists": 10
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2024,
@@ -7336,7 +7336,7 @@
           "team": "Atlanta United (loan)",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 27,
             "goals": 7,
@@ -7360,7 +7360,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 4
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2025,
@@ -7368,7 +7368,7 @@
           "team": "Vancouver Whitecaps (loan)",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 31,
             "goals": 3,
@@ -7392,7 +7392,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 6
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "wikidata_clubs": [
@@ -7461,8 +7461,8 @@
       "asa_id": "xW5pxyxB5g",
       "name": "David Bingham",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2025,
+        "end": 2025
       },
       "bio": {
         "birth_date": "1989-10-19",
@@ -7797,7 +7797,7 @@
           "team": "Portland Timbers",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -7810,7 +7810,7 @@
           "team": "Portland Timbers",
           "league": "US Open Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -7823,7 +7823,7 @@
           "team": "Portland Timbers II",
           "league": "MLS Next Pro",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -7847,7 +7847,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2022,
@@ -7855,7 +7855,7 @@
           "team": "Portland Timbers",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 2,
             "goals": 0,
@@ -7868,7 +7868,7 @@
           "team": "Portland Timbers",
           "league": "Leagues Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -7881,7 +7881,7 @@
           "team": "Portland Timbers",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 19,
             "goals": 0,
@@ -7894,7 +7894,7 @@
           "team": "Portland Timbers",
           "league": "US Open Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -7918,7 +7918,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -7926,7 +7926,7 @@
           "team": "Portland Timbers",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 19,
             "goals": 0,
@@ -7939,7 +7939,7 @@
           "team": "Charlotte",
           "league": "Leagues Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -7952,7 +7952,7 @@
           "team": "Charlotte",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -7965,7 +7965,7 @@
           "team": "Portland Timbers",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -8042,7 +8042,7 @@
       "asa_id": "kRQaopnY5K",
       "name": "David Schnegg",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -8196,7 +8196,7 @@
           "team": "Sturm Graz",
           "league": "Bundesliga",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 31,
             "goals": 3,
@@ -8209,7 +8209,7 @@
           "team": "Sturm Graz",
           "league": "Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 5,
             "goals": 0,
@@ -8222,7 +8222,7 @@
           "team": "Sturm Graz",
           "league": "Friendlies Clubs",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -8235,7 +8235,7 @@
           "team": "Sturm Graz",
           "league": "UEFA Champions League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -8248,7 +8248,7 @@
           "team": "Sturm Graz",
           "league": "UEFA Europa League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -8262,7 +8262,7 @@
           "team": "Sturm Graz",
           "league": "Austrian Bundesliga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 3,
@@ -8275,7 +8275,7 @@
           "team": "Austria",
           "league": "Euro Championship - Qualification",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -8288,7 +8288,7 @@
           "team": "Austria",
           "league": "Friendlies",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -8301,7 +8301,7 @@
           "team": "Sturm Graz",
           "league": "Bundesliga",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 28,
             "goals": null,
@@ -8314,7 +8314,7 @@
           "team": "Sturm Graz",
           "league": "Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 4,
             "goals": 1,
@@ -8327,7 +8327,7 @@
           "team": "Sturm Graz",
           "league": "Friendlies Clubs",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -8340,7 +8340,7 @@
           "team": "Sturm Graz",
           "league": "UEFA Champions League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -8353,7 +8353,7 @@
           "team": "Sturm Graz",
           "league": "UEFA Europa Conference League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -8366,7 +8366,7 @@
           "team": "Sturm Graz",
           "league": "UEFA Europa League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 3,
             "goals": 0,
@@ -8380,7 +8380,7 @@
           "team": "Sturm Graz",
           "league": "Austrian Bundesliga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 28,
             "goals": 0,
@@ -8393,7 +8393,7 @@
           "team": "DC United",
           "league": "Leagues Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 3,
             "goals": 0,
@@ -8406,7 +8406,7 @@
           "team": "DC United",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 1,
@@ -8419,7 +8419,7 @@
           "team": "Sturm Graz",
           "league": "Bundesliga",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -8443,7 +8443,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2025,
@@ -8461,7 +8461,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2026,
@@ -8525,7 +8525,7 @@
       "name": "Derrick Jones",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1997-03-03",
@@ -8853,7 +8853,7 @@
           "team": "Columbus Crew",
           "league": "CONCACAF Champions League",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 4,
             "goals": 0,
@@ -8866,7 +8866,7 @@
           "team": "Columbus Crew",
           "league": "Campeones Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -8879,7 +8879,7 @@
           "team": "Columbus Crew",
           "league": "Leagues Cup",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 0,
             "goals": 0,
@@ -8892,7 +8892,7 @@
           "team": "Columbus Crew",
           "league": "Major League Soccer",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "after",
           "apifootball": {
             "apps": 20,
             "goals": 0,
@@ -8916,7 +8916,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2025,
@@ -8934,7 +8934,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "wikidata_clubs": [
@@ -8993,7 +8993,7 @@
       "asa_id": "BLMv7oaB5x",
       "name": "Djibril Diani",
       "tenure": {
-        "start": 2022,
+        "start": 2024,
         "end": null
       },
       "bio": {
@@ -9035,7 +9035,7 @@
           "team": "Caen",
           "league": "Coupe de France",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -9048,7 +9048,7 @@
           "team": "Caen",
           "league": "Ligue 2",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 37,
             "goals": 1,
@@ -9061,7 +9061,7 @@
           "team": "Caen II",
           "league": "National 2 - Group D",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": null,
             "goals": null,
@@ -9074,7 +9074,7 @@
           "team": "Caen",
           "league": "Coupe de France",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 1,
             "goals": 0,
@@ -9087,7 +9087,7 @@
           "team": "Caen",
           "league": "Ligue 2",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 0,
@@ -9100,7 +9100,7 @@
           "team": "Caen II",
           "league": "National 3 - Group G",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 3,
             "goals": 1,
@@ -9204,8 +9204,8 @@
       "asa_id": "KXMekwe3q6",
       "name": "Enzo Copetti",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1996-01-16",
@@ -9316,7 +9316,7 @@
           "team": "Racing Club",
           "league": "CONMEBOL Sudamericana",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 4,
             "goals": 1,
@@ -9329,7 +9329,7 @@
           "team": "Racing Club",
           "league": "Copa Argentina",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 2,
             "goals": 1,
@@ -9342,7 +9342,7 @@
           "team": "Racing Club",
           "league": "Liga Profesional Argentina",
           "source": "apifootball",
-          "phase": "during",
+          "phase": "before",
           "apifootball": {
             "apps": 40,
             "goals": 19,
@@ -9356,7 +9356,7 @@
           "team": "Racing",
           "league": "Argentine Primera División",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 40,
             "goals": 19,
@@ -9519,8 +9519,8 @@
       "asa_id": "eV5DLDVJ5K",
       "name": "Eryk Williamson",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2025,
+        "end": 2025
       },
       "bio": {
         "birth_date": "1997-06-11",
@@ -9710,7 +9710,7 @@
             "primary_assists": 5,
             "goals_plus_primary_assists": 5
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2022,
@@ -9718,7 +9718,7 @@
           "team": "Portland Timbers",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 220,
             "goals": 0,
@@ -9742,7 +9742,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -9750,7 +9750,7 @@
           "team": "Portland Timbers",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 60,
             "goals": 0,
@@ -9774,7 +9774,7 @@
             "primary_assists": 2,
             "goals_plus_primary_assists": 4
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2024,
@@ -9782,7 +9782,7 @@
           "team": "Portland Timbers",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 280,
             "goals": 20,
@@ -9852,7 +9852,7 @@
       "name": "George Marks",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1999-11-10",
@@ -9951,7 +9951,7 @@
       "name": "Guzmán Corujo",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1996-08-02",
@@ -10115,8 +10115,8 @@
       "asa_id": "vzqoOO2Zqa",
       "name": "Hamady Diop",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2023
       },
       "bio": {
         "birth_date": "2002-06-06",
@@ -10181,7 +10181,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "former_teams": [
@@ -10203,7 +10203,7 @@
       "name": "Harrison Afful",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1986-07-24",
@@ -10638,7 +10638,7 @@
       "asa_id": "e7Mz9NpeQr",
       "name": "Harry Toffolo",
       "tenure": {
-        "start": 2022,
+        "start": 2025,
         "end": null
       },
       "bio": {
@@ -10891,7 +10891,7 @@
           "team": "Nottingham Forest",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 19,
             "goals": 0,
@@ -10905,7 +10905,7 @@
           "team": "Nottingham Forest",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 23,
             "goals": 1,
@@ -10919,7 +10919,7 @@
           "team": "Nottingham Forest",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 4,
             "goals": 0,
@@ -11068,7 +11068,7 @@
       "asa_id": "e7MzAxyGQr",
       "name": "Henry Kessler",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -11212,7 +11212,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2022,
@@ -11220,7 +11220,7 @@
           "team": "New England Revolution",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 22,
             "goals": 1,
@@ -11244,7 +11244,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -11252,7 +11252,7 @@
           "team": "New England Revolution",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 9,
             "goals": 1,
@@ -11276,7 +11276,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2024,
@@ -11294,7 +11294,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2024,
@@ -11302,7 +11302,7 @@
           "team": "New England Revolution",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 17,
             "goals": 0,
@@ -11316,7 +11316,7 @@
           "team": "St. Louis City SC",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 8,
             "goals": 1,
@@ -11340,7 +11340,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2025,
@@ -11348,7 +11348,7 @@
           "team": "St. Louis City SC",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 0,
             "goals": 0,
@@ -11396,7 +11396,7 @@
       "asa_id": "9vQ248BL5K",
       "name": "Idan Toklomati",
       "tenure": {
-        "start": 2022,
+        "start": 2024,
         "end": null
       },
       "bio": {
@@ -11451,7 +11451,7 @@
           "team": "Maccabi Petah Tikva",
           "league": "Liga Leumit",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 11,
@@ -11465,7 +11465,7 @@
           "team": "Maccabi Petah Tikva",
           "league": "Israeli Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 31,
             "goals": 5,
@@ -11571,8 +11571,8 @@
       "asa_id": "Oa5wApPjQ1",
       "name": "Iuri Tavares",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2001-03-08",
@@ -11651,8 +11651,8 @@
       "asa_id": "eV5DkwDaMK",
       "name": "Jack Neeley",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2025,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2005-03-11",
@@ -11705,8 +11705,8 @@
       "asa_id": "4wM4Jwdzqj",
       "name": "Jahkeele Marshall-Rutty",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2025,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2004-06-16",
@@ -11822,7 +11822,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -11840,7 +11840,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -11848,7 +11848,7 @@
           "team": "Toronto FC II (loan)",
           "league": "MLS Next Pro",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 3,
             "goals": 1,
@@ -11872,7 +11872,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2024,
@@ -11890,7 +11890,7 @@
             "primary_assists": 3,
             "goals_plus_primary_assists": 4
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2025,
@@ -11944,7 +11944,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "wikidata_clubs": [
@@ -12010,8 +12010,8 @@
       "asa_id": "OlMlwxEQLz",
       "name": "Jamie Paterson",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1991-12-20",
@@ -12263,7 +12263,7 @@
           "team": "Swansea City",
           "league": "Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 23,
             "goals": 0,
@@ -12277,7 +12277,7 @@
           "team": "Swansea City",
           "league": "Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 44,
             "goals": 7,
@@ -12337,7 +12337,7 @@
           "team": "Plymouth Argyle",
           "league": "League One",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 21,
             "goals": 0,
@@ -12403,7 +12403,7 @@
       "name": "Jan Sobociński",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1999-03-20",
@@ -12576,7 +12576,7 @@
           "team": "PAS Giannina",
           "league": "Super League Greece 2",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 15,
             "goals": 1,
@@ -12590,7 +12590,7 @@
           "team": "Rekord Bielsko-Biała",
           "league": "II liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 22,
             "goals": 1,
@@ -12629,7 +12629,7 @@
       "name": "Jaylin Lindsey",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2024
       },
       "bio": {
         "birth_date": "2000-03-27",
@@ -12947,8 +12947,8 @@
       "asa_id": "p6qbe1xw50",
       "name": "Jere Uronen",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1994-07-13",
@@ -13214,7 +13214,7 @@
           "team": "Brest",
           "league": "Ligue 1",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 6,
             "goals": 0,
@@ -13228,7 +13228,7 @@
           "team": "Schalke 04 (loan)",
           "league": "Bundesliga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 11,
             "goals": 0,
@@ -13278,7 +13278,7 @@
           "team": "AIK",
           "league": "Allsvenskan",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 8,
             "goals": 0,
@@ -13292,7 +13292,7 @@
           "team": "Atromitos",
           "league": "Super League Greece",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 0,
             "goals": 0,
@@ -13414,7 +13414,7 @@
       "name": "Jordy Alcívar",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1999-08-05",
@@ -13530,7 +13530,7 @@
           "team": "Independiente del Valle",
           "league": "LigaPro Serie A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 25,
             "goals": 3,
@@ -13544,7 +13544,7 @@
           "team": "Independiente del Valle",
           "league": "LigaPro Serie A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 6,
             "goals": 0,
@@ -13558,7 +13558,7 @@
           "team": "León (loan)",
           "league": "Liga MX",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 10,
             "goals": 0,
@@ -13572,7 +13572,7 @@
           "team": "Independiente del Valle",
           "league": "LigaPro Serie A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 31,
             "goals": 2,
@@ -13586,7 +13586,7 @@
           "team": "Independiente del Valle",
           "league": "LigaPro Serie A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 7,
             "goals": 0,
@@ -13611,7 +13611,7 @@
       "name": "Joseph Mora",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1993-01-15",
@@ -13929,7 +13929,7 @@
           "team": "Saprissa",
           "league": "Liga FPD",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 42,
             "goals": 1,
@@ -13943,7 +13943,7 @@
           "team": "Saprissa",
           "league": "Liga FPD",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 12,
             "goals": 1,
@@ -14040,8 +14040,8 @@
       "asa_id": "jYQJgRXGMG",
       "name": "João Pedro",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1993-04-03",
@@ -14264,7 +14264,7 @@
           "team": "Chaves",
           "league": "Primeira Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 14,
             "goals": 0,
@@ -14278,7 +14278,7 @@
           "team": "Chaves",
           "league": "Primeira Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 13,
             "goals": 0,
@@ -14292,7 +14292,7 @@
           "team": "UTA Arad",
           "league": "Liga I",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 6,
             "goals": 1,
@@ -14390,8 +14390,8 @@
       "asa_id": "Vj58YwDDq8",
       "name": "Justin Meram",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2023
       },
       "bio": {
         "birth_date": "1988-12-04",
@@ -14822,7 +14822,7 @@
             "primary_assists": 6,
             "goals_plus_primary_assists": 9
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2022,
@@ -14830,7 +14830,7 @@
           "team": "Real Salt Lake",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 33,
             "goals": 3,
@@ -14945,8 +14945,8 @@
       "asa_id": "Pk5L1BXPqO",
       "name": "Júnior Urso",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1989-03-10",
@@ -15230,7 +15230,7 @@
             "primary_assists": 3,
             "goals_plus_primary_assists": 8
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2022,
@@ -15238,7 +15238,7 @@
           "team": "Orlando City",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 34,
             "goals": 5,
@@ -15262,7 +15262,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2023,
@@ -15270,7 +15270,7 @@
           "team": "Coritiba",
           "league": "Série A",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 6,
             "goals": 0,
@@ -15284,7 +15284,7 @@
           "team": "Orlando City",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 9,
             "goals": 0,
@@ -15326,7 +15326,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "wikidata_clubs": [
@@ -15439,7 +15439,7 @@
       "name": "Kamil Jozwiak",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1998-04-22",
@@ -15727,7 +15727,7 @@
           "team": "Granada",
           "league": "Segunda División",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 17,
             "goals": 0,
@@ -15741,7 +15741,7 @@
           "team": "Jagiellonia Białystok",
           "league": "Ekstraklasa",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 13,
             "goals": 0,
@@ -15755,7 +15755,7 @@
           "team": "Jagiellonia Białystok II",
           "league": "III liga, gr. I",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 1,
             "goals": 0,
@@ -15769,7 +15769,7 @@
           "team": "Jagiellonia Białystok",
           "league": "Ekstraklasa",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 3,
             "goals": 0,
@@ -15851,7 +15851,7 @@
       "name": "Karol Swiderski",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2024
       },
       "bio": {
         "birth_date": "1997-01-23",
@@ -16101,7 +16101,7 @@
           "team": "Panathinaikos",
           "league": "Super League Greece",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 25,
             "goals": 5,
@@ -16115,7 +16115,7 @@
           "team": "Widzew Łódź",
           "league": "Ekstraklasa",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 9,
             "goals": 1,
@@ -16350,7 +16350,7 @@
       "name": "Koa Santos",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1999-09-21",
@@ -16735,7 +16735,7 @@
       "asa_id": "gOMnlKNeqw",
       "name": "Liel Abada",
       "tenure": {
-        "start": 2022,
+        "start": 2024,
         "end": null
       },
       "bio": {
@@ -16832,7 +16832,7 @@
           "team": "Celtic",
           "league": "Scottish Premiership",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 34,
             "goals": 10,
@@ -16846,7 +16846,7 @@
           "team": "Celtic",
           "league": "Scottish Premiership",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 9,
             "goals": 1,
@@ -17025,7 +17025,7 @@
       "asa_id": "315VX4PEQ9",
       "name": "Luca De La Torre",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -17152,7 +17152,7 @@
           "team": "Celta",
           "league": "La Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 28,
             "goals": 0,
@@ -17166,7 +17166,7 @@
           "team": "Celta",
           "league": "La Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 31,
             "goals": 1,
@@ -17180,7 +17180,7 @@
           "team": "Celta",
           "league": "La Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 1,
             "goals": 0,
@@ -17204,7 +17204,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 6
           },
-          "phase": "during"
+          "phase": "before"
         },
         {
           "season": 2025,
@@ -17212,7 +17212,7 @@
           "team": "San Diego FC (loan)",
           "league": "MLS",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 5,
@@ -17304,7 +17304,7 @@
       "name": "McKinze Gaines",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1998-03-02",
@@ -17493,7 +17493,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2024,
@@ -17511,7 +17511,7 @@
             "primary_assists": 1,
             "goals_plus_primary_assists": 1
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "wikidata_clubs": [
@@ -17556,7 +17556,7 @@
       "asa_id": "2lqRJVwJqr",
       "name": "Morrison Agyemang",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -18105,7 +18105,7 @@
       "asa_id": "9YqdoLVo5v",
       "name": "Nathan Richmond",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -18146,8 +18146,8 @@
       "asa_id": "gpMOalORqz",
       "name": "Nick Scardina",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2001-06-22",
@@ -18225,8 +18225,8 @@
       "asa_id": "XVqK2D6R50",
       "name": "Nikola Petkovic",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2003-02-23",
@@ -18310,7 +18310,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "former_teams": [
@@ -18326,8 +18326,8 @@
       "asa_id": "2lqR7EBWQr",
       "name": "Nimfasha Berchimas",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2024,
+        "end": 2024
       },
       "bio": {
         "birth_date": "2008-02-22",
@@ -18361,7 +18361,7 @@
           "team": "Crown Legacy FC",
           "league": "MLS Next Pro",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 8,
             "goals": 1,
@@ -18395,7 +18395,7 @@
       "name": "Nuno Santos",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1974-01-25",
@@ -18585,7 +18585,7 @@
           "team": "Vitória Guimarães",
           "league": "Primeira Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 33,
             "goals": 3,
@@ -18599,7 +18599,7 @@
           "team": "Mamelodi Sundowns",
           "league": "South African Premiership",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 18,
             "goals": 2,
@@ -18613,7 +18613,7 @@
           "team": "Vitória Guimarães",
           "league": "Primeira Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 5,
             "goals": 0,
@@ -18747,7 +18747,7 @@
       "name": "Pablo Sisniega",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2023
       },
       "bio": {
         "birth_date": "1995-07-07",
@@ -18990,7 +18990,7 @@
           "team": "San Antonio FC",
           "league": "USL",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 22,
             "goals": 0,
@@ -19014,7 +19014,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         },
         {
           "season": 2026,
@@ -19032,7 +19032,7 @@
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
-          "phase": "during"
+          "phase": "after"
         }
       ],
       "wikidata_clubs": [
@@ -19133,8 +19133,8 @@
       "asa_id": "Oa5w0Kv4q1",
       "name": "Patrick Agyemang",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2025
       },
       "bio": {
         "birth_date": "2000-11-07",
@@ -19270,7 +19270,7 @@
           "team": "Derby County",
           "league": "EFL Championship",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 0,
             "goals": 0,
@@ -19348,7 +19348,7 @@
       "asa_id": "aDQ0PZY3QE",
       "name": "Pep Biel",
       "tenure": {
-        "start": 2022,
+        "start": 2024,
         "end": null
       },
       "bio": {
@@ -19461,7 +19461,7 @@
           "team": "Copenhagen",
           "league": "Danish Superliga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 7,
             "goals": 6,
@@ -19475,7 +19475,7 @@
           "team": "Olympiacos",
           "league": "Super League Greece",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 9,
@@ -19489,7 +19489,7 @@
           "team": "FC Augsburg (loan)",
           "league": "Bundesliga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 11,
             "goals": 0,
@@ -19503,7 +19503,7 @@
           "team": "Olympiacos",
           "league": "Super League Greece",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 13,
             "goals": 1,
@@ -19605,7 +19605,7 @@
       "name": "Quinn McNeill",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1998-08-30",
@@ -19663,7 +19663,7 @@
       "asa_id": "7vQ7ew0z5D",
       "name": "Rodolfo Aloko",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -19750,8 +19750,8 @@
       "asa_id": "315VKB6q9x",
       "name": "Scott Arfield",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2024
       },
       "bio": {
         "birth_date": "1988-11-01",
@@ -20003,7 +20003,7 @@
           "team": "Rangers",
           "league": "Scottish Premiership",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 31,
             "goals": 5,
@@ -20081,7 +20081,7 @@
           "team": "Falkirk",
           "league": "Scottish Premiership",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 15,
             "goals": 1,
@@ -20095,7 +20095,7 @@
           "team": "Livingston",
           "league": "Scottish Premiership",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 8,
             "goals": 0,
@@ -20206,7 +20206,7 @@
       "name": "Sergio Ruiz",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1994-12-16",
@@ -20417,7 +20417,7 @@
           "team": "Granada",
           "league": "La Liga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 35,
             "goals": 0,
@@ -20441,8 +20441,8 @@
       "asa_id": "wvq9gNr3MW",
       "name": "Souleyman Doumbia",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2025,
+        "end": 2025
       },
       "bio": {
         "birth_date": "1996-09-24",
@@ -20522,7 +20522,7 @@
       "asa_id": "315V60b59x",
       "name": "Tim Ream",
       "tenure": {
-        "start": 2022,
+        "start": 2024,
         "end": null
       },
       "bio": {
@@ -20719,7 +20719,7 @@
           "team": "Fulham",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 33,
             "goals": 1,
@@ -20733,7 +20733,7 @@
           "team": "Fulham",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 18,
             "goals": 1,
@@ -20876,7 +20876,7 @@
       "asa_id": "KXMegX31q6",
       "name": "Tyger Smalls",
       "tenure": {
-        "start": 2022,
+        "start": 2024,
         "end": null
       },
       "bio": {
@@ -21040,8 +21040,8 @@
       "asa_id": "N6MmWekZqE",
       "name": "Vinicius Mello",
       "tenure": {
-        "start": 2022,
-        "end": null
+        "start": 2023,
+        "end": 2023
       },
       "bio": {
         "birth_date": "2002-08-19",
@@ -21142,7 +21142,7 @@
           "team": "Al Jazira",
           "league": "UAE Pro League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 19,
             "goals": 5,
@@ -21156,7 +21156,7 @@
           "team": "Čukarički",
           "league": "Serbian SuperLiga",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 8,
             "goals": 5,
@@ -21170,7 +21170,7 @@
           "team": "Al Jazira",
           "league": "UAE Pro League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 8,
             "goals": 2,
@@ -21185,7 +21185,7 @@
       "asa_id": "KAqBxEWMbg",
       "name": "Wilfried Zaha",
       "tenure": {
-        "start": 2022,
+        "start": 2025,
         "end": null
       },
       "bio": {
@@ -21438,7 +21438,7 @@
           "team": "Crystal Palace",
           "league": "Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 27,
             "goals": 7,
@@ -21452,7 +21452,7 @@
           "team": "Galatasaray",
           "league": "Süper Lig",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 30,
             "goals": 9,
@@ -21466,7 +21466,7 @@
           "team": "Galatasaray",
           "league": "Süper Lig",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 0,
             "goals": 0,
@@ -21480,7 +21480,7 @@
           "team": "Lyon (loan)",
           "league": "Ligue 1",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "before",
           "wikipedia": {
             "apps": 4,
             "goals": 0,
@@ -21661,7 +21661,7 @@
       "asa_id": "N6MmkXx0qE",
       "name": "Will Cleary",
       "tenure": {
-        "start": 2022,
+        "start": 2026,
         "end": null
       },
       "bio": {
@@ -21705,7 +21705,7 @@
       "name": "Yordy Reyna",
       "tenure": {
         "start": 2022,
-        "end": null
+        "end": 2022
       },
       "bio": {
         "birth_date": "1993-09-17",
@@ -22097,7 +22097,7 @@
           "team": "Torpedo Moscow",
           "league": "Russian First League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 21,
             "goals": 3,
@@ -22111,7 +22111,7 @@
           "team": "Rodina Moscow (loan)",
           "league": "Russian First League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 29,
             "goals": 7,
@@ -22125,7 +22125,7 @@
           "team": "Rodina Moscow",
           "league": "Russian First League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 28,
             "goals": 7,
@@ -22139,7 +22139,7 @@
           "team": "Torpedo Moscow",
           "league": "Russian First League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 0,
             "goals": 0,
@@ -22153,7 +22153,7 @@
           "team": "Rodina Moscow",
           "league": "Russian Premier League",
           "source": "wikipedia",
-          "phase": "during",
+          "phase": "after",
           "wikipedia": {
             "apps": 9,
             "goals": 0,
