@@ -92,30 +92,53 @@ def search_term(name: str) -> str:
     return max(re.findall(r"[A-Za-z0-9]+", surname) or [surname], key=len)
 
 
-def resolve_id(name: str, cache: dict) -> int | None:
-    """Cache entries are {"id", "matched"}. Bare ints come from before profiles had
-    to pass title_matches() (the old code fell back to the first search result),
-    so they're resolved again."""
+def asa_birth_dates() -> dict[str, str]:
+    path = config.RAW_DIR / "asa_players.json"
+    rows = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    return {r["player_name"]: r["birth_date"] for r in rows if r.get("birth_date")}
+
+
+def _surname(s: str) -> str:
+    words = re.findall(r"[a-z]+", unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower())
+    return words[-1] if words else ""
+
+
+def resolve_id(name: str, cache: dict, born: str | None) -> int | None:
+    """Pick the API-FOOTBALL profile for an ASA player; never a blind first hit.
+
+    With an ASA birth date: surname must appear in the profile name AND the birth
+    date must be identical (two different Alan Francos both pass a name check).
+    Without one: the profile must pass title_matches() and be the only one that does.
+
+    Cache entries are {"id", "matched", "born"}. Entries without "born" were made
+    before the birth-date check and are resolved again.
+    """
     cached = cache.get(name)
-    if isinstance(cached, dict):
+    if isinstance(cached, dict) and "born" in cached:
         return cached.get("id")
     term = search_term(name)
-    print(f"  searching '{name}' (as '{term}')...")
+    print(f"  searching '{name}' (as '{term}', born {born})...")
     body = api_get("/players/profiles", search=term)
-    # Exact full-name match first; else the first profile that passes the same
-    # surname/first-name check as the Wikipedia resolver. Never a blind first hit.
-    best = None
-    for row in body.get("response") or []:
-        p = row.get("player", {})
-        full = f"{p.get('firstname') or ''} {p.get('lastname') or ''}".strip()
-        if full.lower() == name.lower():
-            best = p
-            break
-        if best is None and (title_matches(name, full) or title_matches(name, p.get("name") or "")):
-            best = p
+    profiles = [row.get("player", {}) for row in body.get("response") or []]
+
+    def full(p):
+        return f"{p.get('firstname') or ''} {p.get('lastname') or ''}".strip()
+
+    if born:
+        sur = _surname(name)
+        hits = [
+            p for p in profiles
+            if (p.get("birth") or {}).get("date") == born
+            and sur in re.findall(r"[a-z]+", unicodedata.normalize("NFKD", full(p)).encode("ascii", "ignore").decode().lower())
+        ]
+    else:
+        hits = [p for p in profiles if title_matches(name, full(p)) or title_matches(name, p.get("name") or "")]
+        hits = hits if len(hits) == 1 else []  # ambiguous -> no data beats wrong data
+    best = hits[0] if hits else None
     cache[name] = {
         "id": best.get("id") if best else None,
-        "matched": f"{best.get('firstname')} {best.get('lastname')}" if best else None,
+        "matched": full(best) if best else None,
+        "born": born,
     }
     print(f"    -> {cache[name]}")
     return cache[name]["id"]
@@ -159,10 +182,11 @@ def main() -> None:
 
     ids = load("apifootball_ids.json")
     out = load("apifootball.json")
+    births = asa_birth_dates()
 
     try:
         for name in names:
-            pid = resolve_id(name, ids)
+            pid = resolve_id(name, ids, births.get(name))
             save("apifootball_ids.json", ids)
             if not pid:
                 out.setdefault(name, {"id": None, "seasons": []})
