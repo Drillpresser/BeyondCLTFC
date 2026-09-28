@@ -10,8 +10,8 @@
 # is a large name -> {FBref URL, Transfermarkt URL} table, so we don't depend on
 # the other fetchers' ID caches. Matches are made on accent-stripped names.
 #
-# NOTE: FBref sits behind Cloudflare and blocks datacenter IPs — this generally
-# works from a residential IP (local runs) but is best-effort in CI.
+# NOTE: FBref (Cloudflare) and Transfermarkt both 403 the home server too, so each
+# is opt-in: ENABLE_FBREF=1 / ENABLE_TRANSFERMARKT=1. The ID map is always written.
 #
 # Run from scripts/ (the Python wrapper does this):  Rscript fetch_worldfootball.R
 # Writes:
@@ -33,7 +33,9 @@ read_json_or <- function(f, default) {
   if (file.exists(p)) jsonlite::fromJSON(p, simplifyVector = FALSE) else default
 }
 
-use_tm <- identical(Sys.getenv("ENABLE_TRANSFERMARKT"), "1")
+# Both sites 403 the home server (see server/README.md), so each is opt-in.
+use_tm    <- identical(Sys.getenv("ENABLE_TRANSFERMARKT"), "1")
+use_fbref <- identical(Sys.getenv("ENABLE_FBREF"), "1")
 
 # --- roster ---------------------------------------------------------------
 asa_path <- file.path(raw_dir, "asa_players.json")
@@ -59,7 +61,9 @@ map <- tryCatch(player_dictionary_mapping(), error = function(e) {
 if (!is.null(map) && nrow(map) > 0) {
   map$._key <- norm(map$PlayerFBref)
   for (nm in player_names) {
-    hit <- map[map$._key == norm(nm), , drop = FALSE]
+    # which() drops NA comparisons; a bare logical index would turn them into
+    # all-NA "matches" for players the dictionary doesn't know.
+    hit <- map[which(map$._key == norm(nm)), , drop = FALSE]
     if (nrow(hit) > 0) {
       ids[[nm]] <- list(fbref = hit$UrlFBref[1], tmarkt = hit$UrlTmarkt[1])
     }
@@ -78,7 +82,8 @@ pick <- function(df, patterns) {
   }
   rep(NA, nrow(df))
 }
-as_int <- function(x) suppressWarnings(as.integer(gsub("[^0-9]", "", as.character(x))))
+&
+has_url <- function(u) length(u) == 1 && !is.na(u) && nzchar(u)
 
 # --- pull stats + bio -----------------------------------------------------
 out <- list()
@@ -86,7 +91,7 @@ for (nm in player_names) {
   rec <- list(bio = NULL, seasons = list())
   ref <- ids[[nm]]
 
-  if (!is.null(ref) && !is.null(ref$fbref) && nzchar(ref$fbref)) {
+  if (use_fbref && has_url(ref$fbref)) {
     tryCatch({
       df <- fb_player_season_stats(ref$fbref, stat_type = "standard")
       if (!is.null(df) && nrow(df) > 0) {
@@ -109,7 +114,7 @@ for (nm in player_names) {
 
   # Transfermarkt 403s the home server's IP after a burst, so bios are opt-in,
   # same switch as fetch_transfermarkt.py (see server/README.md).
-  if (use_tm && !is.null(ref) && !is.null(ref$tmarkt) && nzchar(ref$tmarkt)) {
+  if (use_tm && has_url(ref$tmarkt)) {
     tryCatch({
       bio <- tm_player_bio(ref$tmarkt)
       if (!is.null(bio) && nrow(bio) > 0) {
