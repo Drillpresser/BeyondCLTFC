@@ -68,9 +68,12 @@ const el = (html) => { const t = document.createElement("template"); t.innerHTML
 const num = (v) => (v === "" || v == null || isNaN(Number(v)) ? null : Number(v));
 const slug = (s) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+let PUBLISH = false; // server-side EDITOR_PUBLISH=1: saving commits + pushes
+
 async function load() {
   const r = await fetch("/api/data");
   const d = await r.json();
+  PUBLISH = !!d.publish;
   DATA.players = (d.players.players || []).slice();
   DATA.overridesRoot = d.overrides && d.overrides.players ? d.overrides : { players: {}, added_players: [] };
   render();
@@ -207,7 +210,7 @@ function renderCorrect(panel) {
   panel.appendChild(el(`<p class="seasonlabel">Correct fetched stats for ${sourcePlayer.name}</p>`));
   panel.appendChild(el(`<p class="muted">Leave a cell blank to keep the fetched value. Entered values override just that field (original stays in git).</p>`));
   if (!sourcePlayer.seasons.length) panel.appendChild(el(`<p class="muted">No fetched seasons.</p>`));
-  const keys = ["goals", "assists", "apps", "xg", "minutes"];
+  const keys = ["goals", "assists", "apps", "minutes"]; // counting stats only, no modeled xG
   const tbl = el(`<table><thead><tr><th>Season</th>${keys.map((k) => `<th>${k}</th>`).join("")}</tr></thead><tbody></tbody></table>`);
   const tb = tbl.querySelector("tbody");
   sourcePlayer.seasons.forEach((s) => {
@@ -231,13 +234,13 @@ function renderAdd(panel) {
   panel.appendChild(el(`<p class="seasonlabel">Add seasons the sources don't have</p>`));
   panel.appendChild(el(`<p class="muted">For college, academy, or leagues Wikipedia/ASA miss. Marked as source "manual".</p>`));
   const list = el(`<div></div>`);
-  const keys = ["season", "team", "league", "apps", "goals", "assists", "xg"];
+  const keys = ["season", "team", "league", "apps", "goals", "assists", "minutes"];
   function draw() {
     list.innerHTML = "";
     draft.added_seasons.forEach((row, i) => {
       const wrap = el(`<div class="row" style="align-items:flex-end; border-bottom:1px solid #eee; padding-bottom:10px; margin-bottom:10px"></div>`);
       keys.forEach((k) => {
-        const isNum = ["season", "apps", "goals", "assists", "xg"].includes(k);
+        const isNum = ["season", "apps", "goals", "assists", "minutes"].includes(k);
         const d = el(`<div style="min-width:${k === "team" || k === "league" ? 160 : 80}px"></div>`);
         d.appendChild(el(`<label>${k}</label>`));
         const inp = el(`<input ${isNum ? 'type="number" step="any"' : ""} value="${row[k] ?? ""}">`);
@@ -258,13 +261,28 @@ function renderAdd(panel) {
   panel.appendChild(nav(mode === "new" ? 1 : 2, 4, "Review →"));
 }
 
+// Only fields the user changed, or had already overridden, belong in the override.
+// Writing every field would freeze values the pipeline keeps updating: a bio fix
+// would also pin today's derived tenure, so a later departure never shows as "after".
+function changedFields(draftObj, builtObj, prevOverride) {
+  const out = {};
+  for (const [k, v] of Object.entries(draftObj || {})) {
+    const was = (builtObj || {})[k] ?? null;
+    if ((prevOverride && k in prevOverride) || (v ?? null) !== was) out[k] = v;
+  }
+  return out;
+}
+
 // Build the override entry (existing) or manual-player entry (new) from the draft.
 function buildEntry() {
   const bio = Object.fromEntries(Object.entries(draft.bio).filter(([, v]) => v !== "" && v != null));
   if (mode === "existing") {
+    const prev = DATA.overridesRoot.players[pid] || {};
     const entry = {};
-    if (Object.keys(bio).length) entry.bio = bio;
-    if (draft.tenure && (draft.tenure.start != null || draft.tenure.end != null)) entry.tenure = draft.tenure;
+    const bioChanges = changedFields(bio, sourcePlayer.bio, prev.bio);
+    if (Object.keys(bioChanges).length) entry.bio = bioChanges;
+    const tenureChanges = changedFields(draft.tenure, sourcePlayer.tenure, prev.tenure);
+    if (Object.keys(tenureChanges).length) entry.tenure = tenureChanges;
     if (draft.season_overrides.length) entry.season_overrides = draft.season_overrides;
     if (draft.added_seasons.length) entry.added_seasons = draft.added_seasons.filter((r) => r.season != null);
     return entry;
@@ -288,8 +306,8 @@ function renderReview(panel) {
   const n = el(`<div class="nav"></div>`);
   const back = el(`<button class="ghost">← Back</button>`);
   back.onclick = () => { step = 3; render(); };
-  const save = el(`<button class="ok">💾 Save to overrides.json</button>`);
-  save.onclick = () => doSave(entry);
+  const save = el(`<button class="ok">${PUBLISH ? "🚀 Save & publish" : "💾 Save to overrides.json"}</button>`);
+  save.onclick = () => { save.disabled = true; save.textContent = PUBLISH ? "Publishing…" : "Saving…"; doSave(entry); };
   n.appendChild(back); n.appendChild(save);
   panel.appendChild(n);
 }
@@ -305,11 +323,31 @@ async function doSave(entry) {
     root.added_players = root.added_players.filter((p) => p.player_id !== entry.player_id);
     root.added_players.push(entry);
   }
-  const r = await fetch("/api/overrides", { method: "POST", body: JSON.stringify(root) });
+  const who = mode === "existing" ? sourcePlayer.name : draft.name;
+  const r = await fetch("/api/overrides", {
+    method: "POST",
+    body: JSON.stringify({ overrides: root, message: `data: manual edit (${who})` }),
+  });
   const res = await r.json();
-  if (!r.ok) { banner("Save failed: " + (res.error || r.status), "err"); return; }
+  if (!r.ok) { banner("Save failed: " + (res.error || r.status), "err"); render(); return; }
+  if (PUBLISH) {
+    banner(res.commit ? `Published ${res.commit} ✓ The site updates in about a minute.` : (res.note || "Nothing changed."), "ok");
+    showPublished();
+    return;
+  }
   banner("Saved to data/overrides.json ✓", "ok");
   showPostSave();
+}
+
+function showPublished() {
+  const panel = $("panel"); panel.innerHTML = "";
+  panel.appendChild(el(`<p class="seasonlabel">Published.</p>`));
+  panel.appendChild(el(`<p class="muted">Committed <code>data/overrides.json</code> and the rebuilt <code>data/players.json</code> to master. The weekly refresh keeps your edits.</p>`));
+  const again = el(`<button class="primary">Edit another player</button>`);
+  again.onclick = () => { step = 0; mode = null; banner("", ""); load(); };
+  const navdiv = el(`<div class="nav" style="justify-content:flex-start"></div>`);
+  navdiv.appendChild(again);
+  panel.appendChild(navdiv);
 }
 
 function showPostSave() {

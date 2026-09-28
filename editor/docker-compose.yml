@@ -1,0 +1,27 @@
+# The player editor on trinary, served by Caddy at https://cltfc-editor.lan.
+# Runs from its own clone (~/beyondcltfc-editor), never the weekly refresh's.
+name: beyondcltfc-editor
+
+services:
+  editor:
+    build:
+      context: ..
+      dockerfile: editor/Dockerfile
+    image: beyondcltfc-editor
+    container_name: beyondcltfc-editor
+    restart: unless-stopped
+    user: "1000:1000"   # peenie_weenie, who owns the clone
+    environment:
+      # Branch the clone tracks and publishes to. Only change it to test a branch.
+      EDITOR_BRANCH: ${EDITOR_BRANCH:-master}
+    volumes:
+      - ..:/repo
+      # Same write-scoped deploy key the weekly refresh pushes with.
+      - ${HOME}/.ssh/beyondcltfc_deploy:/keys/deploy:ro
+      - ${HOME}/.ssh/known_hosts:/keys/known_hosts:ro
+    # No published port: only Caddy (which adds the password) can reach it.
+    networks: [hub_web]
+
+networks:
+  hub_web:
+    external: true
