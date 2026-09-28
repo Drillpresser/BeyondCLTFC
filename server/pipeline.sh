@@ -31,7 +31,8 @@ if [ "${ENABLE_TRANSFERMARKT:-0}" = 1 ]; then
 else
   echo "=== fetch_transfermarkt.py skipped (ENABLE_TRANSFERMARKT!=1)"
 fi
-optional fetch_fbref.py
+# fetch_fbref.py is off: Cloudflare 403'd every request, here and on GitHub.
+# worldfootballR still reads FBref via its own URL dictionary.
 optional fetch_wikidata.py
 optional fetch_thesportsdb.py
 optional fetch_apifootball.py

@@ -5,10 +5,10 @@ The image uses `rocker/r-ver`, so worldfootballR installs from prebuilt binaries
 (on the GitHub runner it failed to compile).
 
 Findings from the first test run (2026-09-28), with the same blocks seen from the home IP:
-- **FBref** returns Cloudflare 403s here too.
+- **FBref** returns Cloudflare 403s here too, so `fetch_fbref.py` is turned off. worldfootballR now takes its roster from ASA and finds FBref/Transfermarkt URLs through its own player dictionary (`worldfootball_ids.json`). Its FBref reads get 403s as well, so they are opt-in too: `ENABLE_FBREF=1`.
 - **Transfermarkt**: the API has to be built from source (it isn't on Docker Hub). Its
   stats endpoint returned no rows, and Transfermarkt 403'd the house IP after about 12
-  players. It's now **opt-in**: add `ENABLE_TRANSFERMARKT=1` to the env file below.
+  players. It is now **opt-in**, including worldfootballR bios: add `ENABLE_TRANSFERMARKT=1` to the env file below.
 
 ```
 cron (Mon 09:17 UTC) → server/run.sh
@@ -24,7 +24,7 @@ cron (Mon 09:17 UTC) → server/run.sh
 |---|---|
 | `~/beyondcltfc/` | Dedicated clone. Don't edit it; each run resets it to `origin/master`. |
 | `~/.ssh/beyondcltfc_deploy` | Deploy key with write access to this repo only; the clone's `core.sshCommand` uses it. |
-| `~/.config/beyondcltfc.env` | Optional: `APIFOOTBALL_KEY=...`, `APIFOOTBALL_SEASONS=...`, `ENABLE_TRANSFERMARKT=1` |
+| `~/.config/beyondcltfc.env` | Optional: `APIFOOTBALL_KEY=...`, `APIFOOTBALL_SEASONS=...`, `ENABLE_TRANSFERMARKT=1`, `ENABLE_FBREF=1` |
 | `~/beyondcltfc-logs/refresh.log` | Cron output, appended each run. |
 
 Crontab (`crontab -l`):

@@ -10,6 +10,7 @@ Writes (via the R script):
 """
 from __future__ import annotations
 
+import glob
 import shutil
 import subprocess
 import sys
@@ -18,8 +19,21 @@ from pathlib import Path
 R_SCRIPT = Path(__file__).with_name("fetch_worldfootball.R")
 
 
+def find_rscript() -> str | None:
+    """Rscript on PATH, else the newest install under the usual Windows dirs."""
+    on_path = shutil.which("Rscript") or shutil.which("Rscript.exe")
+    if on_path:
+        return on_path
+    patterns = [
+        r"C:\Program Files\R\*\bin\Rscript.exe",
+        r"C:\Program Files\R\*\bin\x64\Rscript.exe",
+    ]
+    hits = sorted(p for pat in patterns for p in glob.glob(pat))
+    return hits[-1] if hits else None
+
+
 def main() -> None:
-    rscript = shutil.which("Rscript")
+    rscript = find_rscript()
     if not rscript:
         print("Rscript not found on PATH — skipping worldfootballR cross-read.")
         print("  Install R + `install.packages(c('worldfootballR','jsonlite'))` to enable it.")

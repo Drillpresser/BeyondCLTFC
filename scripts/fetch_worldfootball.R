@@ -1,15 +1,22 @@
 #!/usr/bin/env Rscript
 # Independent cross-source career read via worldfootballR (R).
 #
-# worldfootballR is a mature, well-maintained scraper for FBref, Transfermarkt,
-# Understat and FotMob. We use it as an *independent lineage* for the same facts
-# other fetchers gather (season apps/goals/minutes + bio), so build_players.py can
-# put them side by side and surface disagreements. It reuses the player IDs/URLs
-# already resolved by fetch_fbref.py and fetch_transfermarkt.py, so no new
-# name-resolution logic lives here.
+# worldfootballR is a mature scraper for FBref, Transfermarkt, Understat and
+# FotMob. We use it as an *independent lineage* for the same facts other fetchers
+# gather (season apps/goals/minutes + bio), so build_players.py can put them side
+# by side and surface disagreements.
+#
+# Player resolution is self-contained: worldfootballR::player_dictionary_mapping()
+# is a large name -> {FBref URL, Transfermarkt URL} table, so we don't depend on
+# the other fetchers' ID caches. Matches are made on accent-stripped names.
+#
+# NOTE: FBref (Cloudflare) and Transfermarkt both 403 the home server too, so each
+# is opt-in: ENABLE_FBREF=1 / ENABLE_TRANSFERMARKT=1. The ID map is always written.
 #
 # Run from scripts/ (the Python wrapper does this):  Rscript fetch_worldfootball.R
-# Writes: data/raw/worldfootball.json   name -> {bio, seasons:[...]}
+# Writes:
+#   data/raw/worldfootball_ids.json  name -> {fbref, tmarkt} (resolved URL cache)
+#   data/raw/worldfootball.json      name -> {bio, seasons:[...]}
 
 suppressMessages({
   ok <- require(worldfootballR) && require(jsonlite)
@@ -21,15 +28,50 @@ if (!ok) {
 }
 
 raw_dir <- file.path("..", "data", "raw")
-read_ids <- function(f) {
+read_json_or <- function(f, default) {
   p <- file.path(raw_dir, f)
-  if (file.exists(p)) jsonlite::fromJSON(p, simplifyVector = FALSE) else list()
+  if (file.exists(p)) jsonlite::fromJSON(p, simplifyVector = FALSE) else default
 }
 
-fbref_ids <- read_ids("fbref_player_ids.json")
-tm_ids    <- read_ids("transfermarkt_ids.json")
-players   <- union(names(fbref_ids), names(tm_ids))
-message(sprintf("worldfootballR cross-read for %d player(s).", length(players)))
+# Both sites 403 the home server (see server/README.md), so each is opt-in.
+use_tm    <- identical(Sys.getenv("ENABLE_TRANSFERMARKT"), "1")
+use_fbref <- identical(Sys.getenv("ENABLE_FBREF"), "1")
+
+# --- roster ---------------------------------------------------------------
+asa_path <- file.path(raw_dir, "asa_players.json")
+if (!file.exists(asa_path)) {
+  message("asa_players.json missing; run fetch_asa.py first. Skipping.")
+  quit(status = 0)
+}
+asa <- jsonlite::fromJSON(asa_path)
+player_names <- sort(unique(asa$player_name))
+message(sprintf("worldfootballR cross-read for %d player(s).", length(player_names)))
+
+norm <- function(x) {
+  x <- iconv(x, to = "ASCII//TRANSLIT")           # strip accents (Ortíz -> Ortiz)
+  tolower(trimws(gsub("[^A-Za-z ]", "", x)))
+}
+
+# --- resolve name -> FBref / Transfermarkt URLs via the dictionary --------
+ids <- list()
+map <- tryCatch(player_dictionary_mapping(), error = function(e) {
+  message(sprintf("  could not load player dictionary: %s", conditionMessage(e)))
+  NULL
+})
+if (!is.null(map) && nrow(map) > 0) {
+  map$._key <- norm(map$PlayerFBref)
+  for (nm in player_names) {
+    # which() drops NA comparisons; a bare logical index would turn them into
+    # all-NA "matches" for players the dictionary doesn't know.
+    hit <- map[which(map$._key == norm(nm)), , drop = FALSE]
+    if (nrow(hit) > 0) {
+      ids[[nm]] <- list(fbref = hit$UrlFBref[1], tmarkt = hit$UrlTmarkt[1])
+    }
+  }
+}
+message(sprintf("  matched %d/%d players in the dictionary.", length(ids), length(player_names)))
+jsonlite::write_json(ids, file.path(raw_dir, "worldfootball_ids.json"),
+                     auto_unbox = TRUE, pretty = TRUE, null = "null")
 
 # Pick the first column whose name matches any pattern (FBref column names vary
 # between worldfootballR versions, so match defensively rather than hard-code).
@@ -41,39 +83,40 @@ pick <- function(df, patterns) {
   rep(NA, nrow(df))
 }
 as_int <- function(x) suppressWarnings(as.integer(gsub("[^0-9]", "", as.character(x))))
+has_url <- function(u) length(u) == 1 && !is.na(u) && nzchar(u)
 
+# --- pull stats + bio -----------------------------------------------------
 out <- list()
-for (nm in players) {
+for (nm in player_names) {
   rec <- list(bio = NULL, seasons = list())
+  ref <- ids[[nm]]
 
-  fb <- fbref_ids[[nm]]
-  if (!is.null(fb) && !is.null(fb$url)) {
+  if (use_fbref && has_url(ref$fbref)) {
     tryCatch({
-      df <- fb_player_season_stats(fb$url, stat_type = "standard")
+      df <- fb_player_season_stats(ref$fbref, stat_type = "standard")
       if (!is.null(df) && nrow(df) > 0) {
         seasons <- lapply(seq_len(nrow(df)), function(i) {
           list(
-            season  = as_int(substr(as.character(pick(df, "^Season")[i]), 1, 4)),
+            season       = as_int(substr(as.character(pick(df, "^Season")[i]), 1, 4)),
             season_label = as.character(pick(df, "^Season")[i]),
-            club    = as.character(pick(df, "^Squad")[i]),
-            comp    = as.character(pick(df, "^Comp")[i]),
-            apps    = as_int(pick(df, c("^MP", "Playing.*MP", "Matches"))[i]),
-            minutes = as_int(pick(df, c("^Min", "Minutes"))[i]),
-            goals   = as_int(pick(df, c("^Gls", "^Goals"))[i]),
-            assists = as_int(pick(df, c("^Ast", "^Assists"))[i])
+            club         = as.character(pick(df, c("^Squad$", "^Squad"))[i]),
+            comp         = as.character(pick(df, c("^Comp$", "^Comp"))[i]),
+            apps         = as_int(pick(df, c("^MP$", "^MP_", "Matches", "^MP"))[i]),
+            minutes      = as_int(pick(df, c("^Min$", "^Min_Playing", "Minutes", "^Min"))[i]),
+            goals        = as_int(pick(df, c("^Gls$", "^Gls_", "^Goals", "^Gls"))[i]),
+            assists      = as_int(pick(df, c("^Ast$", "^Ast_", "^Assists", "^Ast"))[i])
           )
         })
-        # Drop rows without a parseable season (totals / blank separators).
         rec$seasons <- Filter(function(s) !is.na(s$season), seasons)
       }
     }, error = function(e) message(sprintf("  fbref error %s: %s", nm, conditionMessage(e))))
   }
 
-  tm <- tm_ids[[nm]]
-  if (!is.null(tm)) {
+  # Transfermarkt 403s the home server's IP after a burst, so bios are opt-in,
+  # same switch as fetch_transfermarkt.py (see server/README.md).
+  if (use_tm && has_url(ref$tmarkt)) {
     tryCatch({
-      url <- sprintf("https://www.transfermarkt.com/-/profil/spieler/%s", tm)
-      bio <- tm_player_bio(url)
+      bio <- tm_player_bio(ref$tmarkt)
       if (!is.null(bio) && nrow(bio) > 0) {
         rec$bio <- list(
           birth_date  = as.character(pick(bio, c("date_of_birth", "born"))[1]),
@@ -86,7 +129,8 @@ for (nm in players) {
   }
 
   out[[nm]] <- rec
-  message(sprintf("  %s: %d season rows", nm, length(rec$seasons)))
+  message(sprintf("  %s: %d season rows%s", nm, length(rec$seasons),
+                  if (is.null(ref)) " (unmatched)" else ""))
 }
 
 jsonlite::write_json(out, file.path(raw_dir, "worldfootball.json"),
