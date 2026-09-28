@@ -1,8 +1,14 @@
 # Home-server data refresh
 
 The weekly refresh runs on the home server (`trinary`) instead of GitHub Actions.
-From a residential IP, FBref doesn't 403 every request. Transfermarkt also gets to
-run here: its API image isn't on Docker Hub, so it's built from source.
+The image uses `rocker/r-ver`, so worldfootballR installs from prebuilt binaries
+(on the GitHub runner it failed to compile).
+
+Findings from the first test run (2026-09-28), with the same blocks seen from the home IP:
+- **FBref** returns Cloudflare 403s here too.
+- **Transfermarkt**: the API has to be built from source (it isn't on Docker Hub). Its
+  stats endpoint returned no rows, and Transfermarkt 403'd the house IP after about 12
+  players. It's now **opt-in**: add `ENABLE_TRANSFERMARKT=1` to the env file below.
 
 ```
 cron (Mon 09:17 UTC) → server/run.sh
@@ -18,7 +24,7 @@ cron (Mon 09:17 UTC) → server/run.sh
 |---|---|
 | `~/beyondcltfc/` | Dedicated clone. Don't edit it; each run resets it to `origin/master`. |
 | `~/.ssh/beyondcltfc_deploy` | Deploy key with write access to this repo only; the clone's `core.sshCommand` uses it. |
-| `~/.config/beyondcltfc.env` | Optional secrets: `APIFOOTBALL_KEY=...`, `APIFOOTBALL_SEASONS=...` |
+| `~/.config/beyondcltfc.env` | Optional: `APIFOOTBALL_KEY=...`, `APIFOOTBALL_SEASONS=...`, `ENABLE_TRANSFERMARKT=1` |
 | `~/beyondcltfc-logs/refresh.log` | Cron output, appended each run. |
 
 Crontab (`crontab -l`):
