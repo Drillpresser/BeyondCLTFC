@@ -1,4 +1,10 @@
 {
-  "players": {},
+  "players": {
+    "asa:7VqG00yjQv": {
+      "bio": {
+        "notes": "editor publish test"
+      }
+    }
+  },
   "added_players": []
 }
