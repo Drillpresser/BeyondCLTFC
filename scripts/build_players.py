@@ -310,9 +310,14 @@ def asa_bios(asa_players: list[dict]) -> dict[str, dict]:
 
 
 def load_map(fname: str) -> dict:
-    """Load a name-keyed raw file (Transfermarkt/Wikidata/etc.); {} if absent."""
+    """Load a name-keyed raw file (Transfermarkt/Wikidata/etc.); {} if absent.
+
+    Also {} for a non-object file: R's jsonlite writes an empty named list as
+    `[]`, e.g. worldfootball.json when no player IDs were resolved upstream.
+    """
     path = config.RAW_DIR / fname
-    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    return data if isinstance(data, dict) else {}
 
 
 def main() -> None:
