@@ -10,7 +10,7 @@ services:
     image: beyondcltfc-editor
     container_name: beyondcltfc-editor
     restart: unless-stopped
-    user: "1000:1000"   # peenie_weenie, who owns the clone
+    # The image runs as uid 1000 (= peenie_weenie, who owns the clone).
     environment:
       # Branch the clone tracks and publishes to. Only change it to test a branch.
       EDITOR_BRANCH: ${EDITOR_BRANCH:-master}

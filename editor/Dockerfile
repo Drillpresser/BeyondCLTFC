@@ -7,8 +7,12 @@ RUN apt-get update \
  && apt-get install -y --no-install-recommends nodejs git openssh-client ca-certificates \
  && rm -rf /var/lib/apt/lists/*
 
-# Runs as the host user, so give git a writable HOME.
-ENV HOME=/tmp \
+# A user matching the host owner of the clone (uid 1000). ssh refuses to run
+# for a uid with no passwd entry, which breaks `git push`.
+RUN useradd --uid 1000 --create-home editor
+USER editor
+
+ENV HOME=/home/editor \
     PYTHONUTF8=1 \
     EDITOR_PUBLISH=1 \
     GIT_SSH_COMMAND="ssh -i /keys/deploy -o IdentitiesOnly=yes -o UserKnownHostsFile=/keys/known_hosts"
