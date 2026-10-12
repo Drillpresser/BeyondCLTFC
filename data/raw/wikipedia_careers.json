@@ -866,9 +866,9 @@
       "year": 2026,
       "club": "Atlético Mineiro",
       "division": "Série A",
-      "league_apps": 13,
+      "league_apps": 20,
       "league_goals": 0,
-      "total_apps": 26,
+      "total_apps": 43,
       "total_goals": 0
     },
     {
@@ -885,7 +885,7 @@
       "season": "2022",
       "year": 2022,
       "club": "Talleres (loan)",
-      "division": "Argentine Primera División",
+      "division": "AFA Liga Profesional de Fútbol",
       "league_apps": 15,
       "league_goals": 0,
       "total_apps": 22,
@@ -895,7 +895,7 @@
       "season": "2023",
       "year": 2023,
       "club": "Talleres (loan)",
-      "division": "Argentine Primera División",
+      "division": "AFA Liga Profesional de Fútbol",
       "league_apps": 19,
       "league_goals": 0,
       "total_apps": 20,
@@ -2039,10 +2039,20 @@
       "year": 2025,
       "club": "Levski Sofia",
       "division": "First League",
-      "league_apps": 16,
+      "league_apps": 24,
       "league_goals": 1,
-      "total_apps": 24,
+      "total_apps": 32,
       "total_goals": 1
+    },
+    {
+      "season": "2026–27",
+      "year": 2026,
+      "club": "Levski Sofia",
+      "division": "First League",
+      "league_apps": 9,
+      "league_goals": 0,
+      "total_apps": 12,
+      "total_goals": 0
     }
   ],
   "Christian Ortíz": [
@@ -4410,9 +4420,9 @@
       "year": 2026,
       "club": "Independiente del Valle",
       "division": "LigaPro Serie A",
-      "league_apps": 7,
+      "league_apps": 14,
       "league_goals": 0,
-      "total_apps": 14,
+      "total_apps": 25,
       "total_goals": 1
     },
     {
@@ -7564,9 +7574,9 @@
       "year": 2026,
       "club": "Rodina Moscow",
       "division": "Russian Premier League",
-      "league_apps": 9,
+      "league_apps": 10,
       "league_goals": 0,
-      "total_apps": 11,
+      "total_apps": 12,
       "total_goals": 0
     }
   ],
