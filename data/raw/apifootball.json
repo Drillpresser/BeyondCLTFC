@@ -7656,7 +7656,8 @@
   "Vinicius Mello": {
     "checked": [
       2022,
-      2023
+      2023,
+      2024
     ],
     "id": 279795,
     "seasons": [
@@ -7739,6 +7740,420 @@
         "minutes": 0,
         "season": 2023,
         "team": "Charlotte"
+      },
+      {
+        "apps": 18,
+        "assists": 1,
+        "country": "United-Arab-Emirates",
+        "goals": 5,
+        "league": "Pro League",
+        "minutes": 1585,
+        "season": 2024,
+        "team": "Al-Jazira"
+      },
+      {
+        "apps": 8,
+        "assists": 2,
+        "country": "Serbia",
+        "goals": 5,
+        "league": "Super Liga",
+        "minutes": 517,
+        "season": 2024,
+        "team": "Cukaricki"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 5,
+        "assists": null,
+        "country": null,
+        "goals": 2,
+        "league": "League Cup",
+        "minutes": 450,
+        "season": 2024,
+        "team": "Al-Jazira"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "Serbia",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Cukaricki"
+      }
+    ]
+  },
+  "Wilfried Zaha": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 3247,
+    "seasons": [
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "League Cup",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Crystal Palace"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 75,
+        "season": 2022,
+        "team": "Crystal Palace"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "World Cup - Qualification Africa",
+        "minutes": 74,
+        "season": 2022,
+        "team": "Ivory Coast"
+      },
+      {
+        "apps": 27,
+        "assists": 2,
+        "country": "England",
+        "goals": 7,
+        "league": "Premier League",
+        "minutes": 2294,
+        "season": 2022,
+        "team": "Crystal Palace"
+      },
+      {
+        "apps": 1,
+        "assists": 1,
+        "country": "England",
+        "goals": null,
+        "league": "FA Cup",
+        "minutes": 90,
+        "season": 2022,
+        "team": "Crystal Palace"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": null,
+        "season": 2022,
+        "team": "Ivory Coast"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Africa Cup of Nations",
+        "minutes": 116,
+        "season": 2023,
+        "team": "Ivory Coast"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "England",
+        "goals": 0,
+        "league": "Premier League",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Crystal Palace"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Crystal Palace"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "World Cup - Qualification Africa",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Ivory Coast"
+      },
+      {
+        "apps": 30,
+        "assists": 3,
+        "country": "Turkey",
+        "goals": 9,
+        "league": "Süper Lig",
+        "minutes": 1433,
+        "season": 2023,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 3,
+        "assists": 0,
+        "country": "Turkey",
+        "goals": 0,
+        "league": "Türkiye Kupası",
+        "minutes": null,
+        "season": 2023,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": null,
+        "league": "UEFA Europa League",
+        "minutes": 41,
+        "season": 2023,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 6,
+        "assists": null,
+        "country": "World",
+        "goals": 1,
+        "league": "UEFA Champions League",
+        "minutes": 423,
+        "season": 2023,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": null,
+        "season": 2023,
+        "team": "Ivory Coast"
+      },
+      {
+        "apps": 2,
+        "assists": 0,
+        "country": null,
+        "goals": 0,
+        "league": "Africa Cup of Nations - Qualification",
+        "minutes": null,
+        "season": 2023,
+        "team": "Ivory Coast"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "Turkey",
+        "goals": 0,
+        "league": "Süper Lig",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "France",
+        "goals": 0,
+        "league": "Coupe de France",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Lyon"
+      },
+      {
+        "apps": 0,
+        "assists": 1,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Europa League",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "UEFA Champions League",
+        "minutes": 0,
+        "season": 2024,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 4,
+        "assists": 0,
+        "country": "France",
+        "goals": null,
+        "league": "Ligue 1",
+        "minutes": 78,
+        "season": 2024,
+        "team": "Lyon"
+      },
+      {
+        "apps": 1,
+        "assists": 0,
+        "country": "Turkey",
+        "goals": 0,
+        "league": "Super Cup",
+        "minutes": null,
+        "season": 2024,
+        "team": "Galatasaray"
+      },
+      {
+        "apps": 2,
+        "assists": 1,
+        "country": "World",
+        "goals": null,
+        "league": "UEFA Europa League",
+        "minutes": 41,
+        "season": 2024,
+        "team": "Lyon"
+      }
+    ]
+  },
+  "Will Cleary": {
+    "id": null,
+    "seasons": []
+  },
+  "Yordy Reyna": {
+    "checked": [
+      2022,
+      2023,
+      2024
+    ],
+    "id": 2432,
+    "seasons": [
+      {
+        "apps": 12,
+        "assists": 2,
+        "country": "Russia",
+        "goals": 1,
+        "league": "Premier League",
+        "minutes": 860,
+        "season": 2022,
+        "team": "Torpedo Moskva"
+      },
+      {
+        "apps": 19,
+        "assists": 3,
+        "country": "USA",
+        "goals": 3,
+        "league": "Major League Soccer",
+        "minutes": 847,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "Russia",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Torpedo Moskva"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "USA",
+        "goals": 1,
+        "league": "US Open Cup",
+        "minutes": 136,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies Clubs",
+        "minutes": 46,
+        "season": 2022,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "World Cup - Qualification South America",
+        "minutes": 0,
+        "season": 2022,
+        "team": "Peru"
+      },
+      {
+        "apps": 2,
+        "assists": null,
+        "country": "World",
+        "goals": 0,
+        "league": "Friendlies",
+        "minutes": 73,
+        "season": 2022,
+        "team": "Peru"
+      },
+      {
+        "apps": 21,
+        "assists": null,
+        "country": "Russia",
+        "goals": 3,
+        "league": "First League",
+        "minutes": 1599,
+        "season": 2023,
+        "team": "Torpedo Moskva"
+      },
+      {
+        "apps": 0,
+        "assists": null,
+        "country": "USA",
+        "goals": 0,
+        "league": "Major League Soccer",
+        "minutes": 0,
+        "season": 2023,
+        "team": "Charlotte"
+      },
+      {
+        "apps": 1,
+        "assists": null,
+        "country": "Russia",
+        "goals": 0,
+        "league": "Cup",
+        "minutes": 90,
+        "season": 2023,
+        "team": "Torpedo Moskva"
+      },
+      {
+        "apps": 26,
+        "assists": null,
+        "country": "Russia",
+        "goals": 5,
+        "league": "First League",
+        "minutes": 1820,
+        "season": 2024,
+        "team": "Rodina Moskva"
       }
     ]
   }

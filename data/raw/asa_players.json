@@ -1355,10 +1355,13 @@
     "birth_date": "2006-01-08",
     "nationality": "Mali",
     "primary_broad_position": "MF",
-    "primary_general_position": "AM",
+    "primary_general_position": "DM",
     "secondary_broad_position": null,
-    "secondary_general_position": "DM",
-    "season_name": "2025",
+    "secondary_general_position": "AM",
+    "season_name": [
+      "2025",
+      "2026"
+    ],
     "height_ft": 6.0,
     "height_in": 0.0,
     "weight_lb": null,

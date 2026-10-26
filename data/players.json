@@ -3315,13 +3315,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 2607,
+            "minutes_played": 2698,
             "shots": 18,
             "shots_on_target": 7,
             "goals": 3,
-            "key_passes": 40,
-            "primary_assists": 4,
-            "goals_plus_primary_assists": 7
+            "key_passes": 41,
+            "primary_assists": 5,
+            "goals_plus_primary_assists": 8
           },
           "phase": "during"
         }
@@ -3373,12 +3373,12 @@
       "name": "Baye Coulibaly",
       "tenure": {
         "start": 2025,
-        "end": 2025
+        "end": null
       },
       "bio": {
         "birth_date": "2006-01-08",
         "nationality": "Mali",
-        "position": "AM",
+        "position": "DM",
         "height": "6.0'0\"",
         "current_team": "Charlotte FC",
         "photo_url": "https://r2.thesportsdb.com/images/media/player/cutout/p2k6hy1777662609.png"
@@ -3387,7 +3387,7 @@
         "asa": {
           "birth_date": "2006-01-08",
           "nationality": "Mali",
-          "position": "AM",
+          "position": "DM",
           "height": "6.0'0\""
         },
         "thesportsdb": {
@@ -3460,6 +3460,24 @@
           "xgoals": {
             "general_position": "AM",
             "minutes_played": 18,
+            "shots": 0,
+            "shots_on_target": 0,
+            "goals": 0,
+            "key_passes": 0,
+            "primary_assists": 0,
+            "goals_plus_primary_assists": 0
+          },
+          "phase": "during"
+        },
+        {
+          "season": 2026,
+          "team_id": "NPqxKXZ59d",
+          "team": "Charlotte FC",
+          "league": "MLS",
+          "source": "asa",
+          "xgoals": {
+            "general_position": "DM",
+            "minutes_played": 11,
             "shots": 0,
             "shots_on_target": 0,
             "goals": 0,
@@ -7892,7 +7910,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 1223,
+            "minutes_played": 1240,
             "shots": 29,
             "shots_on_target": 14,
             "goals": 6,
@@ -8979,7 +8997,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1481,
+            "minutes_played": 1557,
             "shots": 11,
             "shots_on_target": 4,
             "goals": 2,
@@ -9686,7 +9704,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 1495,
+            "minutes_played": 1597,
             "shots": 12,
             "shots_on_target": 2,
             "goals": 0,
@@ -12215,7 +12233,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1403,
+            "minutes_played": 1429,
             "shots": 9,
             "shots_on_target": 2,
             "goals": 1,
@@ -12808,7 +12826,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 1433,
+            "minutes_played": 1535,
             "shots": 8,
             "shots_on_target": 2,
             "goals": 1,
@@ -13208,13 +13226,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "ST",
-            "minutes_played": 2393,
-            "shots": 46,
-            "shots_on_target": 23,
-            "goals": 13,
+            "minutes_played": 2495,
+            "shots": 48,
+            "shots_on_target": 25,
+            "goals": 14,
             "key_passes": 20,
             "primary_assists": 2,
-            "goals_plus_primary_assists": 15
+            "goals_plus_primary_assists": 16
           },
           "phase": "during"
         }
@@ -14030,7 +14048,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 1695,
+            "minutes_played": 1705,
             "shots": 14,
             "shots_on_target": 3,
             "goals": 0,
@@ -20562,7 +20580,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "GK",
-            "minutes_played": 3064,
+            "minutes_played": 3166,
             "shots": 0,
             "shots_on_target": 0,
             "goals": 0,
@@ -21007,7 +21025,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 1344,
+            "minutes_played": 1412,
             "shots": 35,
             "shots_on_target": 21,
             "goals": 5,
@@ -21532,13 +21550,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "DM",
-            "minutes_played": 1236,
-            "shots": 8,
+            "minutes_played": 1270,
+            "shots": 9,
             "shots_on_target": 0,
             "goals": 0,
-            "key_passes": 10,
-            "primary_assists": 1,
-            "goals_plus_primary_assists": 1
+            "key_passes": 11,
+            "primary_assists": 2,
+            "goals_plus_primary_assists": 2
           },
           "phase": "during"
         }
@@ -22121,7 +22139,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "CB",
-            "minutes_played": 2023,
+            "minutes_played": 2125,
             "shots": 17,
             "shots_on_target": 5,
             "goals": 2,
@@ -22612,11 +22630,11 @@
           "source": "asa",
           "xgoals": {
             "general_position": "FB",
-            "minutes_played": 2270,
+            "minutes_played": 2372,
             "shots": 3,
             "shots_on_target": 0,
             "goals": 0,
-            "key_passes": 8,
+            "key_passes": 9,
             "primary_assists": 0,
             "goals_plus_primary_assists": 0
           },
@@ -24343,7 +24361,7 @@
           "source": "asa",
           "xgoals": {
             "general_position": "GK",
-            "minutes_played": 210,
+            "minutes_played": 312,
             "shots": 0,
             "shots_on_target": 0,
             "goals": 0,
@@ -25147,13 +25165,13 @@
           "source": "asa",
           "xgoals": {
             "general_position": "AM",
-            "minutes_played": 2907,
-            "shots": 60,
-            "shots_on_target": 23,
-            "goals": 12,
-            "key_passes": 55,
+            "minutes_played": 3009,
+            "shots": 61,
+            "shots_on_target": 24,
+            "goals": 13,
+            "key_passes": 56,
             "primary_assists": 8,
-            "goals_plus_primary_assists": 20
+            "goals_plus_primary_assists": 21
           },
           "phase": "during"
         }
@@ -25334,8 +25352,8 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 859,
-            "shots": 18,
+            "minutes_played": 935,
+            "shots": 19,
             "shots_on_target": 4,
             "goals": 2,
             "key_passes": 7,
@@ -27330,8 +27348,8 @@
           "source": "asa",
           "xgoals": {
             "general_position": "W",
-            "minutes_played": 290,
-            "shots": 4,
+            "minutes_played": 316,
+            "shots": 5,
             "shots_on_target": 3,
             "goals": 0,
             "key_passes": 2,
@@ -27545,6 +27563,71 @@
             "goals": 6,
             "total_apps": 14,
             "total_goals": 6
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Al-Jazira",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 5,
+            "goals": 2,
+            "assists": null,
+            "minutes": 450
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Al-Jazira",
+          "league": "Pro League",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 18,
+            "goals": 5,
+            "assists": 1,
+            "minutes": 1585
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Cukaricki",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Cukaricki",
+          "league": "Super Liga",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 8,
+            "goals": 5,
+            "assists": 2,
+            "minutes": 517
           }
         },
         {
@@ -27845,6 +27928,84 @@
         },
         {
           "season": 2022,
+          "team": "Crystal Palace",
+          "league": "FA Cup",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 1,
+            "goals": null,
+            "assists": 1,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Crystal Palace",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 75
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Crystal Palace",
+          "league": "League Cup",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Crystal Palace",
+          "league": "Premier League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 27,
+            "goals": 7,
+            "assists": 2,
+            "minutes": 2294
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Ivory Coast",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 4,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Ivory Coast",
+          "league": "World Cup - Qualification Africa",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 74
+          }
+        },
+        {
+          "season": 2022,
           "season_label": "2022–23",
           "team": "Crystal Palace",
           "league": "Premier League",
@@ -27859,6 +28020,136 @@
         },
         {
           "season": 2023,
+          "team": "Crystal Palace",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Crystal Palace",
+          "league": "Premier League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Galatasaray",
+          "league": "Süper Lig",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 30,
+            "goals": 9,
+            "assists": 3,
+            "minutes": 1433
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Galatasaray",
+          "league": "Türkiye Kupası",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 3,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Galatasaray",
+          "league": "UEFA Champions League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 6,
+            "goals": 1,
+            "assists": null,
+            "minutes": 423
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Galatasaray",
+          "league": "UEFA Europa League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 2,
+            "goals": null,
+            "assists": null,
+            "minutes": 41
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Ivory Coast",
+          "league": "Africa Cup of Nations",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 116
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Ivory Coast",
+          "league": "Africa Cup of Nations - Qualification",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Ivory Coast",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Ivory Coast",
+          "league": "World Cup - Qualification Africa",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
           "season_label": "2023–24",
           "team": "Galatasaray",
           "league": "Süper Lig",
@@ -27869,6 +28160,97 @@
             "goals": 9,
             "total_apps": 42,
             "total_goals": 10
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Galatasaray",
+          "league": "Super Cup",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": 0,
+            "minutes": null
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Galatasaray",
+          "league": "Süper Lig",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Galatasaray",
+          "league": "UEFA Champions League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Galatasaray",
+          "league": "UEFA Europa League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": 1,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Lyon",
+          "league": "Coupe de France",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Lyon",
+          "league": "Ligue 1",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 4,
+            "goals": null,
+            "assists": 0,
+            "minutes": 78
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Lyon",
+          "league": "UEFA Europa League",
+          "source": "apifootball",
+          "phase": "before",
+          "apifootball": {
+            "apps": 2,
+            "goals": null,
+            "assists": 1,
+            "minutes": 41
           }
         },
         {
@@ -28472,6 +28854,97 @@
         },
         {
           "season": 2022,
+          "team": "Charlotte",
+          "league": "Friendlies Clubs",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 46
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 19,
+            "goals": 3,
+            "assists": 3,
+            "minutes": 847
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Charlotte",
+          "league": "US Open Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 1,
+            "assists": null,
+            "minutes": 136
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Peru",
+          "league": "Friendlies",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 2,
+            "goals": 0,
+            "assists": null,
+            "minutes": 73
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Peru",
+          "league": "World Cup - Qualification South America",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Torpedo Moskva",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2022,
+          "team": "Torpedo Moskva",
+          "league": "Premier League",
+          "source": "apifootball",
+          "phase": "during",
+          "apifootball": {
+            "apps": 12,
+            "goals": 1,
+            "assists": 2,
+            "minutes": 860
+          }
+        },
+        {
+          "season": 2022,
           "team_id": "NPqxKXZ59d",
           "team": "Charlotte FC",
           "league": "MLS",
@@ -28504,6 +28977,45 @@
         },
         {
           "season": 2023,
+          "team": "Charlotte",
+          "league": "Major League Soccer",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 0,
+            "goals": 0,
+            "assists": null,
+            "minutes": 0
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Torpedo Moskva",
+          "league": "Cup",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 1,
+            "goals": 0,
+            "assists": null,
+            "minutes": 90
+          }
+        },
+        {
+          "season": 2023,
+          "team": "Torpedo Moskva",
+          "league": "First League",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 21,
+            "goals": 3,
+            "assists": null,
+            "minutes": 1599
+          }
+        },
+        {
+          "season": 2023,
           "season_label": "2023–24",
           "team": "Torpedo Moscow",
           "league": "Russian First League",
@@ -28514,6 +29026,19 @@
             "goals": 3,
             "total_apps": 22,
             "total_goals": 3
+          }
+        },
+        {
+          "season": 2024,
+          "team": "Rodina Moskva",
+          "league": "First League",
+          "source": "apifootball",
+          "phase": "after",
+          "apifootball": {
+            "apps": 26,
+            "goals": 5,
+            "assists": null,
+            "minutes": 1820
           }
         },
         {
@@ -28566,9 +29091,9 @@
           "source": "wikipedia",
           "phase": "after",
           "wikipedia": {
-            "apps": 10,
+            "apps": 12,
             "goals": 0,
-            "total_apps": 12,
+            "total_apps": 14,
             "total_goals": 0
           }
         }
